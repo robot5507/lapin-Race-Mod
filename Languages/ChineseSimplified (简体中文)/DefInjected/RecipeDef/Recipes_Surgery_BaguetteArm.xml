@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 바게트 팔 이식 -->
+  <InstallBaguetteArm.label>法棍臂移植</InstallBaguetteArm.label>
+  <!-- EN: 림의 팔을 절단하고 바게트로 대체한다. 맛있는 팔이 될 것이다. -->
+  <InstallBaguetteArm.description>砍掉胳膊，用烤面包棍代替。这会成为美味的胳膊。</InstallBaguetteArm.description>
+  <!-- EN: 바게트 팔을 이식하는 중 -->
+  <InstallBaguetteArm.jobString>正在移植法棍臂</InstallBaguetteArm.jobString>
+  
+  <!-- EN: 바게트 발 이식 -->
+  <InstallBaguetteLeg.label>法棍腿移植</InstallBaguetteLeg.label>
+  <!-- EN: 림의 발을 절단하고 바게트로 대체한다. -->
+  <InstallBaguetteLeg.description>砍掉腿，用烤面包棍代替。这会成为美味的腿。</InstallBaguetteLeg.description>
+  <!-- EN: 바게트 발을 이식하는 중 -->
+  <InstallBaguetteLeg.jobString>正在移植法棍腿</InstallBaguetteLeg.jobString>
+  
+</LanguageData>

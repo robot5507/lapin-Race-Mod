@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 밀 제분하기 -->
+  <MillLapinWheat.label>磨面粉</MillLapinWheat.label>
+  <!-- EN: 밀알을 맷돌로 갈아서 밀가루를 만든다. -->
+  <MillLapinWheat.description>把麦粒用磨盘磨成面粉。</MillLapinWheat.description>
+  <!-- EN: 밀을 제분하는 중 -->
+  <MillLapinWheat.jobString>正在磨面粉</MillLapinWheat.jobString>
+  
+</LanguageData>

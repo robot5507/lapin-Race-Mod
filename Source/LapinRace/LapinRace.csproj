@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{750601AA-C590-453F-85CA-70ECC1260C14}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LapinRace</RootNamespace>
+    <AssemblyName>LapinRace</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=2.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.4.2\lib\net472\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="AlienRace">
+      <HintPath>..\..\..\839005762\Assemblies\AlienRace.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomThingDef.cs" />
+    <Compile Include="IncidentWorker_LapinSpecialForcesDrop.cs" />
+    <Compile Include="LapinMaidBackstoryPatch.cs" />
+    <Compile Include="LapinMaidLoadoutUtility.cs" />
+    <Compile Include="LapinShieldBeltDestroyPatch.cs" />
+    <Compile Include="LapinSpecialForcesLoadoutUtility.cs" />
+    <Compile Include="LPGeneDefOf.cs" />
+    <Compile Include="LPXenotypeDefOf.cs" />
+    <Compile Include="PawnGeneExtensions.cs" />
+    <Compile Include="IncidentWorker.cs" />
+    <Compile Include="LapinArtilleryBackstoryPatch.cs" />
+    <Compile Include="LapinArtilleryLoadoutUtility.cs" />
+    <Compile Include="LapinPawnGeneratorRaceHook.cs" />
+    <Compile Include="LapinSiegeShellSupplyComponent.cs" />
+    <Compile Include="LapinVoltigeurBackstoryPatch.cs" />
+    <Compile Include="LapinbackstoryDefOf.cs" />
+    <Compile Include="LapinBackstoryEnemyComponent.cs" />
+    <Compile Include="LapinBackstoryTraumaComponent.cs" />
+    <Compile Include="LapinEarAppendDrawRequestsPatch.cs" />
+    <Compile Include="LapinFactionDefOf.cs" />
+    <Compile Include="LapinFollowUpTroops.cs" />
+    <Compile Include="LapinGrenadierBackstoryPatch.cs" />
+    <Compile Include="LapinIncidentDefOf.cs" />
+    <Compile Include="LapinNoBaldHairPatch.cs" />
+    <Compile Include="LapinPawnKindDefOf.cs" />
+    <Compile Include="LapinRaceDefOf.cs" />
+    <Compile Include="LapinSoldierLoadoutUtility.cs" />
+    <Compile Include="LapinVoltigeurLoadoutUtility.cs" />
+    <Compile Include="LP_HarmonyInit.cs" />
+    <Compile Include="LP_StartupProbe.cs" />
+    <Compile Include="LP_ThingDefOf.cs" />
+    <Compile Include="Patch_LapinChildClothes.cs" />
+    <Compile Include="ProductFinishGenColorHook.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PatchSabreSound.cs" />
+    <Compile Include="_LapinTurncoatRaid.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

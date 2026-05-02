@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 앞치마 -->
+  <LP_Apron.label>拉芬围裙</LP_Apron.label>
+  <!-- EN: 라핀 앞치마입니다. 요리 능력을 올려줍니다. -->
+  <LP_Apron.description>这是拉芬围裙。可以提升烹饪能力。</LP_Apron.description>
+  
+  <!-- EN: 라핀 어린이 옷 -->
+  <LP_Childdress.label>拉芬儿童服装</LP_Childdress.label>
+  <!-- EN: 라핀 어린이를 위한 작은 옷. -->
+  <LP_Childdress.description>拉芬儿童的小衣服</LP_Childdress.description>
+  
+  <!-- EN: 라핀 메이드복 -->
+  <LP_MaidDress.label>TODO</LP_MaidDress.label>
+  <!-- EN: 라핀 전용 메이드복입니다. -->
+  <LP_MaidDress.description>TODO</LP_MaidDress.description>
+  
+  <!-- EN: Uniform Officer -->
+  <LP_Uniform_NobleOfficer.label>军官制服</LP_Uniform_NobleOfficer.label>
+  <!-- EN: 라핀장교용 제복입니다. -->
+  <LP_Uniform_NobleOfficer.description>这是拉芬军官用的制服。</LP_Uniform_NobleOfficer.description>
+  
+  <!-- EN: 라핀 포병 제복 -->
+  <LP_UniformArtillery.label>拉芬炮兵制服</LP_UniformArtillery.label>
+  <!-- EN: 라핀 포병 제복. -->
+  <LP_UniformArtillery.description>拉芬炮兵的制服</LP_UniformArtillery.description>
+  
+  <!-- EN: 라핀 척탄병 제복 -->
+  <LP_UniformGrenadier.label>拉芬狙击手制服</LP_UniformGrenadier.label>
+  <!-- EN: 라핀 척탄병 제복. -->
+  <LP_UniformGrenadier.description>拉芬狙击手的制服</LP_UniformGrenadier.description>
+  
+  <!-- EN: 라핀 선임공병 제복 -->
+  <LP_UniformSapper.label>拉芬工兵制服</LP_UniformSapper.label>
+  <!-- EN: 라핀 선임공병 제복. -->
+  <LP_UniformSapper.description>拉芬工兵的制服</LP_UniformSapper.description>
+  
+  <!-- EN: 라핀 도약병 제복 -->
+  <LP_UniformVlotigeur.label>拉芬跳跃兵制服</LP_UniformVlotigeur.label>
+  <!-- EN: 라핀 도약병 제복. -->
+  <LP_UniformVlotigeur.description>拉芬跳跃兵的制服</LP_UniformVlotigeur.description>
+  
+  <!-- EN: 라핀 일꾼 드레스 -->
+  <LP_WorkerDress.label>拉芬工人装</LP_WorkerDress.label>
+  <!-- EN: 라핀 일꾼 드레스. -->
+  <LP_WorkerDress.description>拉芬工人的服装</LP_WorkerDress.description>
+  
+  <!-- EN: 라핀 피묻은 앞치마 -->
+  <LPApronBlood.label>沾满蜡渍的围裙</LPApronBlood.label>
+  <!-- EN: 식인토끼들이 입고다니는 피묻은 앞치마입니다. -->
+  <LPApronBlood.description>食人兔们穿着的沾血围裙。</LPApronBlood.description>
+  
+</LanguageData>

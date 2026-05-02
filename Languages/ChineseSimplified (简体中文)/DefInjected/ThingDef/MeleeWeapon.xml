@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 장전봉 -->
+  <LP_RamRod.label>拉宾炮兵用装填杆</LP_RamRod.label>
+  <!-- EN: 포병용 장전봉입니다. 전투에서 무기로 사용할 수 있습니다. -->
+  <LP_RamRod.description>这是炮兵用装填杆。可以在战斗中作为武器使用。</LP_RamRod.description>
+  <!-- EN: head -->
+  <LP_RamRod.tools.head.label>棍头</LP_RamRod.tools.head.label>
+  
+  <!-- EN: 라핀 식칼 -->
+  <LP_Weapon_Knife.label>拉芬菜刀</LP_Weapon_Knife.label>
+  <!-- EN: 라핀 조리용 식칼. -->
+  <LP_Weapon_Knife.description>拉芬烹饪用的菜刀。</LP_Weapon_Knife.description>
+  <!-- EN: point -->
+  <LP_Weapon_Knife.tools.point.label>刀尖</LP_Weapon_Knife.tools.point.label>
+  <!-- EN: blade -->
+  <LP_Weapon_Knife.tools.blade.label>刀刃</LP_Weapon_Knife.tools.blade.label>
+  
+  <!-- EN: 라핀 사브르 -->
+  <LP_Weapon_MilitarySabre.label>拉芬军刀</LP_Weapon_MilitarySabre.label>
+  <!-- EN: 라핀 군대에서 사용하는 제식 군용 검이다. 균형이 잘 잡혀 있으며 찌르기와 베기 모두에 적합하다. -->
+  <LP_Weapon_MilitarySabre.description>这是拉芬军队使用的制式军刀。平衡性很好，适合刺击和劈砍。</LP_Weapon_MilitarySabre.description>
+  <!-- EN: point -->
+  <LP_Weapon_MilitarySabre.tools.point.label>刀尖</LP_Weapon_MilitarySabre.tools.point.label>
+  <!-- EN: hilt -->
+  <LP_Weapon_MilitarySabre.tools.hilt.label>刀柄</LP_Weapon_MilitarySabre.tools.hilt.label>
+  <!-- EN: blade -->
+  <LP_Weapon_MilitarySabre.tools.blade.label>刀刃</LP_Weapon_MilitarySabre.tools.blade.label>
+  
+  <!-- EN: 라핀 공병 도끼 -->
+  <LP_Weapon_SapperAxe.label>拉菲工兵斧</LP_Weapon_SapperAxe.label>
+  <!-- EN: 벽과 방어물을 부수기 위해 만들어진 라핀 공병 전용 도구입니다. 전투에서도 무기로 사용할 수 있습니다. -->
+  <LP_Weapon_SapperAxe.description>这是专为拉芬工兵设计的破墙和防御工事工具，也可在战斗中作为武器使用。</LP_Weapon_SapperAxe.description>
+  <!-- EN: blade -->
+  <LP_Weapon_SapperAxe.tools.blade.label>刀刃</LP_Weapon_SapperAxe.tools.blade.label>
+  <!-- EN: head -->
+  <LP_Weapon_SapperAxe.tools.head.label>斧头</LP_Weapon_SapperAxe.tools.head.label>
+  
+</LanguageData>

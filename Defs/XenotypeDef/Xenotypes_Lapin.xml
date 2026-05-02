@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <XenotypeDef Name="LapinXenotype" Abstract="True">
+    
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+
+   
+
+
+
+    <genes>
+      <li>LP_LapinLongjumpLegs</li>
+       <li>MoveSpeed_Quick</li>
+       <li>MinTemp_SmallIncrease</li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef ParentName="LapinXenotype">
+		<defName>LP_LapinXenotype</defName>
+		<label>라핀인</label>
+		<description>긴 귀와 뛰어난 민첩성을 가진 라핀 계통의 제노타입입니다.</description>
+		
+		<iconPath>UI/Icons/Xenotypes/LP_LapinXenotype</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1010</displayPriority>
+	</XenotypeDef>
+
+</Defs>

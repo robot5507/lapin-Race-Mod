@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 전쟁 트라우마 -->
+  <LP_WarTrauma.degreeDatas.0.label>战争创伤</LP_WarTrauma.degreeDatas.0.label>
+  <!-- EN: \n        전쟁과 패배의 기억이 마음을 짓누릅니다.\n        \n        기분 -6\n        정신 붕괴 임계치 +8%\n         -->
+  <LP_WarTrauma.degreeDatas.0.description>战争与失败的记忆压在心头</LP_WarTrauma.degreeDatas.0.description>
+  
+</LanguageData>

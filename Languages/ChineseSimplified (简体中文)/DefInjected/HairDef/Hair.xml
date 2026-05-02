@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: BraidHair -->
+  <LP_BraidHair.label>TODO</LP_BraidHair.label>
+  
+  <!-- EN: Curvehair -->
+  <LP_Curvehair.label>卷发</LP_Curvehair.label>
+  
+  <!-- EN: Longhair -->
+  <LP_Longhair.label>长发</LP_Longhair.label>
+  
+  <!-- EN: Shorthair -->
+  <LP_Shorthair.label>短发</LP_Shorthair.label>
+  
+</LanguageData>

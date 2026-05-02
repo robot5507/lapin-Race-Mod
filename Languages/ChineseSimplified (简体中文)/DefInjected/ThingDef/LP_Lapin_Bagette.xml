@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀바게트 -->
+  <LP_Lapin_Bagette.label>拉芬法棍</LP_Lapin_Bagette.label>
+  <!-- EN: 라핀 전통의 전투식량. 먹을 수도 있고, 적의 머리를 때릴 수도 있다. -->
+  <LP_Lapin_Bagette.description>拉芬传统的战斗食物。既可以吃，也可以用来敲打敌人的头。</LP_Lapin_Bagette.description>
+  <!-- EN: 빵 몸통 -->
+  <LP_Lapin_Bagette.tools.0.label>法棍</LP_Lapin_Bagette.tools.0.label>
+  
+</LanguageData>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HairDef>
+		<defName>LP_Longhair</defName>
+		<label>Longhair</label>
+		<hairGender>Female</hairGender>
+		<texPath>LP_Hair/hair_1</texPath>
+		<category>LP_Style</category>
+		<styleTags>
+			<li>LP_Style</li>
+		</styleTags>
+	</HairDef>
+	<HairDef>
+		<defName>LP_Shorthair</defName>
+		<label>Shorthair</label>
+		<hairGender>Female</hairGender>
+		<texPath>LP_Hair/hair_2</texPath>
+		<category>LP_Style</category>
+		<styleTags>
+			<li>LP_Style</li>
+		</styleTags>
+	</HairDef>
+	<HairDef>
+		<defName>LP_Curvehair</defName>
+		<label>Curvehair</label>
+		<hairGender>Female</hairGender>
+		<texPath>LP_Hair/hair_3</texPath>
+		<category>LP_Style</category>
+		<styleTags>
+			<li>LP_Style</li>
+		</styleTags>
+	</HairDef>
+	<HairDef>
+		<defName>LP_BraidHair</defName>
+		<label>BraidHair</label>
+		<hairGender>Female</hairGender>
+		<texPath>LP_Hair/hair_4</texPath>
+		<category>LP_Style</category>
+		<styleTags>
+			<li>LP_Style</li>
+		</styleTags>
+	</HairDef>
+</Defs>

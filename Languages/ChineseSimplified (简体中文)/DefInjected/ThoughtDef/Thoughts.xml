@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 바게트를 먹음 -->
+  <LP_Lapin_Bagette_Ate.stages.0.label>吃了法棍</LP_Lapin_Bagette_Ate.stages.0.label>
+  <!-- EN: 라핀 바게트를 먹으니 기부니가 좋아졌다. -->
+  <LP_Lapin_Bagette_Ate.stages.0.description>吃了法棍，感觉心情也变好了。</LP_Lapin_Bagette_Ate.stages.0.description>
+  
+  <!-- EN: 전쟁 트라우마 -->
+  <LP_WarTraumaMood.stages.0.label>战争创伤</LP_WarTraumaMood.stages.0.label>
+  <!-- EN: 전쟁과 패배의 기억이 마음을 짓누릅니다. -->
+  <LP_WarTraumaMood.stages.0.description>战争和失败的记忆依旧压得兔心沉重。</LP_WarTraumaMood.stages.0.description>
+  
+</LanguageData>

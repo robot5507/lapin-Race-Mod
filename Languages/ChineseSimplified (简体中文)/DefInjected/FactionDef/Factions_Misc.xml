@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Lapin Empire Turncoat -->
+  <Lapin_Turncoat.label>拉芬革命军</Lapin_Turncoat.label>
+  <!-- EN: 라핀 제국을 등진 변절자 라핀집단입니다. -->
+  <Lapin_Turncoat.description>背叛拉芬帝国的叛徒。</Lapin_Turncoat.description>
+  <Lapin_Turncoat.fixedName>拉芬革命军</Lapin_Turncoat.fixedName>
+  <!-- EN: Warren Tyrant -->
+  <Lapin_Turncoat.leaderTitle>窝巢暴君</Lapin_Turncoat.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Lapin_Turncoat.messageDefendersAttacking>来自{1}的{0}正在攻击您的{2}。</Lapin_Turncoat.messageDefendersAttacking>
+  <!-- EN: LapinRenegade -->
+  <Lapin_Turncoat.pawnSingular>拉芬叛兔</Lapin_Turncoat.pawnSingular>
+  <!-- EN: LapinRenegades -->
+  <Lapin_Turncoat.pawnsPlural>拉芬叛兔</Lapin_Turncoat.pawnsPlural>
+  
+  <!-- EN: Lapin Empire Remnants -->
+  <LapinEmpire.label>拉芬破碎帝国</LapinEmpire.label>
+  <!-- EN: 라핀 제국 잔당입니다. -->
+  <LapinEmpire.description>拉芬帝国的残余势力。</LapinEmpire.description>
+  <LapinEmpire.fixedName>拉芬破碎帝国</LapinEmpire.fixedName>
+  <!-- EN: High General -->
+  <LapinEmpire.leaderTitle>至高统帅</LapinEmpire.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <LapinEmpire.messageDefendersAttacking>TO来自{1}的{0}正在攻击您的{2}。DO</LapinEmpire.messageDefendersAttacking>
+  <!-- EN: Lapin -->
+  <LapinEmpire.pawnSingular>拉芬</LapinEmpire.pawnSingular>
+  <!-- EN: Lapins -->
+  <LapinEmpire.pawnsPlural>拉芬</LapinEmpire.pawnsPlural>
+  
+</LanguageData>

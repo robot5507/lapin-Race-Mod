@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 맷돌 -->
+  <LapinMillstone.label>石磨</LapinMillstone.label>
+  <!-- EN: 밀알을 갈아 고운 밀가루를 만드는 작은 맷돌이다. -->
+  <LapinMillstone.description>这是用来磨小麦粒制成细面粉的小磨盘。</LapinMillstone.description>
+  
+</LanguageData>

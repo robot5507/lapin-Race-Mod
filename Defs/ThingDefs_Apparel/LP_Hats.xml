@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>LP_Headgear</defName>
+    <label>lapin headgear</label>
+    <parent>Headgear</parent>
+  </ThingCategoryDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" Name="LP_HatMakeableBase" ParentName="LP_ApparelMakeableBase" Abstract="True">
+    <thingCategories>
+      <li>LP_Headgear</li>
+    </thingCategories>
+    <apparel>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_Grenadier</defName>
+    <label>라핀 척탄병 모자</label>
+    <description>라핀 제국 척탄병이 착용하는 전용 군모.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LP_Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/LP_GrenadierHat</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/LP_GrenadierHat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_Vlotigeur</defName>
+    <label>라핀 도약병 모자</label>
+    <description>라핀 제국 도약병이 착용하는 전용 군모.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LP_Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/LPHatVoltigeur</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/LPHatVoltigeur</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_Artillery</defName>
+    <label>라핀 포병 모자</label>
+    <description>라핀 제국 포병이 착용하는 전용 군모.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+      <ConstructionSpeed>0.4</ConstructionSpeed>
+      <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LP_Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/LP_HatArtillery</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/LP_HatArtillery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_Sapper</defName>
+    <label>라핀 선임공병 모자</label>
+    <description>라핀 제국 선임공병이 착용하는 전용 군모.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LP_Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/LP_HatSapper</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/LP_HatSapper</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>100</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_Worker</defName>
+    <label>라핀 작업모</label>
+    <description>라핀 일꾼 모자.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.1</Mass>
+      <ArmorRating_Sharp>0</ArmorRating_Sharp>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LP_Colonist</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+        <li>LP_Worker</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/HatWorker</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/HatWorker</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>10</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_NobleOfficer</defName>
+    <label>라핀 이각모</label>
+    <description>라핀 제국 고위장교묭 모자입니다.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>2</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LP_Noble</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/LPBicorneHat</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/LPBicorneHat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+  </ThingDef>
+
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_Maid</defName>
+    <label>라핀 메이드 머리띠</label>
+    <description>라핀 메이드 전용 머리띠.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LapinMaid</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/Hatmaid</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/Hatmaid</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Mask</defName>
+    <label>라핀 가면</label>
+    <description>라핀 가면.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LapinMaid</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>FaceMask</li>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/LPmask</wornGraphicPath>
+			<drawData>
+				<dataSouth>
+					<layer>60</layer>
+				</dataSouth>
+				<dataEast>
+					<layer>60</layer>
+				</dataEast>
+				<dataWest>
+					<layer>60</layer>
+				</dataWest>
+				<dataNorth>
+					<layer>60</layer>
+				</dataNorth>
+			</drawData>
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/LPmask</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_MaidElit</defName>
+    <label>라핀 엘리트 메이드 세트</label>
+    <description>라핀 메이드 특수부대 전용 머리띠와 마스크 세트.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LapinMaid</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/HatMaidElit</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/HatMaidElit</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+</Defs>

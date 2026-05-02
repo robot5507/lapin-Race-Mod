@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 밀 -->
+  <PlantLapinWheat.label>拉芬小麦</PlantLapinWheat.label>
+  <!-- EN: 바게트를 만들기 위한 밀. 성장 속도가 빠르고 수확량이 괜찮다. -->
+  <PlantLapinWheat.description>用于制作法棍的麦子。生长速度快，产量也不错。</PlantLapinWheat.description>
+  
+</LanguageData>

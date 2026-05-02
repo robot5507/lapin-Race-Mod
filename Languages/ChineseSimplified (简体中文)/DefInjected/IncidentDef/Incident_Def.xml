@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 증원 부대 -->
+  <LapinFollowUpTroops.label>拉芬增援部队</LapinFollowUpTroops.label>
+  <!-- EN: 라핀 후속 부대 -->
+  <LapinFollowUpTroops.letterLabel>拉芬增援部队</LapinFollowUpTroops.letterLabel>
+  <!-- EN: 라핀군 2차 증원군이 옵니다. 습격에 대비하십시오. -->
+  <LapinFollowUpTroops.letterText>拉芬军第二批增援部队来了。做好袭击准备。</LapinFollowUpTroops.letterText>
+  
+  <!-- EN: lapin raid -->
+  <LapinRaid.label>拉芬特种部队袭击</LapinRaid.label>
+  <!-- EN: 라핀 척후부대 -->
+  <LapinRaid.letterLabel>拉芬特种部队袭击</LapinRaid.letterLabel>
+  <!-- EN: 라핀 척후부대가 도착했습니다. 습격에 대비하세요! -->
+  <LapinRaid.letterText>拉芬特种部队到来了。做好袭击准备！</LapinRaid.letterText>
+  
+  <!-- EN: 라핀 특수부대 강습 -->
+  <LP_Raid_LapinSpecialForcesDrop.label>TODO</LP_Raid_LapinSpecialForcesDrop.label>
+  <!-- EN: 라핀 특수부대 강습 -->
+  <LP_Raid_LapinSpecialForcesDrop.letterLabel>TODO</LP_Raid_LapinSpecialForcesDrop.letterLabel>
+  <!-- EN: 라핀 특수부대가 정착지 중심부로 강하했습니다! -->
+  <LP_Raid_LapinSpecialForcesDrop.letterText>TODO</LP_Raid_LapinSpecialForcesDrop.letterText>
+  
+  <!-- EN: 라핀 변절자 습격 -->
+  <LP_Raid_LapinTurncoat.label>拉芬叛徒袭击</LP_Raid_LapinTurncoat.label>
+  <!-- EN: 라핀 변절자 습격 -->
+  <LP_Raid_LapinTurncoat.letterLabel>拉芬叛徒袭击</LP_Raid_LapinTurncoat.letterLabel>
+  <!-- EN: 라핀 제국을 등진 변질자들이 당신의 정착지를 습격합니다. -->
+  <LP_Raid_LapinTurncoat.letterText>背弃拉芬帝国的堕落者们袭击了你的定居点。</LP_Raid_LapinTurncoat.letterText>
+  
+</LanguageData>

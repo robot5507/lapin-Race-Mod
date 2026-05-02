@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: lapin colony -->
+  <LP_Scenario.label>拉芬兔群</LP_Scenario.label>
+  <!-- EN: 라핀 새로운 정착지. -->
+  <LP_Scenario.description>拉芬新定居点。</LP_Scenario.description>
+  <!-- EN: 라핀 새로운 정착지. -->
+  <LP_Scenario.scenario.description>拉芬新定居点。</LP_Scenario.scenario.description>
+  <!-- EN: lapin colony -->
+  <LP_Scenario.scenario.name>拉芬兔群</LP_Scenario.scenario.name>
+  <!-- EN: 라핀 제국에서 흩어진 라핀인들의 새로운 정착지입니다. -->
+  <LP_Scenario.scenario.summary>这是拉芬帝国中流离失所的拉芬人的新定居地。</LP_Scenario.scenario.summary>
+  
+</LanguageData>

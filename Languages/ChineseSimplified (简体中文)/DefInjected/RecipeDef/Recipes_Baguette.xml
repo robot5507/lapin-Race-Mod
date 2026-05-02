@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 바게트 굽기 -->
+  <Recipe_Baguette.label>烘烤法棍</Recipe_Baguette.label>
+  <!-- EN: 밀가루로 바삭바삭한 라핀 바게트를 굽는다. -->
+  <Recipe_Baguette.description>用面粉烤制出香脆的法棍。</Recipe_Baguette.description>
+  <!-- EN: 라핀 바게트를 굽는 중 -->
+  <Recipe_Baguette.jobString>正在烤拉法棍</Recipe_Baguette.jobString>
+  
+</LanguageData>

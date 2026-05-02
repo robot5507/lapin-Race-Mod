@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 맷돌에서 밀가루를 만듭니다. -->
+  <UseLapinMillstone.label>在磨盘上制作面粉</UseLapinMillstone.label>
+  <!-- EN: 제분하기 -->
+  <UseLapinMillstone.gerund>磨粉</UseLapinMillstone.gerund>
+  <!-- EN: 제분 -->
+  <UseLapinMillstone.verb>研磨</UseLapinMillstone.verb>
+  
+</LanguageData>

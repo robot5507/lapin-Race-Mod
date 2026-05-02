@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: lapin Bomber Rabbit -->
+  <LapinBomberRabbit.label>拉芬炸弹兔</LapinBomberRabbit.label>
+  
+  <!-- EN: Lapin colonist -->
+  <LapinColonist.label>拉芬殖民者</LapinColonist.label>
+  
+  <!-- EN: lapin Hunter Rabbit -->
+  <LapinHunterRabbit.label>拉芬猎手兔</LapinHunterRabbit.label>
+  
+  <!-- EN: lapin Killer Rabbit -->
+  <LapinKillerRabbit.label>拉芬杀手兔</LapinKillerRabbit.label>
+  
+  <!-- EN: Lapin Maid -->
+  <LapinMaid.label>TODO</LapinMaid.label>
+  
+  <!-- EN: lapin Maid Operations Unit. -->
+  <LapinMaidSpecialForces.label>TODO</LapinMaidSpecialForces.label>
+  
+  <!-- EN: lapin noble -->
+  <LapinNoble.label>拉芬贵族</LapinNoble.label>
+  
+  <!-- EN: lapin noble child -->
+  <LapinNobleChild.label>拉芬贵族子嗣</LapinNobleChild.label>
+  
+  <!-- EN: lapin noble Officer -->
+  <LapinNobleOfficer.label>拉芬贵族军官</LapinNobleOfficer.label>
+  
+  <!-- EN: lapin soldier -->
+  <LapinSoldier.label>拉芬军兔</LapinSoldier.label>
+  
+  <!-- EN: lapin soldier artillery -->
+  <LapinSoldierArtillery.label>拉芬炮兵</LapinSoldierArtillery.label>
+  
+  <!-- EN: lapin soldier artillery militar -->
+  <LapinSoldierArtilleryMilitar.label>拉芬军兔炮兵</LapinSoldierArtilleryMilitar.label>
+  
+  <!-- EN: lapin soldier Grenadier -->
+  <LapinSoldierGrenadier.label>拉芬将军</LapinSoldierGrenadier.label>
+  
+  <!-- EN: lapin soldier sapper -->
+  <LapinSoldierSapper.label>拉芬工兵</LapinSoldierSapper.label>
+  
+  <!-- EN: lapin soldier Voltigeur -->
+  <LapinSoldierVoltigeur.label>拉芬轻骑兵</LapinSoldierVoltigeur.label>
+  
+  <!-- EN: lapin Vorpal Rabbit -->
+  <LapinVorpalRabbit.label>拉芬狂暴兔</LapinVorpalRabbit.label>
+  
+</LanguageData>

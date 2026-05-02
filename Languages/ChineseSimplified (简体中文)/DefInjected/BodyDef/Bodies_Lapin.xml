@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Lapin -->
+  <Lapin.label>拉芬</Lapin.label>
+  <!-- EN: tail -->
+  <Lapin.corePart.parts.tail.customLabel>拉芬尾巴</Lapin.corePart.parts.tail.customLabel>
+  <!-- EN: left lung -->
+  <Lapin.corePart.parts.left_lung.customLabel>左肺</Lapin.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <Lapin.corePart.parts.right_lung.customLabel>右肺</Lapin.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <Lapin.corePart.parts.left_kidney.customLabel>左肾</Lapin.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <Lapin.corePart.parts.right_kidney.customLabel>右肾</Lapin.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left eye -->
+  <Lapin.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>左眼</Lapin.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+  <Lapin.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>右眼</Lapin.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+  <Lapin.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>左耳</Lapin.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+  <Lapin.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>右耳</Lapin.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: left shoulder -->
+  <Lapin.corePart.parts.left_shoulder.customLabel>左肩</Lapin.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left clavicle -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>左锁骨</Lapin.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>
+  <!-- EN: left arm -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.customLabel>左臂</Lapin.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>左肱骨</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>左桡骨</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: left hand -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>左手</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>左小指</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left ring finger -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>左无名指</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  <!-- EN: left middle finger -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>左中指</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>左手食指</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>左拇指</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <Lapin.corePart.parts.right_shoulder.customLabel>右肩</Lapin.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right clavicle -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>右锁骨</Lapin.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>
+  <!-- EN: right arm -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.customLabel>右臂</Lapin.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>右肱骨</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>右桡骨</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <!-- EN: right hand -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>右手</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>右小指</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right ring finger -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>右无名指</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+  <!-- EN: right middle finger -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>右中指</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>右手食指</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>右拇指</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <Lapin.corePart.parts.left_leg.customLabel>左腿</Lapin.corePart.parts.left_leg.customLabel>
+  <!-- EN: left femur -->
+  <Lapin.corePart.parts.left_leg.parts.left_femur.customLabel>左股骨</Lapin.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <!-- EN: left tibia -->
+  <Lapin.corePart.parts.left_leg.parts.left_tibia.customLabel>左胫骨</Lapin.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <!-- EN: left foot -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.customLabel>左足</Lapin.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: left little toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>左小脚趾</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+  <!-- EN: left fourth toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>左第四脚趾</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+  <!-- EN: left middle toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>左中趾</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+  <!-- EN: left second toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>左第二脚趾</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+  <!-- EN: left big toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>左大脚指</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+  <!-- EN: right leg -->
+  <Lapin.corePart.parts.right_leg.customLabel>右腿</Lapin.corePart.parts.right_leg.customLabel>
+  <!-- EN: right femur -->
+  <Lapin.corePart.parts.right_leg.parts.right_femur.customLabel>右股骨</Lapin.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <!-- EN: right tibia -->
+  <Lapin.corePart.parts.right_leg.parts.right_tibia.customLabel>右胫骨</Lapin.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <!-- EN: right foot -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.customLabel>右足</Lapin.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: right little toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>右小脚趾</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+  <!-- EN: right fourth toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>右第四脚趾</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+  <!-- EN: right middle toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>右中趾</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+  <!-- EN: right second toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>右第二脚趾</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+  <!-- EN: right big toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>右大脚指</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+  
+</LanguageData>

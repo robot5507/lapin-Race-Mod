@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: New Beginning -->
+  <LP_PlayerFaction.label>新的开始</LP_PlayerFaction.label>
+  <!-- EN: 라핀 콜로니. -->
+  <LP_PlayerFaction.description>拉芬殖民地</LP_PlayerFaction.description>
+  <!-- EN: leader -->
+  <LP_PlayerFaction.leaderTitle>领袖</LP_PlayerFaction.leaderTitle>
+  <!-- EN: Lapin -->
+  <LP_PlayerFaction.pawnSingular>拉芬</LP_PlayerFaction.pawnSingular>
+  <!-- EN: colonists -->
+  <LP_PlayerFaction.pawnsPlural>殖民者</LP_PlayerFaction.pawnsPlural>
+  
+</LanguageData>

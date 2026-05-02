@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 밀가루 -->
+  <RawLapinFlour.label>面粉</RawLapinFlour.label>
+  <!-- EN: 바게트를 만들기 위한 밀가루. -->
+  <RawLapinFlour.description>制作法棍所需的面粉。</RawLapinFlour.description>
+  
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<GeneDef>
+  <defName>LP_LapinLongjumpLegs</defName>
+  <label>라핀 도약 다리</label>
+  <description>라핀 특유의 강력한 다리 근육으로 먼 거리를 도약할 수 있습니다.</description>
+
+  <iconPath>UI/Icons/Genes/Gene_LapinLongJump</iconPath>
+
+  <displayCategory>Lapin</displayCategory>
+  <displayOrderInCategory>21</displayOrderInCategory>
+
+  <abilities>
+    <li>LapinLongjump</li>
+  </abilities>
+
+  <descriptionHyperlinks>
+    <AbilityDef>LapinLongjump</AbilityDef>
+  </descriptionHyperlinks>
+
+  
+</GeneDef>
+
+
+<GeneCategoryDef>
+		<defName>Lapin</defName>
+		<label>라핀</label>
+		<displayPriorityInXenotype>1020</displayPriorityInXenotype>
+	</GeneCategoryDef>
+</Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀도약 -->
+  <LapinLongjump.label>TODO</LapinLongjump.label>
+  <!-- EN: 라핀인들이 쓸수있는 도약점프입니다. -->
+  <LapinLongjump.description>TODO</LapinLongjump.description>
+  <!-- EN: <color=#E6E64CFF>라핀도약</color>\n\n라핀인들이 쓸수있는 도약점프입니다.\n\n释放时间: 1.6秒\n冷却时间: 1小时 -->
+  <LapinLongjump.cachedTooltip>TODO</LapinLongjump.cachedTooltip>
+  <!-- EN: jump -->
+  <LapinLongjump.verbProperties.label>TODO</LapinLongjump.verbProperties.label>
+  
+</LanguageData>

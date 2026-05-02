@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 바게트 -->
+  <LP_Lapin_Bagette.label>Lapin Baguette</LP_Lapin_Bagette.label>
+  <LP_Lapin_Bagette.description>A traditional Lapin combat ration. You can eat it, or smash enemies with it.</LP_Lapin_Bagette.description>
+
+  <!-- 바게트 팔 -->
+  <BaguetteArm.label>Baguette Arm</BaguetteArm.label>
+  <BaguetteArm.description>This pawn's arm has been replaced with a delicious baguette.</BaguetteArm.description>
+
+  <!-- 바게트 발 -->
+  <BaguetteLeg.label>Baguette Leg</BaguetteLeg.label>
+  <BaguetteLeg.description>This pawn's leg has been replaced with a baguette.</BaguetteLeg.description>
+
+  <!-- 수술 -->
+  <InstallBaguetteArm.label>Install Baguette Arm</InstallBaguetteArm.label>
+  <InstallBaguetteLeg.label>Install Baguette Leg</InstallBaguetteLeg.label>
+
+  <!-- 히트 디버프 -->
+  <BaguetteArmHit.label>Hit by Baguette Arm</BaguetteArmHit.label>
+  <BaguetteArmHit.description>Struck by a delicious baguette arm.</BaguetteArmHit.description>
+
+  <MillLapinWheat.label>Milling Lapin Wheat</MillLapinWheat.label>
+  <MillLapinWheat.description>Ground Wheat grains with a millstone to make flour.</MillLapinWheat.description>
+
+  <Recipes_Bagette.label>Cooking Lapin Baguette</Recipes_Bagette.label>
+  <Recipes_Bagette.description>Bake a crispy baguette with flour and water.</Recipes_Bagette.description>
+
+  <LapinMillstone.label>Lapin Millstone</LapinMillstone.label>
+  <LapinMillstone.description>It is a small millstone that grinds wheat grains to make fine flour.</LapinMillstone.description>
+
+  <RawLapinFlour.label>Lapin Flour</RawLapinFlour.label>
+  <RawLapinFlour.description>Flour for making baguettes.</RawLapinFlour.description>
+
+  <RawLapinWheat.label>Lapin Wheat</RawLapinWheat.label>
+  <RawLapinWheat.description>It is high-quality wheat suitable for making baguettes. It can be ground into flour.</RawLapinWheat.description>
+
+  <PlantLapinWheat.label>Lapin Wheat</PlantLapinWheat.label>
+  <PlantLapinWheat.description>Wheat for making baguettes. It grows quickly and has a decent yield.</PlantLapinWheat.description>
+
+  <LP_Lapin_Bagette_Ate.label>Ate Lapin baguette.</LP_Lapin_Bagette_Ate.label>
+  <LP_Lapin_Bagette_Ate.description>Eating the Lapin baguette made me feel good.</LP_Lapin_Bagette_Ate.description>
+
+  
+
+</LanguageData>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 포병입니다.탄도학과 계산에 능합니다. -->
+  <Lapin_Artillery.description>[PAWN_nameDef]是拉芬帝国的炮兵。擅长弹道学和计算。</Lapin_Artillery.description>
+  <!-- EN: 라핀 포병 -->
+  <Lapin_Artillery.title>拉芬炮兵</Lapin_Artillery.title>
+  <!-- EN: 포병 -->
+  <Lapin_Artillery.titleShort>炮兵</Lapin_Artillery.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제빵사였습니다 하루하루 바게트를 만들며 연맹했습니다. -->
+  <Lapin_Baker.description>[PAWN_nameDef]曾是一名拉芬烘焙师，日复一日地制作法棍面包，与联盟相伴。</Lapin_Baker.description>
+  <!-- EN: 라핀 제빵사 -->
+  <Lapin_Baker.title>拉芬面包师</Lapin_Baker.title>
+  <!-- EN: 제빵사 -->
+  <Lapin_Baker.titleShort>面包师</Lapin_Baker.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 특수전 목적으로 훈련받은 라핀메이드부대 대원입니다. -->
+  <Lapin_BattleMaid.description>TODO</Lapin_BattleMaid.description>
+  <!-- EN: 라핀 전투메이드 -->
+  <Lapin_BattleMaid.title>TODO</Lapin_BattleMaid.title>
+  <!-- EN: 전투메이드 -->
+  <Lapin_BattleMaid.titleShort>TODO</Lapin_BattleMaid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 변질된 라핀의 폭탄토끼입니다. -->
+  <Lapin_BomberRabbit.description>[PAWN_nameDef]是被腐化的拉芬的炸弹兔。</Lapin_BomberRabbit.description>
+  <!-- EN: 라핀 폭탄마 -->
+  <Lapin_BomberRabbit.title>拉芬炸弹兔</Lapin_BomberRabbit.title>
+  <!-- EN: 폭탄토끼 -->
+  <Lapin_BomberRabbit.titleShort>炸弹兔</Lapin_BomberRabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 살인토끼입니다.살인과 식인을 하는 무시무시한 괴물입니다. 안티오크의 수류탄을 가져와라! -->
+  <Lapin_CannibalRabbit.description>[PAWN_nameDef]是拉芬杀手兔。是进行杀人和食人的可怕怪物。把安妮的烟雾弹拿来！</Lapin_CannibalRabbit.description>
+  <!-- EN: 라핀 살인토끼 -->
+  <Lapin_CannibalRabbit.title>拉芬杀手兔</Lapin_CannibalRabbit.title>
+  <!-- EN: 살인토끼 -->
+  <Lapin_CannibalRabbit.titleShort>杀手兔</Lapin_CannibalRabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 인간을 사냥하는 토끼입니다. -->
+  <Lapin_canniHunterRabbit.description>[PAWN_nameDef]是专门捕猎人类的兔子。</Lapin_canniHunterRabbit.description>
+  <!-- EN: 라핀 인간사냥 토끼 -->
+  <Lapin_canniHunterRabbit.title>拉芬猎兔</Lapin_canniHunterRabbit.title>
+  <!-- EN: 사냥토끼 -->
+  <Lapin_canniHunterRabbit.titleShort>猎兔</Lapin_canniHunterRabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 변질된 라핀의 식인토끼입니다. -->
+  <Lapin_canniRabbit.description>[PAWN_nameDef]是被腐化的拉芬食人兔。</Lapin_canniRabbit.description>
+  <!-- EN: 라핀 식인 토끼 -->
+  <Lapin_canniRabbit.title>拉芬食人兔</Lapin_canniRabbit.title>
+  <!-- EN: 식인토끼 -->
+  <Lapin_canniRabbit.titleShort>食人兔</Lapin_canniRabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 기본 시민입니다. -->
+  <Lapin_Colonist.description>[PAWN_nameDef]是拉芬帝国的基本公民。</Lapin_Colonist.description>
+  <!-- EN: 라핀 일꾼 -->
+  <Lapin_Colonist.title>拉芬市民</Lapin_Colonist.title>
+  <!-- EN: 라핀시민 -->
+  <Lapin_Colonist.titleShort>拉芬市民</Lapin_Colonist.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 굴착토끼입니다.라핀인들은 건설보다도 굴을 만들고 살아왔습니다. -->
+  <Lapin_Digging_Rabbit.description>[PAWN_nameDef]是拉芬帝国的掘地兔。拉芬族一直以来不是在地面建造房屋，而是挖洞居住。</Lapin_Digging_Rabbit.description>
+  <!-- EN: 라핀 굴착토끼 -->
+  <Lapin_Digging_Rabbit.title>拉芬掘地兔</Lapin_Digging_Rabbit.title>
+  <!-- EN: 굴착꾼 -->
+  <Lapin_Digging_Rabbit.titleShort>掘地兔</Lapin_Digging_Rabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 척탄병입니다. -->
+  <Lapin_Grenadier.description>[PAWN_nameDef]是拉芬帝国的狙击手。</Lapin_Grenadier.description>
+  <!-- EN: 라핀 척탄병 -->
+  <Lapin_Grenadier.title>拉芬狙击手</Lapin_Grenadier.title>
+  <!-- EN: 척탄병 -->
+  <Lapin_Grenadier.titleShort>狙击手</Lapin_Grenadier.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 일반적인 메이드입니다. -->
+  <Lapin_Maid.description>TODO</Lapin_Maid.description>
+  <!-- EN: 라핀 메이드 -->
+  <Lapin_Maid.title>TODO</Lapin_Maid.title>
+  <!-- EN: 라핀메이드 -->
+  <Lapin_Maid.titleShort>TODO</Lapin_Maid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 귀족입니다. -->
+  <Lapin_Noble.description>TODO</Lapin_Noble.description>
+  <!-- EN: 라핀 귀족 -->
+  <Lapin_Noble.title>TODO</Lapin_Noble.title>
+  <!-- EN: 귀족 -->
+  <Lapin_Noble.titleShort>TODO</Lapin_Noble.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 좋은 집안 출신이지만 추방당했습니다.원래의 가문명도 잃어버렸습니다. -->
+  <Lapin_Noble_Banished_Kid.description>[PAWN_nameDef]虽出身名门，但却被流放，还失去了原本的家名。</Lapin_Noble_Banished_Kid.description>
+  <!-- EN: 라핀 추방당한 귀족 아이 -->
+  <Lapin_Noble_Banished_Kid.title>拉芬没落贵族子嗣</Lapin_Noble_Banished_Kid.title>
+  <!-- EN: 추방 귀족 아이 -->
+  <Lapin_Noble_Banished_Kid.titleShort>没落贵族子嗣</Lapin_Noble_Banished_Kid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 좋은 집안 출신입니다. -->
+  <Lapin_Noble_Family_Kid.description>[PAWN_nameDef]出身于一个好的家庭。</Lapin_Noble_Family_Kid.description>
+  <!-- EN: 라핀 귀족집안 아이 -->
+  <Lapin_Noble_Family_Kid.title>拉芬贵族子嗣</Lapin_Noble_Family_Kid.title>
+  <!-- EN: 귀족집안 아이 -->
+  <Lapin_Noble_Family_Kid.titleShort>贵族子嗣</Lapin_Noble_Family_Kid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 장교출신입니다. -->
+  <Lapin_NobleOfficer.description>[PAWN_nameDef]出身于拉芬军官学校。</Lapin_NobleOfficer.description>
+  <!-- EN: 라핀 장교 -->
+  <Lapin_NobleOfficer.title>拉芬军官</Lapin_NobleOfficer.title>
+  <!-- EN: 장교 -->
+  <Lapin_NobleOfficer.titleShort>军官</Lapin_NobleOfficer.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 혁명군 출신입니다.왕당파와 사이가 좋지 않습니다. -->
+  <Lapin_Revolutionary_Army.description>[PAWN_nameDef]出身革命军，与王党关系不好。</Lapin_Revolutionary_Army.description>
+  <!-- EN: 라핀 혁명군 -->
+  <Lapin_Revolutionary_Army.title>拉芬革命军</Lapin_Revolutionary_Army.title>
+  <!-- EN: 혁명군 -->
+  <Lapin_Revolutionary_Army.titleShort>革命军</Lapin_Revolutionary_Army.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 왕당파 출신입니다.혁명군과 사이가 좋지 않습니다. -->
+  <Lapin_Royalist.description>[PAWN_nameDef]出身于王党派，与革命军关系不好。</Lapin_Royalist.description>
+  <!-- EN: 라핀 왕당파 -->
+  <Lapin_Royalist.title>拉芬保皇派</Lapin_Royalist.title>
+  <!-- EN: 왕당파 -->
+  <Lapin_Royalist.titleShort>保皇派</Lapin_Royalist.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 선임공병입니다. -->
+  <Lapin_Sapper.description>[PAWN_nameDef]是拉芬帝国的资深工兵。</Lapin_Sapper.description>
+  <!-- EN: 라핀 선임공병 -->
+  <Lapin_Sapper.title>拉芬工兵</Lapin_Sapper.title>
+  <!-- EN: 공병 -->
+  <Lapin_Sapper.titleShort>工兵</Lapin_Sapper.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 병사였지만 전투에서 패배하고 은신했습니다. [PAWN_nameDef]은 비록 패잔병일지 모르지만, 현역 군인보다 생존기술과 전투를 잘 알고있습니다. -->
+  <Lapin_Straggler.description>[PAWN_nameDef]曾是拉芬帝国的士兵，但在战斗中失败后逃亡了。[PAWN_nameDef]虽然是败兵，但他比现役军人更懂得生存技巧和战斗。</Lapin_Straggler.description>
+  <!-- EN: 라핀 패잔병 -->
+  <Lapin_Straggler.title>拉芬逃兵</Lapin_Straggler.title>
+  <!-- EN: 패잔병 -->
+  <Lapin_Straggler.titleShort>逃兵</Lapin_Straggler.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 도약병입니다. -->
+  <Lapin_Voltigeur.description>[PAWN_nameDef]是拉芬帝国的跃进兵。</Lapin_Voltigeur.description>
+  <!-- EN: 라핀 도약병 -->
+  <Lapin_Voltigeur.title>拉芬跃进兵</Lapin_Voltigeur.title>
+  <!-- EN: 도약병 -->
+  <Lapin_Voltigeur.titleShort>跃进兵</Lapin_Voltigeur.titleShort>
+  
+  <!-- EN: 응애 나 애기라핀. -->
+  <LapinChild_Kid.description>哎呀，我是一个宝宝啦。</LapinChild_Kid.description>
+  <!-- EN: 라핀 아이 -->
+  <LapinChild_Kid.title>拉芬儿童</LapinChild_Kid.title>
+  <!-- EN: 아이 -->
+  <LapinChild_Kid.titleShort>儿童</LapinChild_Kid.titleShort>
+  
+  <!-- EN: 라핀 인체실험실에서 특수전 목적으로 키워진 라핀입니다. -->
+  <LapinChild_laboratoryKid.description>TODO</LapinChild_laboratoryKid.description>
+  <!-- EN: 라핀 실험실 아이 -->
+  <LapinChild_laboratoryKid.title>TODO</LapinChild_laboratoryKid.title>
+  <!-- EN: 실험실 아이 -->
+  <LapinChild_laboratoryKid.titleShort>TODO</LapinChild_laboratoryKid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 어릴적 빵을 훔치고 달아나다 잡혀 어린시절 대부분을 감옥에서 보냈습니다. -->
+  <LapinChild_Thief.description>[PAWN_nameDef]小时候因偷面包逃跑被抓，大部分童年时光都在监狱中度过。</LapinChild_Thief.description>
+  <!-- EN: 라핀 바게트 도둑 -->
+  <LapinChild_Thief.title>拉芬小偷</LapinChild_Thief.title>
+  <!-- EN: 도둑 -->
+  <LapinChild_Thief.titleShort>小偷</LapinChild_Thief.titleShort>
+  
+  <!-- EN: 떠돌이 생활을 하던 라핀 아이입니다. -->
+  <LapinvVagrant_Kid.description>这是流浪生活中的拉芬小孩。</LapinvVagrant_Kid.description>
+  <!-- EN: 라핀 부랑자 아이 -->
+  <LapinvVagrant_Kid.title>拉芬流浪儿</LapinvVagrant_Kid.title>
+  <!-- EN: 아이 -->
+  <LapinvVagrant_Kid.titleShort>流浪儿</LapinvVagrant_Kid.titleShort>
+  
+</LanguageData>
