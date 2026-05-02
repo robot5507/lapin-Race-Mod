@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>Recipe_Baguette</defName>
+    <label>라핀 바게트 굽기</label>
+    <description>밀가루로 바삭바삭한 라핀 바게트를 굽는다.</description>
+    <jobString>라핀 바게트를 굽는 중</jobString>
+
+    <workAmount>220</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawLapinFlour</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawLapinFlour</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+
+    <products>
+      <LP_Lapin_Bagette>1</LP_Lapin_Bagette>
+    </products>
+
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+</Defs>

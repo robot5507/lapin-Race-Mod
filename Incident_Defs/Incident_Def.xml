@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IncidentDef>
+  <defName>LapinRaid</defName>
+  <label>lapin raid</label>
+  <category>ThreatBig</category>
+  <workerClass>LapinRace.IncidentWorker_LapinRaid</workerClass>
+  <baseChance>0</baseChance>
+  <targetTags>
+    <li>Map_PlayerHome</li>
+  </targetTags>
+  <letterLabel>라핀 척후부대</letterLabel>
+		<letterText>라핀 척후부대가 도착했습니다. 습격에 대비하세요!</letterText>
+		<letterDef>ThreatBig</letterDef>
+		<baseChance>0</baseChance><!-- 2.7 -->
+		<minRefireDays>20</minRefireDays>
+		<category>ThreatBig</category>
+		<pointsScaleable>true</pointsScaleable>
+		<minThreatPoints>400</minThreatPoints>
+		<tale>Raid</tale>
+   </IncidentDef>
+	
+	
+	<IncidentDef>
+	
+		<defName>LapinFollowUpTroops</defName>
+		<label>라핀 증원 부대</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<letterLabel>라핀 후속 부대</letterLabel>
+		<letterText>라핀군 2차 증원군이 옵니다. 습격에 대비하십시오.</letterText>
+		<workerClass>LapinRace.IncidentWorker_LapinFollowUpTroops</workerClass>
+		<letterDef>ThreatBig</letterDef>
+		<baseChance>0</baseChance>
+		<category>ThreatBig</category>
+		<pointsScaleable>true</pointsScaleable>
+		<tale>Raid</tale>
+	</IncidentDef>
+
+
+  <IncidentDef>
+    <defName>LP_Raid_LapinTurncoat</defName>
+    <label>라핀 변절자 습격</label>
+    <category>ThreatBig</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>LapinRace.IncidentWorker_LapinTurncoatRaid</workerClass>
+    <pointsScaleable>true</pointsScaleable>
+    <baseChance>1</baseChance>
+    <minRefireDays>8</minRefireDays>
+    <letterLabel>라핀 변절자 습격</letterLabel>
+    <letterText>라핀 제국을 등진 변질자들이 당신의 정착지를 습격합니다.</letterText>
+  </IncidentDef>
+
+  <IncidentDef>
+  <defName>LP_Raid_LapinSpecialForcesDrop</defName>
+  <label>라핀 특수부대 강습</label>
+  <category>ThreatBig</category>
+
+  <targetTags>
+    <li>Map_PlayerHome</li>
+  </targetTags>
+
+  <workerClass>LapinRace.IncidentWorker_LapinSpecialForcesDrop</workerClass>
+
+  <pointsScaleable>true</pointsScaleable>
+  <baseChance>0.4</baseChance>
+  <minRefireDays>20</minRefireDays>
+
+  <letterDef>ThreatBig</letterDef>
+  <letterLabel>라핀 특수부대 강습</letterLabel>
+  <letterText>라핀 특수부대가 정착지 중심부로 강하했습니다!</letterText>
+
+ 
+</IncidentDef>
+
+</Defs>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AlienRace.AlienBackstoryDef Name="BaseLapinBackStory" Abstract="True">
+
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>LapinChild_Kid</defName>
+    <identifier>LapinChild_Kid</identifier>
+    <slot>Childhood</slot>
+    <title>라핀 아이</title>
+    <titleShort>아이</titleShort>
+    <baseDesc>응애 나 애기라핀.</baseDesc>
+    <bodyTypeMale>Child</bodyTypeMale>
+		<bodyTypeFemale>Child</bodyTypeFemale>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Animals>2</Animals>
+      <Plants>1</Plants>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+      <li>LapinColonist</li>
+      <li>LapinSoldier</li>
+      <li>LapinSoldierVoltigeur</li>
+      <li>LapinSoldierArtillery</li>
+       <li>LapinMaid</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>LapinChild_laboratoryKid</defName>
+    <identifier>LapinChild_laboratoryKid</identifier>
+    <slot>Childhood</slot>
+    <title>라핀 실험실 아이</title>
+    <titleShort>실험실 아이</titleShort>
+    <baseDesc>라핀 인체실험실에서 특수전 목적으로 키워진 라핀입니다.</baseDesc>
+    <bodyTypeMale>Child</bodyTypeMale>
+		<bodyTypeFemale>Child</bodyTypeFemale>
+    <skillGains>
+      <Shooting>4</Shooting>
+    </skillGains>
+    <forcedTraitsChance Inherit="False">
+  <li>
+    <defName Degree="2">SpeedOffset</defName>
+    <chance>100</chance>
+  </li>
+</forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+    <li>LapinMaidSpecialForces</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_BattleMaid</defName>
+    <identifier>Lapin_BattleMaid</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 전투메이드</title>
+    <titleShort>전투메이드</titleShort>
+    <baseDesc>[PAWN_nameDef]은 특수전 목적으로 훈련받은 라핀메이드부대 대원입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>20</Shooting>
+      <Melee>10</Melee>
+    </skillGains>
+    <forcedTraitsChance Inherit="False">
+  <li>
+    <defName Degree="2">SpeedOffset</defName>
+    <chance>100</chance>
+  </li>
+  <li>
+    <defName>Nimble</defName>
+    <chance>100</chance>
+  </li>
+</forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinMaidSpecialForces</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>LapinChild_Thief</defName>
+    <identifier>LapinChild_Thief</identifier>
+    <slot>Childhood</slot>
+    <title>라핀 바게트 도둑</title>
+    <titleShort>도둑</titleShort>
+    <baseDesc>[PAWN_nameDef]은 어릴적 빵을 훔치고 달아나다 잡혀 어린시절 대부분을 감옥에서 보냈습니다.</baseDesc>
+    <bodyTypeMale>Child</bodyTypeMale>
+		<bodyTypeFemale>Child</bodyTypeFemale>
+    <skillGains>
+      <Social>-3</Social>
+      <Melee>1</Melee>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+      <li>LapinColonist</li>
+      <li>LapinSoldier</li>
+      <li>LapinSoldierVoltigeur</li>
+      <li>LapinSoldierArtillery</li>
+       <li>LapinMaid</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+   <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+		<defName>Lapin_Noble_Banished_Kid</defName>
+    <identifier>Lapin_Noble_Banished_Kid</identifier>
+		<title>라핀 추방당한 귀족 아이</title>
+		<titleShort>추방 귀족 아이</titleShort>
+		<description>[PAWN_nameDef]은 좋은 집안 출신이지만 추방당했습니다.원래의 가문명도 잃어버렸습니다.</description>
+		<bodyTypeMale>Child</bodyTypeMale>
+		<bodyTypeFemale>Child</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Cooking>-2</Cooking>
+			<Artistic>4</Artistic>
+		</skillGains>
+    <workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<spawnCategories>
+     <li>LapinColonist</li>
+			<li>LapinNoble</li>
+			<li>LapinSoldier</li>
+      <li>LapinNobleOfficer</li>
+      <li>LapinSoldierVoltigeur</li>
+      <li>LapinSoldierArtillery</li>
+       <li>LapinMaid</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>LapinvVagrant_Kid</defName>
+    <identifier>Lapinvagrant_Kid</identifier>
+    <slot>Childhood</slot>
+    <title>라핀 부랑자 아이</title>
+    <titleShort>아이</titleShort>
+    <baseDesc>떠돌이 생활을 하던 라핀 아이입니다.</baseDesc>
+    <bodyTypeMale>Child</bodyTypeMale>
+		<bodyTypeFemale>Child</bodyTypeFemale>
+    <spawnCategories>
+   <li>LapinRenegadeStory</li>
+   <li>LapinKillerRabbit</li>
+   <li>LapinHunterRabbit</li>
+   <li>LapinVorpalRabbit</li>
+   <li>LapinBomberRabbit</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+		<defName>Lapin_Noble_Family_Kid</defName>
+    <identifier>Lapin_Noble_Family_Kid</identifier>
+		<title>라핀 귀족집안 아이</title>
+		<titleShort>귀족집안 아이</titleShort>
+		<description>[PAWN_nameDef]은 좋은 집안 출신입니다.</description>
+		<bodyTypeMale>Child</bodyTypeMale>
+		<bodyTypeFemale>Child</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Cooking>-2</Cooking>
+			<Artistic>4</Artistic>
+		</skillGains>
+    <workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+			<li>LapinNoble</li>
+			<li>LapinSoldier</li>
+      <li>LapinNobleOfficer</li>
+      <li>LapinSoldierSapper</li>
+      <li>LapinSoldierVoltigeur</li>
+      <li>LapinSoldierArtillery</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+   <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_canniRabbit</defName>
+    <identifier>Lapin_canniRabbit</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 식인 토끼</title>
+    <titleShort>식인토끼</titleShort>
+    <baseDesc>[PAWN_nameDef]은 변질된 라핀의 식인토끼입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Melee>10</Melee>
+       <Cooking>2</Cooking>
+      <Social>-15</Social>
+    </skillGains>
+     <forcedTraitsChance Inherit="False">
+    <li>
+      <defName>Bloodlust</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Cannibal</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Psychopath</defName>
+      <chance>100</chance>
+    </li>
+  </forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinRenegadeStory</li>
+   <li>LapinKillerRabbit</li>
+   <li>LapinVorpalRabbit</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_BomberRabbit</defName>
+    <identifier>Lapin_BomberRabbit</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 폭탄마</title>
+    <titleShort>폭탄토끼</titleShort>
+    <baseDesc>[PAWN_nameDef]은 변질된 라핀의 폭탄토끼입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Melee>10</Melee>
+       <Cooking>2</Cooking>
+      <Social>-15</Social>
+    </skillGains>
+     <forcedTraitsChance Inherit="False">
+    <li>
+      <defName>Pyromaniac</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Psychopath</defName>
+      <chance>100</chance>
+    </li>
+  </forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinRenegadeStory</li>
+   <li>LapinBomberRabbit</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_canniHunterRabbit</defName>
+    <identifier>Lapin_canniHunterRabbit</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 인간사냥 토끼</title>
+    <titleShort>사냥토끼</titleShort>
+    <baseDesc>[PAWN_nameDef]은 인간을 사냥하는 토끼입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Melee>10</Melee>
+      <Shooting>3</Shooting>
+       <Cooking>2</Cooking>
+      <Social>-15</Social>
+    </skillGains>
+     <forcedTraitsChance Inherit="False">
+    <li>
+      <defName>Bloodlust</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Cannibal</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Psychopath</defName>
+      <chance>100</chance>
+    </li>
+  </forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinRenegadeStory</li>
+   <li>LapinHunterRabbit</li>
+   <li>LapinVorpalRabbit</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Colonist</defName>
+    <identifier>Lapin_Colonist</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 일꾼</title>
+    <titleShort>라핀시민</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국 기본 시민입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Animals>3</Animals>
+      <Melee>1</Melee>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Noble</defName>
+    <identifier>Lapin Noble</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 귀족</title>
+    <titleShort>귀족</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국의 귀족입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Animals>3</Animals>
+      <Melee>1</Melee>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinNoble</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Maid</defName>
+    <identifier>Lapin_Maid</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 메이드</title>
+    <titleShort>라핀메이드</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국의 일반적인 메이드입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Cooking>6</Cooking>
+      <Crafting>3</Crafting>
+      <Social>4</Social>
+      <Intellectual>2</Intellectual>
+      <Medicine>6</Medicine>
+    </skillGains>
+    <forcedTraitsChance Inherit="False">
+    <li>
+      <defName Degree="2">Industriousness</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Kind</defName>
+      <chance>100</chance>
+    </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinColonist</li>
+         <li>LapinMaid</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Grenadier</defName>
+    <identifier>Lapin_Grenadier</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 척탄병</title>
+    <titleShort>척탄병</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국 척탄병입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Animals>1</Animals>
+      <Melee>1</Melee>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinSoldier</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Voltigeur</defName>
+    <identifier>Lapin_Voltigeur</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 도약병</title>
+    <titleShort>도약병</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국 도약병입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>4</Melee>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinSoldierVoltigeur</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+   <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Sapper</defName>
+    <identifier>Lapin_Sapper</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 선임공병</title>
+    <titleShort>공병</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국 선임공병입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Animals>1</Animals>
+      <Melee>1</Melee>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinSoldierSapper</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+   <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Artillery</defName>
+    <identifier>Lapin_Artillery</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 포병</title>
+    <titleShort>포병</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국 포병입니다.탄도학과 계산에 능합니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+    <Construction>3</Construction>
+      <Shooting>5</Shooting>
+      <Intellectual>10</Intellectual>
+    </skillGains>
+    <forcedTraitsChance Inherit="False">
+    <li>
+      <defName>FastLearner</defName>
+      <chance>100</chance>
+    </li>
+  </forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinColonist</li>
+        <li>LapinNoble</li>
+        <li>LapinSoldierArtillery</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Baker</defName>
+    <identifier>Lapin_Baker</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 제빵사</title>
+    <titleShort>제빵사</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제빵사였습니다 하루하루 바게트를 만들며 연맹했습니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Cooking>6</Cooking>
+			<Plants>2</Plants>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+		<defName>Lapin_NobleOfficer</defName>
+    <identifier>Lapin_NobleOfficer</identifier>
+		<title>라핀 장교</title>
+		<titleShort>장교</titleShort>
+		<description>[PAWN_nameDef]은 라핀 장교출신입니다.</description>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<skillGains>
+    <Shooting>3</Shooting>
+			<Melee>6</Melee>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+		</workDisables>
+		<spawnCategories>
+    <li>LapinStory</li>
+   <li>LapinEmpire</li>
+    <li>LapinColonist</li>
+      <li>LapinNobleOfficer</li>
+		</spawnCategories>
+		<forcedTraitsChance Inherit="False">
+			
+			<li>
+				<defName>Tough</defName>
+				<chance>0.3</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Wimp</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Straggler</defName>
+    <identifier>Lapin_Straggler</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 패잔병</title>
+    <titleShort>패잔병</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국 병사였지만 전투에서 패배하고 은신했습니다. [PAWN_nameDef]은 비록 패잔병일지 모르지만, 현역 군인보다 생존기술과 전투를 잘 알고있습니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>7</Shooting>
+      <Melee>5</Melee>
+      <Social>-15</Social>
+      <Intellectual>3</Intellectual>
+      <Crafting>1</Crafting>
+      <Medicine>1</Medicine>
+    </skillGains>
+    <spawnCategories>
+        <li>LapinColonist</li>
+        <li>LapinNoble</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Royalist</defName>
+    <identifier>Lapin_Royalist</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 왕당파</title>
+    <titleShort>왕당파</titleShort>
+    <baseDesc>[PAWN_nameDef]은 왕당파 출신입니다.혁명군과 사이가 좋지 않습니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Social>3</Social>
+      <Intellectual>3</Intellectual>
+      
+    </skillGains>
+    <workDisables>
+      <li>Firefighting</li>
+     <li>Violent</li>
+     </workDisables>
+    <spawnCategories>
+    <li>LapinStory</li>
+        <li>LapinNoble</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Revolutionary_Army</defName>
+    <identifier>Lapin_Revolutionary_Army</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 혁명군</title>
+    <titleShort>혁명군</titleShort>
+    <baseDesc>[PAWN_nameDef]은 혁명군 출신입니다.왕당파와 사이가 좋지 않습니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+    <Shooting>1</Shooting>
+     <Melee>1</Melee>
+      <Social>3</Social>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Digging_Rabbit</defName>
+    <identifier>Lapin_Digging_Rabbit</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 굴착토끼</title>
+    <titleShort>굴착꾼</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국의 굴착토끼입니다.라핀인들은 건설보다도 굴을 만들고 살아왔습니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Mining>10</Mining>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_CannibalRabbit</defName>
+    <identifier>Lapin_CannibalRabbit</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 살인토끼</title>
+    <titleShort>살인토끼</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 살인토끼입니다.살인과 식인을 하는 무시무시한 괴물입니다. 안티오크의 수류탄을 가져와라!</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Melee>10</Melee>
+       <Cooking>2</Cooking>
+      <Social>-15</Social>
+    </skillGains>
+     <forcedTraitsChance Inherit="False">
+    <li>
+      <defName>Bloodlust</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Cannibal</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Psychopath</defName>
+      <chance>100</chance>
+    </li>
+  </forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+</Defs>
