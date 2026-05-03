@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_ApparelMakeableBase">
-  <defName>LP_TacticalShieldBelt</defName>
-  <label>라핀 전술 보호막 벨트</label>
-  <description>라핀 특수부대가 사용하는 전술 보호막 벨트입니다.어떤 원리로 만드는지 알수 없습니다. 에너지가 0이되면 파괴됩니다.</description>
-<thingClass>Apparel</thingClass>
-<recipeMaker Inherit="False" />  
-  <stuffCategories Inherit="False" />
-   <costList>
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_ApparelMakeableBase">
+    <defName>LP_TacticalShieldBelt</defName>
+    <label>라핀 전술 보호막 벨트</label>
+    <description>라핀 특수부대가 사용하는 전술 보호막 벨트입니다.어떤 원리로 만드는지 알수 없습니다. 에너지가 0이되면 파괴됩니다.</description>
+    <thingClass>Apparel</thingClass>
+    <recipeMaker Inherit="False" />
+    <stuffCategories Inherit="False" />
+    <costList>
       <Cloth>60</Cloth>
     </costList>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/ShieldBelt/ShieldBelt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-   <tickerType>Normal</tickerType>
+    <tickerType>Normal</tickerType>
     <statBases>
       <Mass>3</Mass>
       <Flammability>0</Flammability>
@@ -29,7 +29,7 @@
         <li>Belt</li>
       </layers>
       <defaultOutfitTags>
-      <li>LP_TacticalShieldBelt</li>
+        <li>LP_TacticalShieldBelt</li>
       </defaultOutfitTags>
       <tags>
         <li>LP_TacticalShieldBelt</li>
@@ -37,7 +37,7 @@
     </apparel>
     <comps>
       <li Class="CompProperties_Shield">
-        <startingTicksToReset>36000</startingTicksToReset><!-- 10 mins -->
+        <startingTicksToReset>36000</startingTicksToReset>        <!-- 10 mins -->
         <minDrawSize>2.5</minDrawSize>
         <maxDrawSize>2.8</maxDrawSize>
         <energyLossPerDamage>0.01</energyLossPerDamage>

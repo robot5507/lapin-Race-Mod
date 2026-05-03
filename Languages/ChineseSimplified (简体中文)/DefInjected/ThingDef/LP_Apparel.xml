@@ -12,9 +12,9 @@
   <LP_Childdress.description>拉芬儿童的小衣服</LP_Childdress.description>
   
   <!-- EN: 라핀 메이드복 -->
-  <LP_MaidDress.label>TODO</LP_MaidDress.label>
+  <LP_MaidDress.label>拉芬女仆装</LP_MaidDress.label>
   <!-- EN: 라핀 전용 메이드복입니다. -->
-  <LP_MaidDress.description>TODO</LP_MaidDress.description>
+  <LP_MaidDress.description>这是拉芬的女仆装。</LP_MaidDress.description>
   
   <!-- EN: Uniform Officer -->
   <LP_Uniform_NobleOfficer.label>军官制服</LP_Uniform_NobleOfficer.label>
