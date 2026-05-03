@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>LapinMillstone</defName>
+    <label>맷돌</label>
+    <description>밀알을 갈아 고운 밀가루를 만드는 작은 맷돌이다.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/LapinMillstone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0.7</Flammability>
+      <Beauty>-7</Beauty>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+    </statBases>
+
+    <size>(1,1)</size>
+    <passability>Standable</passability>
+    <pathCost>40</pathCost>
+
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0, 0, -1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>MillLapinWheat</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    
+    <costList>
+      <WoodLog>1</WoodLog>
+    </costList>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>2</costStuffCount>
+
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+
+    
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+      <wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <designationHotKey>Misc1</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+  </ThingDef>
+
+</Defs>

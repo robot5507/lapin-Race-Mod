@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Categories -->
+	<StyleItemCategoryDef>
+		<defName>LP_Style</defName>
+		<label>lapin style</label>
+	</StyleItemCategoryDef>
+	<StyleItemCategoryDef>
+		<defName>LP_StyleMisc</defName>
+		<label>lapin style misc</label>
+	</StyleItemCategoryDef>
+</Defs>
+
+
+
+

@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+
+	<RulePackDef>
+ <defName>Lapin_Names_Common</defName>
+  <rulePack>
+  <rulesStrings>
+                <li>r_Name->[first] [last]</li>
+			   <li>r_Name->[first] [middle] [last]</li>
+			   <li>r_Name->[first] [middle] [middle] [last]</li>
+
+			    <li>first->세실리아</li>
+				<li>first->라핀</li>
+                <li>first->벨</li>
+                <li>first->코스모스</li>
+                <li>first->세실리아</li>
+				<li>first->류</li>
+				<li>first->장</li>
+				<li>first->레미</li>
+				<li>first->아나이스</li>
+				<li>first->루미</li>
+                <li>first->노엘</li>
+                <li>first->마르</li>
+				<li>first->브루노</li>
+				<li>first->칸나</li>
+				<li>first->레몽</li>
+				<li>first->생</li>
+				<li>first->플람베</li>
+				<li>first->크렘</li>
+				<li>first->비브</li>
+				<li>first->김</li>
+				<li>first->에클레르</li>
+				<li>first->로보</li>
+				<li>first->보</li>
+				<li>first->포트</li>
+				<li>first->레</li>
+				<li>first->보졸레</li>
+				<li>first->뱅</li>
+				<li>first->몬테</li>
+				<li>first->수플레</li>
+				<li>first->폼메</li>
+				<li>first->시</li>
+				<li>first->플뢰흐</li>
+				<li>first->질</li>
+				<li>first->조</li>
+				<li>first->르</li>
+				<li>first->잠봉</li>
+				<li>first->고메</li>
+				<li>first->크렘</li>
+				<li>first->갸또</li>
+				<li>first->돔</li>
+				<li>first->케피</li>
+
+
+				<li>middle->드</li>
+                <li>middle->폰</li>
+                <li>middle->라</li>
+				<li>middle->피에르</li>
+				<li>middle->데</li>
+				<li>middle->발</li>
+				<li>middle->빌</li>
+				<li>middle->뒤</li>
+				<li>middle->믈롱</li>
+				<li>middle->벨</li>
+				<li>middle->솜</li>
+				<li>middle->콘</li>
+				
+
+				 <li>Last->수리</li>
+                 <li>Last->비이</li>
+                 <li>Last->크루아상</li>
+	            <li>Last->마들렌</li>
+				<li>Last->블랑제르</li>
+				<li>last->블랑</li>
+				<li>last->골드필드</li>
+                <li>last->하트번</li>
+				<li>last->바게트</li>
+				<li>first->장</li>
+				<li>first->란</li>
+				<li>first->달타냥</li>
+				<li>first->자베르</li>
+				<li>first->프릿</li>
+				<li>first->라따뚜이</li>
+				<li>first->코코뱅</li>
+				<li>first->콩피</li>
+				<li>first->수플레</li>
+				<li>first->몽블랑</li>
+				<li>first->제르망</li>
+				<li>first->바이올렛</li>
+				<li>first->리</li>
+				<li>first->소르베</li>
+				<li>first->콩소메</li>
+				<li>first->라핀</li>
+				<li>first->머랭</li>
+				<li>first->사브르</li>
+				<li>first->카나페</li>
+				<li>first->라클렛</li>
+				<li>first->카망베르</li>
+				<li>first->그라탕</li>
+				<li>first->누보</li>
+				<li>first->쇼</li>
+				<li>first->부르기뇽</li>
+				<li>first->링귀니</li>
+				<li>first->구스토</li>
+				<li>first->코냑</li>
+				<li>first->프랑스</li>
+				<li>first->파티시에</li>
+				<li>first->메르</li>
+				<li>first->롬</li>
+				<li>first->슈발</li>
+				<li>first->무스케</li>
+				<li>first->카농</li>
+				<li>first->꼬끌리꼬</li>
+				<li>first->이히스</li>
+				<li>first->리스</li>
+				<li>first->호즈</li>
+				<li>first->까멜리아</li>
+				<li>first->릴라</li>
+				<li>first->레</li>
+				<li>first->마카롱</li>
+				<li>first->넝페아</li>
+				<li>first->라벙드</li>
+				<li>first->뚜흐느쏠</li>
+				<li>first->릴라</li>
+				<li>first->뵈르</li>
+				<li>first->두</li>
+				<li>first->무리에</li>
+				<li>first->미뇽</li>
+				<li>first->쇼콜라</li>
+				<li>first->메죵</li>
+				<li>first->아르마냑</li>
+				<li>first->상파뉴</li>
+				<li>first->페리뇽</li>
+				<li>first->안나</li>
+				<li>first->샤코</li>
+				<li>first->프랑시옹</li>
+				<li>first->라피니옹</li>
+
+
+
+
+			</rulesStrings>
+			
+		</rulePack>
+	</RulePackDef>
+	
+
+	<RulePackDef>
+  <defName>Lapin_Names_Noble</defName>
+  <rulePack>
+  <rulesStrings>
+     <li>r_Name->[first] [nobleLast]</li>
+    <li>r_Name->[first] [middle] [nobleLast]</li>
+	<li>r_Name->[first] [middle] [middle] [nobleLast]</li>
+
+
+    <li>first->벨레르</li>
+    <li>first->아르망</li>
+	<li>first->루이</li>
+	<li>first->샤를</li>
+	<li>first->마리</li>
+	<li>first->잔</li>
+	<li>first->필리프</li>
+	<li>first->프랑수아</li>
+	<li>first->막시밀리앙</li>
+	<li>first->미셸</li>
+	<li>first->기욤</li>
+	<li>first->앙드레</li>
+	<li>first->앙리</li>
+	<li>first->르네</li>
+	<li>first->푸아티에</li>
+	<li>first->조르주</li>
+	<li>first->라핀레옹</li>
+	<li>first->칼</li>
+	<li>first->조아</li>
+	<li>first->에마뉘엘</li>
+	<li>first->로랑</li>
+	<li>first->니콜라</li>
+	<li>first->샤를로테</li>
+	<li>first->알렉상드르</li>
+	<li>first->마크</li>
+	<li>first->카를로</li>
+	<li>first->자크</li>
+	<li>first->빅토르</li>
+
+	<li>middle->드</li>
+    <li>middle->폰</li>
+    <li>middle->라</li>
+	<li>middle->데</li>
+	<li>middle->킴</li>
+	<li>middle->자크</li>
+	<li>middle->뒤</li>
+	<li>middle->바케트</li>
+	<li>middle->앵</li>
+	<li>middle->메주</li>
+
+    <li>nobleLast->라핀</li>
+    <li>nobleLast->블랑</li>
+    <li>nobleLast->레드크라운</li>
+	<li>nobleLast->보나파르트</li>
+	<li>nobleLast->란</li>
+	<li>nobleLast->골</li>
+	<li>nobleLast->마라</li>
+	<li>nobleLast->네</li>
+	<li>nobleLast->브르뉴고</li>
+	<li>nobleLast->로마네콩티</li>
+	<li>nobleLast->푸앵카레</li>
+	<li>nobleLast->니로</li>
+	<li>nobleLast->데카르트</li>
+	<li>nobleLast->뫼즈</li>
+	<li>nobleLast->마지노</li>
+	<li>nobleLast->블랑제</li>
+	<li>nobleLast->주르당</li>
+	<li>nobleLast->뮈라</li>
+	<li>nobleLast->몽셰</li>
+	<li>nobleLast->술트</li>
+	<li>nobleLast->그루시</li>
+	<li>nobleLast->생시르</li>
+	<li>nobleLast->뒤마</li>
+	<li>nobleLast->아라미스</li>
+	<li>nobleLast->베르사유</li>
+	<li>nobleLast->칼레</li>
+	<li>nobleLast->보르도</li>
+	<li>nobleLast->잠</li>
+	<li>nobleLast->라뮈</li>
+	<li>nobleLast->그리보발</li>
+	<li>nobleLast->슈발리에</li>
+	<li>nobleLast->아미앵</li>
+	<li>nobleLast->벨빌</li>
+	<li>nobleLast->다르크</li>
+	
+
+  </rulesStrings>
+  </rulePack>
+</RulePackDef>
+
+<RulePackDef>
+  <defName>Lapin_Names_NobleChild</defName>
+  <rulePack>
+    <rulesStrings>
+      <li>r_Name->[first] [nobleLast]</li>
+    <li>r_Name->[first] [middle] [nobleLast]</li>
+
+      <li>first->벨레르</li>
+    <li>first->아르망</li>
+	<li>first->루이</li>
+	<li>first->샤를</li>
+	<li>first->마리</li>
+	<li>first->잔</li>
+	<li>first->필리프</li>
+	<li>first->프랑수아</li>
+	<li>first->막시밀리앙</li>
+	<li>first->미셸</li>
+	<li>first->기욤</li>
+	<li>first->앙드레</li>
+	<li>first->앙리</li>
+	<li>first->르네</li>
+	<li>first->푸아티에</li>
+	<li>first->조르주</li>
+	<li>first->라핀레옹</li>
+	<li>first->칼</li>
+	<li>first->조아</li>
+	<li>first->에마뉘엘</li>
+	<li>first->로랑</li>
+	<li>first->니콜라</li>
+	<li>first->샤를로테</li>
+	<li>first->알렉상드르</li>
+	<li>first->마크</li>
+	<li>first->카를로</li>
+	<li>first->자크</li>
+	<li>first->빅토르</li>
+
+      <li>middle->드</li>
+    <li>middle->폰</li>
+    <li>middle->라</li>
+	<li>middle->데</li>
+	<li>middle->킴</li>
+	<li>middle->자크</li>
+	<li>middle->뒤</li>
+	<li>middle->바케트</li>
+	<li>middle->앵</li>
+	<li>middle->메주</li>
+
+    <li>nobleLast->라핀</li>
+    <li>nobleLast->블랑</li>
+    <li>nobleLast->레드크라운</li>
+	<li>nobleLast->보나파르트</li>
+	<li>nobleLast->란</li>
+	<li>nobleLast->골</li>
+	<li>nobleLast->마라</li>
+	<li>nobleLast->네</li>
+	<li>nobleLast->브르뉴고</li>
+	<li>nobleLast->로마네콩티</li>
+	<li>nobleLast->푸앵카레</li>
+	<li>nobleLast->니로</li>
+	<li>nobleLast->데카르트</li>
+	<li>nobleLast->뫼즈</li>
+	<li>nobleLast->마지노</li>
+	<li>nobleLast->블랑제</li>
+	<li>nobleLast->주르당</li>
+	<li>nobleLast->뮈라</li>
+	<li>nobleLast->몽셰</li>
+	<li>nobleLast->술트</li>
+	<li>nobleLast->그루시</li>
+	<li>nobleLast->생시르</li>
+	<li>nobleLast->뒤마</li>
+	<li>nobleLast->아라미스</li>
+	<li>nobleLast->베르사유</li>
+	<li>nobleLast->칼레</li>
+	<li>nobleLast->보르도</li>
+	<li>nobleLast->잠</li>
+	<li>nobleLast->라뮈</li>
+	<li>nobleLast->그리보발</li>
+	<li>nobleLast->슈발리에</li>
+	<li>nobleLast->아미앵</li>
+	<li>nobleLast->벨빌</li>
+	<li>nobleLast->다르크</li>
+    </rulesStrings>
+  </rulePack>
+</RulePackDef>
+
+<RulePackDef>
+		<defName>NamerPerson_Lapin</defName>
+		<include>
+			<li>Lapin_Names_Common</li>
+			<li>Lapin_Names_Noble</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+	
+				<li>r_name->[LP_FirstName] [LP_MiddleName] [LP_LastName]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerFaction_LapinRenegades</defName>
+		<include>
+			<li>EmpireNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=2)->[empire_Renegades] of [ofThing]</li>
+				<li>r_name->The Lapin Renegades</li>
+				<li>r_name->The Lapin [empire]</li>
+
+			
+
+				<li>ofThing(p=3)->[WordImperial]</li>
+				<li>ofThing->the Lapin_Renegades</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSettlement_LapinRenegades</defName>
+		<include>
+			<li>EmpireNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[townname_wordgen]</li>
+				<li>r_name->[townname_fixed]</li>
+
+				<li>townname_wordgen->[WordImperial]</li>
+				<li>townname_wordgen->[WordImperial][townend]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>townname_fixed->Names/EmpireTown</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerFaction_Lapin</defName>
+		<include>
+			<li>EmpireNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=2)->[empire_Remnants] of [ofThing]</li>
+				<li>r_name->The Lapin Remnants</li>
+				<li>r_name->The Lapin [empire]</li>
+
+			
+
+				<li>ofThing(p=3)->[WordImperial]</li>
+				<li>ofThing->the Lapin_Remnants</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSettlement_Lapin</defName>
+		<include>
+			<li>EmpireNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[townname_wordgen]</li>
+				<li>r_name->[townname_fixed]</li>
+
+				<li>townname_wordgen->[WordImperial]</li>
+				<li>townname_wordgen->[WordImperial][townend]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>townname_fixed->Names/EmpireTown</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>

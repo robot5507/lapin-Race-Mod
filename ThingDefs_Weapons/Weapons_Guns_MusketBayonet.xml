@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef Abstract="True" Name="LP_RangeWeapon" ParentName="BaseHumanMakeableGun">
+	
+</ThingDef>
+
+  <ThingDef ParentName="LP_RangeWeapon">
+    <defName>MusketWithBayonet</defName>
+    <label>라핀 머스킷총</label>
+    <description>라핀 제식 머스킷총. 사용시 연기가 생기고 총검이 달려있다. 비올때 야외사용 불가능 주의.</description>
+
+      <costList>
+    <Steel>40</Steel>
+    <WoodLog>10</WoodLog>
+    <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    
+    <recipeMaker>
+    <researchPrerequisite>Smithing</researchPrerequisite>
+    <workAmount>6000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <recipeUsers>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    </recipeMaker>
+
+    <thingCategories>
+     
+    </thingCategories>
+
+    <tradeability>All</tradeability>
+    <generateAllowChance>1</generateAllowChance>
+
+    <weaponTags>
+      <li>LapinSoldierGun</li>
+    </weaponTags>
+    
+
+    <smeltProducts>
+      <Steel>10</Steel>
+    </smeltProducts>
+
+    <equippedAngleOffset>45</equippedAngleOffset>
+
+    <graphicData>
+      <texPath>Weapon/LP_Lapin_Flintlock_musket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+
+    <soundInteract>Interact_Rifle</soundInteract>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>4.2</Mass>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+      <MarketValue>50</MarketValue>
+    </statBases>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_BoltActionRifle</defaultProjectile>
+        <warmupTime>3.2</warmupTime>
+        <range>28</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>LP_MusketFire_Heavy</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>총검</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.1</cooldownTime>
+        <armorPenetration>0.35</armorPenetration>
+      </li>
+      <li>
+        <label>개머리판</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+    </tools>
+
+  </ThingDef>
+
+  <ThingDef ParentName="LP_RangeWeapon">
+    <defName>LP_MusketRifle</defName>
+    <label>라핀 머스킷라이플</label>
+    <description>강선이 세겨진 라핀용 머스킷라이플. 비올때 야외사용 불가능 주의.</description>
+
+      <costList>
+    <Steel>40</Steel>
+    <WoodLog>10</WoodLog>
+    <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    
+    <recipeMaker>
+    <researchPrerequisite>Smithing</researchPrerequisite>
+    <workAmount>6000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <recipeUsers>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    </recipeMaker>
+
+    <thingCategories>
+     
+    </thingCategories>
+
+    <tradeability>All</tradeability>
+    <generateAllowChance>1</generateAllowChance>
+
+    <weaponTags>
+      <li>LapinRifleGun</li>
+    </weaponTags>
+    
+
+    <smeltProducts>
+      <Steel>10</Steel>
+    </smeltProducts>
+
+    <equippedAngleOffset>45</equippedAngleOffset>
+
+    <graphicData>
+      <texPath>Weapon/LP_Lapin_Rifle_musket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+
+    <soundInteract>Interact_Rifle</soundInteract>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>4.2</Mass>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+      <MarketValue>50</MarketValue>
+      <AccuracyTouch>0.78</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.78</AccuracyLong>
+    </statBases>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LP_Bullet_MusketRifle</defaultProjectile>
+        <warmupTime>3.2</warmupTime>
+        <range>32</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>LP_MusketFire_Heavy</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>개머리판</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+    </tools>
+
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+  <defName>LP_Bullet_MusketRifle</defName>
+  <label>머스킷 라이플 탄환</label>
+
+  <graphicData>
+    <texPath>Things/Projectile/Bullet_Small</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+  </graphicData>
+
+  <projectile>
+    <damageDef>Bullet</damageDef>
+    <damageAmountBase>24</damageAmountBase>
+    <armorPenetrationBase>0.25</armorPenetrationBase>
+    <speed>55</speed>
+  </projectile>
+</ThingDef>
+
+</Defs>
