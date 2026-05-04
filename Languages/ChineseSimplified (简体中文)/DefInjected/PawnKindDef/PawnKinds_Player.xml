@@ -19,11 +19,17 @@
   <!-- EN: lapin Maid Operations Unit. -->
   <LapinMaidSpecialForces.label>TODO</LapinMaidSpecialForces.label>
   
+  <!-- EN: lapin Maid Operations Unit Millitar. -->
+  <LapinMaidSpecialForcesMillitar.label>TODO</LapinMaidSpecialForcesMillitar.label>
+  
   <!-- EN: lapin noble -->
   <LapinNoble.label>拉芬贵族</LapinNoble.label>
   
   <!-- EN: lapin noble child -->
   <LapinNobleChild.label>拉芬贵族子嗣</LapinNobleChild.label>
+  
+  <!-- EN: lapin noble Masked -->
+  <LapinNobleMasked.label>TODO</LapinNobleMasked.label>
   
   <!-- EN: lapin noble Officer -->
   <LapinNobleOfficer.label>拉芬贵族军官</LapinNobleOfficer.label>

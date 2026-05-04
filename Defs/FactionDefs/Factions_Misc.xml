@@ -151,13 +151,15 @@
 					<LapinNobleOfficer>10</LapinNobleOfficer>
 					<LapinColonist>20</LapinColonist>
 					<LapinSoldier>10</LapinSoldier>
+					<LapinNobleMasked>10</LapinNobleMasked>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				
 				<traders>
-					<LapinNoble>10</LapinNoble>
+					<LapinNoble>5</LapinNoble>
+					<LapinNobleMasked>5</LapinNobleMasked>
 					<LapinColonist>15</LapinColonist>
 				</traders>
 				<carriers>

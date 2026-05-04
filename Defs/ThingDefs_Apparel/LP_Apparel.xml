@@ -413,6 +413,69 @@
   </ThingDef>
 
   <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_ApparelMakeableBase">
+    <defName>LP_NobleDress</defName>
+    <label>라핀 귀족 드레스</label>
+    <description>라핀 귀족 드레스.</description>
+    <thingClass>Apparel</thingClass>
+	  
+  <stuffCategories Inherit="False" />
+   <costList>
+      <Cloth>600</Cloth>
+    </costList>
+
+    <graphicData>
+      <texPath>Apparel/LPNobleDress</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.0,1.0)</drawSize>
+    </graphicData>
+
+    
+
+    
+    <statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>3</Mass>
+			<Beauty>6</Beauty>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<Flammability>0.64</Flammability>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+    <apparel>
+  <bodyPartGroups>
+       <li>Torso</li>
+		<li>Neck</li>
+		<li>Shoulders</li>
+		<li>Arms</li>
+		<li>Legs</li>
+  </bodyPartGroups>
+  <layers>
+    <li>OnSkin</li>
+	<li>Middle</li>
+  </layers>
+  <wornGraphicPath>Apparel/LPNobleDress</wornGraphicPath>
+  <defaultOutfitTags>
+	  <li>Noble</li>
+  </defaultOutfitTags>
+      <tags>
+	   <li>LP_Noble</li>
+	  </tags>
+</apparel>
+
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_ApparelMakeableBase">
   <defName>LP_Childdress</defName>
   <label>라핀 어린이 옷</label>
   <description>라핀 어린이를 위한 작은 옷.</description>
@@ -506,14 +569,15 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<defaultOutfitTags>
-				<li>LP_Noble</li>
+				<li>LapinNobleOfficer</li>
 			</defaultOutfitTags>
 			<wornGraphicPath>Apparel/UniformGeneral</wornGraphicPath>
 			<layers>
-				<li>Shell</li>
+				<li>OnSkin</li>
+	<li>Middle</li>
 			</layers>
 			<tags>
-				<li>LP_Noble</li>
+				<li>LapinNobleOfficer</li>
 			</tags>
 		</apparel>
 	</ThingDef>
@@ -567,6 +631,21 @@
       <tags>
 	   <li>LP_Worker</li>
 	  </tags>
+    
+    <drawData>
+				<dataSouth>
+					<layer>50</layer>
+				</dataSouth>
+				<dataEast>
+					<layer>50</layer>
+				</dataEast>
+				<dataWest>
+					<layer>50</layer>
+				</dataWest>
+				<dataNorth>
+					<layer>50</layer>
+				</dataNorth>
+			</drawData>
 
 	  
 </apparel>
@@ -634,6 +713,21 @@
 	   <li>LapinKillerRabbit</li>
 	  </tags>
 <countsAsClothingForNudity>false</countsAsClothingForNudity>
+
+<drawData>
+				<dataSouth>
+					<layer>50</layer>
+				</dataSouth>
+				<dataEast>
+					<layer>50</layer>
+				</dataEast>
+				<dataWest>
+					<layer>50</layer>
+				</dataWest>
+				<dataNorth>
+					<layer>50</layer>
+				</dataNorth>
+			</drawData>
 
 	  
 </apparel>

@@ -68,6 +68,7 @@
     <Compile Include="LapinMaidLoadoutUtility.cs" />
     <Compile Include="LapinShieldBeltDestroyPatch.cs" />
     <Compile Include="LapinSpecialForcesLoadoutUtility.cs" />
+    <Compile Include="LapinSpecialForcesMillitarLoadoutUtility.cs" />
     <Compile Include="LPGeneDefOf.cs" />
     <Compile Include="LPXenotypeDefOf.cs" />
     <Compile Include="PawnGeneExtensions.cs" />

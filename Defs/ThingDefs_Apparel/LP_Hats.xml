@@ -314,7 +314,7 @@
       </layers>
 
       <defaultOutfitTags>
-        <li>LP_Noble</li>
+        <li>LapinNobleOfficer</li>
       </defaultOutfitTags>
       <tags>
         <li>LP_Apparel</li>
@@ -338,6 +338,61 @@
     </costList>
   </ThingDef>
 
+<ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_Noble</defName>
+    <label>라핀 귀족 모자</label>
+    <description>라핀 귀족 모자.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Beauty>6</Beauty>
+      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>Noble</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/LPNobleHat</wornGraphicPath>
+
+    </apparel>
+   
+
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/LPNobleHat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>130</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
 
   <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
     <defName>LP_Hat_Maid</defName>
@@ -427,15 +482,16 @@
       </tags>
 
       <wornGraphicPath>Apparel/LPmask</wornGraphicPath>
+      
 			<drawData>
 				<dataSouth>
 					<layer>60</layer>
 				</dataSouth>
 				<dataEast>
-					<layer>60</layer>
+					<layer>70</layer>
 				</dataEast>
 				<dataWest>
-					<layer>60</layer>
+					<layer>70</layer>
 				</dataWest>
 				<dataNorth>
 					<layer>60</layer>
@@ -493,6 +549,20 @@
       </tags>
 
       <wornGraphicPath>Apparel/HatMaidElit</wornGraphicPath>
+      <drawData>
+				<dataSouth>
+					<layer>60</layer>
+				</dataSouth>
+				<dataEast>
+					<layer>70</layer>
+				</dataEast>
+				<dataWest>
+					<layer>70</layer>
+				</dataWest>
+				<dataNorth>
+					<layer>60</layer>
+				</dataNorth>
+			</drawData>
 
     </apparel>
 

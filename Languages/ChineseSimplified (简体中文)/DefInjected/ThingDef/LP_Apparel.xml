@@ -16,6 +16,11 @@
   <!-- EN: 라핀 전용 메이드복입니다. -->
   <LP_MaidDress.description>这是拉芬的女仆装。</LP_MaidDress.description>
   
+  <!-- EN: 라핀 귀족 드레스 -->
+  <LP_NobleDress.label>拉芬贵族礼服</LP_NobleDress.label>
+  <!-- EN: 라핀 귀족 드레스. -->
+  <LP_NobleDress.description>拉芬贵族的礼服</LP_NobleDress.description>
+  
   <!-- EN: Uniform Officer -->
   <LP_Uniform_NobleOfficer.label>军官制服</LP_Uniform_NobleOfficer.label>
   <!-- EN: 라핀장교용 제복입니다. -->

@@ -113,6 +113,184 @@
     </statBases>
   </ThingDef>
 
+  
+ 
+  <ThingDef ParentName="LP_MeleeWeapon">
+    <defName>LP_Weapon_Rapier</defName>
+    <label>라핀 레이피어</label>
+    <description>라핀 레이피어. 빠른 찌르기가 가능하다.</description>
+
+    <graphicData>
+      <texPath>Weapon/LP_Lapin_Officer_Rapier</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+
+    
+    
+
+    <thingCategories>
+     
+    </thingCategories>
+
+    <tradeTags>
+      <li>LP_Weapon</li>
+      <li>LP_Military</li>
+    </tradeTags>
+
+    <weaponTags>
+      <li>LP_RapierMelee</li>
+    </weaponTags>
+
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <workAmount>9000</workAmount>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <costList>
+      <Steel>55</Steel>
+      <WoodLog>10</WoodLog>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+
+    <smeltProducts>
+      <Steel>20</Steel>
+    </smeltProducts>
+
+    <equippedAngleOffset>-90</equippedAngleOffset>
+    
+
+    <tools>
+      
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>0.7</cooldownTime>
+        <armorPenetration>0.14</armorPenetration>
+         <soundMeleeHit>LP_SwordHit</soundMeleeHit>
+         
+      
+      </li>
+      
+      <li>
+    <label>blade</label>
+    <capacities>
+      <li>Cut</li>
+    </capacities>
+    <power>10</power>
+    <cooldownTime>1.3</cooldownTime>
+    <armorPenetration>0.18</armorPenetration>
+     <soundMeleeHit>LP_SwordHit</soundMeleeHit>
+     
+    
+     </li>
+    </tools>
+
+    <statBases>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>1.8</Mass>
+      <MarketValue>180</MarketValue>
+      <WorkToMake>9000</WorkToMake>
+      <DeteriorationRate>1</DeteriorationRate>
+      <Flammability>0.1</Flammability>
+    </statBases>
+  </ThingDef>
+
+   <ThingDef ParentName="LP_MeleeWeapon">
+    <defName>LP_Noble_Staff</defName>
+    <label>라핀 귀족 지팡이</label>
+    <description>라핀 귀족 지팡이. 귀족용 핫아이템.</description>
+
+    <graphicData>
+      <texPath>Weapon/LP_Lapin_Noble_Staff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+
+    
+    
+
+    <thingCategories>
+     <li>Weapons</li>
+    </thingCategories>
+
+    <tradeTags>
+      <li>LP_Weapon</li>
+      <li>LP_Noble</li>
+    </tradeTags>
+
+    <weaponTags>
+      <li>LP_Noble_Staff</li>
+    </weaponTags>
+
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <workAmount>9000</workAmount>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <costList>
+      <Steel>55</Steel>
+      <WoodLog>10</WoodLog>
+    </costList>
+
+    <smeltProducts>
+      <Steel>20</Steel>
+    </smeltProducts>
+
+    <equippedAngleOffset>-90</equippedAngleOffset>
+    
+
+    <tools>
+      
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>0.7</cooldownTime>
+        <armorPenetration>0.04</armorPenetration>
+         
+      
+      </li>
+      
+     
+    </tools>
+
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Mass>1.8</Mass>
+      <MarketValue>180</MarketValue>
+      <WorkToMake>9000</WorkToMake>
+      <DeteriorationRate>1</DeteriorationRate>
+      <Flammability>0.1</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+  </ThingDef>
+
   <ThingDef ParentName="LP_MeleeWeapon">
   <defName>LP_Weapon_SapperAxe</defName>
   <label>라핀 공병 도끼</label>

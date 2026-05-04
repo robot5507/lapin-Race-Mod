@@ -19,6 +19,7 @@ namespace LapinRace
 
             if (weapon.def.defName != "LP_Weapon_MilitarySabre") return false;
             if (weapon.def.defName != "LP_Weapon_Knife") return false;
+            if (weapon.def.defName != "LP_Weapon_Rapier") return false;
             if (verb.EquipmentSource == null) return false;
             if (verb.EquipmentSource != weapon) return false;
 

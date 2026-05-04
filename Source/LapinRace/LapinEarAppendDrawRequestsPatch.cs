@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using HarmonyLib;
+using RimWorld;
+using System.Collections.Generic;
 using System.Linq;
-using HarmonyLib;
 using Verse;
 
 namespace LapinRace
@@ -18,7 +19,6 @@ namespace LapinRace
                 if (__instance == null || node == null || requests == null)
                     return true;
 
-                // BodyAddon worker만 처리
                 string workerType = __instance.GetType().FullName ?? "";
                 if (!workerType.Contains("AlienPawnRenderNodeWorker_BodyAddon"))
                     return true;
@@ -28,20 +28,25 @@ namespace LapinRace
                 if (pawn.def?.defName != "Lapin") return true;
 
                 bool wearingNormalEarHat =
-    pawn.apparel?.WornApparel.Any(a =>
-        a.def.defName == "LP_Hat_Grenadier" ||
-        a.def.defName == "LP_Hat_NobleOfficer" ||
-         a.def.defName == "LP_Hat_Artillery" ||
-         a.def.defName == "LP_Hat_Vlotigeur"
-    ) ?? false;
+                    pawn.apparel?.WornApparel.Any(a =>
+                        a.def.defName == "LP_Hat_Grenadier" ||
+                        a.def.defName == "LP_Hat_NobleOfficer" ||
+                        a.def.defName == "LP_Hat_Artillery" ||
+                        a.def.defName == "LP_Hat_Vlotigeur"
+                    ) ?? false;
 
                 bool wearingSapperHat =
                     pawn.apparel?.WornApparel.Any(a =>
                         a.def.defName == "LP_Hat_Sapper"
                     ) ?? false;
+
                 bool wearingHat = wearingNormalEarHat || wearingSapperHat;
 
-                // addon path 가져오기
+                // 침대에 누워있을 때는 East/West 반대쪽 귀 숨김을 적용하지 않음
+                bool inBed =
+                    pawn.CurrentBed() != null ||
+                    pawn.GetPosture() == PawnPosture.LayingInBed;
+
                 object props =
                     AccessTools.Property(node.GetType(), "Props")?.GetValue(node, null) ??
                     AccessTools.Field(node.GetType(), "props")?.GetValue(node);
@@ -103,12 +108,13 @@ namespace LapinRace
                 }
 
                 // East/West 한쪽 귀 숨김
-                if (rot == Rot4.East && isRight)
+                // 단, 침대에 누워있을 때는 반대쪽 귀 숨김 적용 안 함
+                if (!inBed && rot == Rot4.East && isRight)
                 {
                     return false;
                 }
 
-                if (rot == Rot4.West && isLeft)
+                if (!inBed && rot == Rot4.West && isLeft)
                 {
                     return false;
                 }

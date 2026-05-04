@@ -45,8 +45,8 @@
 		<backstoryCategories>
 			<li>Offworld</li>
 		</backstoryCategories>
-		<settlementTexturePath>LP_DefaultColony2</settlementTexturePath>
-		<factionIconPath>Icon/LP_DefaultColony2</factionIconPath>
+		<settlementTexturePath>Icon/LP_DefaultColony2</settlementTexturePath>
+		<factionIconPath>Icon/LP_icon</factionIconPath>
 		
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFaction_Lapin</factionNameMaker>

@@ -88,15 +88,15 @@
 
 
     <PawnKindDef ParentName="LPBasePawnKind">
-		<defName>LapinNoble</defName>
-		<label>lapin noble</label>
+		<defName>LapinNobleMasked</defName>
+		<label>lapin noble Masked</label>
 		<minGenerationAge>13</minGenerationAge>
 		<combatPower>35</combatPower>
-		<isFighter>false</isFighter>
+		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>LapinNoble</li>
+					<li>LapinNobleMasked</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -107,12 +107,19 @@
 			<max>3500</max>
 		</apparelMoney>
 		<apparelTags>
-			<li>LP_Noble</li>
+			<li>LP_NobleMasked</li>
 		</apparelTags>
 		<apparelRequired>
-         <li>LP_Uniform_NobleOfficer</li>
-		 <li>LP_Hat_NobleOfficer</li>
+         <li>LP_NobleDress</li>
+		 <li>LP_Mask</li>
         </apparelRequired>
+		<weaponTags>
+           <li>LP_RapierMelee</li>
+         </weaponTags>
+		  <weaponMoney>
+          <min>1000</min>
+          <max>1000</max>
+         </weaponMoney>
       
 		<apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
 		<inventoryOptions>
@@ -140,9 +147,69 @@
 		<nameMaker>Lapin_Names_Noble</nameMaker>
 	</PawnKindDef>
 
-	<PawnKindDef Name="LPCombatantBase" ParentName="LPBasePawnKind" Abstract="true">
+	<PawnKindDef ParentName="LPBasePawnKind">
+		<defName>LapinNoble</defName>
+		<label>lapin noble</label>
+		<minGenerationAge>13</minGenerationAge>
+		<combatPower>35</combatPower>
+		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>LapinNoble</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<itemQuality>Good</itemQuality>
+		<defaultFactionType>LP_PlayerFaction</defaultFactionType>
+		<apparelMoney>
+			<min>800</min>
+			<max>3500</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>LP_Noble</li>
+		</apparelTags>
+		<apparelRequired>
+         <li>LP_NobleDress</li>
+		 <li>LP_Hat_Noble</li>
+        </apparelRequired>
+		<weaponTags>
+           <li>LP_Noble_Staff</li>
+         </weaponTags>
+		  <weaponMoney>
+           <min>180</min>
+          <max>1000</max>
+         </weaponMoney>
+      
+		<apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
+		<inventoryOptions>
+			<skipChance>0.5</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>95</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>500</min>
+						<max>800</max>
+					</countRange>
+				</li>
+				<li>
+					<choiceChance>5</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>1000</min>
+						<max>3500</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<trader>true</trader>
+		<nameMaker>Lapin_Names_Noble</nameMaker>
+	</PawnKindDef>
+<PawnKindDef Name="LPCombatantBase" ParentName="LPBasePawnKind" Abstract="true">
 		<isFighter>true</isFighter>	
 	</PawnKindDef>	
+		
 	<PawnKindDef ParentName="LPCombatantBase">
 		<defName>LapinNobleOfficer</defName>
 		<label>lapin noble Officer</label>
@@ -164,7 +231,7 @@
 			<max>3500</max>
 		</apparelMoney>
 		<apparelTags>
-			<li>LP_Noble</li>
+			<li>LapinNobleOfficer</li>
 		</apparelTags>
 		<apparelRequired>
          <li>LP_Uniform_NobleOfficer</li>
@@ -172,6 +239,7 @@
         </apparelRequired>
 		 <weaponTags>
            <li>LP_SoldierMelee</li>
+		   <li>LP_RapierMelee</li>
          </weaponTags>
         <weaponMoney>
           <min>1000</min>
@@ -713,6 +781,7 @@
 		</apparelMoney>
 		 <weaponTags>
            <li>LapinRifleGun</li>
+		    <li>LapinSoldierGun</li>
          </weaponTags>
         <weaponMoney>
           <min>1000</min>
@@ -791,6 +860,57 @@
 			<li>
 				<skill>Melee</skill>
 				<range>6~10</range>
+			</li>
+		</skills>
+		<nameMaker>Lapin_Names_Common</nameMaker>
+		<nameMaker>Lapin_Names_Noble</nameMaker>
+		
+</PawnKindDef>
+
+<PawnKindDef ParentName="LPCombatantBase">
+		<defName>LapinMaidSpecialForcesMillitar</defName>
+		<label>lapin Maid Operations Unit Millitar.</label>
+		<combatPower>150</combatPower>
+		<isFighter>true</isFighter>
+		<itemQuality>Good</itemQuality>
+		<defaultFactionType>LP_PlayerFaction</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>LapinMaidSpecialForcesMillitar</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>1.2</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>1000</min>
+			<max>2500</max>
+		</apparelMoney>
+		 <weaponTags>
+           <li>LP_RapierMelee</li>
+         </weaponTags>
+        <weaponMoney>
+          <min>1000</min>
+          <max>1000</max>
+         </weaponMoney>
+
+		<apparelTags>
+	        <li>LP_Maid</li>
+		</apparelTags>
+		<apparelRequired>
+		 <li>LP_MaidDress</li>
+		  <li>LP_TacticalShieldBelt</li>
+		 <li>LP_Hat_MaidElit</li>
+		 <li>LP_Apron</li>
+        </apparelRequired>
+		<apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>20~20</range>
 			</li>
 		</skills>
 		<nameMaker>Lapin_Names_Common</nameMaker>

@@ -20,7 +20,7 @@
       <harvestAfterGrowth>0.50</harvestAfterGrowth>
       <growDays>6.5</growDays>
       <harvestWork>180</harvestWork>
-      <harvestYield>20</harvestYield>
+      <harvestYield>12</harvestYield>
       <harvestedThingDef>RawLapinWheat</harvestedThingDef>
       <harvestTag>Standard</harvestTag>
       <sowTags>

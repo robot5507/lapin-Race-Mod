@@ -2,12 +2,10 @@
 <LanguageData>
   
   <!-- EN: 라핀도약 -->
-  <LapinLongjump.label>TODO</LapinLongjump.label>
+  <LapinLongjump.label>拉芬跳跃</LapinLongjump.label>
   <!-- EN: 라핀인들이 쓸수있는 도약점프입니다. -->
-  <LapinLongjump.description>TODO</LapinLongjump.description>
-  <!-- EN: <color=#E6E64CFF>라핀도약</color>\n\n라핀인들이 쓸수있는 도약점프입니다.\n\n释放时间: 1.6秒\n冷却时间: 1小时 -->
-  <LapinLongjump.cachedTooltip>TODO</LapinLongjump.cachedTooltip>
+  <LapinLongjump.description>这是拉芬可以使用的跳跃技能。</LapinLongjump.description>
   <!-- EN: jump -->
-  <LapinLongjump.verbProperties.label>TODO</LapinLongjump.verbProperties.label>
+  <LapinLongjump.verbProperties.label>跳跃</LapinLongjump.verbProperties.label>
   
 </LanguageData>

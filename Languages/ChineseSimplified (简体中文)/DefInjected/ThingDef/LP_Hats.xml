@@ -21,6 +21,11 @@
   <!-- EN: 라핀 메이드 특수부대 전용 머리띠와 마스크 세트. -->
   <LP_Hat_MaidElit.description>拉芬女仆专用的头饰。</LP_Hat_MaidElit.description>
   
+  <!-- EN: 라핀 귀족 모자 -->
+  <LP_Hat_Noble.label>拉芬贵族帽子</LP_Hat_Noble.label>
+  <!-- EN: 라핀 귀족 모자. -->
+  <LP_Hat_Noble.description>拉芬贵族的帽子</LP_Hat_Noble.description>
+  
   <!-- EN: 라핀 이각모 -->
   <LP_Hat_NobleOfficer.label>拉芬军官帽</LP_Hat_NobleOfficer.label>
   <!-- EN: 라핀 제국 고위장교묭 모자입니다. -->

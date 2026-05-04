@@ -7,6 +7,7 @@
 
   <packageId>RyuByee.LapinRace</packageId>
 
+
   <description> 라핀 종족모드. 기존 라핀바게트모드는 포함되어있습니다.
 
 Lapin Baguette: Edible, usable as a weapon, usable as a substitute for prosthetic legs or arms, and if crafted well, becomes a masterpiece, but causes an error when loaded into the character editor.
@@ -28,6 +29,7 @@ Under Testing
       <displayName>Humanoid Alien Races</displayName>
       <downloadUrl>steam://url/CommunityFilePage/839005762</downloadUrl>
     </li>
+
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
