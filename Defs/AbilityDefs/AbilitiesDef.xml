@@ -13,8 +13,8 @@
       <label>jump</label>
       <violent>false</violent>
       <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-      <warmupTime>1.6</warmupTime>
-      <range>1.5</range>
+      <warmupTime>1.2</warmupTime>
+      <range>2.2</range>
       <requireLineOfSight>true</requireLineOfSight>
       <soundCast>Longjump_Jump</soundCast>
       <soundLanding>Longjump_Land</soundLanding>
