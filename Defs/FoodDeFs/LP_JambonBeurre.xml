@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="MealBase">
+  <defName>LP_JambonBeurre</defName>
+  <label>라핀 잠봉뵈르</label>
+  <description>바삭한 바게트와 고기를 넣은 라핀식 잠봉뵈르 샌드위치입니다.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_JambonBeurr</texPath>
+   <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>18</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>0.9</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealFine</preferability>
+    <baseIngestTicks>220</baseIngestTicks>
+    <ingestCommandString>라핀 잠봉뵈르 먹기</ingestCommandString>
+    <ingestReportString>라핀 잠봉뵈르를 먹고 있습니다.</ingestReportString>
+    <tasteThought>LP_Lapin_JambonBeurre_Ate</tasteThought>
+
+    <outcomeDoers>
+      <li Class="IngestionOutcomeDoer_GiveHediff">
+        <hediffDef>LP_JambonBeurreFullness</hediffDef>
+        <severity>1</severity>
+      </li>
+    </outcomeDoers>
+  </ingestible>
+<stackLimit>25</stackLimit>
+
+</ThingDef>
+</Defs>
