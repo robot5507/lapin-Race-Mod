@@ -35,7 +35,8 @@ namespace LapinBaguette
             if (weapon == null || weapon.def == null)
                 return;
 
-            if (weapon.def.defName != "MusketWithBayonet"&&
+            if (weapon.def.defName != "MusketWithBayonet" &&
+                weapon.def.defName != "LP_LapinPistol" &&
                 weapon.def.defName != "LP_MusketRifle")
                 return;
 
@@ -45,7 +46,6 @@ namespace LapinBaguette
             Vector3 forward = Quaternion.AngleAxis(aimAngle, Vector3.up) * Vector3.forward;
             Vector3 smokePos = origin + forward * 0.5f;
 
-            // 1) 시각 연기
             for (int i = 0; i < 6; i++)
             {
                 Vector3 randOffset = new Vector3(
@@ -68,7 +68,6 @@ namespace LapinBaguette
                 map.flecks.CreateFleck(data);
             }
 
-            // 2) 실제 연막 - 총구 앞 딱 1칸만, 약하게, 확률적으로만
             IntVec3 gasCell = smokePos.ToIntVec3();
 
             if (gasCell.InBounds(map) && Rand.Chance(0.4f))

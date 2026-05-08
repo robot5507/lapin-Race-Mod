@@ -14,8 +14,15 @@ namespace LapinBaguette
                 return true;
 
             Thing weapon = __instance.EquipmentSource;
-            if (weapon.def == null || weapon.def.defName != "MusketWithBayonet"&&
-                weapon.def == null || weapon.def.defName != "LP_MusketRifle")
+
+            if (weapon.def == null)
+                return true;
+
+            string defName = weapon.def.defName;
+
+            if (defName != "MusketWithBayonet" &&
+                defName != "LP_LapinPistol" &&
+                defName != "LP_MusketRifle")
                 return true;
 
             Pawn caster = __instance.CasterPawn;
@@ -33,7 +40,7 @@ namespace LapinBaguette
                 if (caster.IsColonistPlayerControlled)
                 {
                     Messages.Message(
-                        "비 때문에 머스킷의 화약이 젖어 발사할 수 없다!",
+                        "비 때문에 화약이 젖어 발사할 수 없다!",
                         caster,
                         MessageTypeDefOf.RejectInput,
                         false
