@@ -53,6 +53,44 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="LPBasePawnKind">
+		<defName>LapinMerchant</defName>
+		<label>Lapin Merchant</label>
+		<defaultFactionType>LP_PlayerFaction</defaultFactionType>	
+		<combatPower>35</combatPower>
+		<isFighter>true</isFighter>	
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+				  <li>LapinMerchant</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelMoney>
+			<min>120</min>
+			<max>120</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>LP_Merchant</li>
+		</apparelTags>
+		<apparelRequired>
+         <li>LP_NobleDressB</li>
+        </apparelRequired>
+		 <weaponTags>
+           <li>LapinPistol</li>
+         </weaponTags>
+		  <weaponMoney>
+          <min>1000</min>
+          <max>1000</max>
+         </weaponMoney>
+		 <nameMaker>Lapin_Names_Common</nameMaker>
+		
+		  <trader>true</trader>
+       
+		<apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+		<apparelColor>(254,254,254)</apparelColor>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="LPBasePawnKind">
 		<defName>LapinMaid</defName>
 		<label>Lapin Maid</label>
 		<defaultFactionType>LP_PlayerFaction</defaultFactionType>		
@@ -145,6 +183,65 @@
 		</inventoryOptions>
 		<trader>true</trader>
 		<nameMaker>Lapin_Names_Noble</nameMaker>
+	</PawnKindDef>
+
+	 <PawnKindDef ParentName="LPCombatantBase">
+		<defName>LapinSwordsman</defName>
+		<label>lapin Swords man</label>
+		<combatPower>100</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>LapinSwordsman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<itemQuality>Good</itemQuality>
+		<defaultFactionType>LP_PlayerFaction</defaultFactionType>
+		<apparelMoney>
+			<min>800</min>
+			<max>3500</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>LP_Swordsman</li>
+		</apparelTags>
+		<apparelRequired>
+         <li>LP_Hat_Swordsman</li>
+		 <li>LP_SwordsmanCloth</li>
+        </apparelRequired>
+		<weaponTags>
+           <li>LP_RapierMelee</li>
+         </weaponTags>
+		  <weaponMoney>
+          <min>1000</min>
+          <max>1000</max>
+         </weaponMoney>
+      
+		<apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
+		<inventoryOptions>
+			<skipChance>0.5</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>95</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>500</min>
+						<max>800</max>
+					</countRange>
+				</li>
+				<li>
+					<choiceChance>5</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>1000</min>
+						<max>3500</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<nameMaker>Lapin_Names_Noble</nameMaker>
+		 <nameMaker>Lapin_Names_Common</nameMaker>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="LPBasePawnKind">
@@ -240,6 +337,7 @@
 		 <weaponTags>
            <li>LP_SoldierMelee</li>
 		   <li>LP_RapierMelee</li>
+		   <li>LapinPistol</li>
          </weaponTags>
         <weaponMoney>
           <min>1000</min>
