@@ -31,4 +31,29 @@
   </stages>
 </ThoughtDef>
 
+<ThoughtDef>
+  <defName>LP_DrankStrawberryWine</defName>
+  <durationDays>0.5</durationDays>
+
+  <stages>
+    <li>
+      <label>라핀 와인을 마심</label>
+       <description>키야 라핀 와인에 취한다.</description>
+      <baseMoodEffect>6</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+  <ThoughtDef>
+    <defName>LP_Lapin_JambonBeurre_Ate</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>라핀 잠봉뵈르를 먹음</label>
+        <description>라핀 잠봉뵈르를 먹으니 기부니가 좋아졌다.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
 </Defs>
