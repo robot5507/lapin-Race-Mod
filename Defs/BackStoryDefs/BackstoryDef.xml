@@ -25,6 +25,8 @@
       <li>LapinSoldierVoltigeur</li>
       <li>LapinSoldierArtillery</li>
        <li>LapinMaid</li>
+       <li>LapinMerchant</li>
+      <li>LapinSwordsman</li>
     </spawnCategories>
   </AlienRace.AlienBackstoryDef>
 
@@ -106,6 +108,9 @@
       <li>LapinSoldierVoltigeur</li>
       <li>LapinSoldierArtillery</li>
        <li>LapinMaid</li>
+       <li>LapinMaid</li>
+       <li>LapinMerchant</li>
+       <li>LapinSwordsman</li>
     </spawnCategories>
   </AlienRace.AlienBackstoryDef>
 
@@ -134,6 +139,7 @@
       <li>LapinSoldierVoltigeur</li>
       <li>LapinSoldierArtillery</li>
        <li>LapinMaid</li>
+       <li> LapinSwordsman</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -284,7 +290,7 @@
 
   <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
     <defName>Lapin_Colonist</defName>
-    <identifier>Lapin_Colonist</identifier>
+    <identifier>Lapin Colonist</identifier>
     <slot>Adulthood</slot>
     <title>라핀 일꾼</title>
     <titleShort>라핀시민</titleShort>
@@ -295,6 +301,26 @@
       <Shooting>1</Shooting>
       <Animals>3</Animals>
       <Melee>1</Melee>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Famer</defName>
+    <identifier>Lapin Famer</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 농부</title>
+    <titleShort>농부</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국 농부입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Animals>4</Animals>
+      <Plants>4</Plants>
     </skillGains>
     <spawnCategories>
     <li>LapinStory</li>
@@ -322,6 +348,62 @@
     <li>LapinEmpire</li>
         <li>LapinNoble</li>
         <li>LapinNobleMasked</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Merchant</defName>
+    <identifier>Lapin Merchant</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 상인</title>
+    <titleShort>상인</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국의 상인입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+    <Social>6</Social>
+    <Intellectual>3</Intellectual>
+    <Crafting>2</Crafting>
+    <Animals>3</Animals>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+         <li>LapinColonist</li>
+       <li>LapinMerchant</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_swordsman</defName>
+    <identifier>Lapin swordsman</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 길거리 검사</title>
+    <titleShort>검객</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국의 길거리 검사출신입니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+  <Melee>7</Melee>
+  <Social>2</Social>
+  <Shooting>1</Shooting>
+</skillGains>
+
+<forcedTraitsChance Inherit="False">
+    <li>
+      <defName>Tough</defName>
+      <chance>100</chance>
+    </li>
+    <li>
+      <defName>Brawler</defName>
+      <chance>100</chance>
+    </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+         <li>LapinColonist</li>
+         <li>LapinSwordsman</li>
     </spawnCategories>
   </AlienRace.AlienBackstoryDef>
 
