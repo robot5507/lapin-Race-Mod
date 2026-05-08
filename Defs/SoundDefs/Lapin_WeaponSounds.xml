@@ -56,4 +56,24 @@
     </subSounds>
   </SoundDef>
 
+  <SoundDef>
+		<defName>LapinCannonShoot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>LapinCannonShoot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>65~70</volumeRange>
+				<pitchRange>
+					<min>0.9</min>
+					<max>1.0</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>
