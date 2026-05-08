@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_JambonBeurre</defName>
+  <label>라핀 잠봉뵈르</label>
+  <jobString>라핀 잠봉뵈르 샌드위치를 만든다.</jobString>
+
+  <workAmount>700</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+
+  <recipeUsers>
+    <li>ElectricStove</li>
+    <li>FueledStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Lapin_Bagette</li>
+        </thingDefs>
+      </filter>
+      <count>2</count>
+    </li>
+
+    <li>
+      <filter>
+        <categories>
+          <li>MeatRaw</li>
+        </categories>
+      </filter>
+      <count>10</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_Lapin_Bagette</li>
+    </thingDefs>
+    <categories>
+      <li>MeatRaw</li>
+    </categories>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_JambonBeurre>1</LP_JambonBeurre>
+  </products>
+</RecipeDef>
+
+
+</Defs>

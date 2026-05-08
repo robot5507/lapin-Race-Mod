@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_LP_StrawberryJuice</defName>
+    <label>딸기즙 만들기</label>
+    <jobString>딸기 주스를 만들고 있습니다.</jobString>
+
+    <workAmount>800</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+<workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+
+    <recipeUsers>
+    <li>Brewery</li>
+  </recipeUsers>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawBerries</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+
+    <products>
+      <LP_StrawberryJuice>25</LP_StrawberryJuice>
+    </products>
+  </RecipeDef>
+
+</Defs>
