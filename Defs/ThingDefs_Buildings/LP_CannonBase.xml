@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase" Name="LPArtilleryBase" Abstract="true">
+		<techLevel>Medieval</techLevel>
+		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer> 
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<statBases>
+			<Flammability>0.10</Flammability>
+			<Beauty>-20</Beauty>		
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.85</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<hasTooltip>true</hasTooltip>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Mannable"> <manWorkType>Violent</manWorkType> </li>
+		</comps>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+	</ThingDef>
+
+    <ThingDef ParentName="LPArtilleryBase">
+		<defName>LP_ArtilleryCannonBase</defName> 
+		<label>라핀 대포</label>
+		<description>라핀제국 제식대포입니다.</description>
+		<graphicData>
+			<texPath>Things/Building/Lapin_CannonBase</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<offset>(-0.13,-0.87,-0.1)</offset>
+				<volume>(0.5,0.4,1.05)</volume>
+			</shadowData>
+		</graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		<uiIconPath>Things/Building/Lapin_Cannon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Mass>150</Mass>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+			<WoodLog>50</WoodLog>
+		</costList>
+		<building>
+			<turretGunDef>LP_FieldArtillery</turretGunDef>
+			<turretBurstWarmupTime>3</turretBurstWarmupTime>
+			<turretBurstCooldownTime>7</turretBurstCooldownTime>
+			<turretTopDrawSize>3</turretTopDrawSize>
+			<turretTopOffset>(0, 0)</turretTopOffset>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Shells</li>
+		</inspectorTabs>
+		<researchPrerequisites>
+			
+		</researchPrerequisites>
+		<tradeTags>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>LP_FieldArtillery</defName> 
+		<label>라핀 대포</label>
+		<description>라핀제국 제식대포입니다.</description>
+		<graphicData>
+			<texPath>Things/Building/Lapin_CannonTurret</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.80</AccuracyMedium>
+			<AccuracyLong>0.75</AccuracyLong>
+			<RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>
+			<Mass>985</Mass>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>LapinRace.Verb_ShootCannonWithSmoke</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>3</warmupTime>
+				<range>270</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>LapinCannonShoot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>30</muzzleFlashScale>
+                <minRange>3</minRange>
+				<range>50</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ChangeableProjectile" />
+		</comps>
+		<building>
+		  <fixedStorageSettings>
+			<filter>
+			  <categories>
+				<li>LP_Cannonballs</li>
+			  </categories>
+			</filter>
+		  </fixedStorageSettings>
+		  <defaultStorageSettings>
+			<filter>
+			  <categories>
+				<li>LP_Cannonballs</li>
+			  </categories>
+			</filter>
+		  </defaultStorageSettings>
+		</building>
+		<weaponTags Inherit="False">
+			<li>LP_Artillery</li>
+		</weaponTags>
+	</ThingDef>
+</Defs>

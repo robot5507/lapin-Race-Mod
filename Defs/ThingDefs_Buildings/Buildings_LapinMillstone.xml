@@ -6,6 +6,7 @@
     <label>맷돌</label>
     <description>밀알을 갈아 고운 밀가루를 만드는 작은 맷돌이다.</description>
     <thingClass>Building_WorkTable</thingClass>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/LapinMillstone</texPath>
       <graphicClass>Graphic_Single</graphicClass>

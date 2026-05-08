@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+  <defName>LP_StrawberryWineBarrel</defName>
+  <label>라핀 딸기와인 발효통</label>
+  <description>딸기주스를 발효시켜 라핀 딸기와인을 만드는 전용 발효통입니다.</description>
+<rotatable>false</rotatable>
+  <thingClass>Building</thingClass>
+  <rotatable>false</rotatable>
+  <tickerType>Normal</tickerType>
+  <category>Building</category>
+  <designationCategory>Production</designationCategory>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <fillPercent>0.4</fillPercent>
+  <rotatable>true</rotatable>
+  <size>(1,1)</size>
+
+  <graphicData>
+    <texPath>Things/Building/LP_WineRack</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>(1.5,1.5)</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MaxHitPoints>150</MaxHitPoints>
+    <WorkToBuild>1200</WorkToBuild>
+    <Mass>8</Mass>
+    <Flammability>1</Flammability>
+  </statBases>
+
+  <costList>
+    <WoodLog>60</WoodLog>
+    <Steel>20</Steel>
+  </costList>
+
+  <comps>
+  <li Class="CompProperties_Refuelable">
+    <fuelFilter>
+      <thingDefs>
+        <li>LP_StrawberryJuice</li>
+      </thingDefs>
+    </fuelFilter>
+    <fuelCapacity>25</fuelCapacity>
+    <initialFuelPercent>0</initialFuelPercent>
+    <fuelConsumptionRate>0</fuelConsumptionRate>
+    <showFuelGizmo>true</showFuelGizmo>
+    <fuelLabel>딸기주스</fuelLabel>
+    <fuelIconPath>Things/Item/LP_WineMust</fuelIconPath>
+    <consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
+    <autoRefuelPercent>1</autoRefuelPercent>
+  </li>
+
+  <li Class="LapinRace.CompProperties_StrawberryWineFermenter">
+    <outputDef>LP_StrawberryWine</outputDef>
+    <outputAmount>8</outputAmount>
+
+    <fermentationTicks>180000</fermentationTicks>
+
+    <minSafeTemperature>7</minSafeTemperature>
+    <maxSafeTemperature>32</maxSafeTemperature>
+  </li>
+</comps>
+</ThingDef>
+
+</Defs>
