@@ -40,4 +40,14 @@
 			<li>LP_Style</li>
 		</styleTags>
 	</HairDef>
+	<HairDef>
+		<defName>LP_TwinTale</defName>
+		<label>TwinTale</label>
+		<hairGender>Female</hairGender>
+		<texPath>LP_Hair/hair_5</texPath>
+		<category>LP_Style</category>
+		<styleTags>
+			<li>LP_Style</li>
+		</styleTags>
+	</HairDef>
 </Defs>
