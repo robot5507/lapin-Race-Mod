@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DrugBase">
+    <defName>LP_StrawberryWine</defName>
+    <label>라핀 딸기와인</label>
+    <description>A sweet wine brewed from strawberries. A favorite among Lapins.</description>
+  <descriptionHyperlinks>
+      <HediffDef>AlcoholHigh</HediffDef>
+    </descriptionHyperlinks>
+    <possessionCount>6</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/LP_Wine</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+     <equippedAngleOffset>-150</equippedAngleOffset>
+
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+
+   <statBases>
+  <DeteriorationRate>0.5</DeteriorationRate>
+  <MarketValue>24</MarketValue>
+  <Mass>0.3</Mass>
+  <Flammability>0.5</Flammability>
+  <Nutrition>0.08</Nutrition>
+</statBases>
+
+    <ingestible>
+  <foodType>Fluid, Processed, Liquor</foodType>
+  <preferability>NeverForNutrition</preferability>
+  <joyKind>Chemical</joyKind>
+  <joy>0.17</joy>
+  <drugCategory>Social</drugCategory>
+  <ingestSound>Ingest_Beer</ingestSound>
+  <ingestCommandString>Drink {0}</ingestCommandString>
+  <ingestReportString>Drinking {0}.</ingestReportString>
+  <chairSearchRadius>25</chairSearchRadius>
+  <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+  <tableDesired>false</tableDesired>
+<specialThoughtDirect>LP_DrankStrawberryWine</specialThoughtDirect>
+
+      <outcomeDoers>
+ <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholHigh</hediffDef>
+          <severity>0.15</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+  
+
+  
+</outcomeDoers>
+    </ingestible>
+    <techLevel>Medieval</techLevel>
+    <equipmentType>Primary</equipmentType>
+
+    <comps>
+  <li Class="CompProperties_Drug">
+    <chemical>Alcohol</chemical>
+    <addictiveness>0.010</addictiveness>
+    <minToleranceToAddict>0.25</minToleranceToAddict>
+    <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+    <needLevelOffset>0.9</needLevelOffset>
+    <listOrder>10</listOrder>
+  </li>
+
+  <li>
+    <compClass>CompEquippable</compClass>
+  </li>
+</comps>
+  <weaponClasses>
+      <li>Melee</li>
+      <li>MeleeBlunt</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>bottle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>neck</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+
+    <tradeTags>
+      <li>Alcohol</li>
+    </tradeTags>
+
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+
+  </ThingDef>
+
+</Defs>

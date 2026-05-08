@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>LP_StrawberryJuice</defName>
+    <label>딸기즙</label>
+    <description>딸기로 만든 달콤한 주스입니다. 발효시키면 라핀 딸기와인이 됩니다.</description>
+
+    <graphicData>
+      <texPath>Things/Item/LP_WineMust</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <stackLimit>12</stackLimit>
+
+    <statBases>
+      <MarketValue>4</MarketValue>
+      <Mass>0.03</Mass>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+
+   
+  </ThingDef>
+
+</Defs>

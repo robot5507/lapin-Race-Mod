@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+	<ThingDef Name="LPCannonBallBase" ParentName="ResourceBase" Abstract="True">
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<stackLimit>25</stackLimit>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+		  <MaxHitPoints>300</MaxHitPoints>
+		  <MarketValue>55</MarketValue>
+		  <Mass>5</Mass>
+		  <Flammability>0</Flammability>
+		  <DeteriorationRate>1</DeteriorationRate>
+		</statBases>
+		
+		<recipeMaker>
+		  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		  <effectWorking>Smith</effectWorking>
+		  <soundWorking>Recipe_Smith</soundWorking>
+		  <workAmount>400</workAmount>
+		  <targetCountAdjustment>5</targetCountAdjustment>
+		  <workSkill>Crafting</workSkill>
+		  <recipeUsers>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		  </recipeUsers>
+		</recipeMaker>
+		
+		<thingCategories>
+		  <li>LP_Cannonballs</li>
+		</thingCategories>
+		<tradeTags>
+		  <li>LP_Cannonballs</li>
+		</tradeTags>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="LPCannonBallBase">
+		<defName>LP_Cannonball</defName>
+		<label>라핀 대포 포탄</label>
+		<description>라핀군 대포에 사용되는 표준 규격 포탄입니다.</description>
+		<graphicData>
+		  <texPath>Things/Item/LP_CannonBall</texPath>
+		  <graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<projectileWhenLoaded>LP_Cannonball_Bullet</projectileWhenLoaded>
+		<costList>
+		  <Steel>15</Steel>
+		</costList>
+		<recipeMaker>
+		  <skillRequirements>
+			<Crafting>4</Crafting>
+		  </skillRequirements>
+		  
+		</recipeMaker>
+	</ThingDef>
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>LP_Cannonball_Bullet</defName>
+		<label>라핀 포탄</label>
+		<graphicData>
+			<texPath>Projectile/LP_CannonBall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>LP_CannonBallDamage_a</damageDef>
+			<damageAmountBase>300</damageAmountBase>
+			<stoppingPower>5</stoppingPower>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<speed>100</speed>
+			<arcHeightFactor>0.2</arcHeightFactor>
+			<shadowSize>0.3</shadowSize>
+		</projectile>
+	</ThingDef>
+	
+	 <ThingCategoryDef>
+    <defName>LP_Cannonballs</defName>
+    <label>cannonballs</label>
+    <parent>ResourcesRaw</parent>
+  </ThingCategoryDef>
+</Defs>
