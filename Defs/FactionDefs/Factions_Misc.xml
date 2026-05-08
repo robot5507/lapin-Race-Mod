@@ -152,6 +152,8 @@
 					<LapinColonist>20</LapinColonist>
 					<LapinSoldier>10</LapinSoldier>
 					<LapinNobleMasked>10</LapinNobleMasked>
+					<LapinMerchant>10</LapinMerchant>
+					<LapinSwordsman>10</LapinSwordsman>
 				</options>
 			</li>
 			<li>
@@ -160,15 +162,28 @@
 				<traders>
 					<LapinNoble>5</LapinNoble>
 					<LapinNobleMasked>5</LapinNobleMasked>
-					<LapinColonist>15</LapinColonist>
+					<LapinMerchant>15</LapinMerchant>
 				</traders>
 				<carriers>
                 <Muffalo>6</Muffalo>
                 </carriers>
 				<guards>
-					<LapinSoldier>10</LapinSoldier>
+					<LapinSwordsman>10</LapinSwordsman>
 					<LapinSoldierVoltigeur>10</LapinSoldierVoltigeur>
 				</guards>
+			</li>
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<LapinNoble>10</LapinNoble>
+					<LapinNobleOfficer>10</LapinNobleOfficer>
+					<LapinColonist>20</LapinColonist>
+					<LapinSoldier>10</LapinSoldier>
+					<LapinNobleMasked>10</LapinNobleMasked>
+					<LapinMerchant>10</LapinMerchant>
+					<LapinSwordsman>10</LapinSwordsman>
+				</options>
 			</li>
    </pawnGroupMakers>
 		
