@@ -15,6 +15,20 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>LP_StrawberryWine</thingDef>
+				<countRange>
+					<min>10</min>
+					<max>25</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>LP_JambonBeurre</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentIndustrial</thingDef>
 				<countRange>
 					<min>30</min>
