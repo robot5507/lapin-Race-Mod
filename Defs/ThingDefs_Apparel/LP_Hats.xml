@@ -73,6 +73,59 @@
   </ThingDef>
 
   <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+    <defName>LP_Hat_Swordsman</defName>
+    <label>라핀 검객 모자</label>
+    <description>라핀 검객 모자.</description>
+
+    <thingClass>Apparel</thingClass>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <Mass>0.4</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <apparel>
+
+      <!-- 머리 장착 -->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+
+      <!-- 헤드 레이어 -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+
+      <defaultOutfitTags>
+        <li>LP_Swordsman</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>LP_Apparel</li>
+        <li>BasicApparel</li>
+      </tags>
+
+      <wornGraphicPath>Apparel/SwordsmanHat</wornGraphicPath>
+
+    </apparel>
+
+    <!-- 그래픽 -->
+    <graphicData>
+      <texPath>Apparel/SwordsmanHat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <!-- 제작 재료 -->
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+
+    <!-- 태그 -->
+
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
     <defName>LP_Hat_Vlotigeur</defName>
     <label>라핀 도약병 모자</label>
     <description>라핀 제국 도약병이 착용하는 전용 군모.</description>

@@ -18,6 +18,8 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
 		<drawGUIOverlay>true</drawGUIOverlay>
+
+
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
@@ -116,6 +118,81 @@
 	   
 	 
 	   <li>LP_Soldier</li>
+	  </tags>
+</apparel>
+
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_ApparelMakeableBase">
+    <defName>LP_SwordsmanCloth</defName>
+    <label>라핀 검객 복장</label>
+    <description>라핀 검객 복장.</description>
+    <thingClass>Apparel</thingClass>
+	  
+  <stuffCategories Inherit="False" />
+   <costList>
+      <Cloth>60</Cloth>
+    </costList>
+
+    <graphicData>
+      <texPath>Apparel/SwordsmanCloth</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.0,1.0)</drawSize>
+    </graphicData>
+    
+
+    
+
+    
+    <statBases>
+			<MaxHitPoints>280</MaxHitPoints>
+			<WorkToMake>35000</WorkToMake>
+			<Mass>3</Mass>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<Flammability>0.64</Flammability>
+			<EquipDelay>3</EquipDelay>
+			<Beauty>1</Beauty>
+		</statBases>
+        <equippedStatOffsets>
+			<SocialImpact>-0.05</SocialImpact>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+    <apparel>
+    <countsAsClothingForNudity>false</countsAsClothingForNudity>
+  <bodyPartGroups>
+       <li>Torso</li>
+		<li>Neck</li>
+		<li>Shoulders</li>
+		<li>Arms</li>
+		<li>Legs</li>
+  </bodyPartGroups>
+  <layers>
+    <li>OnSkin</li>
+	<li>Middle</li>
+  </layers>
+  <wornGraphicPath>Apparel/SwordsmanCloth</wornGraphicPath>
+  <defaultOutfitTags>
+	   <li>LP_Swordsman</li>
+  </defaultOutfitTags>
+      <tags>
+	   
+	 
+	   <li>LP_Swordsman</li>
 	  </tags>
 </apparel>
 
@@ -463,6 +540,69 @@
   </defaultOutfitTags>
       <tags>
 	   <li>LP_Noble</li>
+	  </tags>
+</apparel>
+
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_ApparelMakeableBase">
+    <defName>LP_NobleDressB</defName>
+    <label>라핀 수려한 드레스</label>
+    <description>라핀 수려한 드레스.</description>
+    <thingClass>Apparel</thingClass>
+	  
+  <stuffCategories Inherit="False" />
+   <costList>
+      <Cloth>550</Cloth>
+    </costList>
+
+    <graphicData>
+      <texPath>Apparel/LPNobleDressB</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.0,1.0)</drawSize>
+    </graphicData>
+
+    
+
+    
+    <statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>3</Mass>
+			<Beauty>5</Beauty>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<Flammability>0.64</Flammability>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+    <apparel>
+  <bodyPartGroups>
+       <li>Torso</li>
+		<li>Neck</li>
+		<li>Shoulders</li>
+		<li>Arms</li>
+		<li>Legs</li>
+  </bodyPartGroups>
+  <layers>
+    <li>OnSkin</li>
+	<li>Middle</li>
+  </layers>
+  <wornGraphicPath>Apparel/LPNobleDressB</wornGraphicPath>
+  <defaultOutfitTags>
+	  <li>Noble</li>
+  </defaultOutfitTags>
+      <tags>
+	   <li>LP_Merchant</li>
 	  </tags>
 </apparel>
 
