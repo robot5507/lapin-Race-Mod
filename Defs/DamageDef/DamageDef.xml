@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	
+	<DamageDef Name="LP_CannonBallDamage" Abstract="True">
+		<label>포격</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} 이 포탄에 포격당해 죽었습니다.</deathMessage>
+		<hediff>Gunshot</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+
+		<buildingDamageFactorPassable>1</buildingDamageFactorPassable>
+		<buildingDamageFactorImpassable>1.00</buildingDamageFactorImpassable>
+		<plantDamageFactor>1</plantDamageFactor>
+	</DamageDef>
+	
+	<!--Custom damage def for small caliber guns, effective against doors and weak structures-->
+	<DamageDef ParentName="LP_CannonBallDamage">
+		<defName>LP_CannonBallDamage_a</defName>
+		<armorCategory>Blunt</armorCategory>
+
+		<buildingDamageFactorPassable>2</buildingDamageFactorPassable>
+	</DamageDef>
+	
+</Defs>
