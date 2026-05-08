@@ -206,4 +206,91 @@
   </projectile>
 </ThingDef>
 
+<ThingDef ParentName="LP_RangeWeapon">
+    <defName>LP_LapinPistol</defName>
+    <label>라핀 머스킷피스톨</label>
+    <description>라핀 제식 머스킷피스톨. 사용시 연기가 생기고 총열이 짧다. 비올때 야외사용 불가능 주의.</description>
+
+      <costList>
+    <Steel>30</Steel>
+    <WoodLog>10</WoodLog>
+    <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    
+    <recipeMaker>
+    <researchPrerequisite>Smithing</researchPrerequisite>
+    <workAmount>6000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <recipeUsers>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    </recipeMaker>
+
+    <thingCategories>
+     
+    </thingCategories>
+
+    <tradeability>All</tradeability>
+    <generateAllowChance>1</generateAllowChance>
+
+    <weaponTags>
+      <li>LapinPistol</li>
+    </weaponTags>
+    
+
+    <smeltProducts>
+      <Steel>8</Steel>
+    </smeltProducts>
+
+    
+
+    <graphicData>
+      <texPath>Weapon/LP_LapinPistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+
+    <soundInteract>Interact_Rifle</soundInteract>
+
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>1.8</Mass>
+    <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    <MarketValue>42</MarketValue>
+    </statBases>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_BoltActionRifle</defaultProjectile>
+        <warmupTime>3.2</warmupTime>
+        <range>19</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>LP_MusketFire_Heavy</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      
+      <li>
+        <label>개머리판</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+    </tools>
+
+  </ThingDef>
+
 </Defs>
