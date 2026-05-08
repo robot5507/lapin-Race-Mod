@@ -62,7 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompProperties_StrawberryWineFermenter.cs" />
     <Compile Include="CustomThingDef.cs" />
+    <Compile Include="HediffComp_ReduceHungerFall.cs" />
     <Compile Include="IncidentWorker_LapinSpecialForcesDrop.cs" />
     <Compile Include="LapinMaidBackstoryPatch.cs" />
     <Compile Include="LapinMaidLoadoutUtility.cs" />
@@ -98,6 +100,7 @@
     <Compile Include="ProductFinishGenColorHook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PatchSabreSound.cs" />
+    <Compile Include="Verb_ShootCannonWithSmoke.cs" />
     <Compile Include="_LapinTurncoatRaid.cs" />
   </ItemGroup>
   <ItemGroup>
