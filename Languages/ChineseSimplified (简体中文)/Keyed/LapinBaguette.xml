@@ -3,68 +3,68 @@
 
   <!-- 바게트 -->
   <!-- EN: Lapin Baguette -->
-  <LP_Lapin_Bagette.label>TODO</LP_Lapin_Bagette.label>
+  <LP_Lapin_Bagette.label>拉芬法棍</LP_Lapin_Bagette.label>
   <!-- EN: A traditional Lapin combat ration. You can eat it, or smash enemies with it. -->
-  <LP_Lapin_Bagette.description>TODO</LP_Lapin_Bagette.description>
+  <LP_Lapin_Bagette.description>传统的拉芬战斗口粮。你可以吃它，也可以用它来砸敌人。</LP_Lapin_Bagette.description>
 
   <!-- 바게트 팔 -->
   <!-- EN: Baguette Arm -->
-  <BaguetteArm.label>TODO</BaguetteArm.label>
+  <BaguetteArm.label>法棍手臂</BaguetteArm.label>
   <!-- EN: This pawn's arm has been replaced with a delicious baguette. -->
-  <BaguetteArm.description>TODO</BaguetteArm.description>
+  <BaguetteArm.description>这个人的手臂被换成了美味的法棍面包。</BaguetteArm.description>
 
   <!-- 바게트 발 -->
   <!-- EN: Baguette Leg -->
-  <BaguetteLeg.label>TODO</BaguetteLeg.label>
+  <BaguetteLeg.label>法棍腿</BaguetteLeg.label>
   <!-- EN: This pawn's leg has been replaced with a baguette. -->
-  <BaguetteLeg.description>TODO</BaguetteLeg.description>
+  <BaguetteLeg.description>这个人的腿被换成了美味的法棍面包。</BaguetteLeg.description>
 
   <!-- 수술 -->
   <!-- EN: Install Baguette Arm -->
-  <InstallBaguetteArm.label>TODO</InstallBaguetteArm.label>
+  <InstallBaguetteArm.label>安装法棍手臂</InstallBaguetteArm.label>
   <!-- EN: Install Baguette Leg -->
-  <InstallBaguetteLeg.label>TODO</InstallBaguetteLeg.label>
+  <InstallBaguetteLeg.label>安装法棍腿</InstallBaguetteLeg.label>
 
   <!-- 히트 디버프 -->
   <!-- EN: Hit by Baguette Arm -->
-  <BaguetteArmHit.label>TODO</BaguetteArmHit.label>
+  <BaguetteArmHit.label>被法棍手臂打中</BaguetteArmHit.label>
   <!-- EN: Struck by a delicious baguette arm. -->
-  <BaguetteArmHit.description>TODO</BaguetteArmHit.description>
+  <BaguetteArmHit.description>被美味的法棍手臂击中。</BaguetteArmHit.description>
 
   <!-- EN: Milling Lapin Wheat -->
-  <MillLapinWheat.label>TODO</MillLapinWheat.label>
+  <MillLapinWheat.label>研磨拉芬小麦</MillLapinWheat.label>
   <!-- EN: Ground Wheat grains with a millstone to make flour. -->
-  <MillLapinWheat.description>TODO</MillLapinWheat.description>
+  <MillLapinWheat.description>用磨盘磨碎小麦粒制成面粉。</MillLapinWheat.description>
 
   <!-- EN: Cooking Lapin Baguette -->
-  <Recipes_Bagette.label>TODO</Recipes_Bagette.label>
+  <Recipes_Bagette.label>烹饪拉芬法棍</Recipes_Bagette.label>
   <!-- EN: Bake a crispy baguette with flour and water. -->
-  <Recipes_Bagette.description>TODO</Recipes_Bagette.description>
+  <Recipes_Bagette.description>用面粉和水烤一个酥脆的法棍面包。</Recipes_Bagette.description>
 
   <!-- EN: Lapin Millstone -->
-  <LapinMillstone.label>TODO</LapinMillstone.label>
+  <LapinMillstone.label>拉芬石磨</LapinMillstone.label>
   <!-- EN: It is a small millstone that grinds wheat grains to make fine flour. -->
-  <LapinMillstone.description>TODO</LapinMillstone.description>
+  <LapinMillstone.description>这是一个小石磨，用来磨麦粒以制作精细的面粉。</LapinMillstone.description>
 
   <!-- EN: Lapin Flour -->
-  <RawLapinFlour.label>TODO</RawLapinFlour.label>
+  <RawLapinFlour.label>拉芬面粉</RawLapinFlour.label>
   <!-- EN: Flour for making baguettes. -->
-  <RawLapinFlour.description>TODO</RawLapinFlour.description>
+  <RawLapinFlour.description>用来制作法棍面包的面粉。</RawLapinFlour.description>
 
   <!-- EN: Lapin Wheat -->
-  <RawLapinWheat.label>TODO</RawLapinWheat.label>
+  <RawLapinWheat.label>生的拉芬小麦</RawLapinWheat.label>
   <!-- EN: It is high-quality wheat suitable for making baguettes. It can be ground into flour. -->
-  <RawLapinWheat.description>TODO</RawLapinWheat.description>
+  <RawLapinWheat.description>这是适合制作法棍面包的高品质小麦。它可以被磨成面粉。</RawLapinWheat.description>
 
   <!-- EN: Lapin Wheat -->
-  <PlantLapinWheat.label>TODO</PlantLapinWheat.label>
+  <PlantLapinWheat.label>拉芬小麦</PlantLapinWheat.label>
   <!-- EN: Wheat for making baguettes. It grows quickly and has a decent yield. -->
-  <PlantLapinWheat.description>TODO</PlantLapinWheat.description>
+  <PlantLapinWheat.description>用于制作法棍面包的小麦。它生长迅速，产量可观。</PlantLapinWheat.description>
 
   <!-- EN: Ate Lapin baguette. -->
-  <LP_Lapin_Bagette_Ate.label>TODO</LP_Lapin_Bagette_Ate.label>
+  <LP_Lapin_Bagette_Ate.label>吃拉芬法棍</LP_Lapin_Bagette_Ate.label>
   <!-- EN: Eating the Lapin baguette made me feel good. -->
-  <LP_Lapin_Bagette_Ate.description>TODO</LP_Lapin_Bagette_Ate.description>
+  <LP_Lapin_Bagette_Ate.description>吃下拉芬法棍让我感觉很棒。</LP_Lapin_Bagette_Ate.description>
 
   
 

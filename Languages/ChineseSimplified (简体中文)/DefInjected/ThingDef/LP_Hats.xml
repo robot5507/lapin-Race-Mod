@@ -12,14 +12,14 @@
   <LP_Hat_Grenadier.description>拉芬帝国狙击兵佩戴的专用军帽</LP_Hat_Grenadier.description>
   
   <!-- EN: 라핀 메이드 머리띠 -->
-  <LP_Hat_Maid.label>拉芬发带</LP_Hat_Maid.label>
+  <LP_Hat_Maid.label>拉芬女仆头带</LP_Hat_Maid.label>
   <!-- EN: 라핀 메이드 전용 머리띠. -->
-  <LP_Hat_Maid.description>拉芬的发带</LP_Hat_Maid.description>
+  <LP_Hat_Maid.description>拉芬女仆专用的发带。</LP_Hat_Maid.description>
   
   <!-- EN: 라핀 엘리트 메이드 세트 -->
-  <LP_Hat_MaidElit.label>拉芬女仆头饰</LP_Hat_MaidElit.label>
+  <LP_Hat_MaidElit.label>拉芬精英女仆套装</LP_Hat_MaidElit.label>
   <!-- EN: 라핀 메이드 특수부대 전용 머리띠와 마스크 세트. -->
-  <LP_Hat_MaidElit.description>拉芬女仆专用的头饰。</LP_Hat_MaidElit.description>
+  <LP_Hat_MaidElit.description>拉芬女仆特种部队专用头带和面罩套装。</LP_Hat_MaidElit.description>
   
   <!-- EN: 라핀 귀족 모자 -->
   <LP_Hat_Noble.label>拉芬贵族帽子</LP_Hat_Noble.label>
@@ -35,6 +35,11 @@
   <LP_Hat_Sapper.label>拉芬工兵帽</LP_Hat_Sapper.label>
   <!-- EN: 라핀 제국 선임공병이 착용하는 전용 군모. -->
   <LP_Hat_Sapper.description>拉芬帝国工兵佩戴的专用军帽。</LP_Hat_Sapper.description>
+  
+  <!-- EN: 라핀 검객 모자 -->
+  <LP_Hat_Swordsman.label>拉芬剑士帽</LP_Hat_Swordsman.label>
+  <!-- EN: 라핀 검객 모자. -->
+  <LP_Hat_Swordsman.description>拉芬的剑士帽</LP_Hat_Swordsman.description>
   
   <!-- EN: 라핀 도약병 모자 -->
   <LP_Hat_Vlotigeur.label>拉芬跳跃兵帽子</LP_Hat_Vlotigeur.label>

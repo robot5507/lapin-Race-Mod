@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 잠봉뵈르 -->
+  <LP_JambonBeurre.label>拉芬三明治</LP_JambonBeurre.label>
+  <!-- EN: 바삭한 바게트와 고기를 넣은 라핀식 잠봉뵈르 샌드위치입니다. -->
+  <LP_JambonBeurre.description>放了脆的法棍和肉的拉芬三明治。</LP_JambonBeurre.description>
+  <!-- EN: 라핀 잠봉뵈르 먹기 -->
+  <LP_JambonBeurre.ingestible.ingestCommandString>吃拉芬三明治</LP_JambonBeurre.ingestible.ingestCommandString>
+  <!-- EN: 라핀 잠봉뵈르를 먹고 있습니다. -->
+  <LP_JambonBeurre.ingestible.ingestReportString>正在吃拉芬三明治</LP_JambonBeurre.ingestible.ingestReportString>
+  
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 대포 -->
+  <LP_ArtilleryCannonBase.label>拉芬大炮</LP_ArtilleryCannonBase.label>
+  <!-- EN: 라핀제국 제식대포입니다. -->
+  <LP_ArtilleryCannonBase.description>拉芬帝国制造的大炮。</LP_ArtilleryCannonBase.description>
+  
+  <!-- EN: 라핀 대포 -->
+  <LP_FieldArtillery.label>拉芬大炮</LP_FieldArtillery.label>
+  <!-- EN: 라핀제국 제식대포입니다. -->
+  <LP_FieldArtillery.description>拉芬帝国制造的大炮。</LP_FieldArtillery.description>
+  <!-- EN: 라핀 대포 -->
+  <LP_FieldArtillery.verbs.Verb_ShootCannonWithSmoke.label>拉芬大炮</LP_FieldArtillery.verbs.Verb_ShootCannonWithSmoke.label>
+  
+</LanguageData>

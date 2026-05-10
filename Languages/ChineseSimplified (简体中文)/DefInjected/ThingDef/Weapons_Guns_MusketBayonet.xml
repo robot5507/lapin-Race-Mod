@@ -2,12 +2,21 @@
 <LanguageData>
   
   <!-- EN: 머스킷 라이플 탄환 -->
-  <LP_Bullet_MusketRifle.label>火绳枪弹丸</LP_Bullet_MusketRifle.label>
+  <LP_Bullet_MusketRifle.label>火枪子弹</LP_Bullet_MusketRifle.label>
+  
+  <!-- EN: 라핀 머스킷피스톨 -->
+  <LP_LapinPistol.label>拉芬马斯基特手枪</LP_LapinPistol.label>
+  <!-- EN: 라핀 제식 머스킷피스톨. 사용시 연기가 생기고 총열이 짧다. 비올때 야외사용 불가능 주의. -->
+  <LP_LapinPistol.description>拉芬的制式马斯基特手枪。使用时会产生烟雾，总热量较短。下雨时禁止户外使用</LP_LapinPistol.description>
+  <!-- EN: 개머리판 -->
+  <LP_LapinPistol.tools.0.label>枪托</LP_LapinPistol.tools.0.label>
+  <!-- EN: 라핀 머스킷피스톨 -->
+  <LP_LapinPistol.verbs.Verb_Shoot.label>拉芬马斯基特手枪</LP_LapinPistol.verbs.Verb_Shoot.label>
   
   <!-- EN: 라핀 머스킷라이플 -->
   <LP_MusketRifle.label>拉芬火绳枪</LP_MusketRifle.label>
   <!-- EN: 강선이 세겨진 라핀용 머스킷라이플. 비올때 야외사용 불가능 주의. -->
-  <LP_MusketRifle.description>带有准星的火绳枪。下雨时不可在室外使用，请注意。</LP_MusketRifle.description>
+  <LP_MusketRifle.description>加强了钢丝的拉芬用马士基步枪。下雨时注意不要在户外使用。</LP_MusketRifle.description>
   <!-- EN: 개머리판 -->
   <LP_MusketRifle.tools.0.label>枪托</LP_MusketRifle.tools.0.label>
   <!-- EN: 라핀 머스킷라이플 -->
@@ -16,7 +25,7 @@
   <!-- EN: 라핀 머스킷총 -->
   <MusketWithBayonet.label>拉芬燧发枪</MusketWithBayonet.label>
   <!-- EN: 라핀 제식 머스킷총. 사용시 연기가 생기고 총검이 달려있다. 비올때 야외사용 불가능 주의. -->
-  <MusketWithBayonet.description>拉芬制式燧发枪。使用时会产生烟雾，配有剑。下雨时不可在室外使用，请注意。</MusketWithBayonet.description>
+  <MusketWithBayonet.description>拉芬制式燧发枪。使用时会产生烟雾，配有剑。下雨时不可在室外使用，注意。</MusketWithBayonet.description>
   <!-- EN: 총검 -->
   <MusketWithBayonet.tools.0.label>刺刀</MusketWithBayonet.tools.0.label>
   <!-- EN: 개머리판 -->

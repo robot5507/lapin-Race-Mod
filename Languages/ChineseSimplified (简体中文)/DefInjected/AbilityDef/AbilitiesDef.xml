@@ -4,7 +4,7 @@
   <!-- EN: 라핀도약 -->
   <LapinLongjump.label>拉芬跳跃</LapinLongjump.label>
   <!-- EN: 라핀인들이 쓸수있는 도약점프입니다. -->
-  <LapinLongjump.description>这是拉芬可以使用的跳跃技能。</LapinLongjump.description>
+  <LapinLongjump.description>使用拉芬族的跳跃跳到指定区域.</LapinLongjump.description>
   <!-- EN: jump -->
   <LapinLongjump.verbProperties.label>跳跃</LapinLongjump.verbProperties.label>
   

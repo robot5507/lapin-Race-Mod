@@ -14,12 +14,22 @@
   <!-- EN: 라핀 메이드복 -->
   <LP_MaidDress.label>拉芬女仆装</LP_MaidDress.label>
   <!-- EN: 라핀 전용 메이드복입니다. -->
-  <LP_MaidDress.description>这是拉芬的女仆装。</LP_MaidDress.description>
+  <LP_MaidDress.description>这是拉芬专用的女仆装。</LP_MaidDress.description>
   
   <!-- EN: 라핀 귀족 드레스 -->
   <LP_NobleDress.label>拉芬贵族礼服</LP_NobleDress.label>
   <!-- EN: 라핀 귀족 드레스. -->
   <LP_NobleDress.description>拉芬贵族的礼服</LP_NobleDress.description>
+  
+  <!-- EN: 라핀 수려한 드레스 -->
+  <LP_NobleDressB.label>拉芬华丽礼服</LP_NobleDressB.label>
+  <!-- EN: 라핀 수려한 드레스. -->
+  <LP_NobleDressB.description>拉芬的华丽礼服</LP_NobleDressB.description>
+  
+  <!-- EN: 라핀 검객 복장 -->
+  <LP_SwordsmanCloth.label>拉芬剑士服装</LP_SwordsmanCloth.label>
+  <!-- EN: 라핀 검객 복장. -->
+  <LP_SwordsmanCloth.description>拉芬的剑士服装</LP_SwordsmanCloth.description>
   
   <!-- EN: Uniform Officer -->
   <LP_Uniform_NobleOfficer.label>军官制服</LP_Uniform_NobleOfficer.label>

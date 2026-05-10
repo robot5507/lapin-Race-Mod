@@ -4,12 +4,12 @@
   <!-- EN: 라핀 귀족 지팡이 -->
   <LP_Noble_Staff.label>拉芬贵族手杖</LP_Noble_Staff.label>
   <!-- EN: 라핀 귀족 지팡이. 귀족용 핫아이템. -->
-  <LP_Noble_Staff.description>拉芬贵族的手杖。是拉芬贵族的热门单品。</LP_Noble_Staff.description>
+  <LP_Noble_Staff.description>拉芬贵族的拐杖，是拉芬贵族的热门单品。</LP_Noble_Staff.description>
   <!-- EN: head -->
   <LP_Noble_Staff.tools.head.label>棍头</LP_Noble_Staff.tools.head.label>
   
   <!-- EN: 라핀 장전봉 -->
-  <LP_RamRod.label>拉宾炮兵用装填杆</LP_RamRod.label>
+  <LP_RamRod.label>拉芬炮兵用装填杆</LP_RamRod.label>
   <!-- EN: 포병용 장전봉입니다. 전투에서 무기로 사용할 수 있습니다. -->
   <LP_RamRod.description>这是炮兵用装填杆。可以在战斗中作为武器使用。</LP_RamRod.description>
   <!-- EN: head -->
@@ -38,7 +38,7 @@
   <!-- EN: 라핀 레이피어 -->
   <LP_Weapon_Rapier.label>拉芬长剑</LP_Weapon_Rapier.label>
   <!-- EN: 라핀 레이피어. 빠른 찌르기가 가능하다. -->
-  <LP_Weapon_Rapier.description>拉芬的长剑。可以快速刺击。</LP_Weapon_Rapier.description>
+  <LP_Weapon_Rapier.description>拉芬的长剑，可以快速刺击。</LP_Weapon_Rapier.description>
   <!-- EN: point -->
   <LP_Weapon_Rapier.tools.point.label>刀尖</LP_Weapon_Rapier.tools.point.label>
   <!-- EN: blade -->

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 딸기와인 -->
+  <LP_StrawberryWine.label>拉芬草莓红酒</LP_StrawberryWine.label>
+  <!-- EN: A sweet wine brewed from strawberries. A favorite among Lapins. -->
+  <LP_StrawberryWine.description>草莓酿造的甜酒，拉芬的最爱。</LP_StrawberryWine.description>
+  <!-- EN: Drink {0} -->
+  <LP_StrawberryWine.ingestible.ingestCommandString>喝{0}</LP_StrawberryWine.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <LP_StrawberryWine.ingestible.ingestReportString>正在喝{0}</LP_StrawberryWine.ingestible.ingestReportString>
+  <!-- EN: bottle -->
+  <LP_StrawberryWine.tools.bottle.label>瓶子</LP_StrawberryWine.tools.bottle.label>
+  <!-- EN: neck -->
+  <LP_StrawberryWine.tools.neck.label>瓶颈</LP_StrawberryWine.tools.neck.label>
+  
+</LanguageData>

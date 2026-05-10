@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 딸기와인 발효통 -->
+  <LP_StrawberryWineBarrel.label>拉芬草莓汁</LP_StrawberryWineBarrel.label>
+  <!-- EN: 딸기주스를 발효시켜 라핀 딸기와인을 만드는 전용 발효통입니다. -->
+  <LP_StrawberryWineBarrel.description>发酵的草莓汁，是制作拉芬草莓红酒的专用发酵物。</LP_StrawberryWineBarrel.description>
+  <!-- EN: 딸기주스 -->
+  <LP_StrawberryWineBarrel.comps.CompRefuelable.fuelLabel>草莓汁</LP_StrawberryWineBarrel.comps.CompRefuelable.fuelLabel>
+  
+</LanguageData>

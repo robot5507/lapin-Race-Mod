@@ -14,13 +14,16 @@
   <LapinKillerRabbit.label>拉芬杀手兔</LapinKillerRabbit.label>
   
   <!-- EN: Lapin Maid -->
-  <LapinMaid.label>TODO</LapinMaid.label>
+  <LapinMaid.label>拉芬女仆</LapinMaid.label>
   
   <!-- EN: lapin Maid Operations Unit. -->
-  <LapinMaidSpecialForces.label>TODO</LapinMaidSpecialForces.label>
+  <LapinMaidSpecialForces.label>拉芬女仆管理</LapinMaidSpecialForces.label>
   
   <!-- EN: lapin Maid Operations Unit Millitar. -->
-  <LapinMaidSpecialForcesMillitar.label>TODO</LapinMaidSpecialForcesMillitar.label>
+  <LapinMaidSpecialForcesMillitar.label>拉芬战斗女仆管理</LapinMaidSpecialForcesMillitar.label>
+  
+  <!-- EN: Lapin Merchant -->
+  <LapinMerchant.label>拉芬商人</LapinMerchant.label>
   
   <!-- EN: lapin noble -->
   <LapinNoble.label>拉芬贵族</LapinNoble.label>
@@ -29,7 +32,7 @@
   <LapinNobleChild.label>拉芬贵族子嗣</LapinNobleChild.label>
   
   <!-- EN: lapin noble Masked -->
-  <LapinNobleMasked.label>TODO</LapinNobleMasked.label>
+  <LapinNobleMasked.label>拉芬高贵的面具</LapinNobleMasked.label>
   
   <!-- EN: lapin noble Officer -->
   <LapinNobleOfficer.label>拉芬贵族军官</LapinNobleOfficer.label>
@@ -51,6 +54,9 @@
   
   <!-- EN: lapin soldier Voltigeur -->
   <LapinSoldierVoltigeur.label>拉芬轻骑兵</LapinSoldierVoltigeur.label>
+  
+  <!-- EN: lapin Swords man -->
+  <LapinSwordsman.label>拉芬剑士</LapinSwordsman.label>
   
   <!-- EN: lapin Vorpal Rabbit -->
   <LapinVorpalRabbit.label>拉芬狂暴兔</LapinVorpalRabbit.label>

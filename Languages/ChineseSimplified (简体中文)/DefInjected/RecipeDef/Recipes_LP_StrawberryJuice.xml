@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 딸기즙 만들기 -->
+  <Make_LP_StrawberryJuice.label>制作拉芬草莓汁</Make_LP_StrawberryJuice.label>
+  <!-- EN: 딸기 주스를 만들고 있습니다. -->
+  <Make_LP_StrawberryJuice.jobString>正在做拉芬草莓汁。</Make_LP_StrawberryJuice.jobString>
+  
+</LanguageData>

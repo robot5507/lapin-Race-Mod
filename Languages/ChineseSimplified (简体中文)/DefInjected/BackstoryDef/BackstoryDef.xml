@@ -64,6 +64,13 @@
   <!-- EN: 굴착꾼 -->
   <Lapin_Digging_Rabbit.titleShort>掘地兔</Lapin_Digging_Rabbit.titleShort>
   
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 농부입니다. -->
+  <Lapin_Famer.description>[PAWN_nameDef]是拉芬帝国的农民。</Lapin_Famer.description>
+  <!-- EN: 라핀 농부 -->
+  <Lapin_Famer.title>拉芬农民</Lapin_Famer.title>
+  <!-- EN: 농부 -->
+  <Lapin_Famer.titleShort>农民</Lapin_Famer.titleShort>
+  
   <!-- EN: [PAWN_nameDef]은 라핀 제국 척탄병입니다. -->
   <Lapin_Grenadier.description>[PAWN_nameDef]是拉芬帝国的狙击手。</Lapin_Grenadier.description>
   <!-- EN: 라핀 척탄병 -->
@@ -72,18 +79,25 @@
   <Lapin_Grenadier.titleShort>狙击手</Lapin_Grenadier.titleShort>
   
   <!-- EN: [PAWN_nameDef]은 라핀 제국의 일반적인 메이드입니다. -->
-  <Lapin_Maid.description>TODO</Lapin_Maid.description>
+  <Lapin_Maid.description>[PAWN_nameDef]是拉芬帝国的女仆。</Lapin_Maid.description>
   <!-- EN: 라핀 메이드 -->
-  <Lapin_Maid.title>TODO</Lapin_Maid.title>
-  <!-- EN: 라핀메이드 -->
-  <Lapin_Maid.titleShort>TODO</Lapin_Maid.titleShort>
+  <Lapin_Maid.title>拉芬女仆</Lapin_Maid.title>
+  <!-- EN: 라핀 메이드 -->
+  <Lapin_Maid.titleShort>女仆</Lapin_Maid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 상인입니다. -->
+  <Lapin_Merchant.description>[PAWN_nameDef]是拉芬帝国的商人。</Lapin_Merchant.description>
+  <!-- EN: 라핀 상인 -->
+  <Lapin_Merchant.title>拉芬商人</Lapin_Merchant.title>
+  <!-- EN: 상인 -->
+  <Lapin_Merchant.titleShort>商人</Lapin_Merchant.titleShort>
   
   <!-- EN: [PAWN_nameDef]은 라핀 제국의 귀족입니다. -->
-  <Lapin_Noble.description>TODO</Lapin_Noble.description>
+  <Lapin_Noble.description>[PAWN_nameDef]是拉芬帝国的贵族。</Lapin_Noble.description>
   <!-- EN: 라핀 귀족 -->
-  <Lapin_Noble.title>TODO</Lapin_Noble.title>
+  <Lapin_Noble.title>拉芬贵族</Lapin_Noble.title>
   <!-- EN: 귀족 -->
-  <Lapin_Noble.titleShort>TODO</Lapin_Noble.titleShort>
+  <Lapin_Noble.titleShort>贵族</Lapin_Noble.titleShort>
   
   <!-- EN: [PAWN_nameDef]은 좋은 집안 출신이지만 추방당했습니다.원래의 가문명도 잃어버렸습니다. -->
   <Lapin_Noble_Banished_Kid.description>[PAWN_nameDef]虽出身名门，但却被流放，还失去了原本的家名。</Lapin_Noble_Banished_Kid.description>
@@ -134,6 +148,13 @@
   <!-- EN: 패잔병 -->
   <Lapin_Straggler.titleShort>逃兵</Lapin_Straggler.titleShort>
   
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 길거리 검사출신입니다. -->
+  <Lapin_swordsman.description>[PAWN_nameDef]来自拉芬帝国的街头检察官。</Lapin_swordsman.description>
+  <!-- EN: 라핀 길거리 검사 -->
+  <Lapin_swordsman.title>拉芬街头检察官</Lapin_swordsman.title>
+  <!-- EN: 검객 -->
+  <Lapin_swordsman.titleShort>街头检察官</Lapin_swordsman.titleShort>
+  
   <!-- EN: [PAWN_nameDef]은 라핀 제국 도약병입니다. -->
   <Lapin_Voltigeur.description>[PAWN_nameDef]是拉芬帝国的跃进兵。</Lapin_Voltigeur.description>
   <!-- EN: 라핀 도약병 -->
@@ -149,11 +170,11 @@
   <LapinChild_Kid.titleShort>儿童</LapinChild_Kid.titleShort>
   
   <!-- EN: 라핀 인체실험실에서 특수전 목적으로 키워진 라핀입니다. -->
-  <LapinChild_laboratoryKid.description>TODO</LapinChild_laboratoryKid.description>
+  <LapinChild_laboratoryKid.description>[PAWN_nameDef]是在人体实验室以特殊战为目的培养的拉芬。</LapinChild_laboratoryKid.description>
   <!-- EN: 라핀 실험실 아이 -->
-  <LapinChild_laboratoryKid.title>TODO</LapinChild_laboratoryKid.title>
+  <LapinChild_laboratoryKid.title>拉芬实验室的孩子</LapinChild_laboratoryKid.title>
   <!-- EN: 실험실 아이 -->
-  <LapinChild_laboratoryKid.titleShort>TODO</LapinChild_laboratoryKid.titleShort>
+  <LapinChild_laboratoryKid.titleShort>实验室的孩子</LapinChild_laboratoryKid.titleShort>
   
   <!-- EN: [PAWN_nameDef]은 어릴적 빵을 훔치고 달아나다 잡혀 어린시절 대부분을 감옥에서 보냈습니다. -->
   <LapinChild_Thief.description>[PAWN_nameDef]小时候因偷面包逃跑被抓，大部分童年时光都在监狱中度过。</LapinChild_Thief.description>

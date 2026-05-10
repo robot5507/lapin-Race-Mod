@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 대포 포탄 -->
+  <LP_Cannonball.label>拉芬大炮炮弹</LP_Cannonball.label>
+  <!-- EN: 라핀군 대포에 사용되는 표준 규격 포탄입니다. -->
+  <LP_Cannonball.description>拉芬大炮使用的标准炮弹。</LP_Cannonball.description>
+  
+  <!-- EN: 라핀 포탄 -->
+  <LP_Cannonball_Bullet.label>拉芬炮弹</LP_Cannonball_Bullet.label>
+  
+</LanguageData>
