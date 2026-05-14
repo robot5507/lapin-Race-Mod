@@ -5,24 +5,24 @@
   <defName>LP_StrawberryWineBarrel</defName>
   <label>라핀 딸기와인 발효통</label>
   <description>딸기주스를 발효시켜 라핀 딸기와인을 만드는 전용 발효통입니다.</description>
-<rotatable>false</rotatable>
+
   <thingClass>Building</thingClass>
-  <rotatable>false</rotatable>
+ 
   <tickerType>Normal</tickerType>
   <category>Building</category>
   <designationCategory>Production</designationCategory>
   <altitudeLayer>Building</altitudeLayer>
   <passability>PassThroughOnly</passability>
-  <fillPercent>0.4</fillPercent>
+  <fillPercent>1.4</fillPercent>
   <rotatable>true</rotatable>
   <size>(1,1)</size>
 
   <graphicData>
     <texPath>Things/Building/LP_WineRack</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
+    <graphicClass>Graphic_Multi</graphicClass>
     <drawSize>(1.5,1.5)</drawSize>
   </graphicData>
-
+ 
   <statBases>
     <MaxHitPoints>150</MaxHitPoints>
     <WorkToBuild>1200</WorkToBuild>
@@ -52,16 +52,20 @@
     <autoRefuelPercent>1</autoRefuelPercent>
   </li>
 
-  <li Class="LapinRace.CompProperties_StrawberryWineFermenter">
-    <outputDef>LP_StrawberryWine</outputDef>
-    <outputAmount>8</outputAmount>
+<li Class="LapinRace.CompProperties_StrawberryWineFermenter">
+  <outputDef>LP_StrawberryWine</outputDef>
+  <outputAmount>8</outputAmount>
+  <fermentationTicks>300000</fermentationTicks>
+  <minSafeTemperature>7</minSafeTemperature>
+  <maxSafeTemperature>32</maxSafeTemperature>
 
-    <fermentationTicks>180000</fermentationTicks>
-
-    <minSafeTemperature>7</minSafeTemperature>
-    <maxSafeTemperature>32</maxSafeTemperature>
-  </li>
+  <soundFilled>LP_WineFill</soundFilled>
+  <finishedMessageType>LP_WineFinishedMessage</finishedMessageType>
+</li>
 </comps>
+<researchPrerequisites>
+    <li>LP_LapinWinemaking</li>
+  </researchPrerequisites>
 </ThingDef>
 
 </Defs>

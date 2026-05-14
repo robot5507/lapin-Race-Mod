@@ -70,6 +70,9 @@
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
+    <researchPrerequisites>
+    <li>LP_LapinMillingKnowhow</li>
+  </researchPrerequisites>
   </ThingDef>
 
 </Defs>

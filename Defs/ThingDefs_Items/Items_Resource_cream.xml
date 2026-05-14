@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>LP_Cream</defName>
+    <label>크림</label>
+    <description>우유를 기반으로 만든 라핀식 크림. 버터를 만들거나 음식재료로 쓸수있습니다.</description>
+
+    <graphicData>
+      <texPath>Things/Item/LP_Cream</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <stackLimit>12</stackLimit>
+
+    <statBases>
+      <MarketValue>14</MarketValue>
+      <Mass>0.03</Mass>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+
+   
+  </ThingDef>
+
+</Defs>

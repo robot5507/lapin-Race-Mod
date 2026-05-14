@@ -29,6 +29,41 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>LP_Campague</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>20</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>LP_Butter</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>LP_Compote</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>LP_Cream</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>10</max>
+				</countRange>
+			</li>
+            <li Class="StockGenerator_SingleDef">
+				<thingDef>LP_Croissant</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentIndustrial</thingDef>
 				<countRange>
 					<min>30</min>
@@ -38,8 +73,8 @@
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>LP_Lapin_Bagette</thingDef>
 				<countRange>
-					<min>-10</min>
-					<max>2</max>
+					<min>2</min>
+					<max>10</max>
 				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">

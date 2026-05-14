@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>LP_Butter</defName>
+    <label>버터</label>
+    <description>크림으로 만들수 있는 라핀식 버터. 그 자체로 좋은 거래품목이 될 수 있습니다.</description>
+
+    <graphicData>
+      <texPath>Things/Item/LP_Butter</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <stackLimit>42</stackLimit>
+
+    <statBases>
+      <MarketValue>40</MarketValue>
+      <Mass>0.03</Mass>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+
+   
+  </ThingDef>
+
+</Defs>

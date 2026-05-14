@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef>
+    <defName>UnfinishedButter</defName>
+    <label>미완성 혼합물</label>
+
+    <thingClass>UnfinishedThing</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <altitudeLayer>Item</altitudeLayer>
+
+    <graphicData>
+      <texPath>Things/Item/UnfinishedButter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Mass>1</Mass>
+    </statBases>
+
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+
+    <alwaysHaulable>true</alwaysHaulable>
+  </ThingDef>
+</Defs>

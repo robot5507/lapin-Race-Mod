@@ -6,8 +6,21 @@
     <label>라핀 밤</label>
     <description>라핀 제조 폭탄입니다.</description>
     <recipeMaker>
-    
-    </recipeMaker>
+    <researchPrerequisite>LP_LapinGrenadeSmithing</researchPrerequisite>
+
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+
+    <recipeUsers>
+        <li>TableMachining</li>
+    </recipeUsers>
+
+    <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    <displayPriority>500</displayPriority>
+</recipeMaker>
+
     <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Projectile/LP_LapinBomb</texPath>

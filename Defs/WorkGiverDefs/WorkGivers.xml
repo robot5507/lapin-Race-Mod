@@ -16,4 +16,21 @@
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
+
+  <WorkGiverDef>
+        <defName>UseLapinButterChurn</defName>
+        <label>라핀 버터 제조기를 사용합니다.</label>
+        <giverClass>WorkGiver_DoBill</giverClass>
+        <workType>Cooking</workType>
+        <priorityInType>100</priorityInType>
+        <fixedBillGiverDefs>
+            <li>LapinButterChurn</li>
+        </fixedBillGiverDefs>
+        <verb>제조</verb>
+        <gerund>제조하기</gerund>
+        <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
 </Defs>

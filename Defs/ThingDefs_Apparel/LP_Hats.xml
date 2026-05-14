@@ -68,7 +68,19 @@
       <Cloth>30</Cloth>
     </costList>
 
-    <!-- 태그 -->
+    <recipeMaker>
+  <researchPrerequisite>LP_LapinMilitaryApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
+    
 
   </ThingDef>
 
@@ -120,8 +132,19 @@
     <costList>
       <Cloth>30</Cloth>
     </costList>
-
-    <!-- 태그 -->
+  <recipeMaker>
+  <researchPrerequisite>LP_LapinApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
+    
 
   </ThingDef>
 
@@ -174,7 +197,18 @@
       <Cloth>30</Cloth>
     </costList>
 
-    <!-- 태그 -->
+    <recipeMaker>
+  <researchPrerequisite>LP_LapinMilitaryApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
 
   </ThingDef>
 
@@ -229,7 +263,18 @@
       <Cloth>30</Cloth>
     </costList>
 
-    <!-- 태그 -->
+   <recipeMaker>
+  <researchPrerequisite>LP_LapinMilitaryApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
 
   </ThingDef>
 
@@ -283,7 +328,18 @@
       <Cloth>100</Cloth>
     </costList>
 
-    <!-- 태그 -->
+    <recipeMaker>
+  <researchPrerequisite>LP_LapinMilitaryApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
 
   </ThingDef>
 
@@ -338,7 +394,18 @@
       <Cloth>10</Cloth>
     </costList>
 
-    <!-- 태그 -->
+    <recipeMaker>
+  <researchPrerequisite>LP_LapinApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
 
   </ThingDef>
   <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
@@ -389,6 +456,20 @@
     <costList>
       <Cloth>30</Cloth>
     </costList>
+
+  <recipeMaker>
+  <researchPrerequisite>LP_LapinNobleApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
+
   </ThingDef>
 
 <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
@@ -443,8 +524,18 @@
       <Cloth>130</Cloth>
     </costList>
 
-    <!-- 태그 -->
-
+    <recipeMaker>
+  <researchPrerequisite>LP_LapinNobleApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
   </ThingDef>
 
   <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
@@ -496,7 +587,18 @@
       <Cloth>30</Cloth>
     </costList>
 
-    <!-- 태그 -->
+    <recipeMaker>
+  <researchPrerequisite>LP_LapinApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
 
   </ThingDef>
 
@@ -564,7 +666,18 @@
       <Cloth>30</Cloth>
     </costList>
 
-    <!-- 태그 -->
+    <recipeMaker>
+  <researchPrerequisite>LP_LapinNobleApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
 
   </ThingDef>
 
@@ -631,7 +744,18 @@
       <Cloth>30</Cloth>
     </costList>
 
-    <!-- 태그 -->
+   <recipeMaker>
+  <researchPrerequisite>LP_LapinNobleApparelproduction</researchPrerequisite>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <workSkill>Crafting</workSkill>
+  <effectWorking>Tailor</effectWorking>
+  <soundWorking>Recipe_Tailor</soundWorking>
+  <recipeUsers Inherit="false">
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+  </recipeUsers>
+  <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+</recipeMaker>
 
   </ThingDef>
 </Defs>

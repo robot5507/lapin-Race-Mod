@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SoundDef>
+    <defName>LP_WineFill</defName>
+    <context>MapOnly</context>
+   <maxSimultaneous>3</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>wine1</clipPath>
+          </li>
+        </grains>
+       
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+  <defName>LP_WineFinish</defName>
+  <context>MapOnly</context>
+   <maxSimultaneous>3</maxSimultaneous>
+  <subSounds>
+    <li>
+      <onCamera>true</onCamera>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>wine2</clipPath>
+        </li>
+      </grains>
+      
+    </li>
+  </subSounds>
+</SoundDef>
+
+</Defs>

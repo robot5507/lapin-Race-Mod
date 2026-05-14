@@ -16,7 +16,7 @@
     </costList>
     
     <recipeMaker>
-    <researchPrerequisite>Smithing</researchPrerequisite>
+    <researchPrerequisite>LP_LapinGunsmithing</researchPrerequisite>
     <workAmount>6000</workAmount>
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
@@ -111,7 +111,7 @@
     </costList>
     
     <recipeMaker>
-    <researchPrerequisite>Smithing</researchPrerequisite>
+    <researchPrerequisite>LP_LapinRifledbarrel</researchPrerequisite>
     <workAmount>6000</workAmount>
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
@@ -218,7 +218,7 @@
     </costList>
     
     <recipeMaker>
-    <researchPrerequisite>Smithing</researchPrerequisite>
+    <researchPrerequisite>LP_LapinGunsmithing</researchPrerequisite>
     <workAmount>6000</workAmount>
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>

@@ -4,7 +4,7 @@
   <ThingDef ParentName="DrugBase">
     <defName>LP_StrawberryWine</defName>
     <label>라핀 딸기와인</label>
-    <description>A sweet wine brewed from strawberries. A favorite among Lapins.</description>
+    <description>라핀인 특유의 딸기로 만든 와인입니다.특산품으로 가치가 높습니다.</description>
   <descriptionHyperlinks>
       <HediffDef>AlcoholHigh</HediffDef>
     </descriptionHyperlinks>
@@ -21,7 +21,7 @@
 
    <statBases>
   <DeteriorationRate>0.5</DeteriorationRate>
-  <MarketValue>24</MarketValue>
+  <MarketValue>35</MarketValue>
   <Mass>0.3</Mass>
   <Flammability>0.5</Flammability>
   <Nutrition>0.08</Nutrition>

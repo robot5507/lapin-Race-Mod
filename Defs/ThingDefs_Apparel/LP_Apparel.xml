@@ -122,6 +122,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinMilitaryApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -197,6 +198,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -270,6 +272,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinMilitaryApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -345,6 +348,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinMilitaryApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -418,6 +422,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinMilitaryApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -481,6 +486,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -544,6 +550,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinNobleApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -607,6 +614,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinNobleApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -654,6 +662,7 @@
 			<EquipDelay>1</EquipDelay>
   </statBases>
   <recipeMaker>
+  <researchPrerequisite>LP_LapinApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -670,7 +679,7 @@
 </ThingDef>
 <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_ApparelMakeableBase">
 		<defName>LP_Uniform_NobleOfficer</defName>
-		<label>Uniform Officer</label>
+		<label>라핀 장교 제복</label>
 		<description>라핀장교용 제복입니다.</description>
 		<thingClass>Apparel</thingClass>
 	  
@@ -720,6 +729,15 @@
 				<li>LapinNobleOfficer</li>
 			</tags>
 		</apparel>
+
+     <recipeMaker>
+    <researchPrerequisite>LP_LapinNobleApparelproduction</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
 	</ThingDef>
 
 	 <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_ApparelMakeableBase">
@@ -794,6 +812,7 @@
 			<ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
 		</equippedStatOffsets>
     <recipeMaker>
+    <researchPrerequisite>LP_LapinApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -935,6 +954,7 @@
 </apparel>
 
     <recipeMaker>
+    <researchPrerequisite>LP_LapinApparelproduction</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>

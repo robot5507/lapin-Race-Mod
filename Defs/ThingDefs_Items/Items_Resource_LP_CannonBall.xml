@@ -15,6 +15,7 @@
 		</statBases>
 		
 		<recipeMaker>
+		<researchPrerequisite>LP_LapinCannonBallsmithing</researchPrerequisite>
 		  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		  <effectWorking>Smith</effectWorking>
 		  <soundWorking>Recipe_Smith</soundWorking>

@@ -13,6 +13,30 @@
   </ThoughtDef>
 
   <ThoughtDef>
+    <defName>LP_Lapin_Campague_Ate</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>라핀 캉파뉴를 먹음</label>
+        <description>라핀 캉파뉴를 먹으니 기부니가 좋아졌다.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+    <ThoughtDef>
+    <defName>LP_Lapin_Croissant_Ate</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>라핀 크루아상을 먹음</label>
+        <description>라핀 크루아상을 먹으니 기부니가 좋아졌다.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
   <defName>LP_WarTraumaMood</defName>
   <thoughtClass>Thought_Situational</thoughtClass>
   <workerClass>ThoughtWorker_AlwaysActive</workerClass>
@@ -30,6 +54,8 @@
     </li>
   </stages>
 </ThoughtDef>
+
+
 
 <ThoughtDef>
   <defName>LP_DrankStrawberryWine</defName>

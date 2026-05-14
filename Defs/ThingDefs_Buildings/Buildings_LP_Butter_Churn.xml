@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>LapinButterChurn</defName>
+    <label>버터 제조기</label>
+    <description>유지방을 뭉쳐 버터와 크림을 만드는 라핀식 버터 제조 장치입니다.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Butter_Churn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.0</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>0.7</Flammability>
+      <Beauty>-7</Beauty>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+    </statBases>
+
+    <size>(2,2)</size>
+    <passability>Standable</passability>
+    <pathCost>40</pathCost>
+
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0, 0, -1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>ChurningCream</li>
+      <li>ChurningButter</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    
+     <costList>
+    <WoodLog>70</WoodLog>
+    <Steel>20</Steel>
+  </costList>
+
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+
+    
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+      <wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <designationHotKey>Misc1</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+  <li>LP_LapinAdvancedCookingKnowhow</li>
+</researchPrerequisites>
+  </ThingDef>
+
+</Defs>

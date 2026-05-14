@@ -36,7 +36,7 @@
     </weaponTags>
 
     <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisite>LP_LapinMeleeWeaponsmithing</researchPrerequisite>
       <workAmount>9000</workAmount>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -143,7 +143,7 @@
     </weaponTags>
 
     <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisite>LP_LapinMeleeWeaponsmithing</researchPrerequisite>
       <workAmount>9000</workAmount>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -237,7 +237,7 @@
     </weaponTags>
 
     <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisite>LP_LapinToolsmithing</researchPrerequisite>
       <workAmount>9000</workAmount>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -346,7 +346,7 @@
   </costList>
 
   <recipeMaker>
-    <researchPrerequisite>Smithing</researchPrerequisite>
+    <researchPrerequisite>LP_LapinMeleeWeaponsmithing</researchPrerequisite>
     <workAmount>7000</workAmount>
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
@@ -402,7 +402,7 @@
   </costList>
 
   <recipeMaker>
-    <researchPrerequisite>Smithing</researchPrerequisite>
+    <researchPrerequisite>LP_LapinArtilleryTools</researchPrerequisite>
     <workAmount>7000</workAmount>
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
@@ -438,7 +438,7 @@
     </weaponTags>
 
     <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisite>LP_LapinToolsmithing</researchPrerequisite>
       <workAmount>9000</workAmount>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>

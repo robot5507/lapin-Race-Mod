@@ -36,6 +36,9 @@
 		<thingCategories>
 			<li>BuildingsSecurity</li>
 		</thingCategories>
+		 <researchPrerequisites>
+    <li>LP_LapinCannoncasting</li>
+  </researchPrerequisites>
 	</ThingDef>
 
     <ThingDef ParentName="LPArtilleryBase">
