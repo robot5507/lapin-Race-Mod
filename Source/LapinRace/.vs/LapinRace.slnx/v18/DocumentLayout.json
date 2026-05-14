@@ -3,28 +3,60 @@
   "WorkspaceRootPath": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|a:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\3717081187\\source\\lapinrace\\hediffcomp_reducehungerfall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:hediffcomp_reducehungerfall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinsupplyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinsupplyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\compproperties_strawberrywinefermenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:compproperties_strawberrywinefermenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinsupplyinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinsupplyinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\verb_shootcannonwithsmoke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:verb_shootcannonwithsmoke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|a:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\3717081187\\source\\lapinrace\\lapinrepresentativeoverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinrepresentativeoverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\incidentworker_lapinsupplyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:incidentworker_lapinsupplyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\incidentworker_lapinspecialforcesdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:incidentworker_lapinspecialforcesdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinspecialforcesmillitarloadoututility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinspecialforcesmillitarloadoututility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinsupplyutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinsupplyutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinspecialforcesloadoututility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinspecialforcesloadoututility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinsiegeshellsupplycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinsiegeshellsupplycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\patch_musketunavailableinrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:patch_musketunavailableinrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\compproperties_strawberrywinefermenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:compproperties_strawberrywinefermenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\hediffcomp_reducehungerfall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:hediffcomp_reducehungerfall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\_lapinturncoatraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:_lapinturncoatraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\patchsabresound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:patchsabresound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\verb_shootcannonwithsmoke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:verb_shootcannonwithsmoke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinspecialforcesmillitarloadoututility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinspecialforcesmillitarloadoututility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinpawnkinddefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinshieldbeltdestroypatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinshieldbeltdestroypatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinsiegeshellsupplycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinsiegeshellsupplycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lapinsoldierloadoututility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:lapinartillerybackstorypatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\patchsabresound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:patchsabresound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\pawngeneextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:pawngeneextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,10 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\patch_lapinchildclothes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:patch_lapinchildclothes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\_lapinturncoatraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|solutionrelative:_lapinturncoatraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{750601AA-C590-453F-85CA-70ECC1260C14}|LapinRace.csproj|A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\lp_thingdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -174,124 +194,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HediffComp_ReduceHungerFall.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\HediffComp_ReduceHungerFall.cs",
-              "RelativeDocumentMoniker": "HediffComp_ReduceHungerFall.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\HediffComp_ReduceHungerFall.cs",
-              "RelativeToolTip": "HediffComp_ReduceHungerFall.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwDkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LapinRepresentativeOverlay.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinRepresentativeOverlay.cs",
+              "RelativeDocumentMoniker": "LapinRepresentativeOverlay.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinRepresentativeOverlay.cs",
+              "RelativeToolTip": "LapinRepresentativeOverlay.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T09:42:12.528Z",
+              "WhenOpened": "2026-05-12T09:56:53.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IncidentWorker_LapinSupplyRequest.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\IncidentWorker_LapinSupplyRequest.cs",
+              "RelativeDocumentMoniker": "IncidentWorker_LapinSupplyRequest.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\IncidentWorker_LapinSupplyRequest.cs",
+              "RelativeToolTip": "IncidentWorker_LapinSupplyRequest.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAUwGQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T07:54:21.132Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CompProperties_StrawberryWineFermenter.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\CompProperties_StrawberryWineFermenter.cs",
-              "RelativeDocumentMoniker": "CompProperties_StrawberryWineFermenter.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\CompProperties_StrawberryWineFermenter.cs",
-              "RelativeToolTip": "CompProperties_StrawberryWineFermenter.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAmwIcAAAABAAAAAAAAAA==",
+              "Title": "LapinSupplyInteraction.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSupplyInteraction.cs",
+              "RelativeDocumentMoniker": "LapinSupplyInteraction.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSupplyInteraction.cs",
+              "RelativeToolTip": "LapinSupplyInteraction.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAuwDYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T07:36:11.566Z"
+              "WhenOpened": "2026-05-12T08:20:14.44Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AlienRaceSettings.xml",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3497673755\\1.6\\Defs\\AlienRaceSettings\\AlienRaceSettings.xml",
-              "RelativeDocumentMoniker": "..\\..\\..\\3497673755\\1.6\\Defs\\AlienRaceSettings\\AlienRaceSettings.xml",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3497673755\\1.6\\Defs\\AlienRaceSettings\\AlienRaceSettings.xml",
-              "RelativeToolTip": "..\\..\\..\\3497673755\\1.6\\Defs\\AlienRaceSettings\\AlienRaceSettings.xml",
-              "ViewState": "AgIAABkAAAAAAAAAAABAwDMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-04-21T14:14:29.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Factions.xml",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3332020933\\1.6\\Defs\\FactionDefs\\Factions.xml",
-              "RelativeDocumentMoniker": "..\\..\\..\\3332020933\\1.6\\Defs\\FactionDefs\\Factions.xml",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3332020933\\1.6\\Defs\\FactionDefs\\Factions.xml",
-              "RelativeToolTip": "..\\..\\..\\3332020933\\1.6\\Defs\\FactionDefs\\Factions.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-04-30T12:34:05.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "PawnKinds_Player.xml",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3707876452\\Defs\\PawnKindDef_Lapin\\PawnKinds_Player.xml",
-              "RelativeDocumentMoniker": "..\\..\\..\\3707876452\\Defs\\PawnKindDef_Lapin\\PawnKinds_Player.xml",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3707876452\\Defs\\PawnKindDef_Lapin\\PawnKinds_Player.xml",
-              "RelativeToolTip": "..\\..\\..\\3707876452\\Defs\\PawnKindDef_Lapin\\PawnKinds_Player.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-04-24T07:25:59.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "RulePacks_Namers_Factions.xml",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3707876452\\Defs\\RulePack\\RulePacks_Namers_Factions.xml",
-              "RelativeDocumentMoniker": "..\\..\\..\\3707876452\\Defs\\RulePack\\RulePacks_Namers_Factions.xml",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3707876452\\Defs\\RulePack\\RulePacks_Namers_Factions.xml",
-              "RelativeToolTip": "..\\..\\..\\3707876452\\Defs\\RulePack\\RulePacks_Namers_Factions.xml",
-              "ViewState": "AgIAAFgAAAAAAAAAAABAwBUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-04-22T22:57:16.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": ".NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\obj\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\obj\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
-              "RelativeToolTip": "obj\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LapinSupplyRequest.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSupplyRequest.cs",
+              "RelativeDocumentMoniker": "LapinSupplyRequest.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSupplyRequest.cs",
+              "RelativeToolTip": "LapinSupplyRequest.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAkwFoBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T13:53:54.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Verb_ShootCannonWithSmoke.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Verb_ShootCannonWithSmoke.cs",
-              "RelativeDocumentMoniker": "Verb_ShootCannonWithSmoke.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Verb_ShootCannonWithSmoke.cs",
-              "RelativeToolTip": "Verb_ShootCannonWithSmoke.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwEAAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T20:18:09.065Z"
+              "WhenOpened": "2026-05-11T20:12:43.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LapinSpecialForcesMillitarLoadoutUtility.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSpecialForcesMillitarLoadoutUtility.cs",
-              "RelativeDocumentMoniker": "LapinSpecialForcesMillitarLoadoutUtility.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSpecialForcesMillitarLoadoutUtility.cs",
-              "RelativeToolTip": "LapinSpecialForcesMillitarLoadoutUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T21:02:27.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IncidentWorker_LapinSpecialForcesDrop.cs",
               "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\IncidentWorker_LapinSpecialForcesDrop.cs",
               "RelativeDocumentMoniker": "IncidentWorker_LapinSpecialForcesDrop.cs",
@@ -304,330 +262,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LapinSpecialForcesLoadoutUtility.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSpecialForcesLoadoutUtility.cs",
-              "RelativeDocumentMoniker": "LapinSpecialForcesLoadoutUtility.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSpecialForcesLoadoutUtility.cs",
-              "RelativeToolTip": "LapinSpecialForcesLoadoutUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Title": "LapinSupplyUtility.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSupplyUtility.cs",
+              "RelativeDocumentMoniker": "LapinSupplyUtility.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSupplyUtility.cs",
+              "RelativeToolTip": "LapinSupplyUtility.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T04:08:57.191Z"
+              "WhenOpened": "2026-05-12T09:23:12.733Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LapinPawnKindDefOf.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinPawnKindDefOf.cs",
-              "RelativeDocumentMoniker": "LapinPawnKindDefOf.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinPawnKindDefOf.cs",
-              "RelativeToolTip": "LapinPawnKindDefOf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T13:20:34.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LapinShieldBeltDestroyPatch.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinShieldBeltDestroyPatch.cs",
-              "RelativeDocumentMoniker": "LapinShieldBeltDestroyPatch.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinShieldBeltDestroyPatch.cs",
-              "RelativeToolTip": "LapinShieldBeltDestroyPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T15:45:57.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "LapinSiegeShellSupplyComponent.cs",
               "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSiegeShellSupplyComponent.cs",
               "RelativeDocumentMoniker": "LapinSiegeShellSupplyComponent.cs",
               "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSiegeShellSupplyComponent.cs",
               "RelativeToolTip": "LapinSiegeShellSupplyComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T10:52:12.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LapinSoldierLoadoutUtility.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSoldierLoadoutUtility.cs",
-              "RelativeDocumentMoniker": "LapinSoldierLoadoutUtility.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSoldierLoadoutUtility.cs",
-              "RelativeToolTip": "LapinSoldierLoadoutUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Patch_MusketUnavailableInRain.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Patch_MusketUnavailableInRain.cs",
+              "RelativeDocumentMoniker": "Patch_MusketUnavailableInRain.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Patch_MusketUnavailableInRain.cs",
+              "RelativeToolTip": "Patch_MusketUnavailableInRain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T10:13:58.651Z"
+              "WhenOpened": "2026-05-11T18:07:54.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LapinRaceDefOf.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinRaceDefOf.cs",
-              "RelativeDocumentMoniker": "LapinRaceDefOf.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinRaceDefOf.cs",
-              "RelativeToolTip": "LapinRaceDefOf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CompProperties_StrawberryWineFermenter.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\CompProperties_StrawberryWineFermenter.cs",
+              "RelativeDocumentMoniker": "CompProperties_StrawberryWineFermenter.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\CompProperties_StrawberryWineFermenter.cs",
+              "RelativeToolTip": "CompProperties_StrawberryWineFermenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T13:18:57.968Z"
+              "WhenOpened": "2026-05-08T07:36:11.566Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "LapinPawnGeneratorRaceHook.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinPawnGeneratorRaceHook.cs",
-              "RelativeDocumentMoniker": "LapinPawnGeneratorRaceHook.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinPawnGeneratorRaceHook.cs",
-              "RelativeToolTip": "LapinPawnGeneratorRaceHook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T09:07:48.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LapinNoBaldHairPatch.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinNoBaldHairPatch.cs",
-              "RelativeDocumentMoniker": "LapinNoBaldHairPatch.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinNoBaldHairPatch.cs",
-              "RelativeToolTip": "LapinNoBaldHairPatch.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvzUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T08:14:38.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LapinMaidLoadoutUtility.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinMaidLoadoutUtility.cs",
-              "RelativeDocumentMoniker": "LapinMaidLoadoutUtility.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinMaidLoadoutUtility.cs",
-              "RelativeToolTip": "LapinMaidLoadoutUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T04:31:30.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LapinMaidBackstoryPatch.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinMaidBackstoryPatch.cs",
-              "RelativeDocumentMoniker": "LapinMaidBackstoryPatch.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinMaidBackstoryPatch.cs",
-              "RelativeToolTip": "LapinMaidBackstoryPatch.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T18:05:47.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LapinIncidentDefOf.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinIncidentDefOf.cs",
-              "RelativeDocumentMoniker": "LapinIncidentDefOf.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinIncidentDefOf.cs",
-              "RelativeToolTip": "LapinIncidentDefOf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T13:39:59.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LapinGrenadierBackstoryPatch.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinGrenadierBackstoryPatch.cs",
-              "RelativeDocumentMoniker": "LapinGrenadierBackstoryPatch.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinGrenadierBackstoryPatch.cs",
-              "RelativeToolTip": "LapinGrenadierBackstoryPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T10:26:53.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LapinFollowUpTroops.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinFollowUpTroops.cs",
-              "RelativeDocumentMoniker": "LapinFollowUpTroops.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinFollowUpTroops.cs",
-              "RelativeToolTip": "LapinFollowUpTroops.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:15:42.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LapinFactionDefOf.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinFactionDefOf.cs",
-              "RelativeDocumentMoniker": "LapinFactionDefOf.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinFactionDefOf.cs",
-              "RelativeToolTip": "LapinFactionDefOf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T13:26:26.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LapinEarAppendDrawRequestsPatch.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinEarAppendDrawRequestsPatch.cs",
-              "RelativeDocumentMoniker": "LapinEarAppendDrawRequestsPatch.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinEarAppendDrawRequestsPatch.cs",
-              "RelativeToolTip": "LapinEarAppendDrawRequestsPatch.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:35:15.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LapinBackstoryEnemyComponent.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinBackstoryEnemyComponent.cs",
-              "RelativeDocumentMoniker": "LapinBackstoryEnemyComponent.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinBackstoryEnemyComponent.cs",
-              "RelativeToolTip": "LapinBackstoryEnemyComponent.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwHIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:46:45.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LapinArtilleryBackstoryPatch.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinArtilleryBackstoryPatch.cs",
-              "RelativeDocumentMoniker": "LapinArtilleryBackstoryPatch.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinArtilleryBackstoryPatch.cs",
-              "RelativeToolTip": "LapinArtilleryBackstoryPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:19:49.724Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "PatchSabreSound.cs",
               "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\PatchSabreSound.cs",
               "RelativeDocumentMoniker": "PatchSabreSound.cs",
               "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\PatchSabreSound.cs",
               "RelativeToolTip": "PatchSabreSound.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T18:52:05.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PawnGeneExtensions.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\PawnGeneExtensions.cs",
-              "RelativeDocumentMoniker": "PawnGeneExtensions.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\PawnGeneExtensions.cs",
-              "RelativeToolTip": "PawnGeneExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:13:20.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProductFinishGenColorHook.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\ProductFinishGenColorHook.cs",
-              "RelativeDocumentMoniker": "ProductFinishGenColorHook.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\ProductFinishGenColorHook.cs",
-              "RelativeToolTip": "ProductFinishGenColorHook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T13:37:31.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LapinbackstoryDefOf.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinbackstoryDefOf.cs",
-              "RelativeDocumentMoniker": "LapinbackstoryDefOf.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinbackstoryDefOf.cs",
-              "RelativeToolTip": "LapinbackstoryDefOf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T13:38:48.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "LapinBackstoryTraumaComponent.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinBackstoryTraumaComponent.cs",
-              "RelativeDocumentMoniker": "LapinBackstoryTraumaComponent.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinBackstoryTraumaComponent.cs",
-              "RelativeToolTip": "LapinBackstoryTraumaComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T16:16:17.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LapinVoltigeurBackstoryPatch.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinVoltigeurBackstoryPatch.cs",
-              "RelativeDocumentMoniker": "LapinVoltigeurBackstoryPatch.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinVoltigeurBackstoryPatch.cs",
-              "RelativeToolTip": "LapinVoltigeurBackstoryPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:50:52.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "LapinVoltigeurLoadoutUtility.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinVoltigeurLoadoutUtility.cs",
-              "RelativeDocumentMoniker": "LapinVoltigeurLoadoutUtility.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinVoltigeurLoadoutUtility.cs",
-              "RelativeToolTip": "LapinVoltigeurLoadoutUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:39:47.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LP_HarmonyInit.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_HarmonyInit.cs",
-              "RelativeDocumentMoniker": "LP_HarmonyInit.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_HarmonyInit.cs",
-              "RelativeToolTip": "LP_HarmonyInit.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAUwEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T21:10:24.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "LP_StartupProbe.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_StartupProbe.cs",
-              "RelativeDocumentMoniker": "LP_StartupProbe.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_StartupProbe.cs",
-              "RelativeToolTip": "LP_StartupProbe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T21:07:22.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Patch_LapinChildClothes.cs",
-              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Patch_LapinChildClothes.cs",
-              "RelativeDocumentMoniker": "Patch_LapinChildClothes.cs",
-              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Patch_LapinChildClothes.cs",
-              "RelativeToolTip": "Patch_LapinChildClothes.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T08:09:37.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 10,
               "Title": "_LapinTurncoatRaid.cs",
               "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\_LapinTurncoatRaid.cs",
               "RelativeDocumentMoniker": "_LapinTurncoatRaid.cs",
@@ -639,7 +333,391 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HediffComp_ReduceHungerFall.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\HediffComp_ReduceHungerFall.cs",
+              "RelativeDocumentMoniker": "HediffComp_ReduceHungerFall.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\HediffComp_ReduceHungerFall.cs",
+              "RelativeToolTip": "HediffComp_ReduceHungerFall.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvzkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T09:42:12.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AlienRaceSettings.xml",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3497673755\\1.6\\Defs\\AlienRaceSettings\\AlienRaceSettings.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\3497673755\\1.6\\Defs\\AlienRaceSettings\\AlienRaceSettings.xml",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3497673755\\1.6\\Defs\\AlienRaceSettings\\AlienRaceSettings.xml",
+              "RelativeToolTip": "..\\..\\..\\3497673755\\1.6\\Defs\\AlienRaceSettings\\AlienRaceSettings.xml",
+              "ViewState": "AgIAABkAAAAAAAAAAABAwDMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-21T14:14:29.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PawnKinds_Player.xml",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3707876452\\Defs\\PawnKindDef_Lapin\\PawnKinds_Player.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\3707876452\\Defs\\PawnKindDef_Lapin\\PawnKinds_Player.xml",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3707876452\\Defs\\PawnKindDef_Lapin\\PawnKinds_Player.xml",
+              "RelativeToolTip": "..\\..\\..\\3707876452\\Defs\\PawnKindDef_Lapin\\PawnKinds_Player.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-24T07:25:59.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Factions.xml",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3332020933\\1.6\\Defs\\FactionDefs\\Factions.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\3332020933\\1.6\\Defs\\FactionDefs\\Factions.xml",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3332020933\\1.6\\Defs\\FactionDefs\\Factions.xml",
+              "RelativeToolTip": "..\\..\\..\\3332020933\\1.6\\Defs\\FactionDefs\\Factions.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-30T12:34:05.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RulePacks_Namers_Factions.xml",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3707876452\\Defs\\RulePack\\RulePacks_Namers_Factions.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\3707876452\\Defs\\RulePack\\RulePacks_Namers_Factions.xml",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3707876452\\Defs\\RulePack\\RulePacks_Namers_Factions.xml",
+              "RelativeToolTip": "..\\..\\..\\3707876452\\Defs\\RulePack\\RulePacks_Namers_Factions.xml",
+              "ViewState": "AgIAAFgAAAAAAAAAAABAwBUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-22T22:57:16.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": ".NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\obj\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\obj\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T13:53:54.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Verb_ShootCannonWithSmoke.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Verb_ShootCannonWithSmoke.cs",
+              "RelativeDocumentMoniker": "Verb_ShootCannonWithSmoke.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Verb_ShootCannonWithSmoke.cs",
+              "RelativeToolTip": "Verb_ShootCannonWithSmoke.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwEAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:18:09.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LapinSpecialForcesMillitarLoadoutUtility.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSpecialForcesMillitarLoadoutUtility.cs",
+              "RelativeDocumentMoniker": "LapinSpecialForcesMillitarLoadoutUtility.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSpecialForcesMillitarLoadoutUtility.cs",
+              "RelativeToolTip": "LapinSpecialForcesMillitarLoadoutUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T21:02:27.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LapinPawnKindDefOf.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinPawnKindDefOf.cs",
+              "RelativeDocumentMoniker": "LapinPawnKindDefOf.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinPawnKindDefOf.cs",
+              "RelativeToolTip": "LapinPawnKindDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T13:20:34.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LapinShieldBeltDestroyPatch.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinShieldBeltDestroyPatch.cs",
+              "RelativeDocumentMoniker": "LapinShieldBeltDestroyPatch.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinShieldBeltDestroyPatch.cs",
+              "RelativeToolTip": "LapinShieldBeltDestroyPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:45:57.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LapinSoldierLoadoutUtility.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSoldierLoadoutUtility.cs",
+              "RelativeDocumentMoniker": "LapinSoldierLoadoutUtility.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinSoldierLoadoutUtility.cs",
+              "RelativeToolTip": "LapinSoldierLoadoutUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:13:58.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LapinRaceDefOf.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinRaceDefOf.cs",
+              "RelativeDocumentMoniker": "LapinRaceDefOf.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinRaceDefOf.cs",
+              "RelativeToolTip": "LapinRaceDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T13:18:57.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LapinPawnGeneratorRaceHook.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinPawnGeneratorRaceHook.cs",
+              "RelativeDocumentMoniker": "LapinPawnGeneratorRaceHook.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinPawnGeneratorRaceHook.cs",
+              "RelativeToolTip": "LapinPawnGeneratorRaceHook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T09:07:48.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LapinNoBaldHairPatch.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinNoBaldHairPatch.cs",
+              "RelativeDocumentMoniker": "LapinNoBaldHairPatch.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinNoBaldHairPatch.cs",
+              "RelativeToolTip": "LapinNoBaldHairPatch.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvzUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T08:14:38.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LapinMaidLoadoutUtility.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinMaidLoadoutUtility.cs",
+              "RelativeDocumentMoniker": "LapinMaidLoadoutUtility.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinMaidLoadoutUtility.cs",
+              "RelativeToolTip": "LapinMaidLoadoutUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T04:31:30.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LapinMaidBackstoryPatch.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinMaidBackstoryPatch.cs",
+              "RelativeDocumentMoniker": "LapinMaidBackstoryPatch.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinMaidBackstoryPatch.cs",
+              "RelativeToolTip": "LapinMaidBackstoryPatch.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T18:05:47.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LapinIncidentDefOf.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinIncidentDefOf.cs",
+              "RelativeDocumentMoniker": "LapinIncidentDefOf.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinIncidentDefOf.cs",
+              "RelativeToolTip": "LapinIncidentDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T13:39:59.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LapinGrenadierBackstoryPatch.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinGrenadierBackstoryPatch.cs",
+              "RelativeDocumentMoniker": "LapinGrenadierBackstoryPatch.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinGrenadierBackstoryPatch.cs",
+              "RelativeToolTip": "LapinGrenadierBackstoryPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:26:53.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LapinFollowUpTroops.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinFollowUpTroops.cs",
+              "RelativeDocumentMoniker": "LapinFollowUpTroops.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinFollowUpTroops.cs",
+              "RelativeToolTip": "LapinFollowUpTroops.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:15:42.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LapinFactionDefOf.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinFactionDefOf.cs",
+              "RelativeDocumentMoniker": "LapinFactionDefOf.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinFactionDefOf.cs",
+              "RelativeToolTip": "LapinFactionDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T13:26:26.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LapinEarAppendDrawRequestsPatch.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinEarAppendDrawRequestsPatch.cs",
+              "RelativeDocumentMoniker": "LapinEarAppendDrawRequestsPatch.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinEarAppendDrawRequestsPatch.cs",
+              "RelativeToolTip": "LapinEarAppendDrawRequestsPatch.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:35:15.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LapinBackstoryEnemyComponent.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinBackstoryEnemyComponent.cs",
+              "RelativeDocumentMoniker": "LapinBackstoryEnemyComponent.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinBackstoryEnemyComponent.cs",
+              "RelativeToolTip": "LapinBackstoryEnemyComponent.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:46:45.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LapinArtilleryBackstoryPatch.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinArtilleryBackstoryPatch.cs",
+              "RelativeDocumentMoniker": "LapinArtilleryBackstoryPatch.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinArtilleryBackstoryPatch.cs",
+              "RelativeToolTip": "LapinArtilleryBackstoryPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:19:49.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PawnGeneExtensions.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\PawnGeneExtensions.cs",
+              "RelativeDocumentMoniker": "PawnGeneExtensions.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\PawnGeneExtensions.cs",
+              "RelativeToolTip": "PawnGeneExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T12:13:20.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductFinishGenColorHook.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\ProductFinishGenColorHook.cs",
+              "RelativeDocumentMoniker": "ProductFinishGenColorHook.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\ProductFinishGenColorHook.cs",
+              "RelativeToolTip": "ProductFinishGenColorHook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T13:37:31.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LapinbackstoryDefOf.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinbackstoryDefOf.cs",
+              "RelativeDocumentMoniker": "LapinbackstoryDefOf.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinbackstoryDefOf.cs",
+              "RelativeToolTip": "LapinbackstoryDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T13:38:48.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LapinBackstoryTraumaComponent.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinBackstoryTraumaComponent.cs",
+              "RelativeDocumentMoniker": "LapinBackstoryTraumaComponent.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinBackstoryTraumaComponent.cs",
+              "RelativeToolTip": "LapinBackstoryTraumaComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T16:16:17.34Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 33,
+              "Title": "LapinVoltigeurBackstoryPatch.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinVoltigeurBackstoryPatch.cs",
+              "RelativeDocumentMoniker": "LapinVoltigeurBackstoryPatch.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinVoltigeurBackstoryPatch.cs",
+              "RelativeToolTip": "LapinVoltigeurBackstoryPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:50:52.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LapinVoltigeurLoadoutUtility.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinVoltigeurLoadoutUtility.cs",
+              "RelativeDocumentMoniker": "LapinVoltigeurLoadoutUtility.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LapinVoltigeurLoadoutUtility.cs",
+              "RelativeToolTip": "LapinVoltigeurLoadoutUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:39:47.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LP_HarmonyInit.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_HarmonyInit.cs",
+              "RelativeDocumentMoniker": "LP_HarmonyInit.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_HarmonyInit.cs",
+              "RelativeToolTip": "LP_HarmonyInit.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T21:10:24.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LP_StartupProbe.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_StartupProbe.cs",
+              "RelativeDocumentMoniker": "LP_StartupProbe.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_StartupProbe.cs",
+              "RelativeToolTip": "LP_StartupProbe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T21:07:22.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Patch_LapinChildClothes.cs",
+              "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Patch_LapinChildClothes.cs",
+              "RelativeDocumentMoniker": "Patch_LapinChildClothes.cs",
+              "ToolTip": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Patch_LapinChildClothes.cs",
+              "RelativeToolTip": "Patch_LapinChildClothes.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T08:09:37.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "LP_ThingDefOf.cs",
               "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LP_ThingDefOf.cs",
               "RelativeDocumentMoniker": "LP_ThingDefOf.cs",
@@ -651,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "LPGeneDefOf.cs",
               "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LPGeneDefOf.cs",
               "RelativeDocumentMoniker": "LPGeneDefOf.cs",
@@ -663,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "LPXenotypeDefOf.cs",
               "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\LPXenotypeDefOf.cs",
               "RelativeDocumentMoniker": "LPXenotypeDefOf.cs",
@@ -675,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "A:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3717081187\\Source\\LapinRace\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
