@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Lapin</defName>
+
+    <rulePack>
+      <rulesStrings>
+
+        <li>r_leaderTitle->총사령관</li>
+        <li>r_leaderTitle->제국원수</li>
+        <li>r_leaderTitle->근위총감</li>
+        <li>r_leaderTitle->라핀 대공</li>
+       
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+  <defName>LeaderTitleMaker_LapinDegenerate</defName>
+  <rulePack>
+    <rulesStrings>
+      <li>r_leaderTitle->변질자 우두머리</li>
+      <li>r_leaderTitle->타락한 총사령관</li>
+      <li>r_leaderTitle->광신대장</li>
+    </rulesStrings>
+  </rulePack>
+</RulePackDef>
+</Defs>

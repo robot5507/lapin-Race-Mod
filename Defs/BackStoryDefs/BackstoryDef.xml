@@ -184,6 +184,7 @@
 			<li>LapinNoble</li>
       <li>LapinNobleOfficer</li>
       <li>LapinNobleMasked</li>
+      <li>LapinSoldierSapper</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 

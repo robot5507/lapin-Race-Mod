@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MealBase">
+  <defName>LP_Campague</defName>
+  <label>라핀 캉파뉴</label>
+  <description>라핀밀로 만들수 있는 라핀 캉파뉴빵.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_Campague</texPath>
+   <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>9</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>1.5</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealFine</preferability>
+    <baseIngestTicks>220</baseIngestTicks>
+    <ingestCommandString>라핀 캉파뉴 먹기</ingestCommandString>
+    <ingestReportString>라핀 캉파뉴를 먹고 있습니다.</ingestReportString>
+    <tasteThought>LP_Lapin_Campague_Ate</tasteThought>
+
+    
+  </ingestible>
+<stackLimit>15</stackLimit>
+
+</ThingDef>
+</Defs>

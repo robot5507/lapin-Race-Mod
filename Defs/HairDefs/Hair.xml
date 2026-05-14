@@ -50,4 +50,36 @@
 			<li>LP_Style</li>
 		</styleTags>
 	</HairDef>
+
+	<HairDef>
+		<defName>LP_RoleHair</defName>
+		<label>RoleHair</label>
+		<hairGender>Female</hairGender>
+		<texPath>LP_Hair/hair_6</texPath>
+		<category>LP_Style</category>
+		<styleTags>
+			<li>LP_Style</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>LP_SideTail</defName>
+		<label>SideTail</label>
+		<hairGender>Female</hairGender>
+		<texPath>LP_Hair/hair_7</texPath>
+		<category>LP_Style</category>
+		<styleTags>
+			<li>LP_Style</li>
+		</styleTags>
+	</HairDef>
+	<HairDef>
+		<defName>LP_CurveRoll</defName>
+		<label>CurveRoll</label>
+		<hairGender>Female</hairGender>
+		<texPath>LP_Hair/hair_8</texPath>
+		<category>LP_Style</category>
+		<styleTags>
+			<li>LP_Style</li>
+		</styleTags>
+	</HairDef>
 </Defs>

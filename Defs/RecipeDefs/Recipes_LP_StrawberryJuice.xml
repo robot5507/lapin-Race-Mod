@@ -10,7 +10,7 @@
     <workSpeedStat>DrugCookingSpeed</workSpeedStat>
 <workSkill>Cooking</workSkill>
     <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_CookMeal</soundWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
 
     <recipeUsers>
     <li>Brewery</li>
@@ -36,6 +36,7 @@
     <products>
       <LP_StrawberryJuice>25</LP_StrawberryJuice>
     </products>
+     <researchPrerequisite>LP_LapinWinemaking</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

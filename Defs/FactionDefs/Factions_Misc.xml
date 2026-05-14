@@ -9,7 +9,7 @@
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<maxConfigurableAtWorldCreation>2</maxConfigurableAtWorldCreation>
 		<canMakeRandomly>true</canMakeRandomly>
-		<leaderTitle>High General</leaderTitle>
+		<leaderTitle>monarch</leaderTitle>
 		<factionNameMaker>NamerFaction_Lapin</factionNameMaker>
 		<settlementNameMaker>NamerSettlement_Lapin</settlementNameMaker>
 		<canSiege>true</canSiege>
@@ -232,8 +232,7 @@
                <LP_LapinXenotype MayRequire="Ludeon.RimWorld.Biotech">10000</LP_LapinXenotype>
            </xenotypeChances>
         </xenotypeSet>
-		
-		
+	
 		<backstoryCategories>
 			<li>Offworld</li>
 		</backstoryCategories>
@@ -323,9 +322,10 @@
 				<li>Woody</li>
 			</stuffCategoriesToAllow>
 		</apparelStuffFilter>
-		<allowedCultures>
-			<li>LapinCulture</li>
-		</allowedCultures>
+			<allowedCultures>
+       <li>LapinDegenerateCulture</li>
+       </allowedCultures>
+		
 	</FactionDef>
 	<FactionDef ParentName="LapinBadFactionBase">
 		<defName>Lapin_Turncoat</defName>

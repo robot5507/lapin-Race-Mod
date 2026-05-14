@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>LP_LapinSupplyRepresentative</defName>
+    <label>라핀 대표자 방문</label>
+    <category>Misc</category>
+    <workerClass>LapinRace.IncidentWorker_LapinSupplyRequest</workerClass>
+    <baseChance>1.0</baseChance>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+  </IncidentDef>
+  
+
+
+ 
+</Defs>

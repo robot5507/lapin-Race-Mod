@@ -21,7 +21,7 @@
             <li>RawLapinFlour</li>
           </thingDefs>
         </filter>
-        <count>4</count>
+        <count>5</count>
       </li>
     </ingredients>
 
@@ -43,6 +43,108 @@
     <skillRequirements>
       <Cooking>4</Cooking>
     </skillRequirements>
+     <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>Recipe_Campagne</defName>
+    <label>라핀 캉파뉴 굽기</label>
+    <description>밀가루로 라핀 캉파뉴를 굽는다.</description>
+    <jobString>라핀 캉파뉴를 굽는 중</jobString>
+
+    <workAmount>220</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawLapinFlour</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawLapinFlour</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+
+    <products>
+      <LP_Campague>1</LP_Campague>
+    </products>
+
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+     <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>Recipe_Croissant</defName>
+    <label>라핀 크루아상 굽기</label>
+    <description>밀가루로 바삭바삭한 라핀 크루아상을 굽는다.</description>
+    <jobString>라핀 크루아상 굽는 중</jobString>
+
+    <workAmount>220</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawLapinFlour</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Butter</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawLapinFlour</li>
+      </thingDefs>
+       <thingDefs>
+      <li>LP_Butter</li>
+    </thingDefs>
+    </fixedIngredientFilter>
+
+    <products>
+      <LP_Croissant>1</LP_Croissant>
+    </products>
+
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+
+    <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+      <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

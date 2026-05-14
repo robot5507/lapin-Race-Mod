@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="MealBase">
+  <defName>LP_Compote</defName>
+  <label>라핀 컴포트</label>
+  <description>라핀 컴포트입니다.잼처럼 보이지만 그 자체로 괜찮은 음식이 됩니다.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_Compote</texPath>
+   <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>18</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>0.9</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealFine</preferability>
+    <baseIngestTicks>220</baseIngestTicks>
+    <ingestCommandString>라핀 컴포트 먹기</ingestCommandString>
+    <ingestReportString>라핀 컴포트를 먹고 있습니다.</ingestReportString>
+
+    
+  </ingestible>
+<stackLimit>5</stackLimit>
+ 
+</ThingDef>
+</Defs>

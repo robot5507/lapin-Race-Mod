@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>LP_DeliverSupplyToLapinRepresentative</defName>
+    <driverClass>LapinRace.JobDriver_DeliverSupplyToLapinRepresentative</driverClass>
+    <reportString>라핀 대표자에게 보급품을 전달하는 중.</reportString>
+  </JobDef>
+</Defs>

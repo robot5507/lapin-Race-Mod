@@ -8,10 +8,10 @@
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityCorunan</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
-		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Corunan</leaderTitleMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Lapin</leaderTitleMaker>
 		<allowedPlaceTags>
-			<li>OriginTribal</li>
-		</allowedPlaceTags>
+          <li>OriginTribal</li>
+        </allowedPlaceTags>
 		<thingStyleCategories>
 		
 		</thingStyleCategories>
@@ -45,4 +45,51 @@
 			</li>
 		</styleItemTags>
 	</CultureDef>
-</Defs>
+
+	<CultureDef>
+		<defName>LapinDegenerateCulture</defName>
+		<label>라핀 변절자 문화</label>
+		<description>변절자 라핀인들의 문화입니다.</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityCorunan</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_LapinDegenerate</leaderTitleMaker>
+		<allowedPlaceTags>
+          <li>OriginTribal</li>
+        </allowedPlaceTags>
+		<thingStyleCategories>
+		
+		</thingStyleCategories>
+		<iconPath>UI/Cultures/LP_DefaultColony</iconPath>
+		<iconColor>(1.0, 1.0, 1.0)</iconColor>
+		<styleItemTags>
+			<li>
+				<tag>LP_Style</tag>
+				<baseWeight>0</baseWeight>
+				<weightFactor>0</weightFactor>
+			</li>
+			<li>
+				<tag>Urban</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Rural</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+	</CultureDef>
+
+	</Defs>

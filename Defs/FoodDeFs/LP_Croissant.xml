@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="MealBase">
+  <defName>LP_Croissant</defName>
+  <label>라핀 크루아상</label>
+  <description>라핀밀로 만들수 있는 맛있는 라핀 크루아상.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_Croissant</texPath>
+   <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>18</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>0.9</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealFine</preferability>
+    <baseIngestTicks>220</baseIngestTicks>
+    <ingestCommandString>라핀 크루아상 먹기</ingestCommandString>
+    <ingestReportString>라핀 크루아상을 먹고 있습니다.</ingestReportString>
+    <tasteThought>LP_Lapin_Croissant_Ate</tasteThought>
+
+    
+  </ingestible>
+<stackLimit>25</stackLimit>
+ 
+</ThingDef>
+</Defs>

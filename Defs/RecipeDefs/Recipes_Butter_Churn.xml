@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef>
+    <defName>ChurningCream</defName>
+    <label>크림 만들기</label>
+    <description>우유를 저어서 크림으로 만듭니다. 꽤나 중노동이다.</description>
+    <jobString>크림 만드는 중</jobString>
+    <unfinishedThingDef>UnfinishedButter</unfinishedThingDef>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+
+    <products>
+      <LP_Cream>1</LP_Cream>
+    </products>
+
+    <recipeUsers>
+      <li>LapinButterChurn</li>
+    </recipeUsers>
+
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>ChurningButter</defName>
+    <label>버터 만들기</label>
+    <description>크림을 저어서 버터로 만듭니다. 꽤나 중노동이다.</description>
+    <jobString>버터 만드는 중</jobString>
+    <unfinishedThingDef>UnfinishedButter</unfinishedThingDef>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LP_Cream</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+
+    <products>
+      <LP_Butter>1</LP_Butter>
+    </products>
+
+    <recipeUsers>
+      <li>LapinButterChurn</li>
+    </recipeUsers>
+
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

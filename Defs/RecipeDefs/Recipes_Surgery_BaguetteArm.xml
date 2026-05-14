@@ -47,6 +47,7 @@
 
     <isViolation>true</isViolation>
     <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <researchPrerequisite>LP_LapinBagutteSurgery</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
@@ -93,6 +94,7 @@
 
     <isViolation>true</isViolation>
     <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <researchPrerequisite>LP_LapinBagutteSurgery</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

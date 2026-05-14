@@ -52,10 +52,14 @@
 		<factionNameMaker>NamerFaction_Lapin</factionNameMaker>
 		<settlementNameMaker>NamerSettlement_Lapin</settlementNameMaker>
 		<startingResearchTags>
-			<li>ClassicStart</li>
+			<li>LapinStart</li>
+			<li>TribalStart</li>
+			<li>TribalStartTechprints</li>
 		</startingResearchTags>
 		<startingTechprintsResearchTags>
-			<li>ClassicStart</li>
+			<li>LapinStart</li>
+			<li>TribalStart</li>
+			<li>TribalStartTechprints</li>
 		</startingTechprintsResearchTags>
 		<apparelStuffFilter>
 			<thingDefs>

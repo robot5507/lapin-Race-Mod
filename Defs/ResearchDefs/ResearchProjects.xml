@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>LapinTech</defName>
+		<label>라핀 기술</label>
+		<generalTitle>라핀 기술 연구</generalTitle>
+		<generalDescription>라핀인들의 생존과 역사가 담긴 기술 트리입니다.</generalDescription>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef>
+		<defName>LP_LapinGunsmithing</defName>
+		<label>라핀 총기 제작</label>
+		<description>라핀 전용 화약무기들을 제작하는 가장 기본적인 방법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinRifledbarrel</defName>
+		<label>강선</label>
+		<description>정확도와 사거리가 개선된 라핀 강선총열 제조법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>LP_LapinGunsmithing</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinGrenadeSmithing</defName>
+		<label>라핀 폭탄 제조</label>
+		<description>라핀 폭탄의 제조법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinCannoncasting</defName>
+		<label>라핀 대포 기술</label>
+		<description>라핀 대포를 만드는 기술을 배웁니디.</description>
+		<tab>LapinTech</tab>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinArtilleryTools</defName>
+		<label>라핀 포병 도구</label>
+		<description>라핀 포병용 도구를 만드는 기술을 배웁니디.</description>
+		<tab>LapinTech</tab>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+			<li>LP_LapinCannoncasting</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinCannonBallsmithing</defName>
+		<label>라핀 대포 포탄 제조</label>
+		<description>라핀 대포에 사용되는 기본적인 포탄 제조법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+			<li>LP_LapinCannoncasting</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinMeleeWeaponsmithing</defName>
+		<label>라핀 냉병기 제조</label>
+		<description>라핀 기본 근접무기들을 만드는 법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinToolsmithing</defName>
+		<label>라핀 기본 도구 제조</label>
+		<description>라핀 기본 물건 만드는 법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinWinemaking</defName>
+		<label>라핀 양조</label>
+		<description>라핀 딸기 와인의 양조를 위한 발효통 제작법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+              <li>Brewing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinMillingKnowhow</defName>
+		<label>라핀 제분 기술</label>
+		<description>라핀제분의 가장 기본인 맷돌의 제작과 제분법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinCookingKnowhow</defName>
+		<label>라핀 조리 기술</label>
+		<description>라핀인들의 식사와 조리법에 관해서 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+             <li>LP_LapinMillingKnowhow</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinAdvancedCookingKnowhow</defName>
+		<label>라핀 고급 조리 기술</label>
+		<description>라핀인들의 향상된 식사와 조리법에 관해서 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+             <li>LP_LapinCookingKnowhow</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinBagutteSurgery</defName>
+		<label>라핀 바게트 수술법</label>
+		<description>바게트를 팔다리 대용으로 사용하는 방법에 관해 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+             <li>LP_LapinMillingKnowhow</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinApparelproduction</defName>
+		<label>라핀 의류 제작</label>
+		<description>라핀인들의 복식에 맞는 의류를 제작하는 방법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+             
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinMilitaryApparelproduction</defName>
+		<label>라핀 군용 의류 제작</label>
+		<description>라핀인들의 군용 의류를 제작하는 방법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+             <li>LP_LapinApparelproduction</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinNobleApparelproduction</defName>
+		<label>라핀 고급 의류 제작</label>
+		<description>라핀의 높으신분들 복식에 맞는 의류를 제작하는 방법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>700</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+             <li>LP_LapinApparelproduction</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>7</researchViewY>
+	</ResearchProjectDef>
+	
+	
+	
+	<ResearchProjectTagDef>
+		<defName>LapinStart</defName>
+	</ResearchProjectTagDef>
+	
+</Defs>
