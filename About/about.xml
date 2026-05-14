@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-  <name>Lapin_Race</name>
+    <name>Lapin_Race</name>
 
-  <author>RyuByee</author>
+   <author>RyuByee</author>
 
-  <packageId>RyuByee.LapinRace</packageId>
+    <packageId>RyuByee.LapinRace</packageId>
 
 
   <description> 라핀 종족모드. 기존 라핀바게트모드는 포함되어있습니다.
@@ -13,13 +13,13 @@
 Lapin Baguette: Edible, usable as a weapon, usable as a substitute for prosthetic legs or arms, and if crafted well, becomes a masterpiece, but causes an error when loaded into the character editor.
 
 Under Testing
-  </description>
+</description>
 
-  <supportedVersions>
+    <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
   <modDependencies>
-    <li>
+   <li>
       <packageId>brrainz.harmony</packageId>
       <displayName>Harmony</displayName>
       <downloadUrl>steam://url/CommunityFilePage/2009463077</downloadUrl>
@@ -29,17 +29,17 @@ Under Testing
       <displayName>Humanoid Alien Races</displayName>
       <downloadUrl>steam://url/CommunityFilePage/839005762</downloadUrl>
     </li>
-
+    
   </modDependencies>
   <loadAfter>
-    <li>brrainz.harmony</li>
-    <li>Ludeon.RimWorld</li>
-    <li>Ludeon.RimWorld.Royalty</li>
-    <li>Ludeon.RimWorld.Ideology</li>
-    <li>Ludeon.RimWorld.Biotech</li>
-    <li>Ludeon.RimWorld.Anomaly</li>
-    <li>UnlimitedHugs.HugsLib</li>
-    <li>erdelf.HumanoidAlienRaces</li>
+  	<li>brrainz.harmony</li>
+	<li>Ludeon.RimWorld</li>
+	<li>Ludeon.RimWorld.Royalty</li>
+	<li>Ludeon.RimWorld.Ideology</li>
+	<li>Ludeon.RimWorld.Biotech</li>
+	<li>Ludeon.RimWorld.Anomaly</li>
+	<li>UnlimitedHugs.HugsLib</li>
+  <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
 
   <modVersion>1.0</modVersion>
