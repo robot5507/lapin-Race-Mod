@@ -8,6 +8,12 @@
 			<li Class="LapinRace.LapinPawnGeneratorRaceHook">
 				<forcedXenotype>LP_LapinXenotype</forcedXenotype>
 			</li>
+			<li Class="PigeonsFramework.InfoCardOverlayExtension" MayRequire="ninedaylongbow.PigeonsFramework">
+				<texturePath>UI/Lapin</texturePath>
+				<alpha>0.75</alpha>
+				<position>(250, 125)</position>
+				<size>(1000, 1500)</size>
+			</li>
 		</modExtensions>
 
 	</ThingDef>
