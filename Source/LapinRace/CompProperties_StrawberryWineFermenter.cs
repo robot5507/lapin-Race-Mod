@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using RimWorld;
+﻿using RimWorld;
 using Verse;
+using Verse.Sound;
 
 namespace LapinRace
 {
@@ -14,6 +14,12 @@ namespace LapinRace
         public float minSafeTemperature = 7f;
         public float maxSafeTemperature = 32f;
 
+        // 딸기주스 넣을 때 나는 소리
+        public SoundDef soundFilled;
+
+        // 발효 완료 메시지 타입
+        public MessageTypeDef finishedMessageType;
+
         public CompProperties_StrawberryWineFermenter()
         {
             compClass = typeof(CompStrawberryWineFermenter);
@@ -23,6 +29,7 @@ namespace LapinRace
     public class CompStrawberryWineFermenter : ThingComp
     {
         private int ticksFermented;
+        private float lastFuel;
 
         public CompProperties_StrawberryWineFermenter Props =>
             (CompProperties_StrawberryWineFermenter)props;
@@ -48,6 +55,18 @@ namespace LapinRace
         public override void CompTick()
         {
             base.CompTick();
+
+            CompRefuelable refuelable = Refuelable;
+
+            if (refuelable != null)
+            {
+                if (refuelable.Fuel > lastFuel && Props.soundFilled != null)
+                {
+                    Props.soundFilled.PlayOneShot(new TargetInfo(parent.Position, parent.Map));
+                }
+
+                lastFuel = refuelable.Fuel;
+            }
 
             if (!FullOfJuice)
             {
@@ -83,10 +102,8 @@ namespace LapinRace
                 return;
             }
 
-            // 채워진 딸기주스를 전부 소모
             refuelable.ConsumeFuel(refuelable.Fuel);
 
-            // 와인 생성
             Thing wine = ThingMaker.MakeThing(Props.outputDef);
             wine.stackCount = Props.outputAmount;
 
@@ -98,11 +115,12 @@ namespace LapinRace
             );
 
             ticksFermented = 0;
+            lastFuel = 0f;
 
             Messages.Message(
                 "딸기와인 발효가 완료되었습니다.",
                 parent,
-                MessageTypeDefOf.PositiveEvent
+                Props.finishedMessageType ?? MessageTypeDefOf.PositiveEvent
             );
         }
 
@@ -131,6 +149,7 @@ namespace LapinRace
             base.PostExposeData();
 
             Scribe_Values.Look(ref ticksFermented, "ticksFermented", 0);
+            Scribe_Values.Look(ref lastFuel, "lastFuel", 0f);
         }
     }
 }
