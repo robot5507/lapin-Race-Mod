@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 버터 만들기 -->
+  <ChurningButter.label>制作黄油</ChurningButter.label>
+  <!-- EN: 크림을 저어서 버터로 만듭니다. 꽤나 중노동이다. -->
+  <ChurningButter.description>通过搅拌奶油来制作黄油，这相当费力气。</ChurningButter.description>
+  <!-- EN: 버터 만드는 중 -->
+  <ChurningButter.jobString>正在制作黄油</ChurningButter.jobString>
+  
+  <!-- EN: 크림 만들기 -->
+  <ChurningCream.label>制作奶油</ChurningCream.label>
+  <!-- EN: 우유를 저어서 크림으로 만듭니다. 꽤나 중노동이다. -->
+  <ChurningCream.description>通过搅拌牛奶来制作奶油，这相当费力气。</ChurningCream.description>
+  <!-- EN: 크림 만드는 중 -->
+  <ChurningCream.jobString>正在制作奶油</ChurningCream.jobString>
+  
+</LanguageData>

@@ -11,10 +11,20 @@
   <!-- EN: 라핀 바게트를 먹으니 기부니가 좋아졌다. -->
   <LP_Lapin_Bagette_Ate.stages.0.description>吃了法棍，感觉心情也变好了。</LP_Lapin_Bagette_Ate.stages.0.description>
   
+  <!-- EN: 라핀 캉파뉴를 먹음 -->
+  <LP_Lapin_Campague_Ate.stages.0.label>吃了拉芬乡村面包</LP_Lapin_Campague_Ate.stages.0.label>
+  <!-- EN: 라핀 캉파뉴를 먹으니 기부니가 좋아졌다. -->
+  <LP_Lapin_Campague_Ate.stages.0.description>吃了拉芬乡村面包，心情变好了。</LP_Lapin_Campague_Ate.stages.0.description>
+  
+  <!-- EN: 라핀 크루아상을 먹음 -->
+  <LP_Lapin_Croissant_Ate.stages.0.label>吃了拉芬牛角包。</LP_Lapin_Croissant_Ate.stages.0.label>
+  <!-- EN: 라핀 크루아상을 먹으니 기부니가 좋아졌다. -->
+  <LP_Lapin_Croissant_Ate.stages.0.description>吃了拉芬牛角包，心情变好了。</LP_Lapin_Croissant_Ate.stages.0.description>
+  
   <!-- EN: 라핀 잠봉뵈르를 먹음 -->
-  <LP_Lapin_JambonBeurre_Ate.stages.0.label>吃了拉芬三明治</LP_Lapin_JambonBeurre_Ate.stages.0.label>
+  <LP_Lapin_JambonBeurre_Ate.stages.0.label>吃了拉芬火腿黄油三明治</LP_Lapin_JambonBeurre_Ate.stages.0.label>
   <!-- EN: 라핀 잠봉뵈르를 먹으니 기부니가 좋아졌다. -->
-  <LP_Lapin_JambonBeurre_Ate.stages.0.description>吃了拉芬三明治，感觉好多了。</LP_Lapin_JambonBeurre_Ate.stages.0.description>
+  <LP_Lapin_JambonBeurre_Ate.stages.0.description>吃了拉芬火腿黄油三明治，感觉好多了。</LP_Lapin_JambonBeurre_Ate.stages.0.description>
   
   <!-- EN: 전쟁 트라우마 -->
   <LP_WarTraumaMood.stages.0.label>战争创伤</LP_WarTraumaMood.stages.0.label>

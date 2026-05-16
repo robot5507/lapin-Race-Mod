@@ -16,11 +16,11 @@
   <Lapin_Baker.titleShort>面包师</Lapin_Baker.titleShort>
   
   <!-- EN: [PAWN_nameDef]은 특수전 목적으로 훈련받은 라핀메이드부대 대원입니다. -->
-  <Lapin_BattleMaid.description>TODO</Lapin_BattleMaid.description>
+  <Lapin_BattleMaid.description>[PAWN_nameDef]是以特种战为目的接受训练的拉芬战斗女仆。</Lapin_BattleMaid.description>
   <!-- EN: 라핀 전투메이드 -->
-  <Lapin_BattleMaid.title>TODO</Lapin_BattleMaid.title>
+  <Lapin_BattleMaid.title>拉芬战斗女仆</Lapin_BattleMaid.title>
   <!-- EN: 전투메이드 -->
-  <Lapin_BattleMaid.titleShort>TODO</Lapin_BattleMaid.titleShort>
+  <Lapin_BattleMaid.titleShort>战斗女仆</Lapin_BattleMaid.titleShort>
   
   <!-- EN: [PAWN_nameDef]은 변질된 라핀의 폭탄토끼입니다. -->
   <Lapin_BomberRabbit.description>[PAWN_nameDef]是被腐化的拉芬的炸弹兔。</Lapin_BomberRabbit.description>
@@ -82,7 +82,7 @@
   <Lapin_Maid.description>[PAWN_nameDef]是拉芬帝国的女仆。</Lapin_Maid.description>
   <!-- EN: 라핀 메이드 -->
   <Lapin_Maid.title>拉芬女仆</Lapin_Maid.title>
-  <!-- EN: 라핀 메이드 -->
+  <!-- EN: 라핀메이드 -->
   <Lapin_Maid.titleShort>女仆</Lapin_Maid.titleShort>
   
   <!-- EN: [PAWN_nameDef]은 라핀 제국의 상인입니다. -->

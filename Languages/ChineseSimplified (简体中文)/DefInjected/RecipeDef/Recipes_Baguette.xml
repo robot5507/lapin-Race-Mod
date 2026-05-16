@@ -8,4 +8,18 @@
   <!-- EN: 라핀 바게트를 굽는 중 -->
   <Recipe_Baguette.jobString>正在烤拉法棍</Recipe_Baguette.jobString>
   
+  <!-- EN: 라핀 캉파뉴 굽기 -->
+  <Recipe_Campagne.label>烤拉芬乡村面包</Recipe_Campagne.label>
+  <!-- EN: 밀가루로 라핀 캉파뉴를 굽는다. -->
+  <Recipe_Campagne.description>用面粉烤制拉芬乡村面包</Recipe_Campagne.description>
+  <!-- EN: 라핀 캉파뉴를 굽는 중 -->
+  <Recipe_Campagne.jobString>正在烤拉芬乡村面包</Recipe_Campagne.jobString>
+  
+  <!-- EN: 라핀 크루아상 굽기 -->
+  <Recipe_Croissant.label>烤拉芬牛角包</Recipe_Croissant.label>
+  <!-- EN: 밀가루로 바삭바삭한 라핀 크루아상을 굽는다. -->
+  <Recipe_Croissant.description>用面粉烤制酥脆的拉芬牛角包</Recipe_Croissant.description>
+  <!-- EN: 라핀 크루아상 굽는 중 -->
+  <Recipe_Croissant.jobString>正在烤拉芬牛角包</Recipe_Croissant.jobString>
+  
 </LanguageData>

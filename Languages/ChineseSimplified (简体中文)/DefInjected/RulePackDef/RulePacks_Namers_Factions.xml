@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN:
     <li>r_Name->[first] [last]</li>
     <li>r_Name->[first] [middle] [last]</li>
@@ -128,8 +128,134 @@
     <li>first->프랑시옹</li>
     <li>first->라피니옹</li>
   -->
-  <Lapin_Names_Common.rulePack.rulesStrings>TODO</Lapin_Names_Common.rulePack.rulesStrings>
-  
+  <Lapin_Names_Common.rulePack.rulesStrings>
+    <li>r_Name->[first] [last]</li>
+    <li>r_Name->[first] [middle] [last]</li>
+    <li>r_Name->[first] [middle] [middle] [last]</li>
+    <li>first->塞西莉亚</li>
+    <li>first->拉芬</li>
+    <li>first->贝尔</li>
+    <li>first->科斯莫斯</li>
+    <li>first->塞西莉亚</li>
+    <li>first->刘</li>
+    <li>first->让</li>
+    <li>first->雷米</li>
+    <li>first->阿娜伊斯</li>
+    <li>first->露米</li>
+    <li>first->诺埃尔</li>
+    <li>first->马尔</li>
+    <li>first->布鲁诺</li>
+    <li>first->坎娜</li>
+    <li>first->雷蒙</li>
+    <li>first->圣</li>
+    <li>first->弗拉贝</li>
+    <li>first->克雷姆</li>
+    <li>first->维布</li>
+    <li>first->金</li>
+    <li>first->埃克莱尔</li>
+    <li>first->罗博</li>
+    <li>first->博</li>
+    <li>first->波特</li>
+    <li>first->雷</li>
+    <li>first->博若莱</li>
+    <li>first->班</li>
+    <li>first->蒙特</li>
+    <li>first->苏芙蕾</li>
+    <li>first->波美</li>
+    <li>first->西</li>
+    <li>first->弗勒</li>
+    <li>first->吉尔</li>
+    <li>first->乔</li>
+    <li>first->勒</li>
+    <li>first->让邦</li>
+    <li>first->戈梅</li>
+    <li>first->克雷姆</li>
+    <li>first->加托</li>
+    <li>first->多姆</li>
+    <li>first->凯菲</li>
+    <li>middle->德</li>
+    <li>middle->丰</li>
+    <li>middle->拉</li>
+    <li>middle->皮埃尔</li>
+    <li>middle->德</li>
+    <li>middle->瓦尔</li>
+    <li>middle->维尔</li>
+    <li>middle->迪</li>
+    <li>middle->姆隆</li>
+    <li>middle->贝尔</li>
+    <li>middle->索姆</li>
+    <li>middle->孔</li>
+    <li>Last->苏里</li>
+    <li>Last->维</li>
+    <li>Last->克鲁瓦桑</li>
+    <li>Last->玛德琳</li>
+    <li>Last->布朗热</li>
+    <li>last->布朗</li>
+    <li>last->戈尔德菲尔德</li>
+    <li>last->哈特本</li>
+    <li>last->巴盖特</li>
+    <li>first->让</li>
+    <li>first->朗</li>
+    <li>first->达达尼昂</li>
+    <li>first->沙威</li>
+    <li>first->弗里特</li>
+    <li>first->拉塔图伊</li>
+    <li>first->科科班</li>
+    <li>first->孔菲</li>
+    <li>first->苏芙蕾</li>
+    <li>first->蒙布朗</li>
+    <li>first->热尔曼</li>
+    <li>first->维奥莱特</li>
+    <li>first->里</li>
+    <li>first->索尔贝</li>
+    <li>first->孔索梅</li>
+    <li>first->拉芬</li>
+    <li>first->梅朗</li>
+    <li>first->萨布尔</li>
+    <li>first->卡纳佩</li>
+    <li>first->拉克莱特</li>
+    <li>first->卡芒贝尔</li>
+    <li>first->格拉坦</li>
+    <li>first->努沃</li>
+    <li>first->肖</li>
+    <li>first->布尔吉尼翁</li>
+    <li>first->林圭尼</li>
+    <li>first->古斯托</li>
+    <li>first->科尼亚克</li>
+    <li>first->弗朗斯</li>
+    <li>first->帕蒂西耶</li>
+    <li>first->梅尔</li>
+    <li>first->罗姆</li>
+    <li>first->舒瓦尔</li>
+    <li>first->穆斯凯</li>
+    <li>first->卡农</li>
+    <li>first->科科利科</li>
+    <li>first->伊里斯</li>
+    <li>first->里斯</li>
+    <li>first->霍兹</li>
+    <li>first->卡梅利亚</li>
+    <li>first->莉拉</li>
+    <li>first->雷</li>
+    <li>first->马卡龙</li>
+    <li>first->农帕</li>
+    <li>first->拉旺德</li>
+    <li>first->图赫讷索尔</li>
+    <li>first->莉拉</li>
+    <li>first->伯尔</li>
+    <li>first->杜</li>
+    <li>first->穆里耶</li>
+    <li>first->米尼翁</li>
+    <li>first->肖科拉</li>
+    <li>first->梅容</li>
+    <li>first->阿尔马尼亚克</li>
+    <li>first->香槟/尚帕涅</li>
+    <li>first->佩里尼翁</li>
+    <li>first->安娜</li>
+    <li>first->沙科</li>
+    <li>first->弗朗雄</li>
+    <li>first->拉菲尼翁</li>
+  </Lapin_Names_Common.rulePack.rulesStrings>
+
   <!-- EN:
     <li>r_Name->[first] [nobleLast]</li>
     <li>r_Name->[first] [middle] [nobleLast]</li>
@@ -207,8 +333,84 @@
     <li>nobleLast->벨빌</li>
     <li>nobleLast->다르크</li>
   -->
-  <Lapin_Names_Noble.rulePack.rulesStrings>TODO</Lapin_Names_Noble.rulePack.rulesStrings>
-  
+  <Lapin_Names_Noble.rulePack.rulesStrings>
+    <li>r_Name->[first] [nobleLast]</li>
+    <li>r_Name->[first] [middle] [nobleLast]</li>
+    <li>r_Name->[first] [middle] [middle] [nobleLast]</li>
+    <li>first->贝莱尔</li>
+    <li>first->阿尔芒</li>
+    <li>first->路易</li>
+    <li>first->夏尔</li>
+    <li>first->玛丽</li>
+    <li>first->让娜</li>
+    <li>first->菲利普</li>
+    <li>first->弗朗索瓦</li>
+    <li>first->马克西米利安</li>
+    <li>first->米歇尔</li>
+    <li>first->纪尧姆</li>
+    <li>first->安德烈</li>
+    <li>first->亨利</li>
+    <li>first->勒内</li>
+    <li>first->普瓦捷</li>
+    <li>first->乔治</li>
+    <li>first->拉芬莱昂</li>
+    <li>first->卡尔</li>
+    <li>first->若阿</li>
+    <li>first->埃马纽埃尔</li>
+    <li>first->洛朗</li>
+    <li>first->尼古拉</li>
+    <li>first->夏洛特</li>
+    <li>first->亚历山大</li>
+    <li>first->马克</li>
+    <li>first->卡洛</li>
+    <li>first->雅克</li>
+    <li>first->维克托</li>
+    <li>middle->德</li>
+    <li>middle->冯</li>
+    <li>middle->拉</li>
+    <li>middle->德</li>
+    <li>middle->金</li>
+    <li>middle->雅克</li>
+    <li>middle->迪</li>
+    <li>middle->巴盖特</li>
+    <li>middle->安</li>
+    <li>middle->梅朱</li>
+    <li>nobleLast->拉芬</li>
+    <li>nobleLast->布朗</li>
+    <li>nobleLast->红冠</li>
+    <li>nobleLast->波拿巴</li>
+    <li>nobleLast->兰</li>
+    <li>nobleLast->戈尔</li>
+    <li>nobleLast->马拉</li>
+    <li>nobleLast->内</li>
+    <li>nobleLast->布勒尼戈</li>
+    <li>nobleLast->罗曼尼康帝</li>
+    <li>nobleLast->普安卡雷</li>
+    <li>nobleLast->尼罗</li>
+    <li>nobleLast->笛卡尔</li>
+    <li>nobleLast->默兹</li>
+    <li>nobleLast->马奇诺</li>
+    <li>nobleLast->布朗热</li>
+    <li>nobleLast->茹尔当</li>
+    <li>nobleLast->缪拉</li>
+    <li>nobleLast->蒙谢</li>
+    <li>nobleLast->苏尔特</li>
+    <li>nobleLast->格鲁希</li>
+    <li>nobleLast->圣西尔</li>
+    <li>nobleLast->仲马</li>
+    <li>nobleLast->阿拉米斯</li>
+    <li>nobleLast->凡尔赛</li>
+    <li>nobleLast->加来</li>
+    <li>nobleLast->波尔多</li>
+    <li>nobleLast->让</li>
+    <li>nobleLast->拉米</li>
+    <li>nobleLast->格里博瓦尔</li>
+    <li>nobleLast->舍瓦利耶</li>
+    <li>nobleLast->亚眠</li>
+    <li>nobleLast->贝尔维尔</li>
+    <li>nobleLast->达尔克</li>
+  </Lapin_Names_Noble.rulePack.rulesStrings>
+
   <!-- EN:
     <li>r_Name->[first] [nobleLast]</li>
     <li>r_Name->[first] [middle] [nobleLast]</li>
@@ -285,8 +487,83 @@
     <li>nobleLast->벨빌</li>
     <li>nobleLast->다르크</li>
   -->
-  <Lapin_Names_NobleChild.rulePack.rulesStrings>TODO</Lapin_Names_NobleChild.rulePack.rulesStrings>
-  
+  <Lapin_Names_NobleChild.rulePack.rulesStrings>
+    <li>r_Name->[first] [nobleLast]</li>
+    <li>r_Name->[first] [middle] [nobleLast]</li>
+    <li>first->贝莱尔</li>
+    <li>first->阿尔芒</li>
+    <li>first->路易</li>
+    <li>first->夏尔</li>
+    <li>first->玛丽</li>
+    <li>first->让娜</li>
+    <li>first->菲利普</li>
+    <li>first->弗朗索瓦</li>
+    <li>first->马克西米利安</li>
+    <li>first->米歇尔</li>
+    <li>first->纪尧姆</li>
+    <li>first->安德烈</li>
+    <li>first->亨利</li>
+    <li>first->勒内</li>
+    <li>first->普瓦捷</li>
+    <li>first->乔治</li>
+    <li>first->拉芬莱昂</li>
+    <li>first->卡尔</li>
+    <li>first->若阿</li>
+    <li>first->埃马纽埃尔</li>
+    <li>first->洛朗</li>
+    <li>first->尼古拉</li>
+    <li>first->夏洛特</li>
+    <li>first->亚历山大</li>
+    <li>first->马克</li>
+    <li>first->卡洛</li>
+    <li>first->雅克</li>
+    <li>first->维克托</li>
+    <li>middle->德</li>
+    <li>middle->冯</li>
+    <li>middle->拉</li>
+    <li>middle->德</li>
+    <li>middle->金</li>
+    <li>middle->雅克</li>
+    <li>middle->迪</li>
+    <li>middle->巴盖特</li>
+    <li>middle->安</li>
+    <li>middle->梅朱</li>
+    <li>nobleLast->拉芬</li>
+    <li>nobleLast->布朗</li>
+    <li>nobleLast->红冠</li>
+    <li>nobleLast->波拿巴</li>
+    <li>nobleLast->兰</li>
+    <li>nobleLast->戈尔</li>
+    <li>nobleLast->马拉</li>
+    <li>nobleLast->内</li>
+    <li>nobleLast->布勒尼戈</li>
+    <li>nobleLast->罗曼尼康帝</li>
+    <li>nobleLast->普安卡雷</li>
+    <li>nobleLast->尼罗</li>
+    <li>nobleLast->笛卡尔</li>
+    <li>nobleLast->默兹</li>
+    <li>nobleLast->马奇诺</li>
+    <li>nobleLast->布朗热</li>
+    <li>nobleLast->茹尔当</li>
+    <li>nobleLast->缪拉</li>
+    <li>nobleLast->蒙谢</li>
+    <li>nobleLast->苏尔特</li>
+    <li>nobleLast->格鲁希</li>
+    <li>nobleLast->圣西尔</li>
+    <li>nobleLast->仲马</li>
+    <li>nobleLast->阿拉米斯</li>
+    <li>nobleLast->凡尔赛</li>
+    <li>nobleLast->加来</li>
+    <li>nobleLast->波尔多</li>
+    <li>nobleLast->让</li>
+    <li>nobleLast->拉米</li>
+    <li>nobleLast->格里博瓦尔</li>
+    <li>nobleLast->舍瓦利耶</li>
+    <li>nobleLast->亚眠</li>
+    <li>nobleLast->贝尔维尔</li>
+    <li>nobleLast->达尔克</li>
+  </Lapin_Names_NobleChild.rulePack.rulesStrings>
+
   <!-- EN:
     <li>r_name(p=2)->[empire_Remnants] of [ofThing]</li>
     <li>r_name->The Lapin Remnants</li>
@@ -294,8 +571,14 @@
     <li>ofThing(p=3)->[WordImperial]</li>
     <li>ofThing->the Lapin_Remnants</li>
   -->
-  <NamerFaction_Lapin.rulePack.rulesStrings>TODO</NamerFaction_Lapin.rulePack.rulesStrings>
-  
+  <NamerFaction_Lapin.rulePack.rulesStrings>
+    <li>r_name(p=2)->[empire_Remnants] of [ofThing]</li>
+    <li>r_name->拉芬遗民</li>
+    <li>r_name->拉芬[empire]</li>
+    <li>ofThing(p=3)->[WordImperial]</li>
+    <li>ofThing->the Lapin_Remnants</li>
+  </NamerFaction_Lapin.rulePack.rulesStrings>
+
   <!-- EN:
     <li>r_name(p=2)->[empire_Renegades] of [ofThing]</li>
     <li>r_name->The Lapin Renegades</li>
@@ -303,27 +586,45 @@
     <li>ofThing(p=3)->[WordImperial]</li>
     <li>ofThing->the Lapin_Renegades</li>
   -->
-  <NamerFaction_LapinRenegades.rulePack.rulesStrings>TODO</NamerFaction_LapinRenegades.rulePack.rulesStrings>
-  
+  <NamerFaction_LapinRenegades.rulePack.rulesStrings>
+    <li>r_name(p=2)->[empire_Renegades] of [ofThing]</li>
+    <li>r_name->拉芬革命军</li>
+    <li>r_name->拉芬[empire]</li>
+    <li>ofThing(p=3)->[WordImperial]</li>
+    <li>ofThing->the Lapin_Renegades</li>
+  </NamerFaction_LapinRenegades.rulePack.rulesStrings>
+
   <!-- EN:
     <li>r_name->[LP_FirstName] [LP_MiddleName] [LP_LastName]</li>
   -->
-  <NamerPerson_Lapin.rulePack.rulesStrings>TODO</NamerPerson_Lapin.rulePack.rulesStrings>
-  
+  <NamerPerson_Lapin.rulePack.rulesStrings>
+    <li>r_name->[LP_FirstName] [LP_MiddleName] [LP_LastName]</li>
+  </NamerPerson_Lapin.rulePack.rulesStrings>
+
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
     <li>r_name->[townname_fixed]</li>
     <li>townname_wordgen->[WordImperial]</li>
     <li>townname_wordgen->[WordImperial][townend]</li>
   -->
-  <NamerSettlement_Lapin.rulePack.rulesStrings>TODO</NamerSettlement_Lapin.rulePack.rulesStrings>
-  
+  <NamerSettlement_Lapin.rulePack.rulesStrings>
+    <li>r_name->[townname_wordgen]</li>
+    <li>r_name->[townname_fixed]</li>
+    <li>townname_wordgen->[WordImperial]</li>
+    <li>townname_wordgen->[WordImperial][townend]</li>
+  </NamerSettlement_Lapin.rulePack.rulesStrings>
+
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
     <li>r_name->[townname_fixed]</li>
     <li>townname_wordgen->[WordImperial]</li>
     <li>townname_wordgen->[WordImperial][townend]</li>
   -->
-  <NamerSettlement_LapinRenegades.rulePack.rulesStrings>TODO</NamerSettlement_LapinRenegades.rulePack.rulesStrings>
-  
+  <NamerSettlement_LapinRenegades.rulePack.rulesStrings>
+    <li>r_name->[townname_wordgen]</li>
+    <li>r_name->[townname_fixed]</li>
+    <li>townname_wordgen->[WordImperial]</li>
+    <li>townname_wordgen->[WordImperial][townend]</li>
+  </NamerSettlement_LapinRenegades.rulePack.rulesStrings>
+
 </LanguageData>

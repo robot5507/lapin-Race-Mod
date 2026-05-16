@@ -20,7 +20,7 @@
   <!-- EN: 라핀 제국 잔당입니다. -->
   <LapinEmpire.description>拉芬帝国的残余势力。</LapinEmpire.description>
   <LapinEmpire.fixedName>拉芬破碎帝国</LapinEmpire.fixedName>
-  <!-- EN: High General -->
+  <!-- EN: monarch -->
   <LapinEmpire.leaderTitle>至高统帅</LapinEmpire.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <LapinEmpire.messageDefendersAttacking>TO来自{1}的{0}正在攻击您的{2}。DO</LapinEmpire.messageDefendersAttacking>

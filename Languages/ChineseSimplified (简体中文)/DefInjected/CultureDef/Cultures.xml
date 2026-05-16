@@ -6,4 +6,9 @@
   <!-- EN: 라핀인들의 문화입니다. -->
   <LapinCulture.description>这是拉芬族的文化。</LapinCulture.description>
   
+  <!-- EN: 라핀 변절자 문화 -->
+  <LapinDegenerateCulture.label>拉芬革命军文化</LapinDegenerateCulture.label>
+  <!-- EN: 변절자 라핀인들의 문화입니다. -->
+  <LapinDegenerateCulture.description>拉芬革命军的文化</LapinDegenerateCulture.description>
+  
 </LanguageData>

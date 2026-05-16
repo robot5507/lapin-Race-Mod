@@ -45,7 +45,7 @@
   <LP_Weapon_Rapier.tools.blade.label>刀刃</LP_Weapon_Rapier.tools.blade.label>
   
   <!-- EN: 라핀 공병 도끼 -->
-  <LP_Weapon_SapperAxe.label>拉菲工兵斧</LP_Weapon_SapperAxe.label>
+  <LP_Weapon_SapperAxe.label>拉芬工兵斧</LP_Weapon_SapperAxe.label>
   <!-- EN: 벽과 방어물을 부수기 위해 만들어진 라핀 공병 전용 도구입니다. 전투에서도 무기로 사용할 수 있습니다. -->
   <LP_Weapon_SapperAxe.description>这是专为拉芬工兵设计的破墙和防御工事工具，也可在战斗中作为武器使用。</LP_Weapon_SapperAxe.description>
   <!-- EN: blade -->

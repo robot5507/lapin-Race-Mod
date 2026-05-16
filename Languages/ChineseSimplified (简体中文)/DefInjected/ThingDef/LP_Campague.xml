@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 캉파뉴 -->
+  <LP_Campague.label>拉芬乡村面包</LP_Campague.label>
+  <!-- EN: 라핀밀로 만들수 있는 라핀 캉파뉴빵. -->
+  <LP_Campague.description>能用拉芬小麦制作的拉芬乡村面包。</LP_Campague.description>
+  <!-- EN: 라핀 캉파뉴 먹기 -->
+  <LP_Campague.ingestible.ingestCommandString>吃拉芬乡村面包</LP_Campague.ingestible.ingestCommandString>
+  <!-- EN: 라핀 캉파뉴를 먹고 있습니다. -->
+  <LP_Campague.ingestible.ingestReportString>正在吃拉芬乡村面包。</LP_Campague.ingestible.ingestReportString>
+  
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN:
+    <li>r_leaderTitle->总司令</li>
+    <li>r_leaderTitle->帝国元帅</li>
+    <li>r_leaderTitle->卫队长</li>
+    <li>r_leaderTitle->拉芬大公</li>
+  -->
+  <LeaderTitleMaker_Lapin.rulePack.rulesStrings>
+    <li>r_leaderTitle->总司令</li>
+    <li>r_leaderTitle->帝国元帅</li>
+    <li>r_leaderTitle->卫队长</li>
+    <li>r_leaderTitle->拉芬大公</li>
+  </LeaderTitleMaker_Lapin.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_leaderTitle->革命军头领</li>
+    <li>r_leaderTitle->堕落的总司令</li>
+    <li>r_leaderTitle->狂热者首领</li>
+  -->
+  <LeaderTitleMaker_LapinDegenerate.rulePack.rulesStrings>
+    <li>r_leaderTitle->革命军头领</li>
+    <li>r_leaderTitle->堕落的总司令</li>
+    <li>r_leaderTitle->狂热者首领</li>
+  </LeaderTitleMaker_LapinDegenerate.rulePack.rulesStrings>
+
+</LanguageData>

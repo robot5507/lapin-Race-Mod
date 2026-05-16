@@ -3,7 +3,7 @@
   
   <!-- EN: 라핀 딸기와인 -->
   <LP_StrawberryWine.label>拉芬草莓红酒</LP_StrawberryWine.label>
-  <!-- EN: A sweet wine brewed from strawberries. A favorite among Lapins. -->
+  <!-- EN: 라핀인 특유의 딸기로 만든 와인입니다.특산품으로 가치가 높습니다. -->
   <LP_StrawberryWine.description>草莓酿造的甜酒，拉芬的最爱。</LP_StrawberryWine.description>
   <!-- EN: Drink {0} -->
   <LP_StrawberryWine.ingestible.ingestCommandString>喝{0}</LP_StrawberryWine.ingestible.ingestCommandString>

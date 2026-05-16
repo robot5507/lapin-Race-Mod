@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN: 든든한 잠봉뵈르 -->
-  <LP_JambonBeurreFullness.label>TODO</LP_JambonBeurreFullness.label>
+  <LP_JambonBeurreFullness.label>火腿黄油三明治</LP_JambonBeurreFullness.label>
   <!-- EN: 라핀식 잠봉뵈르를 먹어 오랫동안 배가 든든합니다. -->
-  <LP_JambonBeurreFullness.description>TODO</LP_JambonBeurreFullness.description>
+  <LP_JambonBeurreFullness.description>吃了拉芬的火腿黄油三明治，饱腹感能维持很长时间。</LP_JambonBeurreFullness.description>
   <!-- EN: 든든함 -->
-  <LP_JambonBeurreFullness.stages.0.label>TODO</LP_JambonBeurreFullness.stages.0.label>
+  <LP_JambonBeurreFullness.stages.0.label>饱腹感</LP_JambonBeurreFullness.stages.0.label>
   
 </LanguageData>

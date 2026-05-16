@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: 라핀 버터 제조기를 사용합니다. -->
+  <UseLapinButterChurn.label>使用拉芬黄油制造机。</UseLapinButterChurn.label>
+  <!-- EN: 제조하기 -->
+  <UseLapinButterChurn.gerund>进行制造</UseLapinButterChurn.gerund>
+  <!-- EN: 제조 -->
+  <UseLapinButterChurn.verb>制造</UseLapinButterChurn.verb>
+  
   <!-- EN: 라핀 맷돌에서 밀가루를 만듭니다. -->
   <UseLapinMillstone.label>在磨盘上制作面粉</UseLapinMillstone.label>
   <!-- EN: 제분하기 -->

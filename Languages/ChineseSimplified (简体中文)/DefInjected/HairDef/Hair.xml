@@ -2,18 +2,27 @@
 <LanguageData>
   
   <!-- EN: BraidHair -->
-  <LP_BraidHair.label>TODO</LP_BraidHair.label>
+  <LP_BraidHair.label>拉芬辫子</LP_BraidHair.label>
   
   <!-- EN: Curvehair -->
-  <LP_Curvehair.label>卷发</LP_Curvehair.label>
+  <LP_Curvehair.label>拉芬卷发</LP_Curvehair.label>
+  
+  <!-- EN: CurveRoll -->
+  <LP_CurveRoll.label>拉芬卷曲发</LP_CurveRoll.label>
   
   <!-- EN: Longhair -->
-  <LP_Longhair.label>长发</LP_Longhair.label>
+  <LP_Longhair.label>拉芬长发</LP_Longhair.label>
+  
+  <!-- EN: RoleHair -->
+  <LP_RoleHair.label>TODO</LP_RoleHair.label>
   
   <!-- EN: Shorthair -->
-  <LP_Shorthair.label>短发</LP_Shorthair.label>
+  <LP_Shorthair.label>拉芬短发</LP_Shorthair.label>
+  
+  <!-- EN: SideTail -->
+  <LP_SideTail.label>拉芬单马尾</LP_SideTail.label>
   
   <!-- EN: TwinTale -->
-  <LP_TwinTale.label>TODO</LP_TwinTale.label>
+  <LP_TwinTale.label>拉芬双马尾</LP_TwinTale.label>
   
 </LanguageData>
