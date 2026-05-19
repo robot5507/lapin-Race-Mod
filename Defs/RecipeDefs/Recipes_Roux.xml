@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_Roux</defName>
+  <label>루 만들기</label>
+  <jobString>수프를 만들수 있는 기본적인 루를 생산합니다.</jobString>
+
+  <workAmount>700</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
+
+  <recipeUsers>
+     <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+         <li>Milk</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+        <filter>
+          <thingDefs>
+            <li>RawLapinFlour</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+          <li>
+        <filter>
+          <thingDefs>
+            <li>LP_Butter</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>Milk</li>
+    </thingDefs>
+    <thingDefs>
+      <li>RawLapinFlour</li>
+    </thingDefs>
+    <thingDefs>
+      <li>LP_Butter</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Roux>15</LP_Roux>
+  </products>
+   <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_CreamSoup</defName>
+  <label>크림수프 만들기</label>
+  <jobString>라핀식 크림수프를 생산합니다.</jobString>
+
+  <workAmount>700</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
+
+  <recipeUsers>
+     <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+         <li>LP_Roux</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+
+          <li>
+        <filter>
+          <thingDefs>
+            <li>LP_Cream</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_Roux</li>
+    </thingDefs>
+    <thingDefs>
+     <li>LP_Cream</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_CreamSoup>10</LP_CreamSoup>
+  </products>
+   <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_PotatoSoup</defName>
+  <label>감자수프 만들기</label>
+  <jobString>라핀식 감자수프를 생산합니다.</jobString>
+
+  <workAmount>700</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
+
+  <recipeUsers>
+     <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+         <li>LP_Roux</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+
+          <li>
+        <filter>
+          <thingDefs>
+            <li>RawPotatoes</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_Roux</li>
+    </thingDefs>
+    <thingDefs>
+     <li>RawPotatoes</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_PotatoSoup>10</LP_PotatoSoup>
+  </products>
+   <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_MushroomSoup</defName>
+  <label>양송이수프 만들기</label>
+  <jobString>라핀식 양송이수프를 생산합니다.</jobString>
+
+  <workAmount>700</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+         <li>LP_Roux</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+
+          <li>
+        <filter>
+          <thingDefs>
+            <li>RawFungus</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_Roux</li>
+    </thingDefs>
+    <thingDefs>
+     <li>RawFungus</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_MushroomSoup>10</LP_MushroomSoup>
+  </products>
+   <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_Consomme</defName>
+  <label>라핀 콩소메 만들기</label>
+  <jobString>라핀식 콩소메를 생산합니다.</jobString>
+
+  <workAmount>700</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
+
+  <recipeUsers>
+     <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>MeatRaw</li>
+        </categories>
+      </filter>
+      <count>5</count>
+    </li>
+
+    <li>
+      <filter>
+        <categories>
+          <li>PlantFoodRaw</li>
+        </categories>
+      </filter>
+      <count>5</count>
+    </li>
+
+    <li>
+      <filter>
+        <categories>
+          <li>EggsFertilized</li>
+          <li>EggsUnfertilized</li>
+        </categories>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <categories>
+      <li>MeatRaw</li>
+      <li>PlantFoodRaw</li>
+      <li>EggsFertilized</li>
+      <li>EggsUnfertilized</li>
+    </categories>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Consomme>10</LP_Consomme>
+  </products>
+ <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+  <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+</Defs>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_Gratin</defName>
+  <label>그라탕 만들기</label>
+  <jobString>치즈와 감자 그리고 각종 재료로 그라탕을 만듭니다.</jobString>
+
+  <workAmount>700</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+
+  <recipeUsers>
+     <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+         <li>LP_Roux</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+        <filter>
+          <thingDefs>
+            <li>LP_Cheese</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+          <li>
+        <filter>
+          <thingDefs>
+            <li>LP_Lapin_Bagette</li>
+            <li>LP_Campague</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_Roux</li>
+    </thingDefs>
+    <thingDefs>
+      <li>LP_Cheese</li>
+    </thingDefs>
+    <thingDefs>
+       <li>LP_Lapin_Bagette</li>
+            <li>LP_Campague</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Gratin>1</LP_Gratin>
+  </products>
+   <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_Canape</defName>
+  <label>카나페 만들기</label>
+  <jobString>라핀 카나페를 만듭니다.</jobString>
+
+  <workAmount>70</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+
+  <recipeUsers>
+     <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+         <thingDefs>
+       <li>LP_Lapin_Bagette</li>
+            <li>LP_Campague</li>
+    </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+        <filter>
+          <thingDefs>
+            <li>LP_Cheese</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+          <li>
+        <filter>
+         <categories>
+          <li>MeatRaw</li>
+          <li>PlantFoodRaw</li>
+        </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    
+  </ingredients>
+
+  <fixedIngredientFilter>
+  <thingDefs>
+    <li>LP_Lapin_Bagette</li>
+    <li>LP_Campague</li>
+    <li>LP_Cheese</li>
+  </thingDefs>
+  <categories>
+    <li>MeatRaw</li>
+    <li>PlantFoodRaw</li>
+  </categories>
+</fixedIngredientFilter>
+
+  <products>
+    <LP_Canape>1</LP_Canape>
+  </products>
+   <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+
+
+</Defs>

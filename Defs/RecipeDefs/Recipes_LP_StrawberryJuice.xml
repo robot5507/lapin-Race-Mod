@@ -14,6 +14,8 @@
 
     <recipeUsers>
     <li>Brewery</li>
+    <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
   </recipeUsers>
 
     <ingredients>
@@ -36,6 +38,9 @@
     <products>
       <LP_StrawberryJuice>25</LP_StrawberryJuice>
     </products>
+      <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
      <researchPrerequisite>LP_LapinWinemaking</researchPrerequisite>
   </RecipeDef>
 

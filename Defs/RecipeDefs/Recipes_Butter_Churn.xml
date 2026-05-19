@@ -6,7 +6,7 @@
     <label>크림 만들기</label>
     <description>우유를 저어서 크림으로 만듭니다. 꽤나 중노동이다.</description>
     <jobString>크림 만드는 중</jobString>
-    <unfinishedThingDef>UnfinishedButter</unfinishedThingDef>
+    <unfinishedThingDef>UnfinishedCream</unfinishedThingDef>
     <workAmount>1000</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -18,7 +18,7 @@
             <li>Milk</li>
           </thingDefs>
         </filter>
-        <count>12</count>
+        <count>5</count>
       </li>
     </ingredients>
 
@@ -32,6 +32,9 @@
 
     <allowMixingIngredients>false</allowMixingIngredients>
     <workSkill>Cooking</workSkill>
+     <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
     <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
   </RecipeDef>
 
@@ -52,7 +55,7 @@
             <li>LP_Cream</li>
           </thingDefs>
         </filter>
-        <count>12</count>
+        <count>5</count>
       </li>
     </ingredients>
 
@@ -66,6 +69,9 @@
 
     <allowMixingIngredients>false</allowMixingIngredients>
     <workSkill>Cooking</workSkill>
+     <skillRequirements>
+      <Cooking>4</Cooking>
+    </skillRequirements>
     <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
   </RecipeDef>
 

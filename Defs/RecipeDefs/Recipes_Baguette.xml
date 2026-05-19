@@ -36,8 +36,8 @@
     </products>
 
     <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
+       <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
     </recipeUsers>
 
     <skillRequirements>
@@ -81,8 +81,8 @@
     </products>
 
     <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
+       <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
     </recipeUsers>
 
     <skillRequirements>
@@ -137,8 +137,8 @@
     </products>
 
     <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
+      <li>LP_LapinCookingTable</li>
+   <li>LP_ElectricStove</li>
     </recipeUsers>
 
     <skillRequirements>

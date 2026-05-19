@@ -2,17 +2,17 @@
 <Defs>
 
 <RecipeDef ParentName="CookMealBase">
-  <defName>Make_LP_Compote</defName>
-  <label>라핀 컴포트 만들기</label>
-  <jobString>라핀 컴포트 잼을 만든다.</jobString>
+  <defName>Make_LP_Curd</defName>
+  <label>커드 만들기</label>
+  <jobString>우유를 조리해서 라핀식 커드를 만듭니다.</jobString>
 
-  <workAmount>700</workAmount>
+  <workAmount>900</workAmount>
   <workSpeedStat>CookSpeed</workSpeedStat>
   <effectWorking>Cook</effectWorking>
-  <soundWorking>Recipe_CookMeal</soundWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
 
   <recipeUsers>
-    <li>LP_LapinCookingTable</li>
+   <li>LP_LapinCookingTable</li>
    <li>LP_ElectricStove</li>
   </recipeUsers>
 
@@ -20,40 +20,26 @@
     <li>
       <filter>
         <thingDefs>
-         <li>RawBerries</li>
-        </thingDefs>
-      </filter>
-      <count>15</count>
-    </li>
-    <li>
-      <filter>
-        <thingDefs>
-          <li>LP_StrawberryJuice</li>
+         <li>Milk</li>
         </thingDefs>
       </filter>
       <count>1</count>
     </li>
-
-    
   </ingredients>
 
   <fixedIngredientFilter>
     <thingDefs>
-      <li>RawBerries</li>
-    </thingDefs>
-    <thingDefs>
-      <li>LP_StrawberryJuice</li>
+      <li>Milk</li>
     </thingDefs>
   </fixedIngredientFilter>
 
   <products>
-    <LP_Compote>1</LP_Compote>
+    <LP_Curd>1</LP_Curd>
   </products>
    <skillRequirements>
       <Cooking>4</Cooking>
     </skillRequirements>
   <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
 </RecipeDef>
-
 
 </Defs>
