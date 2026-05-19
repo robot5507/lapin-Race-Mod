@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompCurdMaturing.cs" />
     <Compile Include="CompProperties_StrawberryWineFermenter.cs" />
     <Compile Include="CustomThingDef.cs" />
     <Compile Include="HediffComp_ReduceHungerFall.cs" />

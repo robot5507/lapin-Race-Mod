@@ -9,7 +9,7 @@ namespace LapinRace
         public ThingDef outputDef;
         public int outputAmount = 8;
 
-        public int fermentationTicks = 30000;
+        public int fermentationTicks = 400000;
 
         public float minSafeTemperature = 7f;
         public float maxSafeTemperature = 32f;

@@ -17,14 +17,15 @@ namespace LapinRace
             {
                 DefDatabase<ThingDef>.GetNamedSilentFail("LP_Butter"),
                 DefDatabase<ThingDef>.GetNamedSilentFail("LP_StrawberryWine"),
-                DefDatabase<ThingDef>.GetNamedSilentFail("LP_Campague")
+                DefDatabase<ThingDef>.GetNamedSilentFail("LP_Campague"),
+                 DefDatabase<ThingDef>.GetNamedSilentFail("LP_Cheese")
             };
 
             candidates.RemoveAll(t => t == null);
 
             if (candidates.Count == 0)
             {
-                Log.Error("[LapinRace] LP_Butter, LP_StrawberryWine, LP_Campague 중 유효한 ThingDef를 찾지 못했습니다.");
+                Log.Error("[LapinRace] 요청 보급품 후보 LP_Butter, LP_StrawberryWine, LP_Campague, LP_Cheese 중 유효한 ThingDef를 찾지 못했습니다.");
                 return ThingDefOf.MealSimple;
             }
 
