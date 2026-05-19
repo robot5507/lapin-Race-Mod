@@ -108,6 +108,7 @@
     <Steel>40</Steel>
     <WoodLog>10</WoodLog>
     <ComponentIndustrial>1</ComponentIndustrial>
+    <Gold>5</Gold>
     </costList>
     
     <recipeMaker>
