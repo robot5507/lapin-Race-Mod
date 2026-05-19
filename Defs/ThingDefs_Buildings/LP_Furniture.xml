@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Bed-->
+	
+	<!-- 선반 -->
+	<ThingDef ParentName="ShelfBase">
+		<defName>LP_CheeseShelf</defName>
+		<label>라핀 치즈 선반</label>
+		<description>커드와 치즈를 보관하기 위한 라핀식 치즈 선반입니다. 특별한 숙성 효과는 없지만 치즈 저장에 어울립니다.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Things/Building/LP_CheeseShelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.9,1.8)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			  <Beauty>4</Beauty>
+			<Mass>8</Mass>
+			<WorkToBuild>600</WorkToBuild>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+              <filter>
+               <thingDefs>
+                <li>LP_Curd</li>
+                <li>LP_Cheese</li>
+               </thingDefs>
+              </filter>
+            </fixedStorageSettings>
+
+		<defaultStorageSettings>
+              <filter>
+                <thingDefs>
+                <li>LP_Curd</li>
+                <li>LP_Cheese</li>
+               </thingDefs>
+             </filter>
+        </defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<designationHotKey>Misc12</designationHotKey>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		  <researchPrerequisites>
+           <li>LP_LapinCookingKnowhow</li>
+          </researchPrerequisites>
+		<designationCategory>Furniture</designationCategory>
+	</ThingDef>
+	
+</Defs>

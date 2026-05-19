@@ -18,7 +18,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>500</WorkToBuild>
       <Flammability>0.7</Flammability>
-      <Beauty>-7</Beauty>
+      <Beauty>-5</Beauty>
       <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
     </statBases>
 

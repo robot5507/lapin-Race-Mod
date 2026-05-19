@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<!-- 연료 조리대  -->
+	<ThingDef ParentName="BenchBase">
+		<defName>LP_LapinCookingTable</defName>
+		<label>라핀 조리대</label>
+		<description>라핀식 요리를 만들기 위한 전용 조리대입니다.</description>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<graphicData>
+			<texPath>Things/Building/LP_Countertop</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>		
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<Beauty>3</Beauty>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>Recipe_Baguette</li>
+			<li>Recipe_Campagne</li>
+			<li>Recipe_Croissant</li>
+			<li>Make_LP_Compote</li>
+			<li>Make_LP_Curd</li>
+			<li>Make_LP_JambonBeurre</li>
+			<li>Make_LP_StrawberryJuice</li>
+			<li>Make_LP_Roux</li>
+			<li>Make_LP_CreamSoup</li>
+			<li>Make_LP_PotatoSoup</li>
+			<li>Make_LP_MushroomSoup</li>
+			<li>Make_LP_Consomme</li>
+			<li>Make_LP_Gratin</li>
+			<li>Make_LP_Canape</li>
+			<li>CookMealSimple</li>
+			<li>CookMealFine</li>
+			<li>CookMealFine_Veg</li>
+			<li>CookMealFine_Meat</li>
+			<li>CookMealLavish</li>
+			<li>CookMealLavish_Veg</li>
+			<li>CookMealLavish_Meat</li>
+			<li>CookMealSurvival</li>
+			<li>CookMealSimpleBulk</li>
+			<li>CookMealFineBulk</li>
+			<li>CookMealFineBulk_Veg</li>
+			<li>CookMealFineBulk_Meat</li>
+			<li>CookMealLavishBulk</li>
+			<li>CookMealLavishBulk_Veg</li>
+			<li>CookMealLavishBulk_Meat</li>
+			<li>CookMealSurvivalBulk</li>
+			<li>Make_Pemmican</li>
+			<li>Make_PemmicanBulk</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+                <fuelCapacity>150</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>4</heatPerSecond>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<researchPrerequisites>
+			 <li>LP_LapinCookingKnowhow</li>
+		</researchPrerequisites>
+		<designationHotKey>Misc8</designationHotKey>
+	</ThingDef>
+
+	<!-- 전기 조리대  -->
+	<ThingDef ParentName="BenchBase">
+		<defName>LP_ElectricStove</defName>
+		<label>라핀 전기 조리대</label>
+		<description>라핀식 요리를 만들기 위한 전용 전기 조리대입니다.</description>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<graphicData>
+			<texPath>Things/Building/LP_Countertop</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>		
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<Beauty>8</Beauty>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>Recipe_Baguette</li>
+			<li>Recipe_Campagne</li>
+			<li>Recipe_Croissant</li>
+			<li>Make_LP_Compote</li>
+			<li>Make_LP_Curd</li>
+			<li>Make_LP_JambonBeurre</li>
+			<li>Make_LP_StrawberryJuice</li>
+			<li>Make_LP_Roux</li>
+			<li>Make_LP_CreamSoup</li>
+			<li>Make_LP_PotatoSoup</li>
+			<li>Make_LP_MushroomSoup</li>
+			<li>Make_LP_Consomme</li>
+			<li>CookMealSimple</li>
+			<li>CookMealFine</li>
+			<li>CookMealFine_Veg</li>
+			<li>CookMealFine_Meat</li>
+			<li>CookMealLavish</li>
+			<li>CookMealLavish_Veg</li>
+			<li>CookMealLavish_Meat</li>
+			<li>CookMealSurvival</li>
+			<li>CookMealSimpleBulk</li>
+			<li>CookMealFineBulk</li>
+			<li>CookMealFineBulk_Veg</li>
+			<li>CookMealFineBulk_Meat</li>
+			<li>CookMealLavishBulk</li>
+			<li>CookMealLavishBulk_Veg</li>
+			<li>CookMealLavishBulk_Meat</li>
+			<li>CookMealSurvivalBulk</li>
+			<li>Make_Pemmican</li>
+			<li>Make_PemmicanBulk</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>350</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>3</heatPerSecond>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			 <li>LP_LapinAdvancedCookingKnowhow</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<designationHotKey>Misc8</designationHotKey>
+	</ThingDef>
+	
+	
+</Defs>

@@ -55,7 +55,7 @@
 <li Class="LapinRace.CompProperties_StrawberryWineFermenter">
   <outputDef>LP_StrawberryWine</outputDef>
   <outputAmount>8</outputAmount>
-  <fermentationTicks>300000</fermentationTicks>
+  <fermentationTicks>400000</fermentationTicks>
   <minSafeTemperature>7</minSafeTemperature>
   <maxSafeTemperature>32</maxSafeTemperature>
 
