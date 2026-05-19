@@ -27,8 +27,9 @@
     <thingClass>Apparel</thingClass>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <Mass>0.4</Mass>
       <MarketValue>60</MarketValue>
     </statBases>
@@ -66,6 +67,7 @@
     <!-- 제작 재료 -->
     <costList>
       <Cloth>30</Cloth>
+       <Steel>10</Steel>
     </costList>
 
     <recipeMaker>
@@ -156,8 +158,9 @@
     <thingClass>Apparel</thingClass>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+       <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <Mass>0.4</Mass>
       <MarketValue>60</MarketValue>
     </statBases>
@@ -195,6 +198,7 @@
     <!-- 제작 재료 -->
     <costList>
       <Cloth>30</Cloth>
+       <Steel>10</Steel>
     </costList>
 
     <recipeMaker>
@@ -220,8 +224,9 @@
     <thingClass>Apparel</thingClass>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+       <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <Mass>0.4</Mass>
       <MarketValue>60</MarketValue>
       <ConstructionSpeed>0.4</ConstructionSpeed>
@@ -261,6 +266,7 @@
     <!-- 제작 재료 -->
     <costList>
       <Cloth>30</Cloth>
+       <Steel>10</Steel>
     </costList>
 
    <recipeMaker>
@@ -287,8 +293,9 @@
     <thingClass>Apparel</thingClass>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <ArmorRating_Sharp>1</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+       <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.4</ArmorRating_Blunt>
       <Mass>0.4</Mass>
       <MarketValue>60</MarketValue>
     </statBases>
@@ -326,6 +333,7 @@
     <!-- 제작 재료 -->
     <costList>
       <Cloth>100</Cloth>
+       <Steel>20</Steel>
     </costList>
 
     <recipeMaker>
@@ -416,8 +424,9 @@
     <thingClass>Apparel</thingClass>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <ArmorRating_Sharp>2</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2</ArmorRating_Blunt>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>2.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>2.4</ArmorRating_Blunt>
       <Mass>0.4</Mass>
       <MarketValue>60</MarketValue>
     </statBases>
@@ -455,6 +464,8 @@
     <!-- 제작 재료 -->
     <costList>
       <Cloth>30</Cloth>
+       <Steel>20</Steel>
+       <Gold>5</Gold>
     </costList>
 
   <recipeMaker>
@@ -522,6 +533,7 @@
     <!-- 제작 재료 -->
     <costList>
       <Cloth>130</Cloth>
+      <Gold>5</Gold>
     </costList>
 
     <recipeMaker>
@@ -664,6 +676,7 @@
     <!-- 제작 재료 -->
     <costList>
       <Cloth>30</Cloth>
+      <Gold>5</Gold>
     </costList>
 
     <recipeMaker>
@@ -741,7 +754,8 @@
 
     <!-- 제작 재료 -->
     <costList>
-      <Cloth>30</Cloth>
+      <Cloth>60</Cloth>
+      <Gold>5</Gold>
     </costList>
 
    <recipeMaker>

@@ -66,6 +66,7 @@
   <stuffCategories Inherit="False" />
    <costList>
       <Cloth>60</Cloth>
+      <Steel>10</Steel>
     </costList>
 
     <graphicData>
@@ -140,6 +141,7 @@
   <stuffCategories Inherit="False" />
    <costList>
       <Cloth>60</Cloth>
+      <Gold>5</Gold>
     </costList>
 
     <graphicData>
@@ -216,6 +218,7 @@
   <stuffCategories Inherit="False" />
    <costList>
       <Cloth>60</Cloth>
+       <Steel>10</Steel>
     </costList>
 
     <graphicData>
@@ -290,6 +293,7 @@
   <stuffCategories Inherit="False" />
    <costList>
       <Cloth>60</Cloth>
+       <Steel>10</Steel>
     </costList>
 
     <graphicData>
@@ -365,7 +369,9 @@
 	  
   <stuffCategories Inherit="False" />
    <costList>
-      <Cloth>600</Cloth>
+      <Cloth>400</Cloth>
+      <Steel>10</Steel>
+      <Gold>5</Gold>
     </costList>
 
     <graphicData>
@@ -504,6 +510,7 @@
   <stuffCategories Inherit="False" />
    <costList>
       <Cloth>600</Cloth>
+      <Gold>5</Gold>
     </costList>
 
     <graphicData>
@@ -568,6 +575,7 @@
   <stuffCategories Inherit="False" />
    <costList>
       <Cloth>550</Cloth>
+      <Gold>5</Gold>
     </costList>
 
     <graphicData>
@@ -686,6 +694,8 @@
   <stuffCategories Inherit="False" />
   <costList>
     <Cloth>300</Cloth>
+     <Steel>10</Steel>
+      <Gold>5</Gold>
   </costList>
    
 		<graphicData>
