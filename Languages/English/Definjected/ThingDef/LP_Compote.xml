@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 컴포트 -->
+  <LP_Compote.label>Lapin Compote</LP_Compote.label>
+  <!-- EN: 라핀 컴포트입니다.잼처럼 보이지만 그 자체로 괜찮은 음식이 됩니다. -->
+  <LP_Compote.description>Lapin Compote. It looks like jam, but it makes for a decent food on its own.</LP_Compote.description>
+  <!-- EN: 라핀 컴포트 먹기 -->
+  <LP_Compote.ingestible.ingestCommandString>Eating Lapin Compote</LP_Compote.ingestible.ingestCommandString>
+  <!-- EN: 라핀 컴포트를 먹고 있습니다. -->
+  <LP_Compote.ingestible.ingestReportString>Eating Lapin Compote.</LP_Compote.ingestible.ingestReportString>
+  
+</LanguageData>

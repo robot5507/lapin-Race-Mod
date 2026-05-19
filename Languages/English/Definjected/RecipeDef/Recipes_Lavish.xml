@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 그라탕 만들기 -->
+  <Make_LP_Gratin.label>Making Gratin</Make_LP_Gratin.label>
+  <!-- EN: 치즈와 감자 그리고 각종 재료로 그라탕을 만듭니다. -->
+  <Make_LP_Gratin.jobString>Make gratin with cheese, potatoes, and various ingredients.</Make_LP_Gratin.jobString>
+
+  <!-- EN: 카나페 만들기 -->
+  <Make_LP_Canape.label>Making Canape</Make_LP_Canape.label>
+  <!-- EN: 라핀 카나페를 만듭니다. -->
+  <Make_LP_Canape.jobString>Makes Lapin Canapes.</Make_LP_Canape.jobString>
+  
+</LanguageData>

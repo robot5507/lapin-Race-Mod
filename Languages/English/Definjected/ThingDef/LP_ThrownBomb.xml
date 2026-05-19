@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: frag lapinBomb -->
+  <Proj_lapinBomb.label>Frag lapinBomb</Proj_lapinBomb.label>
+  
+  <!-- EN: 라핀 밤 -->
+  <Weapon_lapinBomb.label>Lapin Bomb</Weapon_lapinBomb.label>
+  <!-- EN: 라핀 제조 폭탄입니다. -->
+  <Weapon_lapinBomb.description>Lapin manufactured bomb.</Weapon_lapinBomb.description>
+  <!-- EN: throw lapinBomb -->
+  <Weapon_lapinBomb.verbs.throw_lapinBomb.label>Throw lapinBomb</Weapon_lapinBomb.verbs.throw_lapinBomb.label>
+  
+</LanguageData>

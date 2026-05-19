@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 대포 -->
+  <LP_ArtilleryCannonBase.label>Lapin Cannon</LP_ArtilleryCannonBase.label>
+  <!-- EN: 라핀제국 제식대포입니다. -->
+  <LP_ArtilleryCannonBase.description>Standard cannon of the Lapin Empire.</LP_ArtilleryCannonBase.description>
+  
+  <!-- EN: 라핀 대포 -->
+  <LP_FieldArtillery.label>Lapin Cannon</LP_FieldArtillery.label>
+  <!-- EN: 라핀제국 제식대포입니다. -->
+  <LP_FieldArtillery.description>Standard cannon of the Lapin Empire.</LP_FieldArtillery.description>
+  <!-- EN: 라핀 대포 -->
+  <LP_FieldArtillery.verbs.Verb_ShootCannonWithSmoke.label>Lapin Cannon</LP_FieldArtillery.verbs.Verb_ShootCannonWithSmoke.label>
+  
+</LanguageData>

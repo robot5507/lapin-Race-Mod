@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀도약 -->
+  <LapinLongjump.label>Lapin jump</LapinLongjump.label>
+  <!-- EN: 라핀인들이 쓸수있는 도약점프입니다. -->
+  <LapinLongjump.description>A jump that Lapin people can use.</LapinLongjump.description>
+  <!-- EN: jump -->
+  <LapinLongjump.verbProperties.label>Jump</LapinLongjump.verbProperties.label>
+  
+</LanguageData>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 포병 모자 -->
+  <LP_Hat_Artillery.label>Lapin artillery Hat</LP_Hat_Artillery.label>
+  <!-- EN: 라핀 제국 포병이 착용하는 전용 군모. -->
+  <LP_Hat_Artillery.description>Exclusive military cap worn by the Lapin Empire artillery.</LP_Hat_Artillery.description>
+  
+  <!-- EN: 라핀 척탄병 모자 -->
+  <LP_Hat_Grenadier.label> Lapin Grenadier Hat</LP_Hat_Grenadier.label>
+  <!-- EN: 라핀 제국 척탄병이 착용하는 전용 군모. -->
+  <LP_Hat_Grenadier.description>Exclusive military cap worn by the Lapin Empire grenadier.</LP_Hat_Grenadier.description>
+  
+  <!-- EN: 라핀 메이드 머리띠 -->
+  <LP_Hat_Maid.label>Lapin Maid Headband</LP_Hat_Maid.label>
+  <!-- EN: 라핀 메이드 전용 머리띠. -->
+  <LP_Hat_Maid.description>Lapin Maid exclusive headband.</LP_Hat_Maid.description>
+  
+  <!-- EN: 라핀 엘리트 메이드 세트 -->
+  <LP_Hat_MaidElit.label>Lapin Elite Maid Set</LP_Hat_MaidElit.label>
+  <!-- EN: 라핀 메이드 특수부대 전용 머리띠와 마스크 세트. -->
+  <LP_Hat_MaidElit.description>Lapin Made Special Forces exclusive headband and mask set.</LP_Hat_MaidElit.description>
+  
+  <!-- EN: 라핀 귀족 모자 -->
+  <LP_Hat_Noble.label>Lapin Noble Hat</LP_Hat_Noble.label>
+  <!-- EN: 라핀 귀족 모자. -->
+  <LP_Hat_Noble.description>Lapin Noble Hat.</LP_Hat_Noble.description>
+  
+  <!-- EN: 라핀 이각모 -->
+  <LP_Hat_NobleOfficer.label>Lapin bicorne</LP_Hat_NobleOfficer.label>
+  <!-- EN: 라핀 제국 고위장교묭 모자입니다. -->
+  <LP_Hat_NobleOfficer.description>This is the hat of a high-ranking officer of the Lapin Empire.</LP_Hat_NobleOfficer.description>
+  
+  <!-- EN: 라핀 선임공병 모자 -->
+  <LP_Hat_Sapper.label>Lapin Sapper Hat</LP_Hat_Sapper.label>
+  <!-- EN: 라핀 제국 선임공병이 착용하는 전용 군모. -->
+  <LP_Hat_Sapper.description>The exclusive military hat worn by the Lapin Empire's Sapper.</LP_Hat_Sapper.description>
+  
+  <!-- EN: 라핀 검객 모자 -->
+  <LP_Hat_Swordsman.label>Lapin Swordsman Hat</LP_Hat_Swordsman.label>
+  <!-- EN: 라핀 검객 모자. -->
+  <LP_Hat_Swordsman.description>Lapin Swordsman Hat.</LP_Hat_Swordsman.description>
+  
+  <!-- EN: 라핀 도약병 모자 -->
+  <LP_Hat_Vlotigeur.label>Lapin Vlotigeur Hat</LP_Hat_Vlotigeur.label>
+  <!-- EN: 라핀 제국 도약병이 착용하는 전용 군모. -->
+  <LP_Hat_Vlotigeur.description>The exclusive military hat worn by the Lapin Empire's  Vlotigeur.</LP_Hat_Vlotigeur.description>
+  
+  <!-- EN: 라핀 작업모 -->
+  <LP_Hat_Worker.label>Lapin Worker Hat</LP_Hat_Worker.label>
+  <!-- EN: 라핀 일꾼 모자. -->
+  <LP_Hat_Worker.description>Lapin Worker Hat.</LP_Hat_Worker.description>
+  
+  <!-- EN: 라핀 가면 -->
+  <LP_Mask.label>Lapin Mask</LP_Mask.label>
+  <!-- EN: 라핀 가면. -->
+  <LP_Mask.description>Lapin Mask.</LP_Mask.description>
+  
+</LanguageData>

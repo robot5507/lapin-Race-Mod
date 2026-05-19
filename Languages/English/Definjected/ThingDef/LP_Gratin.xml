@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 감자 그라탕 -->
+  <LP_Gratin.label>Lapin Potato Gratin</LP_Gratin.label>
+  <!-- EN: 감자와 치즈로 만들수 있는 호화로운 그라탕입니다. -->
+  <LP_Gratin.description>Luxurious gratin that can be made with potatoes and cheese.</LP_Gratin.description>
+  <!-- EN: 라핀 그라탕 식사 -->
+  <LP_Gratin.ingestible.ingestCommandString>Eating Lapin Gratin</LP_Gratin.ingestible.ingestCommandString>
+  <!-- EN: 라핀 그라탕을 먹고 있습니다. -->
+  <LP_Gratin.ingestible.ingestReportString>Eating Lapin Gratin.</LP_Gratin.ingestible.ingestReportString>
+  
+</LanguageData>

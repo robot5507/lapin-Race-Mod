@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 앞치마 -->
+  <LP_Apron.label>Lapin apron</LP_Apron.label>
+  <!-- EN: 라핀 앞치마입니다. 요리 능력을 올려줍니다. -->
+  <LP_Apron.description>Lapin Apron. It increases your cooking ability.</LP_Apron.description>
+  
+  <!-- EN: 라핀 어린이 옷 -->
+  <LP_Childdress.label>Lapin children's clothes</LP_Childdress.label>
+  <!-- EN: 라핀 어린이를 위한 작은 옷. -->
+  <LP_Childdress.description>Lapin small clothes for children.</LP_Childdress.description>
+  
+  <!-- EN: 라핀 메이드복 -->
+  <LP_MaidDress.label>Lapin Maid Outfit</LP_MaidDress.label>
+  <!-- EN: 라핀 전용 메이드복입니다. -->
+  <LP_MaidDress.description>Maid outfit exclusively for Lapin.</LP_MaidDress.description>
+  
+  <!-- EN: 라핀 귀족 드레스 -->
+  <LP_NobleDress.label>Lapin Noble Dress</LP_NobleDress.label>
+  <!-- EN: 라핀 귀족 드레스. -->
+  <LP_NobleDress.description>Lapin Noble Dress.</LP_NobleDress.description>
+  
+  <!-- EN: 라핀 수려한 드레스 -->
+  <LP_NobleDressB.label>Lapin elegant dress</LP_NobleDressB.label>
+  <!-- EN: 라핀 수려한 드레스. -->
+  <LP_NobleDressB.description>Lapin elegant dress.</LP_NobleDressB.description>
+  
+  <!-- EN: 라핀 검객 복장 -->
+  <LP_SwordsmanCloth.label>Lapin swordsman costume</LP_SwordsmanCloth.label>
+  <!-- EN: 라핀 검객 복장. -->
+  <LP_SwordsmanCloth.description>Lapin swordsman costume.</LP_SwordsmanCloth.description>
+  
+  <!-- EN: 라핀 장교 제복 -->
+  <LP_Uniform_NobleOfficer.label>Lapin officer uniform</LP_Uniform_NobleOfficer.label>
+  <!-- EN: 라핀장교용 제복입니다. -->
+  <LP_Uniform_NobleOfficer.description>Lapin officer's uniform.</LP_Uniform_NobleOfficer.description>
+  
+  <!-- EN: 라핀 포병 제복 -->
+  <LP_UniformArtillery.label>Lapin artillery uniform</LP_UniformArtillery.label>
+  <!-- EN: 라핀 포병 제복. -->
+  <LP_UniformArtillery.description>Lapin artillery uniform.</LP_UniformArtillery.description>
+  
+  <!-- EN: 라핀 척탄병 제복 -->
+  <LP_UniformGrenadier.label>Lapin Grenadier Uniform</LP_UniformGrenadier.label>
+  <!-- EN: 라핀 척탄병 제복. -->
+  <LP_UniformGrenadier.description>Lapin Grenadier Uniform.</LP_UniformGrenadier.description>
+  
+  <!-- EN: 라핀 선임공병 제복 -->
+  <LP_UniformSapper.label>Lapin Sapper Uniform</LP_UniformSapper.label>
+  <!-- EN: 라핀 선임공병 제복. -->
+  <LP_UniformSapper.description>Lapin Sapper Uniform.</LP_UniformSapper.description>
+  
+  <!-- EN: 라핀 도약병 제복 -->
+  <LP_UniformVlotigeur.label>Lapin Vlotigeur Uniform</LP_UniformVlotigeur.label>
+  <!-- EN: 라핀 도약병 제복. -->
+  <LP_UniformVlotigeur.description>Lapin Vlotigeur Uniform.</LP_UniformVlotigeur.description>
+  
+  <!-- EN: 라핀 일꾼 드레스 -->
+  <LP_WorkerDress.label>Lapin Worker Dress</LP_WorkerDress.label>
+  <!-- EN: 라핀 일꾼 드레스. -->
+  <LP_WorkerDress.description>Lapin Worker Dress.</LP_WorkerDress.description>
+  
+  <!-- EN: 라핀 피묻은 앞치마 -->
+  <LPApronBlood.label>Lapin bloodstained apron</LPApronBlood.label>
+  <!-- EN: 식인토끼들이 입고다니는 피묻은 앞치마입니다. -->
+  <LPApronBlood.description>Lapin bloodstained apron.</LPApronBlood.description>
+  
+</LanguageData>

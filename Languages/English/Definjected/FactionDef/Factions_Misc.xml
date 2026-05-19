@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Lapin Empire Turncoat -->
+  <Lapin_Turncoat.label>Lapin Empire Turncoat</Lapin_Turncoat.label>
+  <!-- EN: 라핀 제국을 등진 변절자 라핀집단입니다. -->
+  <Lapin_Turncoat.description>This is the Lapin Group, traitors who turned their backs on the Lapin Empire.</Lapin_Turncoat.description>
+  <Lapin_Turncoat.fixedName>Lapin Turncoat</Lapin_Turncoat.fixedName>
+  <!-- EN: Warren Tyrant -->
+  <Lapin_Turncoat.leaderTitle>Warren Tyrant</Lapin_Turncoat.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Lapin_Turncoat.messageDefendersAttacking>TO{0} from {1} are attacking your {2}. DO</Lapin_Turncoat.messageDefendersAttacking>
+  <!-- EN: LapinRenegade -->
+  <Lapin_Turncoat.pawnSingular>Lapin Renegade</Lapin_Turncoat.pawnSingular>
+  <!-- EN: LapinRenegades -->
+  <Lapin_Turncoat.pawnsPlural>Lapin Renegades</Lapin_Turncoat.pawnsPlural>
+  
+  <!-- EN: Lapin Empire Remnants -->
+  <LapinEmpire.label>Lapin Empire Remnants</LapinEmpire.label>
+  <!-- EN: 라핀 제국 잔당입니다. -->
+  <LapinEmpire.description>This is the remnant of the Lapin Empire.</LapinEmpire.description>
+  <LapinEmpire.fixedName>Lapin Remnants</LapinEmpire.fixedName>
+  <!-- EN: monarch -->
+  <LapinEmpire.leaderTitle>monarch</LapinEmpire.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <LapinEmpire.messageDefendersAttacking>TO{0} from {1} are attacking your {2}. DO</LapinEmpire.messageDefendersAttacking>
+  <!-- EN: Lapin -->
+  <LapinEmpire.pawnSingular>Lapin</LapinEmpire.pawnSingular>
+  <!-- EN: Lapins -->
+  <LapinEmpire.pawnsPlural>Lapins</LapinEmpire.pawnsPlural>
+  
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 -->
+  <Lapin.label>Lapin</Lapin.label>
+  <!-- EN: 토끼 귀와 꼬리를 가진 소형 인간형 종족. -->
+  <Lapin.description>A small humanoid race with rabbit ears and a tail.</Lapin.description>
+  <!-- EN: left ear -->
+  <Lapin.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.conditions.0.bodyPartLabel>left ear</Lapin.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.conditions.0.bodyPartLabel>
+  <!-- EN: right ear -->
+  <Lapin.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.conditions.0.bodyPartLabel>right ear</Lapin.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.conditions.0.bodyPartLabel>
+  <!-- EN: left ear -->
+  <Lapin.alienRace.generalSettings.alienPartGenerator.bodyAddons.3.conditions.0.bodyPartLabel>left ear</Lapin.alienRace.generalSettings.alienPartGenerator.bodyAddons.3.conditions.0.bodyPartLabel>
+  <!-- EN: right ear -->
+  <Lapin.alienRace.generalSettings.alienPartGenerator.bodyAddons.4.conditions.0.bodyPartLabel>right ear</Lapin.alienRace.generalSettings.alienPartGenerator.bodyAddons.4.conditions.0.bodyPartLabel>
+  <!-- EN: 이빨 -->
+  <Lapin.tools.0.label>teeth</Lapin.tools.0.label>
+  <!-- EN: 왼손 -->
+  <Lapin.tools.1.label>left hand</Lapin.tools.1.label>
+  <!-- EN: 오른 손 -->
+  <Lapin.tools.2.label>Right hand</Lapin.tools.2.label>
+  
+</LanguageData>

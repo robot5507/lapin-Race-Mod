@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 크림수프 -->
+  <LP_CreamSoup.label>Lapin Cream Soup</LP_CreamSoup.label>
+  <!-- EN: 라핀식 크림수프. -->
+  <LP_CreamSoup.description>Lapin-style cream soup.</LP_CreamSoup.description>
+  <!-- EN: 수프 식사 -->
+  <LP_CreamSoup.ingestible.ingestCommandString>Eating Lapin CreamSoup</LP_CreamSoup.ingestible.ingestCommandString>
+  <!-- EN: 라핀식 크림수프를 먹고 있습니다. -->
+  <LP_CreamSoup.ingestible.ingestReportString>Eating Lapin CreamSoup.</LP_CreamSoup.ingestible.ingestReportString>
+
+  
+</LanguageData>

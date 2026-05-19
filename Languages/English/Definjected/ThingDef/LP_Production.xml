@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 조리대 -->
+  <LP_LapinCookingTable.label>Lapin Countertop</LP_LapinCookingTable.label>
+  <!-- EN: 라핀식 요리를 만들기 위한 전용 조리대입니다. -->
+  <LP_LapinCookingTable.description>Dedicated countertop for making Lapin-style dishes.</LP_LapinCookingTable.description>
+  <!-- EN: 전기 조리대 -->
+  <LP_ElectricStove.label>Lapin Electric Countertop</LP_ElectricStove.label>
+  <!-- EN: 라핀식 요리를 만들기 위한 전용 전기 조리대입니다. -->
+  <LP_ElectricStove.description>Dedicated electric countertop for making Lapin-style dishes.</LP_ElectricStove.description>
+</LanguageData>

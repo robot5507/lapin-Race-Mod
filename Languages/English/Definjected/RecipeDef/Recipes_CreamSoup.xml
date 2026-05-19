@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+
+
+  <!-- EN: 크림수프 만들기 -->
+  <Make_LP_CreamSoup.label>making Cream Soup</Make_LP_CreamSoup.label>
+  <!-- EN: 라핀식 크림수프를 생산합니다. -->
+  <Make_LP_CreamSoup.jobString>Produce Lapin-style cream soup.</Make_LP_CreamSoup.jobString>
+
+ 
+  
+</LanguageData>

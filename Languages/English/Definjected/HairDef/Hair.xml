@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: BraidHair -->
+  <LP_BraidHair.label>BraidHair</LP_BraidHair.label>
+  
+  <!-- EN: Curvehair -->
+  <LP_Curvehair.label>Curvehair</LP_Curvehair.label>
+  
+  <!-- EN: CurveRoll -->
+  <LP_CurveRoll.label>CurveRoll</LP_CurveRoll.label>
+  
+  <!-- EN: Longhair -->
+  <LP_Longhair.label>Longhair</LP_Longhair.label>
+  
+  <!-- EN: RoleHair -->
+  <LP_RoleHair.label>RoleHair</LP_RoleHair.label>
+  
+  <!-- EN: Shorthair -->
+  <LP_Shorthair.label>Shorthair</LP_Shorthair.label>
+  
+  <!-- EN: SideTail -->
+  <LP_SideTail.label>SideTail</LP_SideTail.label>
+  
+  <!-- EN: TwinTale -->
+  <LP_TwinTale.label>TwinTale</LP_TwinTale.label>
+  
+</LanguageData>

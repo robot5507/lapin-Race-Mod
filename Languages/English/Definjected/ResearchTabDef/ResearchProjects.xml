@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 기술 -->
+  <LapinTech.label>lapin technology</LapinTech.label>
+  <!-- EN: 라핀인들의 생존과 역사가 담긴 기술 트리입니다. -->
+  <LapinTech.generalDescription>A technology tree containing the survival and history of the Lapin people.</LapinTech.generalDescription>
+  <!-- EN: 라핀 기술 연구 -->
+  <LapinTech.generalTitle>Lapin technology research</LapinTech.generalTitle>
+  
+</LanguageData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 증원 부대 -->
+  <LapinFollowUpTroops.label>Lapin reinforcement unit</LapinFollowUpTroops.label>
+  <!-- EN: 라핀 후속 부대 -->
+  <LapinFollowUpTroops.letterLabel>Lapin follow-up unit</LapinFollowUpTroops.letterLabel>
+  <!-- EN: 라핀군 2차 증원군이 옵니다. 습격에 대비하십시오. -->
+  <LapinFollowUpTroops.letterText>The second wave of Lapin reinforcements is coming. Prepare for a raid.</LapinFollowUpTroops.letterText>
+  
+  <!-- EN: lapin raid -->
+  <LapinRaid.label>lapin raid</LapinRaid.label>
+  <!-- EN: 라핀 척후부대 -->
+  <LapinRaid.letterLabel>Lapin Scout Unit</LapinRaid.letterLabel>
+  <!-- EN: 라핀 척후부대가 도착했습니다. 습격에 대비하세요! -->
+  <LapinRaid.letterText>The Lapin scouting unit has arrived. Prepare for a raid!</LapinRaid.letterText>
+  
+  <!-- EN: 라핀 특수부대 강습 -->
+  <LP_Raid_LapinSpecialForcesDrop.label>Lapin Special Forces Assault</LP_Raid_LapinSpecialForcesDrop.label>
+  <!-- EN: 라핀 특수부대 강습 -->
+  <LP_Raid_LapinSpecialForcesDrop.letterLabel>Lapin Special Forces Assault</LP_Raid_LapinSpecialForcesDrop.letterLabel>
+  <!-- EN: 라핀 특수부대가 정착지 중심부로 강하했습니다! -->
+  <LP_Raid_LapinSpecialForcesDrop.letterText>Lapin Special Forces have landed in the center of the settlement!</LP_Raid_LapinSpecialForcesDrop.letterText>
+  
+  <!-- EN: 라핀 변절자 습격 -->
+  <LP_Raid_LapinTurncoat.label>Raid on the Lapin Traitors</LP_Raid_LapinTurncoat.label>
+  <!-- EN: 라핀 변절자 습격 -->
+  <LP_Raid_LapinTurncoat.letterLabel>Raid on the Lapin Traitors</LP_Raid_LapinTurncoat.letterLabel>
+  <!-- EN: 라핀 제국을 등진 변질자들이 당신의 정착지를 습격합니다. -->
+  <LP_Raid_LapinTurncoat.letterText>The renegades who turned their backs on the Lapin Empire are raiding your settlement.</LP_Raid_LapinTurncoat.letterText>
+  
+</LanguageData>

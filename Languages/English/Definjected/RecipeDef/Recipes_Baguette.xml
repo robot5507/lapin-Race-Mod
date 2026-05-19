@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 바게트 굽기 -->
+  <Recipe_Baguette.label>Baking Lapin Baguettes</Recipe_Baguette.label>
+  <!-- EN: 밀가루로 바삭바삭한 라핀 바게트를 굽는다. -->
+  <Recipe_Baguette.description>Bake a crispy lapin baguette with flour.</Recipe_Baguette.description>
+  <!-- EN: 라핀 바게트를 굽는 중 -->
+  <Recipe_Baguette.jobString>Baking Lapin Baguettes</Recipe_Baguette.jobString>
+  
+  <!-- EN: 라핀 캉파뉴 굽기 -->
+  <Recipe_Campagne.label>Baking Lapin Campagne</Recipe_Campagne.label>
+  <!-- EN: 밀가루로 라핀 캉파뉴를 굽는다. -->
+  <Recipe_Campagne.description>Bake Lapin Campagne with flour.</Recipe_Campagne.description>
+  <!-- EN: 라핀 캉파뉴를 굽는 중 -->
+  <Recipe_Campagne.jobString>Baking Lapin Campagne</Recipe_Campagne.jobString>
+  
+  <!-- EN: 라핀 크루아상 굽기 -->
+  <Recipe_Croissant.label>Baking Lapin Croissants</Recipe_Croissant.label>
+  <!-- EN: 밀가루로 바삭바삭한 라핀 크루아상을 굽는다. -->
+  <Recipe_Croissant.description>Bake crispy Lapin croissants with flour.</Recipe_Croissant.description>
+  <!-- EN: 라핀 크루아상 굽는 중 -->
+  <Recipe_Croissant.jobString>Baking Lapin Croissants</Recipe_Croissant.jobString>
+  
+</LanguageData>

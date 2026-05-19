@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 크루아상 -->
+  <LP_Croissant.label>Lapin Croissant</LP_Croissant.label>
+  <!-- EN: 라핀밀로 만들수 있는 맛있는 라핀 크루아상. -->
+  <LP_Croissant.description>Delicious Lapin croissants made with Lapin wheat.</LP_Croissant.description>
+  <!-- EN: 라핀 크루아상 먹기 -->
+  <LP_Croissant.ingestible.ingestCommandString>Eating Lapin Croissants</LP_Croissant.ingestible.ingestCommandString>
+  <!-- EN: 라핀 크루아상을 먹고 있습니다. -->
+  <LP_Croissant.ingestible.ingestReportString>Eating Lapin Croissants.</LP_Croissant.ingestible.ingestReportString>
+  
+</LanguageData>

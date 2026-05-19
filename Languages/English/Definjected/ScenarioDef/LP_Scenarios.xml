@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: lapin colony -->
+  <LP_Scenario.label>Lapin colony</LP_Scenario.label>
+  <!-- EN: 라핀 새로운 정착지. -->
+  <LP_Scenario.description>Lapin's new settlement.</LP_Scenario.description>
+  <!-- EN: 라핀 새로운 정착지. -->
+  <LP_Scenario.scenario.description>Lapin's new settlement.</LP_Scenario.scenario.description>
+  <!-- EN: lapin colony -->
+  <LP_Scenario.scenario.name>Lapin colony</LP_Scenario.scenario.name>
+  <!-- EN: 라핀 제국에서 흩어진 라핀인들의 새로운 정착지입니다. -->
+  <LP_Scenario.scenario.summary>New settlement for the Lapinians scattered from the Lapin Empire.</LP_Scenario.scenario.summary>
+  
+</LanguageData>

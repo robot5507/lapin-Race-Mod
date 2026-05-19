@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: lapin Bomber Rabbit -->
+  <LapinBomberRabbit.label>Lapin Bomber Rabbit</LapinBomberRabbit.label>
+  
+  <!-- EN: Lapin colonist -->
+  <LapinColonist.label> Lapin colonist</LapinColonist.label>
+  
+  <!-- EN: lapin Hunter Rabbit -->
+  <LapinHunterRabbit.label>Lapin Hunter Rabbit</LapinHunterRabbit.label>
+  
+  <!-- EN: lapin Killer Rabbit -->
+  <LapinKillerRabbit.label>Lapin Killer Rabbit</LapinKillerRabbit.label>
+  
+  <!-- EN: Lapin Maid -->
+  <LapinMaid.label>Lapin Maid</LapinMaid.label>
+  
+  <!-- EN: lapin Maid Operations Unit. -->
+  <LapinMaidSpecialForces.label>Lapin Maid Operations Unit</LapinMaidSpecialForces.label>
+  
+  <!-- EN: lapin Maid Operations Unit Millitar. -->
+  <LapinMaidSpecialForcesMillitar.label>Lapin Maid Operations Unit Millitar</LapinMaidSpecialForcesMillitar.label>
+  
+  <!-- EN: Lapin Merchant -->
+  <LapinMerchant.label>Lapin Merchant</LapinMerchant.label>
+  
+  <!-- EN: lapin noble -->
+  <LapinNoble.label>Lapin noble</LapinNoble.label>
+  
+  <!-- EN: lapin noble child -->
+  <LapinNobleChild.label>Lapin noble child</LapinNobleChild.label>
+  
+  <!-- EN: lapin noble Masked -->
+  <LapinNobleMasked.label>Lapin noble Masked</LapinNobleMasked.label>
+  
+  <!-- EN: lapin noble Officer -->
+  <LapinNobleOfficer.label>Lapin noble Officer</LapinNobleOfficer.label>
+  
+  <!-- EN: lapin soldier -->
+  <LapinSoldier.label>Lapin soldier</LapinSoldier.label>
+  
+  <!-- EN: lapin soldier artillery -->
+  <LapinSoldierArtillery.label>Lapin soldier artillery</LapinSoldierArtillery.label>
+  
+  <!-- EN: lapin soldier artillery militar -->
+  <LapinSoldierArtilleryMilitar.label>Lapin soldier artillery militar</LapinSoldierArtilleryMilitar.label>
+  
+  <!-- EN: lapin soldier Grenadier -->
+  <LapinSoldierGrenadier.label>Lapin soldier Grenadier</LapinSoldierGrenadier.label>
+  
+  <!-- EN: lapin soldier sapper -->
+  <LapinSoldierSapper.label>Lapin soldier sapper</LapinSoldierSapper.label>
+  
+  <!-- EN: lapin soldier Voltigeur -->
+  <LapinSoldierVoltigeur.label>Lapin soldier Voltigeur</LapinSoldierVoltigeur.label>
+  
+  <!-- EN: lapin Swords man -->
+  <LapinSwordsman.label>Lapin Swordsman</LapinSwordsman.label>
+  
+  <!-- EN: lapin Vorpal Rabbit -->
+  <LapinVorpalRabbit.label>Lapin Vorpal Rabbit</LapinVorpalRabbit.label>
+  
+</LanguageData>

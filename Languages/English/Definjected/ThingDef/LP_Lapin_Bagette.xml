@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀바게트 -->
+  <LP_Lapin_Bagette.label>Lapin Baguette</LP_Lapin_Bagette.label>
+  <!-- EN: 라핀 전통의 전투식량. 먹을 수도 있고, 적의 머리를 때릴 수도 있다. -->
+  <LP_Lapin_Bagette.description>Lapin's traditional combat ration. You can eat it, or use it to hit the enemy's head.</LP_Lapin_Bagette.description>
+  <!-- EN: 빵 몸통 -->
+  <LP_Lapin_Bagette.tools.0.label>Bread body</LP_Lapin_Bagette.tools.0.label>
+  
+</LanguageData>

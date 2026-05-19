@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 캉파뉴 -->
+  <LP_Campague.label>Lapin Campagne</LP_Campague.label>
+  <!-- EN: 라핀밀로 만들수 있는 라핀 캉파뉴빵. -->
+  <LP_Campague.description>Lapin Campagne bread that can be made with Lapin flour.</LP_Campague.description>
+  <!-- EN: 라핀 캉파뉴 먹기 -->
+  <LP_Campague.ingestible.ingestCommandString>Eating Lapin Campagne</LP_Campague.ingestible.ingestCommandString>
+  <!-- EN: 라핀 캉파뉴를 먹고 있습니다. -->
+  <LP_Campague.ingestible.ingestReportString>Eating Lapin Campagne.</LP_Campague.ingestible.ingestReportString>
+  
+</LanguageData>

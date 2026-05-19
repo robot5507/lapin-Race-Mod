@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 포병입니다.탄도학과 계산에 능합니다. -->
+  <Lapin_Artillery.description>[PAWN_nameDef]is a Lapin Empire Artillerist. [PAWN_nameDef] is skilled in ballistics and calculations.</Lapin_Artillery.description>
+  <!-- EN: 라핀 포병 -->
+  <Lapin_Artillery.title>Lapin Artillerist</Lapin_Artillery.title>
+  <!-- EN: 포병 -->
+  <Lapin_Artillery.titleShort>Artillerist</Lapin_Artillery.titleShort>
+
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 가난한 예술가였습니다.작은 공방에서 조각과 그림을 만들며 생계를 이어갔습니다.-->
+  <Lapin_Artist.description>[PAWN_nameDef]was a poor artist in the Lapin Empire. [PAWN_nameDef] made a living by creating sculptures and paintings in a small workshop.</Lapin_Artist.description>
+  <!-- EN: 라핀 예술가 -->
+  <Lapin_Artist.title>Lapin Artist</Lapin_Artist.title>
+  <!-- EN: 예술가 -->
+  <Lapin_Artist.titleShort>Artist</Lapin_Artist.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제빵사였습니다 하루하루 바게트를 만들며 연맹했습니다. -->
+  <Lapin_Baker.description>[PAWN_nameDef]was a baker at Lapin. [PAWN_nameDef] made baguettes day by day and formed an alliance.</Lapin_Baker.description>
+  <!-- EN: 라핀 제빵사 -->
+  <Lapin_Baker.title>Lapin Baker</Lapin_Baker.title>
+  <!-- EN: 제빵사 -->
+  <Lapin_Baker.titleShort>Baker</Lapin_Baker.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 특수전 목적으로 훈련받은 라핀메이드부대 대원입니다. -->
+  <Lapin_BattleMaid.description>[PAWN_nameDef]is a member of the Lapin Maid unit trained for special operations purposes.</Lapin_BattleMaid.description>
+  <!-- EN: 라핀 전투메이드 -->
+  <Lapin_BattleMaid.title>Lapin Battle Maid</Lapin_BattleMaid.title>
+  <!-- EN: 전투메이드 -->
+  <Lapin_BattleMaid.titleShort>Battle Maid</Lapin_BattleMaid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 변질된 라핀의 폭탄토끼입니다. -->
+  <Lapin_BomberRabbit.description>[PAWN_nameDef]is Lapin's betrayed bomb rabbit.</Lapin_BomberRabbit.description>
+  <!-- EN: 라핀 폭탄마 -->
+  <Lapin_BomberRabbit.title>Lapin Bomber Rabbit</Lapin_BomberRabbit.title>
+  <!-- EN: 폭탄토끼 -->
+  <Lapin_BomberRabbit.titleShort>Bomber</Lapin_BomberRabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 살인토끼입니다.살인과 식인을 하는 무시무시한 괴물입니다. 안티오크의 수류탄을 가져와라! -->
+  <Lapin_CannibalRabbit.description>[PAWN_nameDef]is the Lapin Killer Rabbit. It is a terrifying monster that commits murder and cannibalism. Bring the Antioch grenade!</Lapin_CannibalRabbit.description>
+  <!-- EN: 라핀 살인토끼 -->
+  <Lapin_CannibalRabbit.title>Lapin Killer Rabbit</Lapin_CannibalRabbit.title>
+  <!-- EN: 살인토끼 -->
+  <Lapin_CannibalRabbit.titleShort>Killer</Lapin_CannibalRabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 인간을 사냥하는 토끼입니다. -->
+  <Lapin_canniHunterRabbit.description>[PAWN_nameDef]is a rabbit that hunts humans.</Lapin_canniHunterRabbit.description>
+  <!-- EN: 라핀 인간사냥 토끼 -->
+  <Lapin_canniHunterRabbit.title>Lapin Hunter Rabbit</Lapin_canniHunterRabbit.title>
+  <!-- EN: 사냥토끼 -->
+  <Lapin_canniHunterRabbit.titleShort>Hunter</Lapin_canniHunterRabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 변질된 라핀의 식인토끼입니다. -->
+  <Lapin_canniRabbit.description>[PAWN_nameDef]is Lapin's cannibal rabbit that has been corrupted.</Lapin_canniRabbit.description>
+  <!-- EN: 라핀 식인 토끼 -->
+  <Lapin_canniRabbit.title>Lapin Canni Rabbit</Lapin_canniRabbit.title>
+  <!-- EN: 식인토끼 -->
+  <Lapin_canniRabbit.titleShort>Cannibal</Lapin_canniRabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 기본 시민입니다. -->
+  <Lapin_Colonist.description>[PAWN_nameDef]is a basic citizen of the Lapin Empire.</Lapin_Colonist.description>
+  <!-- EN: 라핀 일꾼 -->
+  <Lapin_Colonist.title>Lapin Colonist</Lapin_Colonist.title>
+  <!-- EN: 라핀시민 -->
+  <Lapin_Colonist.titleShort>Colonist</Lapin_Colonist.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 굴착토끼입니다.라핀인들은 건설보다도 굴을 만들고 살아왔습니다. -->
+  <Lapin_Digging_Rabbit.description>[PAWN_nameDef]is the digging rabbit of the Lapin Empire. The Lapin people have lived by making burrows rather than constructing buildings.</Lapin_Digging_Rabbit.description>
+  <!-- EN: 라핀 굴착토끼 -->
+  <Lapin_Digging_Rabbit.title>Lapin Digger Rabbit</Lapin_Digging_Rabbit.title>
+  <!-- EN: 굴착꾼 -->
+  <Lapin_Digging_Rabbit.titleShort>Digger</Lapin_Digging_Rabbit.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 농부입니다. -->
+  <Lapin_Famer.description>[PAWN_nameDef]is a farmer of the Lapin Empire.</Lapin_Famer.description>
+  <!-- EN: 라핀 농부 -->
+  <Lapin_Famer.title>Lapin farmer</Lapin_Famer.title>
+  <!-- EN: 농부 -->
+  <Lapin_Famer.titleShort>Farmer</Lapin_Famer.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 척탄병입니다. -->
+  <Lapin_Grenadier.description>[PAWN_nameDef]is a Lapin Empire Grenadier.</Lapin_Grenadier.description>
+  <!-- EN: 라핀 척탄병 -->
+  <Lapin_Grenadier.title>Lapin Grenadier</Lapin_Grenadier.title>
+  <!-- EN: 척탄병 -->
+  <Lapin_Grenadier.titleShort>Grenadier</Lapin_Grenadier.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 일반적인 메이드입니다. -->
+  <Lapin_Maid.description>[PAWN_nameDef]is a typical maid of the Lapin Empire.</Lapin_Maid.description>
+  <!-- EN: 라핀 메이드 -->
+  <Lapin_Maid.title>Lapin Maid</Lapin_Maid.title>
+  <!-- EN: 라핀메이드 -->
+  <Lapin_Maid.titleShort>Maid</Lapin_Maid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 상인입니다. -->
+  <Lapin_Merchant.description>[PAWN_nameDef]is a merchant of the Lapin Empire.</Lapin_Merchant.description>
+  <!-- EN: 라핀 상인 -->
+  <Lapin_Merchant.title>Lapin Merchant</Lapin_Merchant.title>
+  <!-- EN: 상인 -->
+  <Lapin_Merchant.titleShort>Merchant</Lapin_Merchant.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 귀족입니다. -->
+  <Lapin_Noble.description>[PAWN_nameDef]is a noble of the Lapin Empire.</Lapin_Noble.description>
+  <!-- EN: 라핀 귀족 -->
+  <Lapin_Noble.title>Lapin Noble</Lapin_Noble.title>
+  <!-- EN: 귀족 -->
+  <Lapin_Noble.titleShort>Noble</Lapin_Noble.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 좋은 집안 출신이지만 추방당했습니다.원래의 가문명도 잃어버렸습니다. -->
+  <Lapin_Noble_Banished_Kid.description>[PAWN_nameDef]came from a good family but was banished. [PAWN_nameDef]also lost original family name.</Lapin_Noble_Banished_Kid.description>
+  <!-- EN: 라핀 추방당한 귀족 아이 -->
+  <Lapin_Noble_Banished_Kid.title>Lapin Noble Banished Kid</Lapin_Noble_Banished_Kid.title>
+  <!-- EN: 추방 귀족 아이 -->
+  <Lapin_Noble_Banished_Kid.titleShort>Banished Kid</Lapin_Noble_Banished_Kid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 좋은 집안 출신입니다. -->
+  <Lapin_Noble_Family_Kid.description>[PAWN_nameDef]comes from a good family.</Lapin_Noble_Family_Kid.description>
+  <!-- EN: 라핀 귀족집안 아이 -->
+  <Lapin_Noble_Family_Kid.title>Lapin Noble Family Kid</Lapin_Noble_Family_Kid.title>
+  <!-- EN: 귀족집안 아이 -->
+  <Lapin_Noble_Family_Kid.titleShort>Noble Kid</Lapin_Noble_Family_Kid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 장교출신입니다. -->
+  <Lapin_NobleOfficer.description>[PAWN_nameDef]is a former Lapin officer.</Lapin_NobleOfficer.description>
+  <!-- EN: 라핀 장교 -->
+  <Lapin_NobleOfficer.title>Lapin Officer</Lapin_NobleOfficer.title>
+  <!-- EN: 장교 -->
+  <Lapin_NobleOfficer.titleShort>Officer</Lapin_NobleOfficer.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 혁명군 출신입니다.왕당파와 사이가 좋지 않습니다. -->
+  <Lapin_Revolutionary_Army.description>[PAWN_nameDef]is from the revolutionary army. [PAWN_nameDef]does not get along well with the royalists.</Lapin_Revolutionary_Army.description>
+  <!-- EN: 라핀 혁명군 -->
+  <Lapin_Revolutionary_Army.title>Lapin Revolutionary Army</Lapin_Revolutionary_Army.title>
+  <!-- EN: 혁명군 -->
+  <Lapin_Revolutionary_Army.titleShort>Revolutionary Army</Lapin_Revolutionary_Army.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 왕당파 출신입니다.혁명군과 사이가 좋지 않습니다. -->
+  <Lapin_Royalist.description>[PAWN_nameDef]is from the royalist faction. [PAWN_nameDef] does not get along well with the revolutionary army.</Lapin_Royalist.description>
+  <!-- EN: 라핀 왕당파 -->
+  <Lapin_Royalist.title>Lapin Royalist</Lapin_Royalist.title>
+  <!-- EN: 왕당파 -->
+  <Lapin_Royalist.titleShort>Royalist</Lapin_Royalist.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 선임공병입니다. -->
+  <Lapin_Sapper.description>[PAWN_nameDef]a Sapper of the Lapin Empire.</Lapin_Sapper.description>
+  <!-- EN: 라핀 선임공병 -->
+  <Lapin_Sapper.title>Lapin Sapper</Lapin_Sapper.title>
+  <!-- EN: 공병 -->
+  <Lapin_Sapper.titleShort>Sapper</Lapin_Sapper.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 병사였지만 전투에서 패배하고 은신했습니다. [PAWN_nameDef]은 비록 패잔병일지 모르지만, 현역 군인보다 생존기술과 전투를 잘 알고있습니다. -->
+  <Lapin_Straggler.description>[PAWN_nameDef] was a soldier of the Lapin Empire but was defeated in battle and went into hiding. Although [PAWN_nameDef] may be a straggler, [PAWN_nameDef] knows survival skills and combat better than active-duty soldiers.</Lapin_Straggler.description>
+  <!-- EN: 라핀 패잔병 -->
+  <Lapin_Straggler.title>Lapin Straggler</Lapin_Straggler.title>
+  <!-- EN: 패잔병 -->
+  <Lapin_Straggler.titleShort>Straggler</Lapin_Straggler.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 길거리 검사출신입니다. -->
+  <Lapin_swordsman.description>[PAWN_nameDef]is a street swordsman from the Lapin Empire.</Lapin_swordsman.description>
+  <!-- EN: 라핀 길거리 검사 -->
+  <Lapin_swordsman.title>Lapin Swordsman</Lapin_swordsman.title>
+  <!-- EN: 검객 -->
+  <Lapin_swordsman.titleShort>Swordsman</Lapin_swordsman.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 라핀 제국 도약병입니다. -->
+  <Lapin_Voltigeur.description>[PAWN_nameDef]is a Lapin Empire Voltigeur.</Lapin_Voltigeur.description>
+  <!-- EN: 라핀 도약병 -->
+  <Lapin_Voltigeur.title>Lapin Voltigeur</Lapin_Voltigeur.title>
+  <!-- EN: 도약병 -->
+  <Lapin_Voltigeur.titleShort>Voltigeur</Lapin_Voltigeur.titleShort>
+  
+  <!-- EN: 응애 나 애기라핀. -->
+  <LapinChild_Kid.description>Mite, I'm a baby lapin.</LapinChild_Kid.description>
+  <!-- EN: 라핀 아이 -->
+  <LapinChild_Kid.title>Lapin Child</LapinChild_Kid.title>
+  <!-- EN: 아이 -->
+  <LapinChild_Kid.titleShort>Child</LapinChild_Kid.titleShort>
+  
+  <!-- EN: 라핀 인체실험실에서 특수전 목적으로 키워진 라핀입니다. -->
+  <LapinChild_laboratoryKid.description>[PAWN_nameDef]is Lapin, raised for special operations purposes at the Lapin Experimentation Laboratory.</LapinChild_laboratoryKid.description>
+  <!-- EN: 라핀 실험실 아이 -->
+  <LapinChild_laboratoryKid.title>Lapin laboratory Kid</LapinChild_laboratoryKid.title>
+  <!-- EN: 실험실 아이 -->
+  <LapinChild_laboratoryKid.titleShort>laboratory Kid</LapinChild_laboratoryKid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]은 어릴적 빵을 훔치고 달아나다 잡혀 어린시절 대부분을 감옥에서 보냈습니다. -->
+  <LapinChild_Thief.description>[PAWN_nameDef]As a child, [PAWN_nameDef] stole bread and ran away, but was caught and spent most of childhood in prison.</LapinChild_Thief.description>
+  <!-- EN: 라핀 바게트 도둑 -->
+  <LapinChild_Thief.title>Lapin Child Thief</LapinChild_Thief.title>
+  <!-- EN: 도둑 -->
+  <LapinChild_Thief.titleShort>Thief</LapinChild_Thief.titleShort>
+  
+  <!-- EN: 떠돌이 생활을 하던 라핀 아이입니다. -->
+  <LapinvVagrant_Kid.description>[PAWN_nameDef]used to live a wandering life.</LapinvVagrant_Kid.description>
+  <!-- EN: 라핀 부랑자 아이 -->
+  <LapinvVagrant_Kid.title>Lapin Vagrant Kid</LapinvVagrant_Kid.title>
+  <!-- EN: 아이 -->
+  <LapinvVagrant_Kid.titleShort>Vagrant</LapinvVagrant_Kid.titleShort>
+  
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+
+  <!-- EN: 라핀 콩소메 -->
+  <LP_Consomme.label>Lapin Consomme</LP_Consomme.label>
+  <!-- EN: 라핀식 콩소메. -->
+  <LP_Consomme.description>Lapin-style consomme.</LP_Consomme.description>
+  <!-- EN: 수프 식사 -->
+  <LP_Consomme.ingestible.ingestCommandString>Eating Lapin Consomme</LP_Consomme.ingestible.ingestCommandString>
+  <!-- EN: 라핀식 콩소메를 먹고 있습니다. -->
+  <LP_Consomme.ingestible.ingestReportString>Eating Lapin Consomme.</LP_Consomme.ingestible.ingestReportString>
+  
+  
+</LanguageData>

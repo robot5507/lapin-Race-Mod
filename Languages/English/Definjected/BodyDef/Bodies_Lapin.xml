@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Lapin -->
+  <Lapin.label>Lapin</Lapin.label>
+  <!-- EN: tail -->
+  <Lapin.corePart.parts.tail.customLabel>Lapin tail</Lapin.corePart.parts.tail.customLabel>
+  <!-- EN: left lung -->
+  <Lapin.corePart.parts.left_lung.customLabel>left lung</Lapin.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <Lapin.corePart.parts.right_lung.customLabel>right lung</Lapin.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <Lapin.corePart.parts.left_kidney.customLabel>left kidney</Lapin.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <Lapin.corePart.parts.right_kidney.customLabel>right kidney</Lapin.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left eye -->
+  <Lapin.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</Lapin.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+  <Lapin.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</Lapin.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+  <Lapin.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</Lapin.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+  <Lapin.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</Lapin.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: left shoulder -->
+  <Lapin.corePart.parts.left_shoulder.customLabel>left shoulder</Lapin.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left clavicle -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>left clavicle</Lapin.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>
+  <!-- EN: left arm -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</Lapin.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>left humerus</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>left radius</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: left hand -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>left hand</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>left pinky</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left ring finger -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>left ring finger</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  <!-- EN: left middle finger -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>left middle finger</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>left index finger</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>left thumb</Lapin.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <Lapin.corePart.parts.right_shoulder.customLabel>right shoulder</Lapin.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right clavicle -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>right clavicle</Lapin.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>
+  <!-- EN: right arm -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.customLabel>right arm</Lapin.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>right humerus</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>right radius</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <!-- EN: right hand -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>right hand</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>right pinky</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right ring finger -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>right ring finger</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+  <!-- EN: right middle finger -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel> right middle finger</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>right index finger</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>right thumb</Lapin.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <Lapin.corePart.parts.left_leg.customLabel>left leg</Lapin.corePart.parts.left_leg.customLabel>
+  <!-- EN: left femur -->
+  <Lapin.corePart.parts.left_leg.parts.left_femur.customLabel>left femur</Lapin.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <!-- EN: left tibia -->
+  <Lapin.corePart.parts.left_leg.parts.left_tibia.customLabel>left tibia</Lapin.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <!-- EN: left foot -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.customLabel>left foot</Lapin.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: left little toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>left little toe</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+  <!-- EN: left fourth toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>left fourth toe</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+  <!-- EN: left middle toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>left middle toe</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+  <!-- EN: left second toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>left second toe</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+  <!-- EN: left big toe -->
+  <Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>left big toe</Lapin.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+  <!-- EN: right leg -->
+  <Lapin.corePart.parts.right_leg.customLabel>right leg</Lapin.corePart.parts.right_leg.customLabel>
+  <!-- EN: right femur -->
+  <Lapin.corePart.parts.right_leg.parts.right_femur.customLabel>right femur</Lapin.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <!-- EN: right tibia -->
+  <Lapin.corePart.parts.right_leg.parts.right_tibia.customLabel>right tibia</Lapin.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <!-- EN: right foot -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</Lapin.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: right little toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>right little toe</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+  <!-- EN: right fourth toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>right fourth toe</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+  <!-- EN: right middle toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>right middle toe</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+  <!-- EN: right second toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>right second toe</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+  <!-- EN: right big toe -->
+  <Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>right big toe</Lapin.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+  
+</LanguageData>

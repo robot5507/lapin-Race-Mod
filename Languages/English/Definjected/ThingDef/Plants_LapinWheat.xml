@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 밀 -->
+  <PlantLapinWheat.label>Lapin Wheat</PlantLapinWheat.label>
+  <!-- EN: 바게트를 만들기 위한 밀. 성장 속도가 빠르고 수확량이 괜찮다. -->
+  <PlantLapinWheat.description>Wheat for making baguettes. It grows quickly and has a decent yield.</PlantLapinWheat.description>
+  
+</LanguageData>

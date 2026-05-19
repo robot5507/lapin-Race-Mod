@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 치즈 선반 -->
+  <LP_CheeseShelf.label>Lapin Cheese Shelf</LP_CheeseShelf.label>
+  <!-- EN: 커드와 치즈를 보관하기 위한 라핀식 치즈 선반입니다. 특별한 숙성 효과는 없지만 치즈 저장에 어울립니다. -->
+  <LP_CheeseShelf.description>Lapin-style cheese rack for storing curds and cheese. It does not provide a special aging effect, but it is suitable for storing cheese.</LP_CheeseShelf.description>
+
+</LanguageData>

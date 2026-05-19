@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 딸기와인 발효통 -->
+  <LP_StrawberryWineBarrel.label>Lapin strawberry wine fermentation Barrel</LP_StrawberryWineBarrel.label>
+  <!-- EN: 딸기주스를 발효시켜 라핀 딸기와인을 만드는 전용 발효통입니다. -->
+  <LP_StrawberryWineBarrel.description>Dedicated fermentation Barrel for making Lapin strawberry wine by fermenting strawberry juice.</LP_StrawberryWineBarrel.description>
+  <!-- EN: 딸기주스 -->
+  <LP_StrawberryWineBarrel.comps.CompRefuelable.fuelLabel>Strawberry juice</LP_StrawberryWineBarrel.comps.CompRefuelable.fuelLabel>
+  
+</LanguageData>

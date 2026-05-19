@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 고급 조리 기술 -->
+  <LP_LapinAdvancedCookingKnowhow.label>Lapin Advanced Cooking Techniques</LP_LapinAdvancedCookingKnowhow.label>
+  <!-- EN: 라핀인들의 향상된 식사와 조리법에 관해서 배웁니다. -->
+  <LP_LapinAdvancedCookingKnowhow.description>Learn about the Lapin people's improved meals and cooking methods.</LP_LapinAdvancedCookingKnowhow.description>
+  
+  <!-- EN: 라핀 의류 제작 -->
+  <LP_LapinApparelproduction.label>Lapin clothing production</LP_LapinApparelproduction.label>
+  <!-- EN: 라핀인들의 복식에 맞는 의류를 제작하는 방법을 배웁니다. -->
+  <LP_LapinApparelproduction.description>Learn how to make clothing suitable for the Lapin people's attire.</LP_LapinApparelproduction.description>
+  
+  <!-- EN: 라핀 포병 도구 -->
+  <LP_LapinArtilleryTools.label>Lapin artillery tools</LP_LapinArtilleryTools.label>
+  <!-- EN: 라핀 포병용 도구를 만드는 기술을 배웁니디. -->
+  <LP_LapinArtilleryTools.description>Learn the skills to make tools for Lapin artillery.</LP_LapinArtilleryTools.description>
+  
+  <!-- EN: 라핀 바게트 수술법 -->
+  <LP_LapinBagutteSurgery.label>Lapin baguette surgical method</LP_LapinBagutteSurgery.label>
+  <!-- EN: 바게트를 팔다리 대용으로 사용하는 방법에 관해 배웁니다. -->
+  <LP_LapinBagutteSurgery.description>Learn how to use a baguette as a substitute for limbs.</LP_LapinBagutteSurgery.description>
+  
+  <!-- EN: 라핀 대포 포탄 제조 -->
+  <LP_LapinCannonBallsmithing.label>Lapin Cannon Shell Manufacturing</LP_LapinCannonBallsmithing.label>
+  <!-- EN: 라핀 대포에 사용되는 기본적인 포탄 제조법을 배웁니다. -->
+  <LP_LapinCannonBallsmithing.description>Learn the basic shell manufacturing method used in the Lapin Cannon.</LP_LapinCannonBallsmithing.description>
+  
+  <!-- EN: 라핀 대포 기술 -->
+  <LP_LapinCannoncasting.label>Lapin Cannon Technology</LP_LapinCannoncasting.label>
+  <!-- EN: 라핀 대포를 만드는 기술을 배웁니디. -->
+  <LP_LapinCannoncasting.description>Learn the technique of making Lapin cannons.</LP_LapinCannoncasting.description>
+  
+  <!-- EN: 라핀 조리 기술 -->
+  <LP_LapinCookingKnowhow.label>Lapin Cooking Technique</LP_LapinCookingKnowhow.label>
+  <!-- EN: 라핀인들의 식사와 조리법에 관해서 배웁니다. -->
+  <LP_LapinCookingKnowhow.description>Learn about the meals and cooking methods of the Lapin people.</LP_LapinCookingKnowhow.description>
+  
+  <!-- EN: 라핀 폭탄 제조 -->
+  <LP_LapinGrenadeSmithing.label>Lapin Bomb Manufacturing</LP_LapinGrenadeSmithing.label>
+  <!-- EN: 라핀 폭탄의 제조법을 배웁니다. -->
+  <LP_LapinGrenadeSmithing.description>Learn the recipe for the Lapin bomb.</LP_LapinGrenadeSmithing.description>
+  
+  <!-- EN: 라핀 총기 제작 -->
+  <LP_LapinGunsmithing.label>Lapin gun production</LP_LapinGunsmithing.label>
+  <!-- EN: 라핀 전용 화약무기들을 제작하는 가장 기본적인 방법을 배웁니다. -->
+  <LP_LapinGunsmithing.description>Learn the most basic methods for crafting Lapin-exclusive gunpowder weapons.</LP_LapinGunsmithing.description>
+  
+  <!-- EN: 라핀 냉병기 제조 -->
+  <LP_LapinMeleeWeaponsmithing.label>Lapin cold weapon manufacturing</LP_LapinMeleeWeaponsmithing.label>
+  <!-- EN: 라핀 기본 근접무기들을 만드는 법을 배웁니다. -->
+  <LP_LapinMeleeWeaponsmithing.description>Learn how to craft Lapin's basic melee weapons.</LP_LapinMeleeWeaponsmithing.description>
+  
+  <!-- EN: 라핀 군용 의류 제작 -->
+  <LP_LapinMilitaryApparelproduction.label>Lapin military clothing production</LP_LapinMilitaryApparelproduction.label>
+  <!-- EN: 라핀인들의 군용 의류를 제작하는 방법을 배웁니다. -->
+  <LP_LapinMilitaryApparelproduction.description>Learn how to make military clothing for the Lapin people.</LP_LapinMilitaryApparelproduction.description>
+  
+  <!-- EN: 라핀 제분 기술 -->
+  <LP_LapinMillingKnowhow.label>Lapin Milling Technology</LP_LapinMillingKnowhow.label>
+  <!-- EN: 라핀제분의 가장 기본인 맷돌의 제작과 제분법을 배웁니다. -->
+  <LP_LapinMillingKnowhow.description>Learn the making of the millstone, the most basic tool for Lapin milling, and the milling method.</LP_LapinMillingKnowhow.description>
+  
+  <!-- EN: 라핀 고급 의류 제작 -->
+  <LP_LapinNobleApparelproduction.label>Lapin High-End Clothing Production</LP_LapinNobleApparelproduction.label>
+  <!-- EN: 라핀의 높으신분들 복식에 맞는 의류를 제작하는 방법을 배웁니다. -->
+  <LP_LapinNobleApparelproduction.description>Learn how to make clothing suitable for the attire of Lapin's high-ranking officials.</LP_LapinNobleApparelproduction.description>
+  
+  <!-- EN: 강선 -->
+  <LP_LapinRifledbarrel.label>barrel rifling</LP_LapinRifledbarrel.label>
+  <!-- EN: 정확도와 사거리가 개선된 라핀 강선총열 제조법을 배웁니다. -->
+  <LP_LapinRifledbarrel.description>Learn the recipe for a Lapin rifled barrel with improved accuracy and range.</LP_LapinRifledbarrel.description>
+  
+  <!-- EN: 라핀 기본 도구 제조 -->
+  <LP_LapinToolsmithing.label>Lapin basic tool manufacturing</LP_LapinToolsmithing.label>
+  <!-- EN: 라핀 기본 물건 만드는 법을 배웁니다. -->
+  <LP_LapinToolsmithing.description>Learn how to make basic Lapin tools.</LP_LapinToolsmithing.description>
+  
+  <!-- EN: 라핀 양조 -->
+  <LP_LapinWinemaking.label>Lapin Brewing</LP_LapinWinemaking.label>
+  <!-- EN: 라핀 딸기 와인의 양조를 위한 발효통 제작법을 배웁니다. -->
+  <LP_LapinWinemaking.description>Learn how to make fermentation tanks for brewing Lapin strawberry wine.</LP_LapinWinemaking.description>
+  
+</LanguageData>

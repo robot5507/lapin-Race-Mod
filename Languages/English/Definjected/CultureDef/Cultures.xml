@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀문화 -->
+  <LapinCulture.label>Lapin Culture</LapinCulture.label>
+  <!-- EN: 라핀인들의 문화입니다. -->
+  <LapinCulture.description>This is the culture of the Lapin people.</LapinCulture.description>
+  
+  <!-- EN: 라핀 변절자 문화 -->
+  <LapinDegenerateCulture.label>Lapin traitor culture</LapinDegenerateCulture.label>
+  <!-- EN: 변절자 라핀인들의 문화입니다. -->
+  <LapinDegenerateCulture.description>The culture of the apostate Lapinians.</LapinDegenerateCulture.description>
+  
+</LanguageData>

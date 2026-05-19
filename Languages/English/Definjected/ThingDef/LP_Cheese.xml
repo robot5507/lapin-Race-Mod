@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 치즈 -->
+  <LP_Cheese.label>Lapin Cheese</LP_Cheese.label>
+  <!-- EN: 라핀식 숙성치즈.요리에 사용하거나 먹을수 있다. -->
+  <LP_Cheese.description>Lapin-style aged cheese. Can be used in cooking or eaten.</LP_Cheese.description>
+  <!-- EN: 치즈 섭취 -->
+  <LP_Cheese.ingestible.ingestCommandString>Eating Lapin Cheese</LP_Cheese.ingestible.ingestCommandString>
+  <!-- EN: 라핀 치즈를 먹고 있습니다. -->
+  <LP_Cheese.ingestible.ingestReportString>Eating Lapin Cheese.</LP_Cheese.ingestible.ingestReportString>
+  
+</LanguageData>
