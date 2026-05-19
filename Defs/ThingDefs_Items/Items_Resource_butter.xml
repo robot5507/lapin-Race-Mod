@@ -17,7 +17,7 @@
     <stackLimit>42</stackLimit>
 
     <statBases>
-      <MarketValue>40</MarketValue>
+      <MarketValue>10</MarketValue>
       <Mass>0.03</Mass>
       <DeteriorationRate>2</DeteriorationRate>
     </statBases>

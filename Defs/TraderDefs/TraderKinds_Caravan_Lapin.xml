@@ -29,6 +29,13 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>LP_Cheese</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>LP_Campague</thingDef>
 				<countRange>
 					<min>2</min>

@@ -2,19 +2,19 @@
 <Defs>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>LP_Cream</defName>
-    <label>크림</label>
-    <description>우유를 기반으로 만든 라핀식 크림. 버터를 만들거나 음식재료로 쓸수있습니다.</description>
+    <defName>LP_Roux</defName>
+    <label>루</label>
+    <description>수프를 만들기 위한 기본적인 루.</description>
 
     <graphicData>
-      <texPath>Things/Item/LP_Cream</texPath>
+      <texPath>Things/Item/LP_Roux</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
 
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
-    <stackLimit>12</stackLimit>
+    <stackLimit>50</stackLimit>
 
     <statBases>
       <MarketValue>5.5</MarketValue>

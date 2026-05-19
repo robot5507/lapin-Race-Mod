@@ -82,4 +82,52 @@
     </stages>
   </ThoughtDef>
 
+  <ThoughtDef>
+    <defName>LP_Lapin_Soup_Ate</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>든든한 수프</label>
+        <description>라핀식 수프를 먹으니 기부니가 좋아졌다.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>LP_Cheese_Ate</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>라핀 치즈를 먹음</label>
+        <description>음...이 치즈는 상등품이군!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+   <ThoughtDef>
+    <defName>LP_Lapin_Gratin_Ate</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>라핀 그라탕을 먹음</label>
+        <description>젠장 이 그라탕은 죽음으로 맛있는데!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>LP_Canape_Ate</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>10</stackLimit>
+    <stages>
+      <li>
+        <label>라핀 카나페 먹음</label>
+        <description>음...하나 집어먹으니 배는 안차지만 맛있군..</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

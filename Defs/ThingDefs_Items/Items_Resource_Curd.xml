@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>LP_Curd</defName>
+    <label>커드</label>
+    <description>치즈를 만들기 위한 라핀식 커드. 적절한 온도에 보관하면 자연스럽게 치즈가 됩니다.</description>
+
+    <graphicData>
+      <texPath>Things/Item/LP_Curd</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <stackLimit>10</stackLimit>
+
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.03</Mass>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+
+    <tickerType>Rare</tickerType>
+  <comps>
+  <li Class="LapinRace.CompProperties_CurdMaturing">
+    <productDef>LP_Cheese</productDef>
+    <ticksToMature>360000</ticksToMature>
+    <minTemperature>5</minTemperature>
+    <maxTemperature>25</maxTemperature>
+  </li>
+  </comps>
+   
+  </ThingDef>
+
+</Defs>
