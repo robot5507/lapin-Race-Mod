@@ -310,6 +310,27 @@
     </spawnCategories>
   </AlienRace.AlienBackstoryDef>
 
+<AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
+    <defName>Lapin_Artist</defName>
+    <identifier>Lapin Artist</identifier>
+    <slot>Adulthood</slot>
+    <title>라핀 예술가</title>
+    <titleShort>예술가</titleShort>
+    <baseDesc>[PAWN_nameDef]은 라핀 제국의 가난한 예술가였습니다.작은 공방에서 조각과 그림을 만들며 생계를 이어갔습니다.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+     <skillGains>
+      <Artistic>6</Artistic>
+      <Crafting>2</Crafting>
+      <Social>2</Social>
+    </skillGains>
+    <spawnCategories>
+    <li>LapinStory</li>
+    <li>LapinEmpire</li>
+        <li>LapinColonist</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
   <AlienRace.AlienBackstoryDef ParentName="BaseLapinBackStory">
     <defName>Lapin_Famer</defName>
     <identifier>Lapin Famer</identifier>
