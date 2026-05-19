@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="MealBase">
+  <defName>LP_Canape</defName>
+  <label>라핀 카나페</label>
+  <description>간단하게 만들수 있는 호화로운 카나페입니다.포만감은 적지만 손님 접대용으로 좋습니다.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_Canape</texPath>
+   <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>20</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>0.2</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealLavish</preferability>
+    <baseIngestTicks>90</baseIngestTicks>
+    <ingestCommandString>라핀 카나페 먹기</ingestCommandString>
+    <ingestReportString>라핀 카나페를 먹고 있습니다.</ingestReportString>
+    <tasteThought>LP_Canape_Ate</tasteThought>
+
+ 
+  </ingestible>
+<stackLimit>10</stackLimit>
+
+</ThingDef>
+</Defs>

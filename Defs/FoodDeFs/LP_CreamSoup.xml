@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="MealBase">
+  <defName>LP_CreamSoup</defName>
+  <label>라핀 크림수프</label>
+  <description>라핀식 크림수프.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_creamsoup</texPath>
+   <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>2.2</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>0.9</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealFine</preferability>
+    <baseIngestTicks>220</baseIngestTicks>
+    <ingestCommandString>수프 식사</ingestCommandString>
+    <ingestReportString>라핀식 크림수프를 먹고 있습니다.</ingestReportString>
+    <tasteThought>LP_Lapin_Soup_Ate</tasteThought>
+
+    
+  </ingestible>
+<stackLimit>10</stackLimit>
+
+</ThingDef>
+
+<ThingDef ParentName="MealBase">
+  <defName>LP_PotatoSoup</defName>
+  <label>라핀 감자수프</label>
+  <description>라핀식 감자수프.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_potatosoup</texPath>
+   <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>2.2</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>0.9</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealFine</preferability>
+    <baseIngestTicks>220</baseIngestTicks>
+    <ingestCommandString>수프 식사</ingestCommandString>
+    <ingestReportString>라핀식 감자수프를 먹고 있습니다.</ingestReportString>
+    <tasteThought>LP_Lapin_Soup_Ate</tasteThought>
+
+    
+  </ingestible>
+<stackLimit>10</stackLimit>
+
+</ThingDef>
+
+<ThingDef ParentName="MealBase">
+  <defName>LP_MushroomSoup</defName>
+  <label>라핀 양송이수프</label>
+  <description>라핀식 양송이수프.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_mushroomsoup</texPath>
+   <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>2.2</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>0.9</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealFine</preferability>
+    <baseIngestTicks>220</baseIngestTicks>
+    <ingestCommandString>수프 식사</ingestCommandString>
+    <ingestReportString>라핀식 양송이수프 먹고 있습니다.</ingestReportString>
+    <tasteThought>LP_Lapin_Soup_Ate</tasteThought>
+
+    
+  </ingestible>
+<stackLimit>10</stackLimit>
+
+</ThingDef>
+
+<ThingDef ParentName="MealBase">
+  <defName>LP_Consomme</defName>
+  <label>라핀 콩소메</label>
+  <description>라핀식 콩소메.</description>
+
+  <graphicData>
+    <texPath>Things/Item/LP_consomme</texPath>
+   <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>0.8</drawSize>
+  </graphicData>
+
+  <statBases>
+    <MarketValue>2.2</MarketValue>
+    <Mass>0.45</Mass>
+    <Nutrition>0.9</Nutrition>
+    <DeteriorationRate>6</DeteriorationRate>
+  </statBases>
+
+  <ingestible>
+    <foodType>Meal</foodType>
+    <preferability>MealFine</preferability>
+    <baseIngestTicks>220</baseIngestTicks>
+    <ingestCommandString>수프 식사</ingestCommandString>
+    <ingestReportString>라핀식 콩소메를 먹고 있습니다.</ingestReportString>
+    <tasteThought>LP_Lapin_Soup_Ate</tasteThought>
+
+    
+  </ingestible>
+<stackLimit>10</stackLimit>
+
+</ThingDef>
+</Defs>
