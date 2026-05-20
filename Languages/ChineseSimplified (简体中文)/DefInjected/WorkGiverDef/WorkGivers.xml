@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: 라핀 조리대에서 조리합니다. -->
+  <DoBillsLapinCookingTable.label>在拉芬炉灶上烹饪。</DoBillsLapinCookingTable.label>
+  <!-- EN: 요리하기 -->
+  <DoBillsLapinCookingTable.gerund>烹饪</DoBillsLapinCookingTable.gerund>
+  <!-- EN: 요리 -->
+  <DoBillsLapinCookingTable.verb>烹饪</DoBillsLapinCookingTable.verb>
+  
   <!-- EN: 라핀 버터 제조기를 사용합니다. -->
   <UseLapinButterChurn.label>使用拉芬黄油制造机。</UseLapinButterChurn.label>
   <!-- EN: 제조하기 -->

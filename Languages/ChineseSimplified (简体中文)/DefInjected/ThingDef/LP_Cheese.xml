@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 치즈 -->
+  <LP_Cheese.label>拉芬奶酪</LP_Cheese.label>
+  <!-- EN: 라핀식 숙성치즈.요리에 사용하거나 먹을수 있다. -->
+  <LP_Cheese.description>拉芬熟成奶酪。可用于烹饪，也可直接食用。</LP_Cheese.description>
+  <!-- EN: 치즈 섭취 -->
+  <LP_Cheese.ingestible.ingestCommandString>食用奶酪</LP_Cheese.ingestible.ingestCommandString>
+  <!-- EN: 라핀 치즈를 먹고 있습니다. -->
+  <LP_Cheese.ingestible.ingestReportString>正在吃拉芬奶酪。</LP_Cheese.ingestible.ingestReportString>
+  
+</LanguageData>

@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: 라핀 카나페 먹음 -->
+  <LP_Canape_Ate.stages.0.label>吃了拉芬开胃小点。</LP_Canape_Ate.stages.0.label>
+  <!-- EN: 음...하나 집어먹으니 배는 안차지만 맛있군.. -->
+  <LP_Canape_Ate.stages.0.description>嗯……拿一个吃了，虽然不顶饱，但味道不错啊……</LP_Canape_Ate.stages.0.description>
+  
+  <!-- EN: 라핀 치즈를 먹음 -->
+  <LP_Cheese_Ate.stages.0.label>吃了拉芬奶酪。</LP_Cheese_Ate.stages.0.label>
+  <!-- EN: 음...이 치즈는 상등품이군! -->
+  <LP_Cheese_Ate.stages.0.description>嗯……这奶酪是上等品啊！</LP_Cheese_Ate.stages.0.description>
+  
   <!-- EN: 라핀 와인을 마심 -->
   <LP_DrankStrawberryWine.stages.0.label>喝了拉芬葡萄酒</LP_DrankStrawberryWine.stages.0.label>
   <!-- EN: 키야 라핀 와인에 취한다. -->
@@ -21,10 +31,20 @@
   <!-- EN: 라핀 크루아상을 먹으니 기부니가 좋아졌다. -->
   <LP_Lapin_Croissant_Ate.stages.0.description>吃了拉芬牛角包，心情变好了。</LP_Lapin_Croissant_Ate.stages.0.description>
   
+  <!-- EN: 라핀 그라탕을 먹음 -->
+  <LP_Lapin_Gratin_Ate.stages.0.label>吃了拉芬焗菜。</LP_Lapin_Gratin_Ate.stages.0.label>
+  <!-- EN: 젠장 이 그라탕은 죽음으로 맛있는데! -->
+  <LP_Lapin_Gratin_Ate.stages.0.description>见鬼，这焗菜好吃得要命啊！</LP_Lapin_Gratin_Ate.stages.0.description>
+  
   <!-- EN: 라핀 잠봉뵈르를 먹음 -->
   <LP_Lapin_JambonBeurre_Ate.stages.0.label>吃了拉芬火腿黄油三明治</LP_Lapin_JambonBeurre_Ate.stages.0.label>
   <!-- EN: 라핀 잠봉뵈르를 먹으니 기부니가 좋아졌다. -->
   <LP_Lapin_JambonBeurre_Ate.stages.0.description>吃了拉芬火腿黄油三明治，感觉好多了。</LP_Lapin_JambonBeurre_Ate.stages.0.description>
+  
+  <!-- EN: 든든한 수프 -->
+  <LP_Lapin_Soup_Ate.stages.0.label>喝了浓汤</LP_Lapin_Soup_Ate.stages.0.label>
+  <!-- EN: 라핀식 수프를 먹으니 기부니가 좋아졌다. -->
+  <LP_Lapin_Soup_Ate.stages.0.description>喝了拉芬浓汤，心情变好了。</LP_Lapin_Soup_Ate.stages.0.description>
   
   <!-- EN: 전쟁 트라우마 -->
   <LP_WarTraumaMood.stages.0.label>战争创伤</LP_WarTraumaMood.stages.0.label>

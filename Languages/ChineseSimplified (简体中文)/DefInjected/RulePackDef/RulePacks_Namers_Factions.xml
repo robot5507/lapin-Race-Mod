@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN:
     <li>r_Name->[first] [last]</li>
     <li>r_Name->[first] [middle] [last]</li>
@@ -255,7 +255,7 @@
     <li>first->弗朗雄</li>
     <li>first->拉菲尼翁</li>
   </Lapin_Names_Common.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>r_Name->[first] [nobleLast]</li>
     <li>r_Name->[first] [middle] [nobleLast]</li>
@@ -410,7 +410,7 @@
     <li>nobleLast->贝尔维尔</li>
     <li>nobleLast->达尔克</li>
   </Lapin_Names_Noble.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>r_Name->[first] [nobleLast]</li>
     <li>r_Name->[first] [middle] [nobleLast]</li>
@@ -563,7 +563,7 @@
     <li>nobleLast->贝尔维尔</li>
     <li>nobleLast->达尔克</li>
   </Lapin_Names_NobleChild.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>r_name(p=2)->[empire_Remnants] of [ofThing]</li>
     <li>r_name->The Lapin Remnants</li>
@@ -578,7 +578,7 @@
     <li>ofThing(p=3)->[WordImperial]</li>
     <li>ofThing->the Lapin_Remnants</li>
   </NamerFaction_Lapin.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>r_name(p=2)->[empire_Renegades] of [ofThing]</li>
     <li>r_name->The Lapin Renegades</li>
@@ -593,14 +593,14 @@
     <li>ofThing(p=3)->[WordImperial]</li>
     <li>ofThing->the Lapin_Renegades</li>
   </NamerFaction_LapinRenegades.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>r_name->[LP_FirstName] [LP_MiddleName] [LP_LastName]</li>
   -->
   <NamerPerson_Lapin.rulePack.rulesStrings>
     <li>r_name->[LP_FirstName] [LP_MiddleName] [LP_LastName]</li>
   </NamerPerson_Lapin.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
     <li>r_name->[townname_fixed]</li>
@@ -613,7 +613,7 @@
     <li>townname_wordgen->[WordImperial]</li>
     <li>townname_wordgen->[WordImperial][townend]</li>
   </NamerSettlement_Lapin.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
     <li>r_name->[townname_fixed]</li>
@@ -626,5 +626,5 @@
     <li>townname_wordgen->[WordImperial]</li>
     <li>townname_wordgen->[WordImperial][townend]</li>
   </NamerSettlement_LapinRenegades.rulePack.rulesStrings>
-
+  
 </LanguageData>

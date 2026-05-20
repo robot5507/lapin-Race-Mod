@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: 미완성 혼합물 -->
+  <!-- EN: 미완성 버터 -->
   <UnfinishedButter.label>未完成的混合物</UnfinishedButter.label>
+  
+  <!-- EN: 미완성 크림 -->
+  <UnfinishedCream.label>未完成的奶油</UnfinishedCream.label>
   
 </LanguageData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 콩소메 -->
+  <LP_Consomme.label>拉芬清汤</LP_Consomme.label>
+  <!-- EN: 라핀식 콩소메. -->
+  <LP_Consomme.description>拉芬的清汤</LP_Consomme.description>
+  <!-- EN: 수프 식사 -->
+  <LP_Consomme.ingestible.ingestCommandString>食用浓汤</LP_Consomme.ingestible.ingestCommandString>
+  <!-- EN: 라핀식 콩소메를 먹고 있습니다. -->
+  <LP_Consomme.ingestible.ingestReportString>正在喝拉芬清汤。</LP_Consomme.ingestible.ingestReportString>
+  
+  <!-- EN: 라핀 크림수프 -->
+  <LP_CreamSoup.label>拉芬奶油浓汤</LP_CreamSoup.label>
+  <!-- EN: 라핀식 크림수프. -->
+  <LP_CreamSoup.description>拉芬的奶油浓汤。</LP_CreamSoup.description>
+  <!-- EN: 수프 식사 -->
+  <LP_CreamSoup.ingestible.ingestCommandString>食用浓汤</LP_CreamSoup.ingestible.ingestCommandString>
+  <!-- EN: 라핀식 크림수프를 먹고 있습니다. -->
+  <LP_CreamSoup.ingestible.ingestReportString>正在喝拉芬奶油浓汤。</LP_CreamSoup.ingestible.ingestReportString>
+  
+  <!-- EN: 라핀 양송이수프 -->
+  <LP_MushroomSoup.label>拉芬蘑菇浓汤</LP_MushroomSoup.label>
+  <!-- EN: 라핀식 양송이수프. -->
+  <LP_MushroomSoup.description>拉芬的蘑菇浓汤。</LP_MushroomSoup.description>
+  <!-- EN: 수프 식사 -->
+  <LP_MushroomSoup.ingestible.ingestCommandString>食用浓汤</LP_MushroomSoup.ingestible.ingestCommandString>
+  <!-- EN: 라핀식 양송이수프 먹고 있습니다. -->
+  <LP_MushroomSoup.ingestible.ingestReportString>正在喝拉芬蘑菇浓汤。</LP_MushroomSoup.ingestible.ingestReportString>
+  
+  <!-- EN: 라핀 감자수프 -->
+  <LP_PotatoSoup.label>拉芬土豆浓汤</LP_PotatoSoup.label>
+  <!-- EN: 라핀식 감자수프. -->
+  <LP_PotatoSoup.description>拉芬的土豆浓汤</LP_PotatoSoup.description>
+  <!-- EN: 수프 식사 -->
+  <LP_PotatoSoup.ingestible.ingestCommandString>食用浓汤</LP_PotatoSoup.ingestible.ingestCommandString>
+  <!-- EN: 라핀식 감자수프를 먹고 있습니다. -->
+  <LP_PotatoSoup.ingestible.ingestReportString>正在喝拉芬土豆浓汤。</LP_PotatoSoup.ingestible.ingestReportString>
+  
+</LanguageData>

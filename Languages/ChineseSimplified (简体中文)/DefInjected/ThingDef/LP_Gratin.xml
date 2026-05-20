@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 감자 그라탕 -->
+  <LP_Gratin.label>拉芬土豆焗菜</LP_Gratin.label>
+  <!-- EN: 감자와 치즈로 만들수 있는 호화로운 그라탕입니다. -->
+  <LP_Gratin.description>这是一道用土豆和奶酪制作的豪华焗菜。</LP_Gratin.description>
+  <!-- EN: 라핀 그라탕 식사 -->
+  <LP_Gratin.ingestible.ingestCommandString>食用拉芬焗菜</LP_Gratin.ingestible.ingestCommandString>
+  <!-- EN: 라핀 그라탕을 먹고 있습니다. -->
+  <LP_Gratin.ingestible.ingestReportString>正在吃拉芬焗菜。</LP_Gratin.ingestible.ingestReportString>
+  
+</LanguageData>

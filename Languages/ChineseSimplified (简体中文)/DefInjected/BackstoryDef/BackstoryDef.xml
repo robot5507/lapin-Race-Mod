@@ -8,6 +8,13 @@
   <!-- EN: 포병 -->
   <Lapin_Artillery.titleShort>炮兵</Lapin_Artillery.titleShort>
   
+  <!-- EN: [PAWN_nameDef]은 라핀 제국의 가난한 예술가였습니다.작은 공방에서 조각과 그림을 만들며 생계를 이어갔습니다. -->
+  <Lapin_Artist.description>[PAWN_nameDef]曾是拉芬帝国一位贫困的艺术家。他在一间小作坊里靠雕刻和绘画维持生计。</Lapin_Artist.description>
+  <!-- EN: 라핀 예술가 -->
+  <Lapin_Artist.title>拉芬艺术家</Lapin_Artist.title>
+  <!-- EN: 예술가 -->
+  <Lapin_Artist.titleShort>艺术家</Lapin_Artist.titleShort>
+  
   <!-- EN: [PAWN_nameDef]은 라핀 제빵사였습니다 하루하루 바게트를 만들며 연맹했습니다. -->
   <Lapin_Baker.description>[PAWN_nameDef]曾是一名拉芬烘焙师，日复一日地制作法棍面包，与联盟相伴。</Lapin_Baker.description>
   <!-- EN: 라핀 제빵사 -->

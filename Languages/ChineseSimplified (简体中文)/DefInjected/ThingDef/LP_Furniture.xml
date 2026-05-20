@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 치즈 선반 -->
+  <LP_CheeseShelf.label>拉芬奶酪架</LP_CheeseShelf.label>
+  <!-- EN: 커드와 치즈를 보관하기 위한 라핀식 치즈 선반입니다. 특별한 숙성 효과는 없지만 치즈 저장에 어울립니다. -->
+  <LP_CheeseShelf.description>用于存放凝乳和奶酪的拉芬奶酪架。虽然没有特殊的熟成效果，但很适合用来储存奶酪。</LP_CheeseShelf.description>
+  
+</LanguageData>

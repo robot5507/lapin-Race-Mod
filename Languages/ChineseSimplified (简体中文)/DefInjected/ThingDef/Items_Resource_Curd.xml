@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 커드 -->
+  <LP_Curd.label>凝乳</LP_Curd.label>
+  <!-- EN: 치즈를 만들기 위한 라핀식 커드. 적절한 온도에 보관하면 자연스럽게 치즈가 됩니다. -->
+  <LP_Curd.description>用于制作奶酪的拉芬式凝乳。若存放在适宜的温度下，便会自然变成奶酪。</LP_Curd.description>
+  
+</LanguageData>

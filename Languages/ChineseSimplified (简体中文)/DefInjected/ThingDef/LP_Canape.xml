@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 라핀 카나페 -->
+  <LP_Canape.label>拉芬开胃小点</LP_Canape.label>
+  <!-- EN: 간단하게 만들수 있는 호화로운 카나페입니다.포만감은 적지만 손님 접대용으로 좋습니다. -->
+  <LP_Canape.description>这是一道可简单制作的豪华开胃小点。虽然饱腹感不强，但很适合用来招待客人。</LP_Canape.description>
+  <!-- EN: 라핀 카나페 먹기 -->
+  <LP_Canape.ingestible.ingestCommandString>品尝拉芬开胃小点</LP_Canape.ingestible.ingestCommandString>
+  <!-- EN: 라핀 카나페를 먹고 있습니다. -->
+  <LP_Canape.ingestible.ingestReportString>正在吃拉芬开胃小点。</LP_Canape.ingestible.ingestReportString>
+  
+</LanguageData>
