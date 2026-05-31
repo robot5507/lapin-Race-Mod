@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <!-- 풍차에 라핀 밀 제분 프로세스 추가 -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_WindMill"]/comps/li[@Class="ProcessorFramework.CompProperties_Processor"]/processes</xpath>
+          <value>
+            <li>LP_WindMill_LapinFlourProcess</li>
+          </value>
+        </li>
+
+        <!-- 물레방아에 라핀 밀 제분 프로세스 추가 -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_WaterMill"]/comps/li[@Class="ProcessorFramework.CompProperties_Processor"]/processes</xpath>
+          <value>
+            <li>LP_WaterMill_LapinFlourProcess</li>
+          </value>
+        </li>
+
+        <!-- 라핀 밀 -> 라핀 밀가루, 풍차용 -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+
+         <ProcessorFramework.ProcessDef>
+  <defName>LP_WindMill_LapinFlourProcess</defName>
+  <thingDef>RawLapinFlour</thingDef>
+
+  <ingredientFilter>
+    <thingDefs>
+      <li>RawLapinWheat</li>
+    </thingDefs>
+  </ingredientFilter>
+
+  <processDays>0.25</processDays>
+  <capacityFactor>1.0</capacityFactor>
+  <efficiency>1.0</efficiency>
+  <usesTemperature>false</usesTemperature>
+  <temperatureSafe>-1.0~99.0</temperatureSafe>
+  <temperatureIdeal>21.0~99.0</temperatureIdeal>
+  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour>
+  <speedBelowSafe>0.1</speedBelowSafe>
+  <speedAboveSafe>1.0</speedAboveSafe>
+  <sunFactor>1.0~1.0</sunFactor>
+  <rainFactor>1.0~1.0</rainFactor>
+  <snowFactor>1.0~1.0</snowFactor>
+  <windFactor>1.0~1.0</windFactor>
+  <unpoweredFactor>0.0</unpoweredFactor>
+  <unfueledFactor>0.0</unfueledFactor>
+  <powerUseFactor>1.0</powerUseFactor>
+  <fuelUseFactor>1.0</fuelUseFactor>
+  <filledGraphicSuffix/>
+  <usesQuality>false</usesQuality>
+  <qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+  <color>(255, 255, 255)</color>
+  <customLabel/>
+  <destroyChance>0.0</destroyChance>
+</ProcessorFramework.ProcessDef>
+
+            <ProcessorFramework.ProcessDef>
+  <defName>LP_WaterMill_LapinFlourProcess</defName>
+  <thingDef>RawLapinFlour</thingDef>
+
+  <ingredientFilter>
+    <thingDefs>
+      <li>RawLapinWheat</li>
+    </thingDefs>
+  </ingredientFilter>
+
+  <processDays>0.25</processDays>
+  <capacityFactor>1.0</capacityFactor>
+  <efficiency>1.0</efficiency>
+  <usesTemperature>false</usesTemperature>
+  <temperatureSafe>-1.0~99.0</temperatureSafe>
+  <temperatureIdeal>21.0~99.0</temperatureIdeal>
+  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour>
+  <speedBelowSafe>0.1</speedBelowSafe>
+  <speedAboveSafe>1.0</speedAboveSafe>
+  <sunFactor>1.0~1.0</sunFactor>
+  <rainFactor>1.0~1.0</rainFactor>
+  <snowFactor>1.0~1.0</snowFactor>
+  <windFactor>1.0~1.0</windFactor>
+  <unpoweredFactor>0.0</unpoweredFactor>
+  <unfueledFactor>0.0</unfueledFactor>
+  <powerUseFactor>1.0</powerUseFactor>
+  <fuelUseFactor>1.0</fuelUseFactor>
+  <filledGraphicSuffix/>
+  <usesQuality>false</usesQuality>
+  <qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+  <color>(255, 255, 255)</color>
+  <customLabel/>
+  <destroyChance>0.0</destroyChance>
+</ProcessorFramework.ProcessDef>
+
+          </value>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

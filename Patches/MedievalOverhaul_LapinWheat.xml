@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs</xpath>
+      <value>
+
+        <RecipeDef>
+          <defName>LP_CraftFlour_MedievalOverhaul</defName>
+            <label>라핀 밀을 밀가루로 만들기</label>
+          <description>라핀 밀1개를 밀가루로 만든다.</description>
+          <jobString>라핀밀 1개를 밀가루로 만들기.</jobString>
+          <workSpeedStat>CookSpeed</workSpeedStat>
+          <effectWorking>Cook</effectWorking>
+          <workAmount>100</workAmount>
+          <soundWorking>Recipe_CookMeal</soundWorking>
+
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>RawLapinWheat</li>
+                </thingDefs>
+              </filter>
+              <count>1</count>
+            </li>
+          </ingredients>
+
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>RawLapinWheat</li>
+            </thingDefs>
+            <specialFiltersToDisallow>
+              <li>AllowRotten</li>
+            </specialFiltersToDisallow>
+          </fixedIngredientFilter>
+
+          <products>
+            <RawLapinFlour>1</RawLapinFlour>
+          </products>
+
+          <workSkill>Cooking</workSkill>
+
+          <recipeUsers>
+            <li>DankPyon_Millstone</li>
+          </recipeUsers>
+        </RecipeDef>
+
+        <RecipeDef>
+          <defName>LP_CraftFlourBulk_MedievalOverhaul</defName>
+          <label>라핀 밀을 밀가루로 만들기x10</label>
+          <description>라핀 밀10개를 밀가루로 만든다.</description>
+          <jobString>라핀밀 10개를 밀가루로 만들기.</jobString>
+          <workSpeedStat>CookSpeed</workSpeedStat>
+          <effectWorking>Cook</effectWorking>
+          <workAmount>800</workAmount>
+          <soundWorking>Recipe_CookMeal</soundWorking>
+
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>RawLapinWheat</li>
+                </thingDefs>
+              </filter>
+              <count>10</count>
+            </li>
+          </ingredients>
+
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>RawLapinWheat</li>
+            </thingDefs>
+            <specialFiltersToDisallow>
+              <li>AllowRotten</li>
+            </specialFiltersToDisallow>
+          </fixedIngredientFilter>
+
+          <products>
+            <RawLapinFlour>10</RawLapinFlour>
+          </products>
+
+          <workSkill>Cooking</workSkill>
+
+          <recipeUsers>
+            <li>DankPyon_Millstone</li>
+          </recipeUsers>
+        </RecipeDef>
+
+      </value>
+    </match>
+  </Operation>
+</Patch>

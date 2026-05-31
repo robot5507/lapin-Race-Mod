@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+
+      <operations>
+
+        <!-- 라핀 맷돌 -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="LapinMillstone"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+          <value>
+            <li>DankPyon_RusticCookingTools</li>
+          </value>
+        </li>
+
+        <!-- 버터 교반기 -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="LapinButterChurn"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+          <value>
+            <li>DankPyon_RusticCookingTools</li>
+          </value>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
