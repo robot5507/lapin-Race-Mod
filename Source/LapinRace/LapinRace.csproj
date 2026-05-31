@@ -62,12 +62,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutomatonControlPatches.cs" />
+    <Compile Include="CompActivateAutomatonTank.cs" />
+    <Compile Include="CompActivateCombatAndroid.cs" />
+    <Compile Include="CompActivatePrototypeAndroid.cs" />
+    <Compile Include="CompAutomatonAmmo.cs" />
+    <Compile Include="CompAutomatonEnergy.cs" />
+    <Compile Include="CompAutomatonMaintenance.cs" />
+    <Compile Include="CompAutomatonPlayerControl.cs" />
+    <Compile Include="CompCombatAndroidKeepWeapon.cs" />
     <Compile Include="CompCurdMaturing.cs" />
+    <Compile Include="CompMaidAndroidVirtualCooking.cs" />
     <Compile Include="CompProperties_StrawberryWineFermenter.cs" />
+    <Compile Include="CompPrototypeAndroidFuel.cs" />
+    <Compile Include="CompPrototypeAndroidWorkControl.cs" />
     <Compile Include="CustomThingDef.cs" />
     <Compile Include="HediffComp_ReduceHungerFall.cs" />
     <Compile Include="IncidentWorker_LapinSpecialForcesDrop.cs" />
     <Compile Include="IncidentWorker_LapinSupplyRequest.cs" />
+    <Compile Include="JobDriver_LoadAutomatonAmmo.cs" />
+    <Compile Include="JobDriver_PrototypeAndroidSelfRefuel.cs" />
+    <Compile Include="JobDriver_RefuelAutomaton.cs" />
+    <Compile Include="JobDriver_RepairAutomaton.cs" />
+    <Compile Include="JobDriver_TogglePrototypeAndroidPower.cs" />
+    <Compile Include="JobGiver_AutomatonStandby.cs" />
+    <Compile Include="JobGiver_CombatAndroidIdle.cs" />
+    <Compile Include="JobGiver_MaidAndroidClean.cs" />
+    <Compile Include="JobGiver_MaidAndroidCook.cs" />
+    <Compile Include="JobGiver_PrototypeAndroidHaul.cs" />
+    <Compile Include="JobGiver_PrototypeAndroidIdle.cs" />
+    <Compile Include="JobGiver_PrototypeAndroidSelfRefuel.cs" />
     <Compile Include="LapinMaidBackstoryPatch.cs" />
     <Compile Include="LapinMaidLoadoutUtility.cs" />
     <Compile Include="LapinRepresentativeOverlay.cs" />
@@ -79,6 +103,15 @@
     <Compile Include="LapinSupplyUtility.cs" />
     <Compile Include="LPGeneDefOf.cs" />
     <Compile Include="LPXenotypeDefOf.cs" />
+    <Compile Include="Patch_AutomatonEnergyGate.cs" />
+    <Compile Include="Patch_AutomatonMechUIHider.cs" />
+    <Compile Include="Patch_AutomatonTankDeathSound.cs" />
+    <Compile Include="Patch_AutomatonVerbGizmoEnable.cs" />
+    <Compile Include="Patch_AutomatonVerbTargetControl.cs" />
+    <Compile Include="Patch_BlockMechanitorRepairAutomaton.cs" />
+    <Compile Include="Patch_CombatAndroidNoDropWeapon.cs" />
+    <Compile Include="Patch_CompRefuelable_AutomatonCorpse.cs" />
+    <Compile Include="Patch_MaidAndroidCookingSkill.cs" />
     <Compile Include="Patch_MusketUnavailableInRain.cs" />
     <Compile Include="PawnGeneExtensions.cs" />
     <Compile Include="IncidentWorker.cs" />
@@ -107,6 +140,8 @@
     <Compile Include="ProductFinishGenColorHook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PatchSabreSound.cs" />
+    <Compile Include="RecipeWorker_ExtractLapinBrain.cs" />
+    <Compile Include="Verb_ShootAutomatonCannon.cs" />
     <Compile Include="Verb_ShootCannonWithSmoke.cs" />
     <Compile Include="_LapinTurncoatRaid.cs" />
   </ItemGroup>

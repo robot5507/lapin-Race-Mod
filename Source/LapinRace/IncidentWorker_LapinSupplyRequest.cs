@@ -10,7 +10,24 @@ namespace LapinRace
     {
         protected override bool CanFireNowSub(IncidentParms parms)
         {
-            return parms.target is Map;
+            Map map = parms.target as Map;
+            if (map == null)
+            {
+                return false;
+            }
+
+            Faction faction = GetLapinFaction();
+            if (faction == null)
+            {
+                return false;
+            }
+
+            if (!IsSupplyRequestFactionAllowed(faction))
+            {
+                return false;
+            }
+
+            return true;
         }
 
         protected override bool TryExecuteWorker(IncidentParms parms)
@@ -18,6 +35,17 @@ namespace LapinRace
             Map map = parms.target as Map;
 
             if (map == null)
+            {
+                return false;
+            }
+
+            Faction faction = GetLapinFaction();
+            if (faction == null)
+            {
+                return false;
+            }
+
+            if (!IsSupplyRequestFactionAllowed(faction))
             {
                 return false;
             }
@@ -35,14 +63,6 @@ namespace LapinRace
             {
                 Log.Error("[LapinRace] PawnKindDef 'LapinSoldier'를 찾을 수 없습니다.");
                 return false;
-            }
-
-            FactionDef factionDef = DefDatabase<FactionDef>.GetNamedSilentFail("LapinEmpire");
-            Faction faction = factionDef != null ? Find.FactionManager.FirstFactionOfDef(factionDef) : null;
-
-            if (faction == null)
-            {
-                faction = Faction.OfPlayer;
             }
 
             IntVec3 spawnCell;
@@ -87,20 +107,52 @@ namespace LapinRace
             );
 
             Find.LetterStack.ReceiveLetter(
-              "라핀 보급 요청",
-              "라핀 귀족 장교가 호위병들과 함께 정착지에 도착했습니다.\n\n" +
-              "요구 물품:\n" +
-              requestedSupply.LabelCap +
-              " x" +
-              LapinSupplyUtility.RequiredAmount +
-              "\n\n" +
-              "보급품을 전달하면 은화와 우호도를 얻을 수 있습니다.",
-              LetterDefOf.PositiveEvent,
-              new LookTargets(officer),
-              faction
-          );
+                "라핀 보급 요청",
+                "라핀 귀족 장교가 호위병들과 함께 정착지에 도착했습니다.\n\n" +
+                "요구 물품:\n" +
+                requestedSupply.LabelCap +
+                " x" +
+                LapinSupplyUtility.RequiredAmount +
+                "\n\n" +
+                "보급품을 전달하면 은화와 우호도를 얻을 수 있습니다.",
+                LetterDefOf.PositiveEvent,
+                new LookTargets(officer),
+                faction
+            );
 
             return true;
+        }
+
+        private static Faction GetLapinFaction()
+        {
+            FactionDef factionDef = DefDatabase<FactionDef>.GetNamedSilentFail("LapinEmpire");
+            if (factionDef == null)
+            {
+                return null;
+            }
+
+            return Find.FactionManager.FirstFactionOfDef(factionDef);
+        }
+
+        private static bool IsSupplyRequestFactionAllowed(Faction faction)
+        {
+            if (faction == null || Faction.OfPlayer == null)
+            {
+                return false;
+            }
+
+            if (faction.HostileTo(Faction.OfPlayer))
+            {
+                return false;
+            }
+
+            FactionRelation relation = faction.RelationWith(Faction.OfPlayer, false);
+            if (relation == null)
+            {
+                return false;
+            }
+
+            return !faction.HostileTo(Faction.OfPlayer);
         }
 
         private static Pawn GeneratePawn(PawnKindDef kind, Faction faction)

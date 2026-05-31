@@ -13,16 +13,26 @@ namespace LapinRace
         protected override bool CanFireNowSub(IncidentParms parms)
         {
             Map map = parms.target as Map;
-            if (map == null) return false;
-            if (parms.points < MinPoints) return false;
-
-            FactionDef factionDef = DefDatabase<FactionDef>.GetNamedSilentFail("LapinEmpire");
-            Faction faction = factionDef == null ? null : Find.FactionManager.FirstFactionOfDef(factionDef);
-            if (faction == null) return false;
-
-            // 플레이어와 적대 관계일 때만 발생
-            if (!faction.HostileTo(Faction.OfPlayer))
+            if (map == null)
+            {
                 return false;
+            }
+
+            if (parms.points < MinPoints)
+            {
+                return false;
+            }
+
+            Faction faction = GetLapinFaction();
+            if (faction == null)
+            {
+                return false;
+            }
+
+            if (Faction.OfPlayer == null || !faction.HostileTo(Faction.OfPlayer))
+            {
+                return false;
+            }
 
             return base.CanFireNowSub(parms);
         }
@@ -30,34 +40,42 @@ namespace LapinRace
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
             Map map = parms.target as Map;
-            if (map == null) return false;
+            if (map == null)
+            {
+                return false;
+            }
 
-            FactionDef factionDef = DefDatabase<FactionDef>.GetNamedSilentFail("LapinEmpire");
-            Faction faction = factionDef == null ? null : Find.FactionManager.FirstFactionOfDef(factionDef);
-            if (faction == null) return false;
+            Faction faction = GetLapinFaction();
+            if (faction == null)
+            {
+                return false;
+            }
 
-            // 드롭 위치 찾기
-            IntVec3 center = map.Center;
-            CellFinder.TryFindRandomCellNear(center, map, 12,
-                c => c.Standable(map) && !c.Fogged(map),
-                out IntVec3 dropCell);
+            // CanFireNowSub에서 이미 검사하지만, 직접 실행/큐 실행 대비로 한 번 더 검사
+            if (Faction.OfPlayer == null || !faction.HostileTo(Faction.OfPlayer))
+            {
+                return false;
+            }
 
-            if (!dropCell.IsValid)
-                dropCell = center;
+            if (parms.points < MinPoints)
+            {
+                return false;
+            }
+
+            IntVec3 dropCell;
+            if (!TryFindDropCell(map, out dropCell))
+            {
+                return false;
+            }
 
             List<Pawn> pawns = new List<Pawn>();
 
-            // 인원 수 계산
             int count = GenMath.RoundRandom(parms.points / 350f);
             count = count < 2 ? 2 : count;
             count = count > 6 ? 6 : count;
 
-            // PawnKind 가져오기
-            PawnKindDef normalKind =
-                DefDatabase<PawnKindDef>.GetNamedSilentFail("LapinMaidSpecialForces");
-
-            PawnKindDef millitarKind =
-                DefDatabase<PawnKindDef>.GetNamedSilentFail("LapinMaidSpecialForcesMillitar");
+            PawnKindDef normalKind = DefDatabase<PawnKindDef>.GetNamedSilentFail("LapinMaidSpecialForces");
+            PawnKindDef millitarKind = DefDatabase<PawnKindDef>.GetNamedSilentFail("LapinMaidSpecialForcesMillitar");
 
             if (normalKind == null || millitarKind == null)
             {
@@ -65,14 +83,12 @@ namespace LapinRace
                 return false;
             }
 
-            // 🔥 핵심: 50:50 랜덤 생성
             for (int i = 0; i < count; i++)
             {
                 PawnKindDef selectedKind = Rand.Chance(0.5f) ? normalKind : millitarKind;
 
                 Pawn pawn = PawnGenerator.GeneratePawn(selectedKind, faction);
 
-                // 장비 분기 지급
                 if (selectedKind == millitarKind)
                 {
                     LapinSpecialForcesMillitarLoadoutUtility.GiveSpecialForcesMillitarLoadout(pawn);
@@ -85,10 +101,8 @@ namespace LapinRace
                 pawns.Add(pawn);
             }
 
-            // 드롭포드 투하
             DropPodUtility.DropThingsNear(dropCell, map, pawns, 110, false, false, true);
 
-            // 공격 Lord 생성
             LordMaker.MakeNewLord(
                 faction,
                 new LordJob_AssaultColony(faction, canKidnap: false, canTimeoutOrFlee: false),
@@ -96,10 +110,47 @@ namespace LapinRace
                 pawns
             );
 
-            // 알림
             SendStandardLetter(parms, pawns);
 
             return true;
+        }
+
+        private static Faction GetLapinFaction()
+        {
+            FactionDef factionDef = DefDatabase<FactionDef>.GetNamedSilentFail("LapinEmpire");
+            if (factionDef == null)
+            {
+                return null;
+            }
+
+            return Find.FactionManager.FirstFactionOfDef(factionDef);
+        }
+
+        private static bool TryFindDropCell(Map map, out IntVec3 dropCell)
+        {
+            IntVec3 center = map.Center;
+
+            if (CellFinder.TryFindRandomCellNear(
+                center,
+                map,
+                12,
+                c => c.Standable(map) && !c.Fogged(map),
+                out dropCell))
+            {
+                return true;
+            }
+
+            if (center.InBounds(map) && center.Standable(map) && !center.Fogged(map))
+            {
+                dropCell = center;
+                return true;
+            }
+
+            return CellFinder.TryFindRandomCell(
+                map,
+                c => c.Standable(map) && !c.Fogged(map),
+                out dropCell
+            );
         }
     }
 }
