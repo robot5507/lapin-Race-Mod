@@ -38,6 +38,7 @@ namespace LapinBaguette
                 return;
 
             if (eq.def.defName != "MusketWithBayonet"&&
+                eq.def.defName != "LP_BlunderbussMusket" &&
                 eq.def.defName != "LP_MusketRifle")
                 return;
 

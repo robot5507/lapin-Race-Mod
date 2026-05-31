@@ -22,6 +22,7 @@ namespace LapinBaguette
 
             if (defName != "MusketWithBayonet" &&
                 defName != "LP_LapinPistol" &&
+                defName != "LP_BlunderbussMusket" &&
                 defName != "LP_MusketRifle")
                 return true;
 

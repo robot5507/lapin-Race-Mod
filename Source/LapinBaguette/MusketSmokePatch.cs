@@ -37,6 +37,7 @@ namespace LapinBaguette
 
             if (weapon.def.defName != "MusketWithBayonet" &&
                 weapon.def.defName != "LP_LapinPistol" &&
+                weapon.def.defName != "LP_BlunderbussMusket" &&
                 weapon.def.defName != "LP_MusketRifle")
                 return;
 
