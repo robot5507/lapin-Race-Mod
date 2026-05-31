@@ -55,4 +55,28 @@
     </requiredCapacities>
   </WorkGiverDef>
 
+  
+
+  <WorkGiverDef>
+    <defName>DoBillsAutomatonWorkbench</defName>
+    <label>오토마톤 조립대에서 조립하기</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+
+    <verb>조립</verb>
+    <gerund>조립하기</gerund>
+
+    <priorityInType>85</priorityInType>
+
+    <fixedBillGiverDefs>
+      <li>LP_AutomatonWorkbench</li>
+    </fixedBillGiverDefs>
+
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+
+
 </Defs>

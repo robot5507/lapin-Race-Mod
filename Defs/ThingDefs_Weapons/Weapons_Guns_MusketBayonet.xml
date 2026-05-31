@@ -294,4 +294,113 @@
 
   </ThingDef>
 
+<ThingDef ParentName="LP_RangeWeapon">
+  <defName>LP_BlunderbussMusket</defName>
+  <label>라핀 블렌더버스 머스킷</label>
+  <description>총구가 넓게 벌어진 라핀식 블렌더버스 머스킷. 일반 머스킷과 비슷한 구조를 가지지만, 가까운 거리에서 여러 산탄을 흩뿌립니다. 비올 때 야외사용 불가능 주의.</description>
+
+  <costList>
+    <Steel>40</Steel>
+    <WoodLog>10</WoodLog>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+  <recipeMaker>
+    <researchPrerequisite>LP_LapinBlunderbussGunsmithing</researchPrerequisite>
+    <workAmount>6000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <recipeUsers>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+
+  <thingCategories>
+  </thingCategories>
+
+  <tradeability>All</tradeability>
+  <generateAllowChance>1</generateAllowChance>
+
+  <weaponTags>
+    <li>LapinBlunderbuss</li>
+  </weaponTags>
+
+  <smeltProducts>
+    <Steel>10</Steel>
+  </smeltProducts>
+
+  <equippedAngleOffset>45</equippedAngleOffset>
+
+  <graphicData>
+    <texPath>Weapon/LP_blunderbuss_musket</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>0.9</drawSize>
+  </graphicData>
+
+  <soundInteract>Interact_Rifle</soundInteract>
+
+  <statBases>
+    <WorkToMake>6000</WorkToMake>
+    <Mass>4.2</Mass>
+    <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+    <MarketValue>50</MarketValue>
+
+    <!-- 가까운 거리용 산탄총 느낌 -->
+    <AccuracyTouch>0.88</AccuracyTouch>
+    <AccuracyShort>0.72</AccuracyShort>
+    <AccuracyMedium>0.42</AccuracyMedium>
+    <AccuracyLong>0.18</AccuracyLong>
+  </statBases>
+<verbs>
+  <li>
+    <verbClass>Verb_Shoot</verbClass>
+    <hasStandardCommand>true</hasStandardCommand>
+    <defaultProjectile>LP_Bullet_BlunderbussPellet</defaultProjectile>
+
+    <warmupTime>3.5</warmupTime>
+    <range>22</range>
+
+    <burstShotCount>7</burstShotCount>
+    <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+
+    <soundCast>LP_MusketFire_Heavy</soundCast>
+    <soundCastTail>GunTail_Heavy</soundCastTail>
+    <muzzleFlashScale>9</muzzleFlashScale>
+  </li>
+</verbs>
+
+  <tools>
+    <li>
+      <label>개머리판</label>
+      <capacities>
+        <li>Blunt</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2.8</cooldownTime>
+    </li>
+  </tools>
+</ThingDef>
+
+
+<ThingDef ParentName="BaseBullet">
+  <defName>LP_Bullet_BlunderbussPellet</defName>
+  <label>블렌더버스 산탄</label>
+
+  <graphicData>
+    <texPath>Things/Projectile/Bullet_Small</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+  </graphicData>
+
+  <projectile>
+    <damageDef>Bullet</damageDef>
+    <damageAmountBase>7</damageAmountBase>
+    <armorPenetrationBase>0.08</armorPenetrationBase>
+    <speed>45</speed>
+  </projectile>
+</ThingDef>
 </Defs>
