@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef ParentName="BaseMechanoid">
+  <defName>LP_AutomatonTankRace</defName>
+
+    <label>오토마톤 전차</label>
+
+    <description>라핀의 금기 기술로 제작된 중장갑 오토마톤. 인간의 뇌를 사고핵으로 사용한다.</description>
+      <recipes Inherit="False">
+</recipes>
+
+
+    <inspectorTabs Inherit="False">
+  <li>ITab_Pawn_Health</li>
+    <li>ITab_Pawn_Needs</li>
+  <li>ITab_Pawn_Gear</li>
+</inspectorTabs>
+
+    <statBases>
+    <MoveSpeed>2.0</MoveSpeed>
+    <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+    <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+  </statBases>
+<tools>
+  <li>
+    <label>동체</label>
+    <capacities>
+      <li>Blunt</li>
+    </capacities>
+    <power>22</power>
+    <cooldownTime>3.2</cooldownTime>
+    <linkedBodyPartsGroup>LP_AutomatonHull</linkedBodyPartsGroup>
+    <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+  </li>
+
+  <li>
+    <label>궤도</label>
+    <capacities>
+      <li>Blunt</li>
+    </capacities>
+    <power>28</power>
+    <cooldownTime>4.0</cooldownTime>
+    <linkedBodyPartsGroup>LP_AutomatonTreads</linkedBodyPartsGroup>
+  </li>
+</tools>
+<verbs>
+  <li>
+    <label>오토마톤 전차포</label>
+    <verbClass>Verb_Shoot</verbClass>
+    <hasStandardCommand>true</hasStandardCommand>
+
+    <defaultProjectile>Bullet_LP_AutomatonCannon</defaultProjectile>
+
+    <range>34.9</range>
+    <minRange>4.0</minRange>
+    <warmupTime>2.5</warmupTime>
+
+    <burstShotCount>1</burstShotCount>
+    <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+
+    <soundCast>Shot_Autocannon</soundCast>
+    <soundCastTail>GunTail_Heavy</soundCastTail>
+    <muzzleFlashScale>14</muzzleFlashScale>
+
+    <targetParams>
+      <canTargetLocations>true</canTargetLocations>
+      <canTargetPawns>true</canTargetPawns>
+      <canTargetBuildings>true</canTargetBuildings>
+    </targetParams>
+  </li>
+</verbs>
+  <race>
+  <intelligence>ToolUser</intelligence>
+<thinkTreeMain>LP_AutomatonTankThinkTree</thinkTreeMain>
+<fleshType>Mechanoid</fleshType>
+
+  <body>LP_AutomatonTankBody</body>
+  <baseBodySize>3.5</baseBodySize>
+  <baseHealthScale>2.0</baseHealthScale>
+ 
+
+  <lifeExpectancy>2500</lifeExpectancy>
+
+  <lifeStageAges>
+    <li>
+      <def>MechanoidFullyFormed</def>
+      <minAge>0</minAge>
+    </li>
+  </lifeStageAges>
+</race>
+  <butcherProducts>
+    <Steel>10</Steel>
+  </butcherProducts>
+<comps Inherit="False">
+  <li Class="LapinRace.CompProperties_AutomatonPlayerControl"/>
+
+  <li Class="LapinRace.CompProperties_AutomatonEnergy">
+    <maxEnergy>100</maxEnergy>
+    <initialEnergy>50</initialEnergy>
+    <chemfuelToEnergy>10</chemfuelToEnergy>
+    <energyDrainPerTick>0.0005</energyDrainPerTick>
+  </li>
+
+  <li Class="LapinRace.CompProperties_AutomatonMaintenance">
+    <repairAmountPerComponent>25</repairAmountPerComponent>
+  </li>
+
+  <li Class="LapinRace.CompProperties_AutomatonAmmo">
+    <ammoDefName>LP_Cannonball</ammoDefName>
+    <maxAmmo>25</maxAmmo>
+  </li>
+</comps>
+</ThingDef>
+
+</Defs>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<PawnKindDef ParentName="BaseMechanoidKind" Name="LP_BasePlayerAutomatonKind" Abstract="True">
+  <defaultFactionType>PlayerColony</defaultFactionType>
+</PawnKindDef>
+<PawnKindDef ParentName="LP_BasePlayerAutomatonKind">
+  <defName>LP_AutomatonTank_Player</defName>
+  <label>오토마톤 전차</label>
+  <race>LP_AutomatonTankRace</race>
+ <combatPower>0</combatPower>
+<isFighter>false</isFighter>
+<wildGroupSize>0</wildGroupSize>
+
+
+  <combatPower>500</combatPower>
+
+  <minGenerationAge>1</minGenerationAge>
+  <maxGenerationAge>2500</maxGenerationAge>
+
+  <skills>
+    <li>
+      <skill>Melee</skill>
+      <range>8~12</range>
+    </li>
+  </skills>
+
+  <lifeStages>
+    <li>
+      <bodyGraphicData>
+        <texPath>Things/Pawn/Automatons/LP_Tank</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3.5,3.5)</drawSize>
+      </bodyGraphicData>
+    </li>
+  </lifeStages>
+</PawnKindDef>
+</Defs>

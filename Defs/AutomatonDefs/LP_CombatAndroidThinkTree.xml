@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThinkTreeDef>
+    <defName>LP_CombatAndroidThinkTree</defName>
+
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Downed</treeDef>
+        </li>
+
+        <!-- 소집/우클릭 명령 처리 -->
+        <li Class="ThinkNode_QueuedJob" />
+
+        <li Class="ThinkNode_Tagger">
+          <tagToGive>DraftedOrder</tagToGive>
+          <subNodes>
+            <li Class="JobGiver_Orders" />
+          </subNodes>
+        </li>
+
+        <!-- 평상시 대기 -->
+        <li Class="LapinRace.JobGiver_CombatAndroidIdle" />
+
+        <li Class="JobGiver_IdleError" />
+
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+
+</Defs>

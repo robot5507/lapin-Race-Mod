@@ -14,7 +14,7 @@
   <statBases>
     <MarketValue>2.2</MarketValue>
     <Mass>0.45</Mass>
-    <Nutrition>0.9</Nutrition>
+    <Nutrition>0.8</Nutrition>
     <DeteriorationRate>6</DeteriorationRate>
   </statBases>
 
@@ -29,7 +29,13 @@
     
   </ingestible>
 <stackLimit>10</stackLimit>
-
+<tickerType>Rare</tickerType>
+<comps>
+  <li Class="CompProperties_Rottable">
+    <daysToRotStart>3</daysToRotStart>
+    <rotDestroys>true</rotDestroys>
+  </li>
+</comps>
 </ThingDef>
 
 <ThingDef ParentName="MealBase">
@@ -46,7 +52,7 @@
   <statBases>
     <MarketValue>2.2</MarketValue>
     <Mass>0.45</Mass>
-    <Nutrition>0.9</Nutrition>
+    <Nutrition>0.8</Nutrition>
     <DeteriorationRate>6</DeteriorationRate>
   </statBases>
 
@@ -61,6 +67,13 @@
     
   </ingestible>
 <stackLimit>10</stackLimit>
+<tickerType>Rare</tickerType>
+<comps>
+  <li Class="CompProperties_Rottable">
+    <daysToRotStart>3</daysToRotStart>
+    <rotDestroys>true</rotDestroys>
+  </li>
+</comps>
 
 </ThingDef>
 
@@ -78,7 +91,7 @@
   <statBases>
     <MarketValue>2.2</MarketValue>
     <Mass>0.45</Mass>
-    <Nutrition>0.9</Nutrition>
+    <Nutrition>0.8</Nutrition>
     <DeteriorationRate>6</DeteriorationRate>
   </statBases>
 
@@ -93,6 +106,13 @@
     
   </ingestible>
 <stackLimit>10</stackLimit>
+<tickerType>Rare</tickerType>
+<comps>
+  <li Class="CompProperties_Rottable">
+    <daysToRotStart>3</daysToRotStart>
+    <rotDestroys>true</rotDestroys>
+  </li>
+</comps>
 
 </ThingDef>
 
@@ -110,13 +130,13 @@
   <statBases>
     <MarketValue>2.2</MarketValue>
     <Mass>0.45</Mass>
-    <Nutrition>0.9</Nutrition>
+    <Nutrition>0.5</Nutrition>
     <DeteriorationRate>6</DeteriorationRate>
   </statBases>
 
   <ingestible>
     <foodType>Meal</foodType>
-    <preferability>MealFine</preferability>
+    <preferability>MealSimple</preferability>
     <baseIngestTicks>220</baseIngestTicks>
     <ingestCommandString>수프 식사</ingestCommandString>
     <ingestReportString>라핀식 콩소메를 먹고 있습니다.</ingestReportString>
@@ -125,6 +145,13 @@
     
   </ingestible>
 <stackLimit>10</stackLimit>
+<tickerType>Rare</tickerType>
+<comps>
+  <li Class="CompProperties_Rottable">
+    <daysToRotStart>3</daysToRotStart>
+    <rotDestroys>true</rotDestroys>
+  </li>
+</comps>
 
 </ThingDef>
 </Defs>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef>
+    <defName>LP_MaidAndroidInactive</defName>
+    <label>비활성 메이드 안드로이드</label>
+    <description>아직 가동되지 않은 메이드 안드로이드 오토마톤입니다. 활성화하면 운반, 청소, 조리 작업을 수행합니다.</description>
+
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+
+    <graphicData>
+      <texPath>Things/Pawn/Automatons/Maidroid_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.17,1.17)</drawSize>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <MarketValue>1200</MarketValue>
+      <Mass>80</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+
+    <comps>
+      <li Class="LapinRace.CompProperties_ActivatePrototypeAndroid">
+        <raceDefName>LP_MaidAndroidRace</raceDefName>
+        <pawnKindDefName>LP_MaidAndroid</pawnKindDefName>
+        <commandLabel>메이드 안드로이드 활성화</commandLabel>
+        <commandDesc>비활성 메이드 안드로이드를 가동하여 가사 보조 오토마톤으로 전환합니다.</commandDesc>
+        <destroyParentOnActivate>true</destroyParentOnActivate>
+      </li>
+    </comps>
+
+  </ThingDef>
+
+</Defs>

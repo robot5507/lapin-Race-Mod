@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ========================= -->
+  <!-- Body Part Groups -->
+  <!-- ========================= -->
+
+  <BodyPartGroupDef>
+    <defName>LP_AutomatonHull</defName>
+    <label>동체</label>
+    <labelShort>동체</labelShort>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>LP_AutomatonTreads</defName>
+    <label>궤도</label>
+    <labelShort>궤도</labelShort>
+  </BodyPartGroupDef>
+
+
+  <!-- ========================= -->
+  <!-- Body Parts -->
+  <!-- ========================= -->
+
+  <!-- 코어: 전차의 중심부. BodyDef에서 corePart로 사용됨 -->
+<BodyPartDef>
+  <defName>LP_AutomatonCore</defName>
+  <label>코어</label>
+  <hitPoints>60</hitPoints>
+  <frostbiteVulnerability>1</frostbiteVulnerability>
+
+  <tags>
+    <li>ConsciousnessSource</li>
+    <li>MovingLimbCore</li>
+    <li>ManipulationLimbCore</li>
+  </tags>
+</BodyPartDef>
+
+<BodyPartDef>
+  <defName>LP_AutomatonHullPart</defName>
+  <label>동체</label>
+  <hitPoints>55</hitPoints>
+  <frostbiteVulnerability>1</frostbiteVulnerability>
+</BodyPartDef>
+
+<BodyPartDef>
+  <defName>LP_AutomatonTreadPart</defName>
+  <label>궤도</label>
+  <hitPoints>35</hitPoints>
+  <frostbiteVulnerability>1</frostbiteVulnerability>
+
+  <tags>
+    <li>MovingLimbSegment</li>
+  </tags>
+</BodyPartDef>
+
+
+  <!-- ========================= -->
+  <!-- Body Definition -->
+  <!-- ========================= -->
+
+  <BodyDef>
+  <defName>LP_AutomatonTankBody</defName>
+  <label>탱크 몸체</label>
+
+  <corePart>
+    <def>LP_AutomatonCore</def>
+    <height>Middle</height>
+    <depth>Outside</depth>
+    <coverage>1.0</coverage>
+
+    <parts>
+      <li>
+        <def>LP_AutomatonHullPart</def>
+        <height>Middle</height>
+        <depth>Outside</depth>
+        <coverage>0.60</coverage>
+        <groups>
+          <li>LP_AutomatonHull</li>
+        </groups>
+      </li>
+
+      <li>
+        <def>LP_AutomatonTreadPart</def>
+        <customLabel>좌측 궤도</customLabel>
+        <height>Bottom</height>
+        <depth>Outside</depth>
+        <coverage>0.15</coverage>
+        <groups>
+          <li>LP_AutomatonTreads</li>
+        </groups>
+      </li>
+
+      <li>
+        <def>LP_AutomatonTreadPart</def>
+        <customLabel>우측 궤도</customLabel>
+        <height>Bottom</height>
+        <depth>Outside</depth>
+        <coverage>0.15</coverage>
+        <groups>
+          <li>LP_AutomatonTreads</li>
+        </groups>
+      </li>
+    </parts>
+  </corePart>
+</BodyDef>
+
+</Defs>

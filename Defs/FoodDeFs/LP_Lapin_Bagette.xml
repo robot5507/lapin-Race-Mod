@@ -44,7 +44,7 @@
 
     <ingestible>
       <foodType>Meal</foodType>
-      <preferability>MealFine</preferability>
+      <preferability>MealSimple</preferability>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
       <tasteThought>LP_Lapin_Bagette_Ate</tasteThought>
@@ -59,5 +59,14 @@
     <tradeTags>
       <li>Foods</li>
     </tradeTags>
+     <tickerType>Rare</tickerType>
+<comps>
+  <li Class="CompProperties_Rottable">
+    <daysToRotStart>12</daysToRotStart>
+    <rotDestroys>true</rotDestroys>
+  </li>
+</comps>
   </ThingDef>
+
+ 
 </Defs>

@@ -27,5 +27,11 @@
 
 		<buildingDamageFactorPassable>2</buildingDamageFactorPassable>
 	</DamageDef>
-	
+<DamageDef ParentName="LP_CannonBallDamage">
+  <defName>LP_AutomatonCannonDamage</defName>
+  <label>오토마톤 전차포</label>
+  <armorCategory>Sharp</armorCategory>
+  <buildingDamageFactorPassable>1.5</buildingDamageFactorPassable>
+  <buildingDamageFactorImpassable>1.2</buildingDamageFactorImpassable>
+</DamageDef>
 </Defs>

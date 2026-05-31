@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseMechanoid">
+    <defName>LP_CombatAndroidRace</defName>
+    <label>전투형 안드로이드 오토마톤</label>
+    <description>라핀의 오토마톤 기술로 제작된 전투용 안드로이드입니다. 평상시에는 대기 상태를 유지하다가 소집되면 머스킷을 사용해 전투를 수행합니다.</description>
+
+    <recipes Inherit="False">
+    </recipes>
+
+    <inspectorTabs Inherit="False">
+      <li>ITab_Pawn_Health</li>
+      <li>ITab_Pawn_Needs</li>
+      <li>ITab_Pawn_Gear</li>
+    </inspectorTabs>
+
+    <statBases>
+      <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>2200</MarketValue>
+      <Mass>90</Mass>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+    </statBases>
+
+    <race>
+      <intelligence>ToolUser</intelligence>
+      <thinkTreeMain>LP_CombatAndroidThinkTree</thinkTreeMain>
+
+      <body>Human</body>
+      <fleshType>Mechanoid</fleshType>
+
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.4</baseHealthScale>
+      <lifeExpectancy>500</lifeExpectancy>
+
+      <foodType>None</foodType>
+      <needsRest>false</needsRest>
+
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+    </race>
+
+<comps Inherit="False">
+  <li Class="LapinRace.CompProperties_AutomatonPlayerControl"/>
+
+  <li Class="LapinRace.CompProperties_AutomatonEnergy">
+    <maxEnergy>100</maxEnergy>
+    <initialEnergy>60</initialEnergy>
+    <chemfuelToEnergy>10</chemfuelToEnergy>
+    <energyDrainPerTick>0.00045</energyDrainPerTick>
+  </li>
+
+  <li Class="LapinRace.CompProperties_AutomatonMaintenance">
+    <repairAmountPerComponent>18</repairAmountPerComponent>
+  </li>
+
+  <li Class="LapinRace.CompProperties_CombatAndroidKeepWeapon">
+    <weaponDefName>MusketWithBayonet</weaponDefName>
+  </li>
+</comps>
+
+    <butcherProducts>
+      <Steel>8</Steel>
+    </butcherProducts>
+
+  </ThingDef>
+
+
+  <PawnKindDef>
+    <defName>LP_CombatAndroid</defName>
+    <label>전투형 안드로이드 오토마톤</label>
+    <race>LP_CombatAndroidRace</race>
+
+    <combatPower>120</combatPower>
+    <isFighter>true</isFighter>
+    <wildGroupSize>0</wildGroupSize>
+
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Automatons/Battleroid</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(1.4,1.4)</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+
+    <weaponMoney>
+      <min>0</min>
+      <max>0</max>
+    </weaponMoney>
+
+    <apparelMoney>
+      <min>0</min>
+      <max>0</max>
+    </apparelMoney>
+  </PawnKindDef>
+
+</Defs>

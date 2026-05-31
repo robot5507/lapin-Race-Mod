@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThinkTreeDef>
+    <defName>LP_AutomatonTankThinkTree</defName>
+
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+
+        <!-- 맵에서 사라진 폰 처리 -->
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+
+        <!-- 쓰러짐 처리 -->
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Downed</treeDef>
+        </li>
+
+        <!-- 예약/큐에 들어간 작업 수행 -->
+        <li Class="ThinkNode_QueuedJob" />
+
+        <!-- 소집 중 플레이어 명령 처리 -->
+        <li Class="ThinkNode_Tagger">
+          <tagToGive>DraftedOrder</tagToGive>
+          <subNodes>
+            <li Class="JobGiver_Orders" />
+          </subNodes>
+        </li>
+
+        <!-- 비소집 상태에서는 그냥 제자리 대기 -->
+        <li Class="LapinRace.JobGiver_AutomatonStandby" />
+
+        <li Class="JobGiver_IdleError" />
+
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+
+</Defs>

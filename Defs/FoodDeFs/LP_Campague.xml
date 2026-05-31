@@ -20,7 +20,7 @@
 
   <ingestible>
     <foodType>Meal</foodType>
-    <preferability>MealFine</preferability>
+    <preferability>MealSimple</preferability>
     <baseIngestTicks>220</baseIngestTicks>
     <ingestCommandString>라핀 캉파뉴 먹기</ingestCommandString>
     <ingestReportString>라핀 캉파뉴를 먹고 있습니다.</ingestReportString>
@@ -29,6 +29,13 @@
     
   </ingestible>
 <stackLimit>15</stackLimit>
+<tickerType>Rare</tickerType>
+<comps>
+  <li Class="CompProperties_Rottable">
+    <daysToRotStart>12</daysToRotStart>
+    <rotDestroys>true</rotDestroys>
+  </li>
+</comps>
 
 </ThingDef>
 </Defs>

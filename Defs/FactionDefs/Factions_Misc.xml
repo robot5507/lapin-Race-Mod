@@ -12,6 +12,7 @@
 		<leaderTitle>monarch</leaderTitle>
 		<factionNameMaker>NamerFaction_Lapin</factionNameMaker>
 		<settlementNameMaker>NamerSettlement_Lapin</settlementNameMaker>
+		
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<factionIconPath>Icon/LP_icon</factionIconPath>
@@ -226,6 +227,7 @@
 		<techLevel>Medieval</techLevel>
 		<melaninRange>0~0.3</melaninRange>
 		<permanentEnemy>true</permanentEnemy>
+		
 	
            <xenotypeSet Inherit="False">
            <xenotypeChances>
@@ -310,6 +312,20 @@
 		 <LapinKillerRabbit>70</LapinKillerRabbit>
 		 <LapinVorpalRabbit>10</LapinVorpalRabbit>
 		 <LapinBomberRabbit>5</LapinBomberRabbit>
+       </options>
+     </li>
+
+	 <li>
+        <kindDef>Combat</kindDef>
+		<commonality>30</commonality>
+		<disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+		<LapinHunterRabbit>30</LapinHunterRabbit>
+		 <LapinKillerRabbit>70</LapinKillerRabbit>
+		 <LapinVorpalRabbit>10</LapinVorpalRabbit>
+		 <LapinHunterBlunderbussRabbit>10</LapinHunterBlunderbussRabbit>
        </options>
      </li>
    </pawnGroupMakers>

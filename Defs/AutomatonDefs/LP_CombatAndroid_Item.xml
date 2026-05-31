@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef>
+    <defName>LP_CombatAndroidInactive</defName>
+    <label>비활성 전투형 안드로이드</label>
+    <description>아직 가동되지 않은 전투형 안드로이드 오토마톤입니다. 활성화하면 머스킷으로 무장한 소집 가능한 전투 오토마톤이 됩니다.</description>
+
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+
+    <graphicData>
+      <texPath>Things/Pawn/Automatons/Battleroid_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.4,1.4)</drawSize>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <MarketValue>1600</MarketValue>
+      <Mass>90</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+
+    <comps>
+      <li Class="LapinRace.CompProperties_ActivateCombatAndroid">
+        <raceDefName>LP_CombatAndroidRace</raceDefName>
+        <pawnKindDefName>LP_CombatAndroid</pawnKindDefName>
+
+        <!-- 실제 머스킷 DefName에 맞게 수정 -->
+        <weaponDefName>MusketWithBayonet</weaponDefName>
+
+        <commandLabel>전투형 안드로이드 활성화</commandLabel>
+        <commandDesc>비활성 전투형 안드로이드를 가동하여 머스킷으로 무장한 전투 오토마톤으로 전환합니다.</commandDesc>
+        <destroyParentOnActivate>true</destroyParentOnActivate>
+      </li>
+    </comps>
+
+  </ThingDef>
+
+</Defs>

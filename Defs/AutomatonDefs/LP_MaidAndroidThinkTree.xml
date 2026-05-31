@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThinkTreeDef>
+    <defName>LP_MaidAndroidThinkTree</defName>
+
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Downed</treeDef>
+        </li>
+
+        <!-- 전력 부족 시 스스로 연료 보충 -->
+        <li Class="LapinRace.JobGiver_PrototypeAndroidSelfRefuel" />
+
+        <!-- 예약/명령 작업 -->
+        <li Class="ThinkNode_QueuedJob" />
+
+        <!-- 허용구역 밖이면 허용구역으로 복귀 -->
+        <li Class="JobGiver_SeekAllowedArea" />
+
+        <!-- 메이드 기능: 조리, 청소, 운반 -->
+        <li Class="LapinRace.JobGiver_MaidAndroidCook" />
+        <li Class="LapinRace.JobGiver_MaidAndroidClean" />
+        <li Class="LapinRace.JobGiver_PrototypeAndroidHaul" />
+
+        <!-- 할 일 없으면 지정구역 안에서 배회 -->
+        <li Class="LapinRace.JobGiver_PrototypeAndroidIdle" />
+
+        <li Class="JobGiver_IdleError" />
+
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+
+</Defs>

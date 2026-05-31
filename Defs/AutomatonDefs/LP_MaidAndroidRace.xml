@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseMechanoid">
+    <defName>LP_MaidAndroidRace</defName>
+    <label>메이드 안드로이드 오토마톤</label>
+    <description>라핀 기술자들이 시제형 안드로이드를 개량해 만든 가사 보조 오토마톤입니다. 운반, 청소, 조리 작업을 수행할 수 있습니다.</description>
+
+    <recipes Inherit="False">
+    </recipes>
+
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <MarketValue>1800</MarketValue>
+      <Mass>80</Mass>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+    </statBases>
+
+    <race>
+      <intelligence>ToolUser</intelligence>
+      <thinkTreeMain>LP_MaidAndroidThinkTree</thinkTreeMain>
+
+      <body>Human</body>
+      <fleshType>Mechanoid</fleshType>
+
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <lifeExpectancy>500</lifeExpectancy>
+
+      <foodType>None</foodType>
+      <needsRest>false</needsRest>
+
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+    </race>
+<comps Inherit="False">
+  <li Class="LapinRace.CompProperties_PrototypeAndroidWorkControl"/>
+
+  <li Class="LapinRace.CompProperties_PrototypeAndroidFuel">
+    <maxEnergy>120</maxEnergy>
+    <initialEnergy>60</initialEnergy>
+    <chemfuelToEnergy>10</chemfuelToEnergy>
+    <energyDrainPerTick>0.0004</energyDrainPerTick>
+    <autoRefuelThreshold>0.3</autoRefuelThreshold>
+    <fuelDefName>Chemfuel</fuelDefName>
+  </li>
+
+  <li Class="LapinRace.CompProperties_AutomatonMaintenance">
+    <repairAmountPerComponent>15</repairAmountPerComponent>
+  </li>
+
+  <li Class="LapinRace.CompProperties_MaidAndroidVirtualCooking">
+    <cookingLevel>6</cookingLevel>
+  </li>
+</comps>
+
+    <inspectorTabs Inherit="False">
+      <li>ITab_Pawn_Health</li>
+      <li>ITab_Pawn_Needs</li>
+    </inspectorTabs>
+
+    <butcherProducts>
+      <Steel>8</Steel>
+    </butcherProducts>
+
+  </ThingDef>
+
+
+  <PawnKindDef>
+    <defName>LP_MaidAndroid</defName>
+    <label>메이드 안드로이드 오토마톤</label>
+    <race>LP_MaidAndroidRace</race>
+
+    <combatPower>40</combatPower>
+    <isFighter>false</isFighter>
+    <wildGroupSize>0</wildGroupSize>
+
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Automatons/Maidroid</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(1.17,1.17)</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+
+    <weaponMoney>
+      <min>0</min>
+      <max>0</max>
+    </weaponMoney>
+
+    <apparelMoney>
+      <min>0</min>
+      <max>0</max>
+    </apparelMoney>
+  </PawnKindDef>
+
+</Defs>

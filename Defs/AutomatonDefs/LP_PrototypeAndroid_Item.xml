@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef>
+    <defName>LP_PrototypeAndroidInactive</defName>
+    <label>비활성 시제형 안드로이드</label>
+    <description>아직 가동되지 않은 초기형 안드로이드 오토마톤입니다. 설치 후 활성화하면 운반 작업용 안드로이드로 사용할 수 있습니다.</description>
+
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+
+    <graphicData>
+      <texPath>Things/Pawn/Automatons/PrototypeAndroid_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.17,1.17)</drawSize>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <MarketValue>700</MarketValue>
+      <Mass>80</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+
+    <comps>
+      <li Class="LapinRace.CompProperties_ActivatePrototypeAndroid">
+        <raceDefName>LP_PrototypeAndroidRace</raceDefName>
+        <pawnKindDefName>LP_PrototypeAndroid</pawnKindDefName>
+        <commandLabel>시제형 안드로이드 활성화</commandLabel>
+        <commandDesc>비활성 시제형 안드로이드를 가동하여 운반 작업용 오토마톤으로 전환합니다.</commandDesc>
+        <destroyParentOnActivate>true</destroyParentOnActivate>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

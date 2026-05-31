@@ -29,6 +29,13 @@
     
   </ingestible>
 <stackLimit>25</stackLimit>
+<tickerType>Rare</tickerType>
+<comps>
+  <li Class="CompProperties_Rottable">
+    <daysToRotStart>12</daysToRotStart>
+    <rotDestroys>true</rotDestroys>
+  </li>
+</comps>
  
 </ThingDef>
 </Defs>
