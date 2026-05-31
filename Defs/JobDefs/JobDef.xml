@@ -5,4 +5,34 @@
     <driverClass>LapinRace.JobDriver_DeliverSupplyToLapinRepresentative</driverClass>
     <reportString>라핀 대표자에게 보급품을 전달하는 중.</reportString>
   </JobDef>
+
+    <JobDef>
+    <defName>LP_RefuelAutomaton</defName>
+    <driverClass>LapinRace.JobDriver_RefuelAutomaton</driverClass>
+    <reportString>오토마톤에 화학연료를 주입하는 중.</reportString>
+  </JobDef>
+
+    <JobDef>
+    <defName>LP_RepairAutomaton</defName>
+    <driverClass>LapinRace.JobDriver_RepairAutomaton</driverClass>
+    <reportString>오토마톤을 수리하는 중.</reportString>
+  </JobDef>
+
+    <JobDef>
+    <defName>LP_LoadAutomatonAmmo</defName>
+    <driverClass>LapinRace.JobDriver_LoadAutomatonAmmo</driverClass>
+    <reportString>오토마톤 전차에 포탄을 적재하는 중.</reportString>
+  </JobDef>
+
+   <JobDef>
+    <defName>LP_PrototypeAndroidSelfRefuel</defName>
+    <driverClass>LapinRace.JobDriver_PrototypeAndroidSelfRefuel</driverClass>
+    <reportString>스스로 화학연료를 보충하는 중.</reportString>
+  </JobDef>
+
+  <JobDef>
+  <defName>LP_TogglePrototypeAndroidPower</defName>
+  <driverClass>LapinRace.JobDriver_TogglePrototypeAndroidPower</driverClass>
+  <reportString>시제형 안드로이드의 전원을 조작하는 중.</reportString>
+</JobDef>
 </Defs>

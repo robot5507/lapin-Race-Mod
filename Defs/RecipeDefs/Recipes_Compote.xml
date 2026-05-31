@@ -55,5 +55,59 @@
   <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
 </RecipeDef>
 
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_CompoteBulk</defName>
+  <label>라핀 컴포트 만들기 x10</label>
+  <jobString>라핀 컴포트 잼을 대량으로 만든다.</jobString>
+
+  <workAmount>5000</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>RawBerries</li>
+        </thingDefs>
+      </filter>
+      <count>150</count>
+    </li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_StrawberryJuice</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>RawBerries</li>
+      <li>LP_StrawberryJuice</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Compote>10</LP_Compote>
+  </products>
+
+  <skillRequirements>
+    <Cooking>4</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
+</RecipeDef>
 
 </Defs>

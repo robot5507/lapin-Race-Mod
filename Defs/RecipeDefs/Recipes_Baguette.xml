@@ -147,4 +147,164 @@
       <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
   </RecipeDef>
 
+  <RecipeDef ParentName="CookMealBase">
+  <defName>Recipe_BaguetteBulk</defName>
+  <label>라핀 바게트 굽기 x10</label>
+  <description>밀가루로 바삭바삭한 라핀 바게트 10개를 굽는다.</description>
+  <jobString>라핀 바게트를 대량으로 굽는 중</jobString>
+
+  <workAmount>1800</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <workSkill>Cooking</workSkill>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+  <allowMixingIngredients>false</allowMixingIngredients>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>RawLapinFlour</li>
+        </thingDefs>
+      </filter>
+      <count>50</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>RawLapinFlour</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Lapin_Bagette>10</LP_Lapin_Bagette>
+  </products>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <skillRequirements>
+    <Cooking>4</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+
+<!-- ========================= -->
+<!-- 라핀 캉파뉴 x10 -->
+<!-- ========================= -->
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Recipe_CampagneBulk</defName>
+  <label>라핀 캉파뉴 굽기 x10</label>
+  <description>밀가루로 라핀 캉파뉴 10개를 굽는다.</description>
+  <jobString>라핀 캉파뉴를 대량으로 굽는 중</jobString>
+
+  <workAmount>2200</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <workSkill>Cooking</workSkill>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+  <allowMixingIngredients>false</allowMixingIngredients>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>RawLapinFlour</li>
+        </thingDefs>
+      </filter>
+      <count>100</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>RawLapinFlour</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Campague>10</LP_Campague>
+  </products>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <skillRequirements>
+    <Cooking>4</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+
+<!-- ========================= -->
+<!-- 라핀 크루아상 x10 -->
+<!-- ========================= -->
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Recipe_CroissantBulk</defName>
+  <label>라핀 크루아상 굽기 x10</label>
+  <description>밀가루와 버터로 바삭바삭한 라핀 크루아상 10개를 굽는다.</description>
+  <jobString>라핀 크루아상을 대량으로 굽는 중</jobString>
+
+  <workAmount>2000</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <workSkill>Cooking</workSkill>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+  <allowMixingIngredients>false</allowMixingIngredients>
+
+  <ingredients>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>RawLapinFlour</li>
+        </thingDefs>
+      </filter>
+      <count>40</count>
+    </li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Butter</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>RawLapinFlour</li>
+      <li>LP_Butter</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Croissant>10</LP_Croissant>
+  </products>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <skillRequirements>
+    <Cooking>4</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
 </Defs>

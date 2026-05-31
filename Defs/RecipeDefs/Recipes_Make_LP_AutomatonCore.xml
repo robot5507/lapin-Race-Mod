@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_LP_AutomatonCore</defName>
+
+    <label>오토마톤 사고핵 조립</label>
+
+    <description>보존된 인간의 뇌와 정밀 기계 부품을 결합하여 라핀 오토마톤의 사고핵을 제작합니다.</description>
+
+    <jobString>오토마톤 사고핵을 조립하는 중</jobString>
+
+    <workAmount>5000</workAmount>
+
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+
+    <effectWorking>Smith</effectWorking>
+
+    <soundWorking>Recipe_Machining</soundWorking>
+
+    <workSkill>Crafting</workSkill>
+
+    <recipeUsers>
+      <li>LP_AutomatonWorkbench</li>
+    </recipeUsers>
+
+    <ingredients>
+
+      <!-- 인간 뇌 -->
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LP_LapinBrain</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+
+      <!-- 강철 -->
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+
+      <!-- 산업 부품 -->
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+
+      <!-- 금 -->
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+
+    </ingredients>
+
+    <fixedIngredientFilter>
+
+      <thingDefs>
+        <li>LP_LapinBrain</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+        <li>Gold</li>
+      </thingDefs>
+
+    </fixedIngredientFilter>
+
+    <products>
+      <LP_AutomatonCore>1</LP_AutomatonCore>
+    </products>
+
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+
+    <researchPrerequisite>LP_LapinAutomatonEngineering</researchPrerequisite>
+    <unfinishedThingDef>UnfinishedAutomatonCore</unfinishedThingDef>
+
+  </RecipeDef>
+<RecipeDef>
+  <defName>Make_LP_AutomatonTank</defName>
+  <label>오토마톤 전차 조립</label>
+  <description>오토마톤 사고핵과 기계 부품을 이용해 라핀 오토마톤 전차를 조립합니다.</description>
+  <jobString>오토마톤 전차를 조립하는 중</jobString>
+
+  <unfinishedThingDef>UnfinishedAutomatonTank</unfinishedThingDef>
+
+  <workAmount>12000</workAmount>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Smith</effectWorking>
+  <soundWorking>Recipe_Machining</soundWorking>
+  <workSkill>Crafting</workSkill>
+
+  <recipeUsers>
+    <li>LP_AutomatonWorkbench</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_AutomatonCore</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Steel</li>
+        </thingDefs>
+      </filter>
+      <count>200</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>ComponentIndustrial</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>500</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_AutomatonCore</li>
+      <li>Steel</li>
+      <li>ComponentIndustrial</li>
+      <li>WoodLog</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_AutomatonTank_Item>1</LP_AutomatonTank_Item>
+  </products>
+
+  <skillRequirements>
+    <Crafting>10</Crafting>
+    <Intellectual>6</Intellectual>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinAutomatonTankEngineering</researchPrerequisite>
+</RecipeDef>
+
+
+  <RecipeDef>
+    <defName>LP_MakePrototypeAndroidInactive</defName>
+    <label>시제형 안드로이드 제작</label>
+    <description>초기형 운반 오토마톤을 제작합니다. 제작 후 활성화해야 사용할 수 있습니다.</description>
+
+    <jobString>시제형 안드로이드를 제작하는 중.</jobString>
+
+    <workAmount>6000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+
+    <unfinishedThingDef>UnfinishedPrototypeAndroid</unfinishedThingDef>
+
+    <recipeUsers>
+      <li>LP_AutomatonWorkbench</li>
+    </recipeUsers>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LP_AutomatonCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>LP_AutomatonCore</li>
+        <li>ComponentIndustrial</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+
+    <products>
+      <LP_PrototypeAndroidInactive>1</LP_PrototypeAndroidInactive>
+    </products>
+
+    <workSkill>Crafting</workSkill>
+    
+  <researchPrerequisite>LP_LapinPrototypeAndroidEngineering</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+  <defName>LP_MakeMaidAndroidInactive</defName>
+  <label>메이드 안드로이드 제작</label>
+  <description>운반, 청소, 조리 작업을 수행하는 메이드 안드로이드를 제작합니다. 제작 후 활성화해야 사용할 수 있습니다.</description>
+
+  <jobString>메이드 안드로이드를 제작하는 중.</jobString>
+
+  <workAmount>7500</workAmount>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Smith</effectWorking>
+  <soundWorking>Recipe_Machining</soundWorking>
+  <workSkill>Crafting</workSkill>
+  <unfinishedThingDef>UnfinishedMaidAndroid</unfinishedThingDef>
+
+  <recipeUsers>
+    <li>LP_AutomatonWorkbench</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_AutomatonCore</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>ComponentIndustrial</li>
+        </thingDefs>
+      </filter>
+      <count>5</count>
+    </li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+
+    <li>
+  <filter>
+    <categories>
+            <li>Leathers</li>
+          </categories>
+  </filter>
+  <count>20</count>
+</li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Apron</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_MaidDress</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Hat_Maid</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_AutomatonCore</li>
+      <li>ComponentIndustrial</li>
+      <li>WoodLog</li>
+      <li>LP_MaidDress</li>
+      <li>LP_Apron</li>
+      <li>LP_Hat_Maid</li>
+    </thingDefs>
+
+    
+    <categories>
+            <li>Leathers</li>
+          </categories>
+ 
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_MaidAndroidInactive>1</LP_MaidAndroidInactive>
+  </products>
+
+  <skillRequirements>
+    <Crafting>8</Crafting>
+    <Intellectual>4</Intellectual>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinMaidAndroidEngineering</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef>
+  <defName>LP_MakeCombatAndroidInactive</defName>
+  <label> 전투형 안드로이드 제작</label>
+  <description>머스킷을 사용하는 전투형 안드로이드를 제작합니다. 제작 후 활성화해야 사용할 수 있습니다.</description>
+
+  <jobString>전투형 안드로이드를 제작하는 중.</jobString>
+
+  <workAmount>7500</workAmount>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Smith</effectWorking>
+  <soundWorking>Recipe_Machining</soundWorking>
+  <workSkill>Crafting</workSkill>
+  <unfinishedThingDef>UnfinishedCombatAndroid</unfinishedThingDef>
+
+  <recipeUsers>
+    <li>LP_AutomatonWorkbench</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_AutomatonCore</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>ComponentIndustrial</li>
+        </thingDefs>
+      </filter>
+      <count>5</count>
+    </li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+
+    <li>
+  <filter>
+    <categories>
+            <li>Leathers</li>
+          </categories>
+  </filter>
+  <count>20</count>
+</li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Hat_Grenadier</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_UniformGrenadier</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    
+    <li>
+      <filter>
+        <thingDefs>
+          <li>MusketWithBayonet</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_AutomatonCore</li>
+      <li>ComponentIndustrial</li>
+      <li>WoodLog</li>
+      <li>LP_Hat_Grenadier</li>
+      <li>LP_UniformGrenadier</li>
+      <li>MusketWithBayonet</li>
+    </thingDefs>
+
+    
+    <categories>
+            <li>Leathers</li>
+          </categories>
+ 
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_CombatAndroidInactive>1</LP_CombatAndroidInactive>
+  </products>
+
+  <skillRequirements>
+    <Crafting>8</Crafting>
+    <Intellectual>4</Intellectual>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinCombatAndroidEngineering</researchPrerequisite>
+</RecipeDef>
+</Defs>

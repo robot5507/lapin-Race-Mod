@@ -33,5 +33,38 @@
     <allowMixingIngredients>false</allowMixingIngredients>
     <workSkill>Cooking</workSkill>
   </RecipeDef>
+  <RecipeDef>
+  <defName>MillLapinWheatBulk</defName>
+  <label>밀 제분하기 x10</label>
+  <description>밀알 40개를 맷돌로 갈아서 밀가루 10개를 만든다.</description>
+  <jobString>밀을 대량 제분하는 중</jobString>
+
+  <workAmount>800</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Smith</soundWorking>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>RawLapinWheat</li>
+        </thingDefs>
+      </filter>
+      <count>40</count>
+    </li>
+  </ingredients>
+
+  <products>
+    <RawLapinFlour>10</RawLapinFlour>
+  </products>
+
+  <recipeUsers>
+    <li>LapinMillstone</li>
+  </recipeUsers>
+
+  <allowMixingIngredients>false</allowMixingIngredients>
+  <workSkill>Cooking</workSkill>
+</RecipeDef>
 
 </Defs>

@@ -911,6 +911,66 @@
 </PawnKindDef>
 
 <PawnKindDef ParentName="LPCombatantBase">
+  <defName>LapinHunterBlunderbussRabbit</defName>
+  <label>lapin hunter blunderbuss rabbit</label>
+  <combatPower>150</combatPower>
+  <isFighter>true</isFighter>
+  <itemQuality>Good</itemQuality>
+  <defaultFactionType>LP_PlayerFaction</defaultFactionType>
+
+  <backstoryFiltersOverride>
+    <li>
+      <categories>
+        <li>LapinHunter_BlunderbussRabbit</li>
+      </categories>
+    </li>
+  </backstoryFiltersOverride>
+
+  <gearHealthRange>
+    <min>0.7</min>
+    <max>1.2</max>
+  </gearHealthRange>
+
+  <apparelMoney>
+    <min>0</min>
+    <max>2500</max>
+  </apparelMoney>
+
+  <weaponTags>
+    <li>LapinBlunderbuss</li>
+  </weaponTags>
+
+  <weaponMoney>
+    <min>1000</min>
+    <max>1000</max>
+  </weaponMoney>
+
+  <apparelTags>
+    <li>LapinHunter_BlunderbussRabbit</li>
+  </apparelTags>
+
+  <apparelRequired>
+    <li>LP_LeatherMask</li>
+  </apparelRequired>
+
+  <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+
+  <skills>
+    <li>
+      <skill>Shooting</skill>
+      <range>10~20</range>
+    </li>
+    <li>
+      <skill>Melee</skill>
+      <range>6~10</range>
+    </li>
+  </skills>
+
+  <nameMaker>Lapin_Names_Common</nameMaker>
+  <nameMaker>Lapin_Names_Noble</nameMaker>
+</PawnKindDef>
+
+<PawnKindDef ParentName="LPCombatantBase">
 		<defName>LapinMaidSpecialForces</defName>
 		<label>lapin Maid Operations Unit.</label>
 		<combatPower>150</combatPower>

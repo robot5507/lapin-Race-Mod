@@ -23,6 +23,21 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
+		<defName>LP_LapinBlunderbussGunsmithing</defName>
+		<label>라핀 블렌더버스</label>
+		<description>산탄을 발사하는 블렌더버스 머스킷 제조법을 배웁니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>LP_LapinGunsmithing</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
 		<defName>LP_LapinRifledbarrel</defName>
 		<label>강선</label>
 		<description>정확도와 사거리가 개선된 라핀 강선총열 제조법을 배웁니다.</description>
@@ -136,6 +151,77 @@
 		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 
+		<ResearchProjectDef>
+		<defName>LP_LapinAutomatonEngineering</defName>
+		<label>라핀 오토마톤의 이해</label>
+		<description>라핀 기술의 정점인 라핀 오토마톤의 제작법을 연구합니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+              <li>Electricity</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+		<ResearchProjectDef>
+		<defName>LP_LapinPrototypeAndroidEngineering</defName>
+		<label>라핀 시제형 안드로이드</label>
+		<description>라핀 시제형 안드로이드의 제작법을 연구합니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>700</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+              <li>LP_LapinAutomatonEngineering</li>
+		</prerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinMaidAndroidEngineering</defName>
+		<label>라핀 메이드 안드로이드</label>
+		<description>라핀 메이드 안드로이드의 제작법을 연구합니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+              <li>LP_LapinPrototypeAndroidEngineering</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinCombatAndroidEngineering</defName>
+		<label>라핀 전투형 안드로이드</label>
+		<description>라핀 전투형 안드로이드의 제작법을 연구합니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+              <li>LP_LapinPrototypeAndroidEngineering</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LP_LapinAutomatonTankEngineering</defName>
+		<label>라핀 오토마톤 전차</label>
+		<description>라핀 오토마톤 전차 제작법을 연구합니다.</description>
+		<tab>LapinTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+              <li>LP_LapinPrototypeAndroidEngineering</li>
+			  <li>LP_LapinCannoncasting</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+            
 	<ResearchProjectDef>
 		<defName>LP_LapinMillingKnowhow</defName>
 		<label>라핀 제분 기술</label>

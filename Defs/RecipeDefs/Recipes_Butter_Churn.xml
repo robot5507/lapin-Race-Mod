@@ -75,4 +75,86 @@
     <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
   </RecipeDef>
 
+  <RecipeDef>
+  <defName>ChurningCreamBulk</defName>
+  <label>크림 만들기 x10</label>
+  <description>우유를 많이 저어서 크림 10개를 만듭니다.</description>
+  <jobString>크림을 대량으로 만드는 중</jobString>
+  <unfinishedThingDef>UnfinishedCream</unfinishedThingDef>
+
+  <workAmount>8000</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Milk</li>
+        </thingDefs>
+      </filter>
+      <count>50</count>
+    </li>
+  </ingredients>
+
+  <products>
+    <LP_Cream>10</LP_Cream>
+  </products>
+
+  <recipeUsers>
+    <li>LapinButterChurn</li>
+  </recipeUsers>
+
+  <allowMixingIngredients>false</allowMixingIngredients>
+  <workSkill>Cooking</workSkill>
+
+  <skillRequirements>
+    <Cooking>4</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef>
+  <defName>ChurningButterBulk</defName>
+  <label>버터 만들기 x10</label>
+  <description>크림을 많이 저어서 버터 10개를 만듭니다.</description>
+  <jobString>버터를 대량으로 만드는 중</jobString>
+  <unfinishedThingDef>UnfinishedButter</unfinishedThingDef>
+
+  <workAmount>8000</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Cream</li>
+        </thingDefs>
+      </filter>
+      <count>50</count>
+    </li>
+  </ingredients>
+
+  <products>
+    <LP_Butter>10</LP_Butter>
+  </products>
+
+  <recipeUsers>
+    <li>LapinButterChurn</li>
+  </recipeUsers>
+
+  <allowMixingIngredients>false</allowMixingIngredients>
+  <workSkill>Cooking</workSkill>
+
+  <skillRequirements>
+    <Cooking>4</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
 </Defs>

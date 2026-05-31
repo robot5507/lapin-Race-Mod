@@ -12,58 +12,71 @@
   <soundWorking>Recipe_CookMeal</soundWorking>
 
   <recipeUsers>
-     <li>LP_LapinCookingTable</li>
-   <li>LP_ElectricStove</li>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
   </recipeUsers>
 
   <ingredients>
+    <!-- 루 필수 -->
     <li>
       <filter>
         <thingDefs>
-         <li>LP_Roux</li>
+          <li>LP_Roux</li>
         </thingDefs>
       </filter>
       <count>1</count>
     </li>
+
+    <!-- 치즈 필수 -->
     <li>
-        <filter>
-          <thingDefs>
-            <li>LP_Cheese</li>
-          </thingDefs>
-        </filter>
-        <count>2</count>
-      </li>
-          <li>
-        <filter>
-          <thingDefs>
-            <li>LP_Lapin_Bagette</li>
-            <li>LP_Campague</li>
-          </thingDefs>
-        </filter>
-        <count>2</count>
-      </li>
-    
+      <filter>
+        <thingDefs>
+          <li>LP_Cheese</li>
+        </thingDefs>
+      </filter>
+      <count>2</count>
+    </li>
+
+    <!-- 감자 필수 -->
+    <li>
+      <filter>
+        <thingDefs>
+          <li>RawPotatoes</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+
+    <!-- 빵류 필수 -->
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Lapin_Bagette</li>
+          <li>LP_Campague</li>
+        </thingDefs>
+      </filter>
+      <count>2</count>
+    </li>
   </ingredients>
 
   <fixedIngredientFilter>
     <thingDefs>
       <li>LP_Roux</li>
-    </thingDefs>
-    <thingDefs>
       <li>LP_Cheese</li>
-    </thingDefs>
-    <thingDefs>
-       <li>LP_Lapin_Bagette</li>
-            <li>LP_Campague</li>
+      <li>RawPotatoes</li>
+      <li>LP_Lapin_Bagette</li>
+      <li>LP_Campague</li>
     </thingDefs>
   </fixedIngredientFilter>
 
   <products>
     <LP_Gratin>1</LP_Gratin>
   </products>
-   <skillRequirements>
-      <Cooking>6</Cooking>
-    </skillRequirements>
+
+  <skillRequirements>
+    <Cooking>6</Cooking>
+  </skillRequirements>
+
   <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
 </RecipeDef>
 
@@ -133,6 +146,124 @@
   <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
 </RecipeDef>
 
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_GratinBulk</defName>
+  <label>그라탕 만들기 x10</label>
+  <jobString>그라탕을 대량으로 만듭니다.</jobString>
 
+  <workAmount>5000</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <!-- 루 필수 -->
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Roux</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+
+    <!-- 치즈 필수 -->
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Cheese</li>
+        </thingDefs>
+      </filter>
+      <count>20</count>
+    </li>
+
+    <!-- 감자 필수 -->
+    <li>
+      <filter>
+        <thingDefs>
+          <li>RawPotatoes</li>
+        </thingDefs>
+      </filter>
+      <count>100</count>
+    </li>
+
+    <!-- 빵류 필수 -->
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Lapin_Bagette</li>
+          <li>LP_Campague</li>
+        </thingDefs>
+      </filter>
+      <count>20</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_Roux</li>
+      <li>LP_Cheese</li>
+      <li>RawPotatoes</li>
+      <li>LP_Lapin_Bagette</li>
+      <li>LP_Campague</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Gratin>10</LP_Gratin>
+  </products>
+
+  <skillRequirements>
+    <Cooking>6</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_CanapeBulk</defName>
+  <label>카나페 만들기 x10</label>
+  <jobString>라핀 카나페를 대량으로 만듭니다.</jobString>
+
+  <workAmount>500</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li><filter><thingDefs><li>LP_Lapin_Bagette</li><li>LP_Campague</li></thingDefs></filter><count>10</count></li>
+    <li><filter><thingDefs><li>LP_Cheese</li></thingDefs></filter><count>20</count></li>
+    <li><filter><categories><li>MeatRaw</li><li>PlantFoodRaw</li></categories></filter><count>20</count></li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_Lapin_Bagette</li>
+      <li>LP_Campague</li>
+      <li>LP_Cheese</li>
+    </thingDefs>
+    <categories>
+      <li>MeatRaw</li>
+      <li>PlantFoodRaw</li>
+    </categories>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Canape>10</LP_Canape>
+  </products>
+
+  <skillRequirements><Cooking>6</Cooking></skillRequirements>
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
 
 </Defs>

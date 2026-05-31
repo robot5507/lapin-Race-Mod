@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<RecipeDef ParentName="SurgeryFlesh">
+  <defName>LP_ExtractLapinBrain</defName>
+  <label>뇌 적출</label>
+  <description>뇌를 적출하여 보존된 뇌를 얻습니다. 대상은 사망합니다.</description>
+  <jobString>뇌를 적출하는 중</jobString>
+
+  <workerClass>LapinRace.RecipeWorker_ExtractLapinBrain</workerClass>
+
+  <workAmount>2500</workAmount>
+  <surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>1</deathOnFailedSurgeryChance>
+
+  <recipeUsers>
+    <li>Human</li>
+  </recipeUsers>
+
+  <targetsBodyPart>false</targetsBodyPart>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>MedicineHerbal</li>
+          <li>MedicineIndustrial</li>
+          <li>MedicineUltratech</li>
+        </thingDefs>
+      </filter>
+      <count>2</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>MedicineHerbal</li>
+      <li>MedicineIndustrial</li>
+      <li>MedicineUltratech</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <skillRequirements>
+    <Medicine>8</Medicine>
+  </skillRequirements>
+</RecipeDef>
+</Defs>

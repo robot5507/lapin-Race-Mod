@@ -4,7 +4,7 @@
 <RecipeDef ParentName="CookMealBase">
   <defName>Make_LP_Roux</defName>
   <label>루 만들기</label>
-  <jobString>수프를 만들수 있는 기본적인 루를 생산합니다.</jobString>
+  <jobString>수프를 만들수 있는 기본적인 루를 생산합니다.(루는 기본 15개가 나옵니다)</jobString>
 
   <workAmount>700</workAmount>
   <workSpeedStat>CookSpeed</workSpeedStat>
@@ -68,7 +68,7 @@
 <RecipeDef ParentName="CookMealBase">
   <defName>Make_LP_CreamSoup</defName>
   <label>크림수프 만들기</label>
-  <jobString>라핀식 크림수프를 생산합니다.</jobString>
+  <jobString>라핀식 크림수프를 생산합니다.(수프류는 기본 5개씩 나옵니다)</jobString>
 
   <workAmount>700</workAmount>
   <workSpeedStat>CookSpeed</workSpeedStat>
@@ -111,7 +111,7 @@
   </fixedIngredientFilter>
 
   <products>
-    <LP_CreamSoup>10</LP_CreamSoup>
+    <LP_CreamSoup>5</LP_CreamSoup>
   </products>
    <skillRequirements>
       <Cooking>4</Cooking>
@@ -122,7 +122,7 @@
 <RecipeDef ParentName="CookMealBase">
   <defName>Make_LP_PotatoSoup</defName>
   <label>감자수프 만들기</label>
-  <jobString>라핀식 감자수프를 생산합니다.</jobString>
+  <jobString>라핀식 감자수프를 생산합니다.(수프류는 기본 5개씩 나옵니다)</jobString>
 
   <workAmount>700</workAmount>
   <workSpeedStat>CookSpeed</workSpeedStat>
@@ -165,7 +165,7 @@
   </fixedIngredientFilter>
 
   <products>
-    <LP_PotatoSoup>10</LP_PotatoSoup>
+    <LP_PotatoSoup>5</LP_PotatoSoup>
   </products>
    <skillRequirements>
       <Cooking>4</Cooking>
@@ -176,7 +176,7 @@
 <RecipeDef ParentName="CookMealBase">
   <defName>Make_LP_MushroomSoup</defName>
   <label>양송이수프 만들기</label>
-  <jobString>라핀식 양송이수프를 생산합니다.</jobString>
+  <jobString>라핀식 양송이수프를 생산합니다.(수프류는 기본 5개씩 나옵니다)</jobString>
 
   <workAmount>700</workAmount>
   <workSpeedStat>CookSpeed</workSpeedStat>
@@ -219,7 +219,7 @@
   </fixedIngredientFilter>
 
   <products>
-    <LP_MushroomSoup>10</LP_MushroomSoup>
+    <LP_MushroomSoup>5</LP_MushroomSoup>
   </products>
    <skillRequirements>
       <Cooking>4</Cooking>
@@ -230,7 +230,7 @@
 <RecipeDef ParentName="CookMealBase">
   <defName>Make_LP_Consomme</defName>
   <label>라핀 콩소메 만들기</label>
-  <jobString>라핀식 콩소메를 생산합니다.</jobString>
+  <jobString>라핀식 콩소메를 생산합니다.(수프류는 기본 5개씩 나옵니다)</jobString>
 
   <workAmount>700</workAmount>
   <workSpeedStat>CookSpeed</workSpeedStat>
@@ -282,7 +282,7 @@
   </fixedIngredientFilter>
 
   <products>
-    <LP_Consomme>10</LP_Consomme>
+    <LP_Consomme>5</LP_Consomme>
   </products>
  <skillRequirements>
       <Cooking>5</Cooking>

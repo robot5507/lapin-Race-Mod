@@ -65,5 +65,72 @@
   <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
 </RecipeDef>
 
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_JambonBeurreBulk</defName>
+  <label>라핀 잠봉뵈르 만들기 x10</label>
+  <jobString>라핀 잠봉뵈르 샌드위치를 대량으로 만든다.</jobString>
+
+  <workAmount>5000</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Lapin_Bagette</li>
+        </thingDefs>
+      </filter>
+      <count>20</count>
+    </li>
+
+    <li>
+      <filter>
+        <thingDefs>
+          <li>LP_Butter</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+
+    <li>
+      <filter>
+        <categories>
+          <li>MeatRaw</li>
+        </categories>
+      </filter>
+      <count>100</count>
+    </li>
+
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>LP_Lapin_Bagette</li>
+      <li>LP_Butter</li>
+    </thingDefs>
+
+    <categories>
+      <li>MeatRaw</li>
+    </categories>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_JambonBeurre>10</LP_JambonBeurre>
+  </products>
+
+  <skillRequirements>
+    <Cooking>5</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinAdvancedCookingKnowhow</researchPrerequisite>
+</RecipeDef>
 
 </Defs>

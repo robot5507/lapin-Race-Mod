@@ -42,4 +42,47 @@
   <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
 </RecipeDef>
 
+<RecipeDef ParentName="CookMealBase">
+  <defName>Make_LP_CurdBulk</defName>
+  <label>커드 만들기 x10</label>
+  <jobString>우유를 조리해서 라핀식 커드를 대량으로 만듭니다.</jobString>
+
+  <workAmount>7000</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Brewing</soundWorking>
+
+  <recipeUsers>
+    <li>LP_LapinCookingTable</li>
+    <li>LP_ElectricStove</li>
+  </recipeUsers>
+
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Milk</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+  </ingredients>
+
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>Milk</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+
+  <products>
+    <LP_Curd>10</LP_Curd>
+  </products>
+
+  <skillRequirements>
+    <Cooking>4</Cooking>
+  </skillRequirements>
+
+  <researchPrerequisite>LP_LapinCookingKnowhow</researchPrerequisite>
+</RecipeDef>
+
 </Defs>
