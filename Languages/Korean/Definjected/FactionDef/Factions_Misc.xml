@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Lapin Empire Turncoat -->
+  <Lapin_Turncoat.label>라핀 변질자들</Lapin_Turncoat.label>
+  <!-- EN: 라핀 제국을 등진 변절자 라핀집단입니다. -->
+  <Lapin_Turncoat.description>라핀 제국을 등진 변절자 라핀집단입니다.</Lapin_Turncoat.description>
+  <Lapin_Turncoat.fixedName>라핀 변질자</Lapin_Turncoat.fixedName>
+ 
+  <!-- EN: LapinRenegade -->
+  <Lapin_Turncoat.pawnSingular>라핀 배반자</Lapin_Turncoat.pawnSingular>
+  <!-- EN: LapinRenegades -->
+  <Lapin_Turncoat.pawnsPlural>라핀 배반자들</Lapin_Turncoat.pawnsPlural>
+  
+  <!-- EN: Lapin Empire Remnants -->
+  <LapinEmpire.label>라핀 제국 잔당</LapinEmpire.label>
+  <!-- EN: 라핀 제국 잔당입니다. -->
+  <LapinEmpire.description>라핀 제국 잔당입니다.</LapinEmpire.description>
+  <LapinEmpire.fixedName>라핀 잔당</LapinEmpire.fixedName>
+  
+ 
+  
+</LanguageData>
