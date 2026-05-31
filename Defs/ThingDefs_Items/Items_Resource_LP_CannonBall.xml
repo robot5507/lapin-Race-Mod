@@ -75,6 +75,25 @@
 			<shadowSize>0.3</shadowSize>
 		</projectile>
 	</ThingDef>
+
+	  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_LP_AutomatonCannon</defName>
+    <label>오토마톤 전차포탄</label>
+
+    <graphicData>
+      <texPath>Projectile/LP_CannonBall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+
+    <projectile>
+      <damageDef>LP_AutomatonCannonDamage</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
 	
 	 <ThingCategoryDef>
     <defName>LP_Cannonballs</defName>

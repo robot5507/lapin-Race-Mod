@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>LP_AutomatonWorkbench</defName>
+    <label>라핀 오토마톤 조립대</label>
+    <description>보존된 뇌와 정밀 부품을 결합해 금기 공학 장치를 만드는 라핀식 조립대입니다.</description>
+
+    <thingClass>Building_WorkTable</thingClass>
+
+    <graphicData>
+      <texPath>Things/Building/LPWorkbench</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,1.5)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <size>(2,1)</size>
+
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>3500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+      <Beauty>6</Beauty>
+      <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+    </statBases>
+
+    <costList>
+      <Steel>120</Steel>
+      <WoodLog>80</WoodLog>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+  
+
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+    </building>
+
+  <researchPrerequisites>
+  <li>LP_LapinAutomatonEngineering</li>
+</researchPrerequisites>
+
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <designationHotKey>Misc8</designationHotKey>
+
+  </ThingDef>
+
+</Defs>

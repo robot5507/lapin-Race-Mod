@@ -359,7 +359,7 @@
 							<drawSize>1</drawSize>
 							<path>LP_Ears/EarLeft_BackCut</path>
 							<inFrontOfBody>true</inFrontOfBody>
-							<colorChannel>skin</colorChannel>
+							<colorChannel>hair</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<layerInvert>false</layerInvert>
 							<alignWithHead>true</alignWithHead>
@@ -426,7 +426,7 @@
 							<drawSize>1</drawSize>
 							<path>LP_Ears/EarRight_BackCut</path>
 							<inFrontOfBody>true</inFrontOfBody>
-							<colorChannel>skin</colorChannel>
+							<colorChannel>hair</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<layerInvert>false</layerInvert>
 							<alignWithHead>true</alignWithHead>

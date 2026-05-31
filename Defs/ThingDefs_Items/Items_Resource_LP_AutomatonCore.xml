@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+
+    <defName>LP_AutomatonCore</defName>
+
+    <label>오토마톤 사고핵</label>
+
+    <description>보존된 뇌와 기계식 계산 장치를 결합한 금기 기술의 산물입니다. 라핀 오토마톤의 핵심 동력 장치입니다.</description>
+
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+
+    <graphicData>
+      <texPath>Things/Item/LP_AutomatonCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9,0.9)</drawSize>
+    </graphicData>
+
+    <statBases>
+      <MarketValue>1800</MarketValue>
+      <Mass>3</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+
+    <stackLimit>5</stackLimit>
+
+  </ThingDef>
+
+</Defs>

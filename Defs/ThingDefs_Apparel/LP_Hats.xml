@@ -772,4 +772,64 @@
 </recipeMaker>
 
   </ThingDef>
+
+  <ThingDef Class="LapinRace.CustomThingDef" ParentName="LP_HatMakeableBase">
+  <defName>LP_LeatherMask</defName>
+  <label>라핀 가죽 가면</label>
+  <description>라핀 가죽 가면.</description>
+
+  <thingClass>Apparel</thingClass>
+
+  <statBases>
+    <Beauty>-6</Beauty>
+    <MaxHitPoints>80</MaxHitPoints>
+    <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+    <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+    <Mass>0.4</Mass>
+    <MarketValue>0</MarketValue>
+  </statBases>
+
+  <apparel>
+    <bodyPartGroups>
+      <li>FullHead</li>
+    </bodyPartGroups>
+
+    <layers>
+      <li>Overhead</li>
+    </layers>
+
+    <tags>
+      <li>LapinHunter_BlunderbussRabbit</li>
+    </tags>
+
+    <wornGraphicPath>Apparel/MaskLeather</wornGraphicPath>
+
+    <drawData>
+      <dataSouth>
+        <layer>70</layer>
+      </dataSouth>
+      <dataEast>
+        <layer>70</layer>
+      </dataEast>
+      <dataWest>
+        <layer>70</layer>
+      </dataWest>
+      <dataNorth>
+        <layer>50</layer>
+      </dataNorth>
+    </drawData>
+  </apparel>
+
+  <graphicData>
+    <texPath>Apparel/MaskLeather</texPath>
+    <graphicClass>Graphic_Multi</graphicClass>
+    <drawSize>(1,1)</drawSize>
+  </graphicData>
+
+  <recipeMaker Inherit="False" />
+
+  <costList>
+    <Leather_Human>30</Leather_Human>
+  </costList>
+</ThingDef>
 </Defs>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>LP_LapinBrain</defName>
+    <label>보존된 뇌</label>
+    <description>뇌를 보존 처리한 장기입니다. 살아있는 판단 중추를 필요로 하는 금기 공학 장치의 핵심 재료로 사용됩니다.</description>
+
+    <thingCategories>
+      <li>BodyParts</li>
+    </thingCategories>
+
+    <graphicData>
+      <texPath>Things/Item/LP_brain</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+
+    <statBases>
+      <MarketValue>650</MarketValue>
+      <Mass>1.2</Mass>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Flammability>0.4</Flammability>
+    </statBases>
+
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+
+    <tickerType>Rare</tickerType>
+
+    <stackLimit>10</stackLimit>
+  </ThingDef>
+
+</Defs>
