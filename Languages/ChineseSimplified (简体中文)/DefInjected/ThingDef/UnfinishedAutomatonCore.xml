@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 미완성 오토마톤 사고핵 -->
+  <UnfinishedAutomatonCore.label>未完成的机械思维核心</UnfinishedAutomatonCore.label>
+  <!-- EN: 아직 조립이 끝나지 않은 오토마톤 사고핵입니다. -->
+  <UnfinishedAutomatonCore.description>尚未完成组装的机械思维核心。</UnfinishedAutomatonCore.description>
+
+  <!-- EN: 미완성 오토마톤 전차 -->
+  <UnfinishedAutomatonTank.label>未完成的达芬奇坦克</UnfinishedAutomatonTank.label>
+  <!-- EN: 아직 조립이 끝나지 않은 오토마톤 전차입니다. -->
+  <UnfinishedAutomatonTank.description>尚未完成组装的达芬奇坦克。</UnfinishedAutomatonTank.description>
+
+  <!-- EN: 미완성 전투형 안드로이드 -->
+  <UnfinishedCombatAndroid.label>未完成的战斗型机械木偶</UnfinishedCombatAndroid.label>
+  <!-- EN: 아직 조립이 끝나지 않은 전투형 안드로이드입니다. -->
+  <UnfinishedCombatAndroid.description>尚未完成组装的战斗型机械木偶。</UnfinishedCombatAndroid.description>
+
+  <!-- EN: 미완성 메이드 안드로이드 -->
+  <UnfinishedMaidAndroid.label>未完成的女仆型机械木偶</UnfinishedMaidAndroid.label>
+  <!-- EN: 아직 조립이 끝나지 않은 메이드 안드로이드입니다. -->
+  <UnfinishedMaidAndroid.description>尚未完成组装的女仆型机械木偶。</UnfinishedMaidAndroid.description>
+
+  <!-- EN: 미완성 시제형 안드로이드 -->
+  <UnfinishedPrototypeAndroid.label>未完成的试作型机械木偶</UnfinishedPrototypeAndroid.label>
+  <!-- EN: 아직 조립이 끝나지 않은 시제형 안드로이드입니다. -->
+  <UnfinishedPrototypeAndroid.description>尚未完成组装的试作型机械木偶。</UnfinishedPrototypeAndroid.description>
+
+</LanguageData>

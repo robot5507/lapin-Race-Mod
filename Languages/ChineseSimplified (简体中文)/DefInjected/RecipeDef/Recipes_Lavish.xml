@@ -1,14 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: 카나페 만들기 -->
   <Make_LP_Canape.label>制作开胃小点</Make_LP_Canape.label>
   <!-- EN: 라핀 카나페를 만듭니다. -->
   <Make_LP_Canape.jobString>制作拉芬开胃小点。</Make_LP_Canape.jobString>
-  
+
+  <!-- EN: 카나페 만들기 x10 -->
+  <Make_LP_CanapeBulk.label>制作开胃小点 x10</Make_LP_CanapeBulk.label>
+  <!-- EN: 라핀 카나페를 대량으로 만듭니다. -->
+  <Make_LP_CanapeBulk.jobString>正在大量制作拉芬开胃小点。</Make_LP_CanapeBulk.jobString>
+
   <!-- EN: 그라탕 만들기 -->
   <Make_LP_Gratin.label>制作焗菜</Make_LP_Gratin.label>
   <!-- EN: 치즈와 감자 그리고 각종 재료로 그라탕을 만듭니다. -->
   <Make_LP_Gratin.jobString>用奶酪、土豆以及各种食材制作焗菜。</Make_LP_Gratin.jobString>
-  
+
+  <!-- EN: 그라탕 만들기 x10 -->
+  <Make_LP_GratinBulk.label>制作焗菜 x10</Make_LP_GratinBulk.label>
+  <!-- EN: 그라탕을 대량으로 만듭니다. -->
+  <Make_LP_GratinBulk.jobString>正在大量制作焗菜。</Make_LP_GratinBulk.jobString>
+
 </LanguageData>

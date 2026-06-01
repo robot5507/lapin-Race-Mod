@@ -3,27 +3,27 @@
   
   <!-- EN: 라핀 콩소메 만들기 -->
   <Make_LP_Consomme.label>制作拉芬清汤</Make_LP_Consomme.label>
-  <!-- EN: 라핀식 콩소메를 생산합니다. -->
+  <!-- EN: 라핀식 콩소메를 생산합니다.(수프류는 기본 5개씩 나옵니다) -->
   <Make_LP_Consomme.jobString>生产拉芬清汤。</Make_LP_Consomme.jobString>
   
   <!-- EN: 크림수프 만들기 -->
   <Make_LP_CreamSoup.label>制作奶油浓汤</Make_LP_CreamSoup.label>
-  <!-- EN: 라핀식 크림수프를 생산합니다. -->
+  <!-- EN: 라핀식 크림수프를 생산합니다.(수프류는 기본 5개씩 나옵니다) -->
   <Make_LP_CreamSoup.jobString>生产拉芬奶油浓汤。</Make_LP_CreamSoup.jobString>
   
   <!-- EN: 양송이수프 만들기 -->
   <Make_LP_MushroomSoup.label>制作蘑菇浓汤</Make_LP_MushroomSoup.label>
-  <!-- EN: 라핀식 양송이수프를 생산합니다. -->
+  <!-- EN: 라핀식 양송이수프를 생산합니다.(수프류는 기본 5개씩 나옵니다) -->
   <Make_LP_MushroomSoup.jobString>生产拉芬蘑菇浓汤。</Make_LP_MushroomSoup.jobString>
   
   <!-- EN: 감자수프 만들기 -->
   <Make_LP_PotatoSoup.label>制作土豆浓汤</Make_LP_PotatoSoup.label>
-  <!-- EN: 라핀식 감자수프를 생산합니다. -->
+  <!-- EN: 라핀식 감자수프를 생산합니다.(수프류는 기본 5개씩 나옵니다) -->
   <Make_LP_PotatoSoup.jobString>生产拉芬土豆浓汤。</Make_LP_PotatoSoup.jobString>
   
   <!-- EN: 루 만들기 -->
   <Make_LP_Roux.label>制作油面酱</Make_LP_Roux.label>
-  <!-- EN: 수프를 만들수 있는 기본적인 루를 생산합니다. -->
+  <!-- EN: 수프를 만들수 있는 기본적인 루를 생산합니다.(루는 기본 15개가 나옵니다) -->
   <Make_LP_Roux.jobString>生产可用于制作浓汤的基础油面酱。</Make_LP_Roux.jobString>
   
 </LanguageData>

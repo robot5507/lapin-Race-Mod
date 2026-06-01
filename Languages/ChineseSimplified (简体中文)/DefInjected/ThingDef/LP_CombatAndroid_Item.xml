@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 비활성 전투형 안드로이드 -->
+  <LP_CombatAndroidInactive.label>未激活的战斗型机械木偶</LP_CombatAndroidInactive.label>
+  <!-- EN: 아직 가동되지 않은 전투형 안드로이드 오토마톤입니다. 활성화하면 머스킷으로 무장한 소집 가능한 전투 오토마톤이 됩니다. -->
+  <LP_CombatAndroidInactive.description>尚未启动的战斗型机械木偶自动机。激活后会成为装备滑膛枪、可征召的战斗机械。</LP_CombatAndroidInactive.description>
+  <!-- EN: 비활성 전투형 안드로이드를 가동하여 머스킷으로 무장한 전투 오토마톤으로 전환합니다. -->
+  <LP_CombatAndroidInactive.comps.CompActivateCombatAndroid.commandDesc>启动未激活的战斗型机械木偶，将其转变为装备滑膛枪的战斗机械。</LP_CombatAndroidInactive.comps.CompActivateCombatAndroid.commandDesc>
+  <!-- EN: 전투형 안드로이드 활성화 -->
+  <LP_CombatAndroidInactive.comps.CompActivateCombatAndroid.commandLabel>激活战斗型机械木偶</LP_CombatAndroidInactive.comps.CompActivateCombatAndroid.commandLabel>
+
+</LanguageData>

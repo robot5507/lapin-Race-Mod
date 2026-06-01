@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 오토마톤 전차포 -->
+  <LP_AutomatonCannonGun.label>达芬奇坦克炮</LP_AutomatonCannonGun.label>
+  <!-- EN: 오토마톤 전차에 내장되는 중구경 화포입니다. 일반 폰이 사용하기에는 지나치게 크고 무겁습니다. -->
+  <LP_AutomatonCannonGun.description>安装在达芬奇坦克上的中型火炮。对普通人而言过于巨大且沉重。</LP_AutomatonCannonGun.description>
+  <!-- EN: 오토마톤 전차포 -->
+  <LP_AutomatonCannonGun.verbs.Verb_ShootAutomatonCannon.label>达芬奇坦克炮</LP_AutomatonCannonGun.verbs.Verb_ShootAutomatonCannon.label>
+
+</LanguageData>

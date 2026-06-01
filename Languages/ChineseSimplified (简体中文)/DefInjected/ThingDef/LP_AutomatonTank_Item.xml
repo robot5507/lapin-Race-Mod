@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 비활성화된 오토마톤 전차 -->
+  <LP_AutomatonTank_Item.label>未激活的达芬奇坦克</LP_AutomatonTank_Item.label>
+  <!-- EN: 아직 기동되지 않은 라핀 오토마톤 전차입니다. 완성 직후 자동으로 활성화됩니다. -->
+  <LP_AutomatonTank_Item.description>尚未启动的拉芬达芬奇坦克。完成后会自动激活。</LP_AutomatonTank_Item.description>
+  <!-- EN: 비활성 오토마톤 전차를 가동하여 플레이어가 운용 가능한 오토마톤 전차로 전환합니다. -->
+  <LP_AutomatonTank_Item.comps.CompActivateAutomatonTank.commandDesc>启动未激活的达芬奇坦克，将其转变为玩家可操作的达芬奇坦克。</LP_AutomatonTank_Item.comps.CompActivateAutomatonTank.commandDesc>
+  <!-- EN: 오토마톤 전차 활성화 -->
+  <LP_AutomatonTank_Item.comps.CompActivateAutomatonTank.commandLabel>激活达芬奇坦克</LP_AutomatonTank_Item.comps.CompActivateAutomatonTank.commandLabel>
+
+</LanguageData>

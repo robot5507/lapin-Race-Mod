@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 라핀 오토마톤 조립대 -->
+  <LP_AutomatonWorkbench.label>拉芬机械装配台</LP_AutomatonWorkbench.label>
+  <!-- EN: 보존된 뇌와 정밀 부품을 결합해 금기 공학 장치를 만드는 라핀식 조립대입니다. -->
+  <LP_AutomatonWorkbench.description>拉芬的机械装配台，用于制作结合了活大脑与精密零件的部件和制造禁忌工程装置。</LP_AutomatonWorkbench.description>
+
+</LanguageData>

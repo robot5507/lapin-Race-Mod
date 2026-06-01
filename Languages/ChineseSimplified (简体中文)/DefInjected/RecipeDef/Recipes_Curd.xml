@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: 커드 만들기 -->
   <Make_LP_Curd.label>制作凝乳</Make_LP_Curd.label>
   <!-- EN: 우유를 조리해서 라핀식 커드를 만듭니다. -->
   <Make_LP_Curd.jobString>将牛奶煮熟，制成拉芬凝乳。</Make_LP_Curd.jobString>
-  
+
+  <!-- EN: 커드 만들기 x10 -->
+  <Make_LP_CurdBulk.label>制作凝乳 x10</Make_LP_CurdBulk.label>
+  <!-- EN: 우유를 조리해서 라핀식 커드를 대량으로 만듭니다. -->
+  <Make_LP_CurdBulk.jobString>正在烹饪牛奶，大量制作拉芬式凝乳</Make_LP_CurdBulk.jobString>
+
 </LanguageData>

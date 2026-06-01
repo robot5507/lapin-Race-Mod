@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 시제형 안드로이드 오토마톤 -->
+  <LP_PrototypeAndroidRace.label>试作型机械木偶</LP_PrototypeAndroidRace.label>
+  <!-- EN: 라핀 기술자들이 만든 초기형 작업 안드로이드입니다. 운반 작업만 수행할 수 있습니다. -->
+  <LP_PrototypeAndroidRace.description>拉芬技术人员制造的初期型作业用机械木偶。只能执行搬运工作。</LP_PrototypeAndroidRace.description>
+
+</LanguageData>

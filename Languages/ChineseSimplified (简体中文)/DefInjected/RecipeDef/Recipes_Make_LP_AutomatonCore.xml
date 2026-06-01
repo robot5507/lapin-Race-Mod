@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN:  전투형 안드로이드 제작 -->
+  <LP_MakeCombatAndroidInactive.label>制作战斗型机械木偶</LP_MakeCombatAndroidInactive.label>
+  <!-- EN: 머스킷을 사용하는 전투형 안드로이드를 제작합니다. 제작 후 활성화해야 사용할 수 있습니다. -->
+  <LP_MakeCombatAndroidInactive.description>制作使用滑膛枪的战斗型机械木偶。制作完成后需要激活才能使用。</LP_MakeCombatAndroidInactive.description>
+  <!-- EN: 전투형 안드로이드를 제작하는 중. -->
+  <LP_MakeCombatAndroidInactive.jobString>正在制作战斗型机械木偶</LP_MakeCombatAndroidInactive.jobString>
+
+  <!-- EN: 메이드 안드로이드 제작 -->
+  <LP_MakeMaidAndroidInactive.label>制作女仆型机械木偶</LP_MakeMaidAndroidInactive.label>
+  <!-- EN: 운반, 청소, 조리 작업을 수행하는 메이드 안드로이드를 제작합니다. 제작 후 활성화해야 사용할 수 있습니다. -->
+  <LP_MakeMaidAndroidInactive.description>制作能够执行搬运、清洁、烹饪工作的女仆型机械木偶。制作完成后需要激活才能使用。</LP_MakeMaidAndroidInactive.description>
+  <!-- EN: 메이드 안드로이드를 제작하는 중. -->
+  <LP_MakeMaidAndroidInactive.jobString>正在制作女仆型机械木偶</LP_MakeMaidAndroidInactive.jobString>
+
+  <!-- EN: 시제형 안드로이드 제작 -->
+  <LP_MakePrototypeAndroidInactive.label>制作试作型机械木偶</LP_MakePrototypeAndroidInactive.label>
+  <!-- EN: 초기형 운반 오토마톤을 제작합니다. 제작 후 활성화해야 사용할 수 있습니다. -->
+  <LP_MakePrototypeAndroidInactive.description>制作初期型搬运机。制作完成后需要激活才能使用。</LP_MakePrototypeAndroidInactive.description>
+  <!-- EN: 시제형 안드로이드를 제작하는 중. -->
+  <LP_MakePrototypeAndroidInactive.jobString>正在制作试作型机械木偶</LP_MakePrototypeAndroidInactive.jobString>
+
+  <!-- EN: 오토마톤 사고핵 조립 -->
+  <Make_LP_AutomatonCore.label>组装机械思维核心</Make_LP_AutomatonCore.label>
+  <!-- EN: 보존된 인간의 뇌와 정밀 기계 부품을 결합하여 라핀 오토마톤의 사고핵을 제작합니다. -->
+  <Make_LP_AutomatonCore.description>结合了保存的人类大脑与精密机械零件的物品，是制作拉芬机械的核心。</Make_LP_AutomatonCore.description>
+  <!-- EN: 오토마톤 사고핵을 조립하는 중 -->
+  <Make_LP_AutomatonCore.jobString>正在组装机械思维核心</Make_LP_AutomatonCore.jobString>
+
+  <!-- EN: 오토마톤 전차 조립 -->
+  <Make_LP_AutomatonTank.label>组装达芬奇坦克</Make_LP_AutomatonTank.label>
+  <!-- EN: 오토마톤 사고핵과 기계 부품을 이용해 라핀 오토마톤 전차를 조립합니다. -->
+  <Make_LP_AutomatonTank.description>利用机械思维核心和机械零件，组装拉芬达芬奇坦克。</Make_LP_AutomatonTank.description>
+  <!-- EN: 오토마톤 전차를 조립하는 중 -->
+  <Make_LP_AutomatonTank.jobString>正在组装达芬奇坦克</Make_LP_AutomatonTank.jobString>
+
+</LanguageData>

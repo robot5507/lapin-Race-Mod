@@ -1,9 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
+  <!-- EN: 라핀 블렌더버스 머스킷 -->
+  <LP_BlunderbussMusket.label>拉芬雷铳滑膛枪</LP_BlunderbussMusket.label>
+  <!-- EN: 총구가 넓게 벌어진 라핀식 블렌더버스 머스킷. 일반 머스킷과 비슷한 구조를 가지지만, 가까운 거리에서 여러 산탄을 흩뿌립니다. 비올 때 야외사용 불가능 주의. -->
+  <LP_BlunderbussMusket.description>枪口呈喇叭状张开的拉芬式雷铳滑膛枪。结构与普通滑膛枪类似，但能在近距离散布多发霰弹。注意：下雨天无法在室外使用。</LP_BlunderbussMusket.description>
+  <!-- EN: 개머리판 -->
+  <LP_BlunderbussMusket.tools.0.label>枪托</LP_BlunderbussMusket.tools.0.label>
+  <!-- EN: 라핀 블렌더버스 머스킷 -->
+  <LP_BlunderbussMusket.verbs.Verb_Shoot.label>拉芬雷铳滑膛枪</LP_BlunderbussMusket.verbs.Verb_Shoot.label>
+
+  <!-- EN: 블렌더버스 산탄 -->
+  <LP_Bullet_BlunderbussPellet.label>雷铳霰弹</LP_Bullet_BlunderbussPellet.label>
+
   <!-- EN: 머스킷 라이플 탄환 -->
   <LP_Bullet_MusketRifle.label>火枪子弹</LP_Bullet_MusketRifle.label>
-  
+
   <!-- EN: 라핀 머스킷피스톨 -->
   <LP_LapinPistol.label>拉芬马斯基特手枪</LP_LapinPistol.label>
   <!-- EN: 라핀 제식 머스킷피스톨. 사용시 연기가 생기고 총열이 짧다. 비올때 야외사용 불가능 주의. -->
@@ -12,7 +24,7 @@
   <LP_LapinPistol.tools.0.label>枪托</LP_LapinPistol.tools.0.label>
   <!-- EN: 라핀 머스킷피스톨 -->
   <LP_LapinPistol.verbs.Verb_Shoot.label>拉芬马斯基特手枪</LP_LapinPistol.verbs.Verb_Shoot.label>
-  
+
   <!-- EN: 라핀 머스킷라이플 -->
   <LP_MusketRifle.label>拉芬火绳枪</LP_MusketRifle.label>
   <!-- EN: 강선이 세겨진 라핀용 머스킷라이플. 비올때 야외사용 불가능 주의. -->
@@ -21,7 +33,7 @@
   <LP_MusketRifle.tools.0.label>枪托</LP_MusketRifle.tools.0.label>
   <!-- EN: 라핀 머스킷라이플 -->
   <LP_MusketRifle.verbs.Verb_Shoot.label>拉芬火绳枪</LP_MusketRifle.verbs.Verb_Shoot.label>
-  
+
   <!-- EN: 라핀 머스킷총 -->
   <MusketWithBayonet.label>拉芬燧发枪</MusketWithBayonet.label>
   <!-- EN: 라핀 제식 머스킷총. 사용시 연기가 생기고 총검이 달려있다. 비올때 야외사용 불가능 주의. -->
@@ -32,5 +44,5 @@
   <MusketWithBayonet.tools.1.label>枪托</MusketWithBayonet.tools.1.label>
   <!-- EN: 라핀 머스킷총 -->
   <MusketWithBayonet.verbs.Verb_Shoot.label>拉芬燧发枪</MusketWithBayonet.verbs.Verb_Shoot.label>
-  
+
 </LanguageData>

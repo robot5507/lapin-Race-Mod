@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 보존된 뇌 -->
+  <LP_LapinBrain.label>保存的大脑</LP_LapinBrain.label>
+  <!-- EN: 뇌를 보존 처리한 장기입니다. 살아있는 판단 중추를 필요로 하는 금기 공학 장치의 핵심 재료로 사용됩니다. -->
+  <LP_LapinBrain.description>经过保存处理的大脑器官。用作需要活大脑的禁忌工程装置的核心材料。</LP_LapinBrain.description>
+
+</LanguageData>

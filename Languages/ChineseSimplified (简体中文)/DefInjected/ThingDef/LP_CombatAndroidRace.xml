@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 전투형 안드로이드 오토마톤 -->
+  <LP_CombatAndroidRace.label>战斗型机械木偶</LP_CombatAndroidRace.label>
+  <!-- EN: 라핀의 오토마톤 기술로 제작된 전투용 안드로이드입니다. 평상시에는 대기 상태를 유지하다가 소집되면 머스킷을 사용해 전투를 수행합니다. -->
+  <LP_CombatAndroidRace.description>利用拉芬自动机技术制造的战斗用机械木偶。平时保持待机状态，被征召时会使用滑膛枪进行战斗。</LP_CombatAndroidRace.description>
+
+</LanguageData>

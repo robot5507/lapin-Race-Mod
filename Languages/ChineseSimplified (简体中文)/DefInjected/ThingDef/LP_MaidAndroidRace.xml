@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 메이드 안드로이드 오토마톤 -->
+  <LP_MaidAndroidRace.label>女仆型机械木偶</LP_MaidAndroidRace.label>
+  <!-- EN: 라핀 기술자들이 시제형 안드로이드를 개량해 만든 가사 보조 오토마톤입니다. 운반, 청소, 조리 작업을 수행할 수 있습니다. -->
+  <LP_MaidAndroidRace.description>拉芬技术人员通过改良试作型机械木偶制造的家务辅助自动机。可以执行搬运、清洁、烹饪等工作。</LP_MaidAndroidRace.description>
+
+</LanguageData>

@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
+  <!-- EN: 오토마톤 전차포 -->
+  <LP_AutomatonCannonDamage.label>达芬奇坦克炮</LP_AutomatonCannonDamage.label>
+  <!-- EN: {0} 이 포탄에 포격당해 죽었습니다. -->
+  <LP_AutomatonCannonDamage.deathMessage>{0}被炮弹轰击致死。</LP_AutomatonCannonDamage.deathMessage>
+
   <!-- EN: 포격 -->
   <LP_CannonBallDamage_a.label>炮击</LP_CannonBallDamage_a.label>
   <!-- EN: {0} 이 포탄에 포격당해 죽었습니다. -->
   <LP_CannonBallDamage_a.deathMessage>{0}被这颗炮弹炸死了。</LP_CannonBallDamage_a.deathMessage>
-  
+
 </LanguageData>

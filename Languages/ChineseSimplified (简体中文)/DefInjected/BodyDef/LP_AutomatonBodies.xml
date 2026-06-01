@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 탱크 몸체 -->
+  <LP_AutomatonTankBody.label>坦克车身</LP_AutomatonTankBody.label>
+  <!-- EN: 좌측 궤도 -->
+  <LP_AutomatonTankBody.corePart.parts.1.customLabel>左侧履带</LP_AutomatonTankBody.corePart.parts.1.customLabel>
+  <!-- EN: 우측 궤도 -->
+  <LP_AutomatonTankBody.corePart.parts.2.customLabel>右侧履带</LP_AutomatonTankBody.corePart.parts.2.customLabel>
+
+</LanguageData>

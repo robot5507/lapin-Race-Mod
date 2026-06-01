@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 비활성 메이드 안드로이드 -->
+  <LP_MaidAndroidInactive.label>未激活的女仆型机械木偶</LP_MaidAndroidInactive.label>
+  <!-- EN: 아직 가동되지 않은 메이드 안드로이드 오토마톤입니다. 활성화하면 운반, 청소, 조리 작업을 수행합니다. -->
+  <LP_MaidAndroidInactive.description>尚未启动的女仆型机械木偶。激活后会执行搬运、清洁、烹饪等工作。</LP_MaidAndroidInactive.description>
+  <!-- EN: 비활성 메이드 안드로이드를 가동하여 가사 보조 오토마톤으로 전환합니다. -->
+  <LP_MaidAndroidInactive.comps.CompActivatePrototypeAndroid.commandDesc>启动未激活的女仆型机械木偶，将其转变为家务辅助机械。</LP_MaidAndroidInactive.comps.CompActivatePrototypeAndroid.commandDesc>
+  <!-- EN: 메이드 안드로이드 활성화 -->
+  <LP_MaidAndroidInactive.comps.CompActivatePrototypeAndroid.commandLabel>激活女仆型机械木偶</LP_MaidAndroidInactive.comps.CompActivatePrototypeAndroid.commandLabel>
+
+</LanguageData>

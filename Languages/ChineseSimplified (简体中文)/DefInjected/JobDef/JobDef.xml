@@ -1,7 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: 라핀 대표자에게 보급품을 전달하는 중. -->
   <LP_DeliverSupplyToLapinRepresentative.reportString>正在向拉芬代表运送补给品</LP_DeliverSupplyToLapinRepresentative.reportString>
-  
+
+  <!-- EN: 오토마톤 전차에 포탄을 적재하는 중. -->
+  <LP_LoadAutomatonAmmo.reportString>正在为达芬奇坦克装填炮弹</LP_LoadAutomatonAmmo.reportString>
+
+  <!-- EN: 스스로 화학연료를 보충하는 중. -->
+  <LP_PrototypeAndroidSelfRefuel.reportString>正在自行补充化合燃料</LP_PrototypeAndroidSelfRefuel.reportString>
+
+  <!-- EN: 오토마톤에 화학연료를 주입하는 중. -->
+  <LP_RefuelAutomaton.reportString>正在向机械注入化合燃料</LP_RefuelAutomaton.reportString>
+
+  <!-- EN: 오토마톤을 수리하는 중. -->
+  <LP_RepairAutomaton.reportString>正在修理机械</LP_RepairAutomaton.reportString>
+
+  <!-- EN: 시제형 안드로이드의 전원을 조작하는 중. -->
+  <LP_TogglePrototypeAndroidPower.reportString>正在操作试作型机械木偶的电源</LP_TogglePrototypeAndroidPower.reportString>
+
 </LanguageData>

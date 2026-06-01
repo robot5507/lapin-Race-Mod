@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 뇌 적출 -->
+  <LP_ExtractLapinBrain.label>摘取大脑</LP_ExtractLapinBrain.label>
+  <!-- EN: 뇌를 적출하여 보존된 뇌를 얻습니다. 대상은 사망합니다. -->
+  <LP_ExtractLapinBrain.description>摘取大脑，获得保存的大脑。但摘取目标会死亡。</LP_ExtractLapinBrain.description>
+  <!-- EN: 뇌를 적출하는 중 -->
+  <LP_ExtractLapinBrain.jobString>正在摘取大脑</LP_ExtractLapinBrain.jobString>
+
+</LanguageData>

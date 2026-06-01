@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 비활성 시제형 안드로이드 -->
+  <LP_PrototypeAndroidInactive.label>未激活的试作型机械木偶</LP_PrototypeAndroidInactive.label>
+  <!-- EN: 아직 가동되지 않은 초기형 안드로이드 오토마톤입니다. 설치 후 활성화하면 운반 작업용 안드로이드로 사용할 수 있습니다. -->
+  <LP_PrototypeAndroidInactive.description>尚未启动的初期型机械木偶。安装后激活即可用作搬运作业用机械木偶。</LP_PrototypeAndroidInactive.description>
+  <!-- EN: 비활성 시제형 안드로이드를 가동하여 운반 작업용 오토마톤으로 전환합니다. -->
+  <LP_PrototypeAndroidInactive.comps.CompActivatePrototypeAndroid.commandDesc>启动未激活的试作型机械木偶，将其转变为搬运作业用机械。</LP_PrototypeAndroidInactive.comps.CompActivatePrototypeAndroid.commandDesc>
+  <!-- EN: 시제형 안드로이드 활성화 -->
+  <LP_PrototypeAndroidInactive.comps.CompActivatePrototypeAndroid.commandLabel>激活试作型机械木偶</LP_PrototypeAndroidInactive.comps.CompActivatePrototypeAndroid.commandLabel>
+
+</LanguageData>

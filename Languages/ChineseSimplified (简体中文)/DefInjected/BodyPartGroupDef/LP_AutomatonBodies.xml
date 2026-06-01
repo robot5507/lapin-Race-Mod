@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: 동체 -->
+  <LP_AutomatonHull.label>机身</LP_AutomatonHull.label>
+  <!-- EN: 동체 -->
+  <LP_AutomatonHull.labelShort>机身</LP_AutomatonHull.labelShort>
+
+  <!-- EN: 궤도 -->
+  <LP_AutomatonTreads.label>履带</LP_AutomatonTreads.label>
+  <!-- EN: 궤도 -->
+  <LP_AutomatonTreads.labelShort>履带</LP_AutomatonTreads.labelShort>
+
+</LanguageData>
